@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+    <link rel="stylesheet" href="graph-styles.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Brede Welvaart: Topic Explorer</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        
+    body {
+        margin: 0;
+        padding: 25px;
+        font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+        background: #F9FAFB;
+        color: #374151;
+        font-size: 18px;
+        line-height: 1.7;
+    }
+    
+    .header {
+        background: linear-gradient(135deg, #00A676 0%, #7DD55C 100%);
+        color: white;
+        padding: 30px;
+        border-radius: 16px;
+        margin-bottom: 30px;
+        text-align: center;
+        box-shadow: 0 4px 20px rgba(0, 166, 118, 0.15);
+    }
+    
+    .header h1 {
+        margin: 0;
+        font-size: 36px;
+        font-weight: 700;
+        font-family: 'Poppins', sans-serif;
+    }
+    
+    .header p {
+        margin: 15px 0 0 0;
+        font-size: 20px;
+        opacity: 0.95;
+        font-weight: 400;
+    }
+    
+    .controls {
+        background: white;
+        padding: 30px;
+        border-radius: 16px;
+        margin-bottom: 30px;
+        box-shadow: 0 4px 15px rgba(0,0,0,0.08);
+        border: 1px solid #E5E7EB;
+    }
+    
+    .control-group {
+        display: flex;
+        align-items: center;
+        gap: 25px;
+        flex-wrap: wrap;
+    }
+    
+    label {
+        font-weight: 600;
+        color: #374151;
+        min-width: 180px;
+        font-size: 20px;
+        font-family: 'Poppins', sans-serif;
+    }
+    
+    select {
+        padding: 16px 20px;
+        border: 2px solid #E5E7EB;
+        border-radius: 12px;
+        font-size: 18px;
+        background: white;
+        min-width: 500px;
+        flex: 1;
+        max-width: 700px;
+        transition: all 0.3s ease;
+        font-family: 'Inter', sans-serif;
+        color: #374151;
+    }
+    
+    select:focus {
+        outline: none;
+        border-color: #00A676;
+        box-shadow: 0 0 0 4px rgba(0, 166, 118, 0.1);
+    }
+    
+    .map-container {
+        background: white;
+        padding: 30px;
+        border-radius: 16px;
+        box-shadow: 0 4px 15px rgba(0,0,0,0.08);
+        margin-bottom: 30px;
+        border: 1px solid #E5E7EB;
+    }
+    
+    .placeholder {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 500px;
+        color: #6B7280;
+        font-size: 22px;
+        background: #F9FAFB;
+        border-radius: 12px;
+        border: 2px dashed #D1D5DB;
+        font-weight: 500;
+    }
+    
+    .loading {
+        display: none;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        background: rgba(255,255,255,0.95);
+        padding: 25px;
+        border-radius: 12px;
+        box-shadow: 0 4px 20px rgba(0,0,0,0.15);
+        z-index: 100;
+        font-size: 18px;
+        color: #374151;
+    }
+    
+    @media (max-width: 768px) {
+        body {
+            padding: 20px;
+            font-size: 16px;
+        }
+        
+        .header h1 {
+            font-size: 28px;
+        }
+        
+        .header p {
+            font-size: 18px;
+        }
+        
+        label {
+            min-width: 140px;
+            font-size: 18px;
+        }
+        
+        select {
+            min-width: 300px;
+            font-size: 16px;
+            padding: 14px 18px;
+        }
+        
+        .placeholder {
+            font-size: 18px;
+            height: 400px;
+        }
+    }
+
+        
+        .map-frame {
+            width: 100%;
+            height: calc(100vh - 200px);
+            border: none;
+            background: white;
+            border-radius: 12px;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>🎯 Topic Explorer</h1>
+        <p>Verken verschillende onderwerpen van brede welvaart per Nederlandse gemeente</p>
+    </div>
+    
+    <div class="controls">
+        <div class="control-group">
+            <label for="topic-selector">🏷️ Selecteer Onderwerp:</label>
+            <select id="topic-selector">
+                <option value="topic_intensity_0_Woningbouw_en_leefbaarheid.html" selected>Woningbouw en leefbaarheid (4052 moties)</option><option value="topic_intensity_1_Regionale_energietransitie.html">Regionale energietransitie (2805 moties)</option><option value="topic_intensity_2_Lokale_samenwerking_en_uitvoering.html">Lokale samenwerking en uitvoering (1709 moties)</option><option value="topic_intensity_3_Gemeentelijke_financiële_tekorten.html">Gemeentelijke financiële tekorten (1297 moties)</option><option value="topic_intensity_4_Kinderarmoede_en_jeugdparticipatie.html">Kinderarmoede en jeugdparticipatie (1175 moties)</option><option value="topic_intensity_5_Inclusieve_samenleving.html">Inclusieve samenleving (1156 moties)</option><option value="topic_intensity_6_Cultuur_en_stedelijke_ontwikkeling.html">Cultuur en stedelijke ontwikkeling (1085 moties)</option><option value="topic_intensity_7_Groen_en_biodiversiteit.html">Groen en biodiversiteit (1027 moties)</option><option value="topic_intensity_8_Sport_en_maatschappelijke_welzijn.html">Sport en maatschappelijke welzijn (994 moties)</option><option value="topic_intensity_9_Afvalkosten_en_reductie.html">Afvalkosten en reductie (801 moties)</option><option value="topic_intensity_10_Onderwijs_en_kansen.html">Onderwijs en kansen (731 moties)</option><option value="topic_intensity_11_Verkeersveiligheid_en_leefbaarheid.html">Verkeersveiligheid en leefbaarheid (722 moties)</option><option value="topic_intensity_12_Parkeerbeleid_en_openbare_ruimte.html">Parkeerbeleid en openbare ruimte (704 moties)</option><option value="topic_intensity_13_Fietsgebruik_stimuleren.html">Fietsgebruik stimuleren (642 moties)</option><option value="topic_intensity_14_Kwetsbare_vluchtelingenopvang.html">Kwetsbare vluchtelingenopvang (619 moties)</option><option value="topic_intensity_15_Lokale_economische_ontwikkeling.html">Lokale economische ontwikkeling (607 moties)</option><option value="topic_intensity_16_Openbaar_vervoerbeleid.html">Openbaar vervoerbeleid (599 moties)</option><option value="topic_intensity_17_Inclusieve_arbeidsmarkt.html">Inclusieve arbeidsmarkt (488 moties)</option><option value="topic_intensity_18_Sluiting_zorgvoorzieningen.html">Sluiting zorgvoorzieningen (432 moties)</option><option value="topic_intensity_19_Economische_impact_coronacrisis.html">Economische impact coronacrisis (411 moties)</option><option value="topic_intensity_20_Dierenwelzijnsbeleid_gemeenten.html">Dierenwelzijnsbeleid gemeenten (337 moties)</option><option value="topic_intensity_21_Digitale_inclusie_en_privacy.html">Digitale inclusie en privacy (322 moties)</option><option value="topic_intensity_22_Landelijk_gebied_en_stikstof.html">Landelijk gebied en stikstof (286 moties)</option><option value="topic_intensity_23_Vuurwerkoverlast_en_veiligheid.html">Vuurwerkoverlast en veiligheid (278 moties)</option><option value="topic_intensity_24_Herindeling_luchtruim.html">Herindeling luchtruim (266 moties)</option>
+            </select>
+        </div>
+    </div>
+    
+    <div class="map-container">
+        <div class="loading" id="loading">
+            <div>🗺️ Kaart laden...</div>
+        </div>
+        <div class="placeholder" id="placeholder" style="display: none;">
+            Selecteer een onderwerp om de kaart te bekijken
+        </div>
+        <iframe class="map-frame" id="map-frame"></iframe>
+    </div>
+    
+    <script>
+        // Function to load selected topic
+        function loadTopic() {
+            const topicSelector = document.getElementById('topic-selector');
+            const selectedFile = topicSelector.value;
+            const mapFrame = document.getElementById('map-frame');
+            const placeholder = document.getElementById('placeholder');
+            const loading = document.getElementById('loading');
+            
+            if (selectedFile) {
+                // Show loading
+                placeholder.style.display = 'none';
+                loading.style.display = 'block';
+                
+                // Load the map
+                mapFrame.src = selectedFile;
+                mapFrame.style.display = 'block';
+                
+                // Hide loading when iframe loads
+                mapFrame.onload = function() {
+                    loading.style.display = 'none';
+                };
+            } else {
+                // Show placeholder
+                mapFrame.style.display = 'none';
+                loading.style.display = 'none';
+                placeholder.style.display = 'flex';
+                mapFrame.src = '';
+            }
+        }
+        
+        // Load first topic on page load
+        document.addEventListener('DOMContentLoaded', function() {
+            const topicSelector = document.getElementById('topic-selector');
+            if (topicSelector.value) {
+                loadTopic();
+            }
+        });
+        
+        // Handle dropdown changes
+        document.getElementById('topic-selector').addEventListener('change', loadTopic);
+    </script>
+</body>
+</html>
