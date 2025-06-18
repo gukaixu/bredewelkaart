@@ -1,0 +1,2416 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+    <link rel="stylesheet" href="graph-styles.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Brede Welvaart: Party Engagement by Topic</title>
+    <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+    <style>
+        body {
+            margin: 0;
+            padding: 25px;
+            font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+            background: #f8f9fa;
+            color: #333;
+            font-size: 16px;
+        }
+        
+        .header {
+            background: linear-gradient(135deg, #00A676 0%, #7DD55C 100%);
+            color: white;
+            padding: 25px;
+            border-radius: 12px;
+            margin-bottom: 25px;
+            text-align: center;
+        }
+        
+        .header h1 {
+            margin: 0;
+            font-size: 32px;
+            font-weight: 700;
+        }
+        
+        .header p {
+            margin: 15px 0 0 0;
+            font-size: 18px;
+            opacity: 0.9;
+        }
+        
+        .controls {
+            background: white;
+            padding: 25px;
+            border-radius: 12px;
+            margin-bottom: 25px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+        }
+        
+        .control-group {
+            display: flex;
+            align-items: center;
+            gap: 20px;
+            flex-wrap: wrap;
+        }
+        
+        label {
+            font-weight: 600;
+            color: #333;
+            min-width: 160px;
+            font-size: 18px;
+        }
+        
+        select {
+            padding: 14px 18px;
+            border: 2px solid #e1e5e9;
+            border-radius: 8px;
+            font-size: 16px;
+            background: white;
+            min-width: 450px;
+            flex: 1;
+            max-width: 650px;
+            transition: border-color 0.3s ease;
+        }
+        
+        select:focus {
+            outline: none;
+            border-color: #00A676;
+            box-shadow: 0 0 0 3px rgba(0, 166, 118, 0.1);
+        }
+        
+        .chart-container {
+            background: white;
+            padding: 25px;
+            border-radius: 12px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+            margin-bottom: 25px;
+        }
+        
+        .placeholder {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 450px;
+            color: #666;
+            font-size: 20px;
+            background: #f8f9fa;
+            border-radius: 8px;
+            border: 2px dashed #ddd;
+        }
+        
+        .info-box {
+            background: #e8f5f0;
+            border: 1px solid #7dd55c;
+            border-radius: 8px;
+            padding: 20px;
+            margin-bottom: 25px;
+        }
+        
+        .info-box h3 {
+            margin: 0 0 12px 0;
+            color: #00A676;
+            font-size: 20px;
+        }
+        
+        .info-box p {
+            margin: 0;
+            color: #333;
+            line-height: 1.6;
+            font-size: 16px;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>🎯 Partij Betrokkenheid per Thema</h1>
+        <!-- Removed English subtitle -->
+    </div>
+    
+    <div class="info-box">
+        <h3>📊 Uitleg</h3>
+        <p><strong>Betrokkenheid (%)</strong> = (Moties van partij over dit thema ÷ Totaal aantal moties van partij) × 100<br>
+        Dit laat zien welke partijen relatief het meest <em>betrokken</em> zijn bij dit thema.</p>
+    </div>
+    
+    <div class="controls">
+        <div class="control-group">
+            <label for="topic-selector">🏷️ Selecteer Onderwerp:</label>
+            <select id="topic-selector">
+                <option value="">-- Kies een onderwerp om partij-engagement te bekijken --</option>
+                <option value="Woningbouw en leefbaarheid">Woningbouw en leefbaarheid (9,319 motions)</option><option value="Regionale energietransitie">Regionale energietransitie (6,833 motions)</option><option value="Lokale samenwerking en uitvoering">Lokale samenwerking en uitvoering (3,858 motions)</option><option value="Kinderarmoede en participatie">Kinderarmoede en participatie (3,159 motions)</option><option value="Inclusieve samenleving">Inclusieve samenleving (3,114 motions)</option><option value="Gemeentelijke financiële tekorten">Gemeentelijke financiële tekorten (2,994 motions)</option><option value="Culturele ontwikkeling en participatie">Culturele ontwikkeling en participatie (2,655 motions)</option><option value="Groen en leefomgeving">Groen en leefomgeving (2,381 motions)</option><option value="Sport en sociale cohesie">Sport en sociale cohesie (2,368 motions)</option><option value="Afvalkosten en reductie">Afvalkosten en reductie (1,877 motions)</option><option value="Kwetsbare vluchtelingenopvang">Kwetsbare vluchtelingenopvang (1,714 motions)</option><option value="Verkeersveiligheid en leefbaarheid">Verkeersveiligheid en leefbaarheid (1,709 motions)</option><option value="Onderwijskansen en inclusie">Onderwijskansen en inclusie (1,708 motions)</option><option value="Openbaar vervoerbeleid">Openbaar vervoerbeleid (1,598 motions)</option><option value="Fietsgebruik stimuleren">Fietsgebruik stimuleren (1,582 motions)</option><option value="Parkeerbeleid en openbare ruimte">Parkeerbeleid en openbare ruimte (1,522 motions)</option><option value="Sluiting zorgafdelingen">Sluiting zorgafdelingen (1,221 motions)</option><option value="Inclusieve arbeidsmarkt">Inclusieve arbeidsmarkt (1,194 motions)</option><option value="Economische lokale ontwikkeling">Economische lokale ontwikkeling (1,057 motions)</option><option value="Economische impact coronacrisis">Economische impact coronacrisis (999 motions)</option><option value="Digitale inclusie en privacy">Digitale inclusie en privacy (796 motions)</option><option value="Vuurwerkoverlast en veiligheid">Vuurwerkoverlast en veiligheid (717 motions)</option><option value="Dierenwelzijnsbeleid gemeenten">Dierenwelzijnsbeleid gemeenten (706 motions)</option><option value="Herindeling luchtruim Nederland">Herindeling luchtruim Nederland (705 motions)</option><option value="Landelijk gebied en stikstof">Landelijk gebied en stikstof (669 motions)</option>
+            </select>
+        </div>
+    </div>
+    
+    <div class="chart-container">
+        <div class="placeholder" id="placeholder">
+            🏛️ Selecteer een onderwerp om partij-engagement te bekijken
+        </div>
+        <div id="engagement-chart" style="display: none;"></div>
+    </div>
+    
+    <script>
+        // Store all engagement data
+        const engagementData = {
+    "Woningbouw en leefbaarheid": [
+        {
+            "party": "Volt",
+            "engagement_percentage": 20.66115702479339,
+            "topic_motions": 50,
+            "total_motions": 242
+        },
+        {
+            "party": "FvD",
+            "engagement_percentage": 18.96551724137931,
+            "topic_motions": 44,
+            "total_motions": 232
+        },
+        {
+            "party": "PVV",
+            "engagement_percentage": 18.91385767790262,
+            "topic_motions": 101,
+            "total_motions": 534
+        },
+        {
+            "party": "50PLUS",
+            "engagement_percentage": 18.857142857142858,
+            "topic_motions": 99,
+            "total_motions": 525
+        },
+        {
+            "party": "SP",
+            "engagement_percentage": 18.1151832460733,
+            "topic_motions": 692,
+            "total_motions": 3820
+        },
+        {
+            "party": "SGP",
+            "engagement_percentage": 18.034751348112643,
+            "topic_motions": 301,
+            "total_motions": 1669
+        },
+        {
+            "party": "CDA",
+            "engagement_percentage": 17.71397616468039,
+            "topic_motions": 1635,
+            "total_motions": 9230
+        },
+        {
+            "party": "PvdA",
+            "engagement_percentage": 17.13920272862929,
+            "topic_motions": 1608,
+            "total_motions": 9382
+        },
+        {
+            "party": "ChristenUnie",
+            "engagement_percentage": 16.80906020266243,
+            "topic_motions": 846,
+            "total_motions": 5033
+        },
+        {
+            "party": "VVD",
+            "engagement_percentage": 16.76655052264808,
+            "topic_motions": 1203,
+            "total_motions": 7175
+        },
+        {
+            "party": "GroenLinks",
+            "engagement_percentage": 14.955185659411011,
+            "topic_motions": 1168,
+            "total_motions": 7810
+        },
+        {
+            "party": "D66",
+            "engagement_percentage": 14.86949332703437,
+            "topic_motions": 1259,
+            "total_motions": 8467
+        },
+        {
+            "party": "DENK",
+            "engagement_percentage": 14.257425742574256,
+            "topic_motions": 72,
+            "total_motions": 505
+        },
+        {
+            "party": "PvdD",
+            "engagement_percentage": 13.162206444565811,
+            "topic_motions": 241,
+            "total_motions": 1831
+        }
+    ],
+    "Regionale energietransitie": [
+        {
+            "party": "SGP",
+            "engagement_percentage": 14.979029358897545,
+            "topic_motions": 250,
+            "total_motions": 1669
+        },
+        {
+            "party": "PvdD",
+            "engagement_percentage": 14.090660841070454,
+            "topic_motions": 258,
+            "total_motions": 1831
+        },
+        {
+            "party": "GroenLinks",
+            "engagement_percentage": 13.854033290653009,
+            "topic_motions": 1082,
+            "total_motions": 7810
+        },
+        {
+            "party": "ChristenUnie",
+            "engagement_percentage": 13.451221935227498,
+            "topic_motions": 677,
+            "total_motions": 5033
+        },
+        {
+            "party": "Volt",
+            "engagement_percentage": 13.223140495867769,
+            "topic_motions": 32,
+            "total_motions": 242
+        },
+        {
+            "party": "D66",
+            "engagement_percentage": 12.271170426361167,
+            "topic_motions": 1039,
+            "total_motions": 8467
+        },
+        {
+            "party": "CDA",
+            "engagement_percentage": 11.841820151679308,
+            "topic_motions": 1093,
+            "total_motions": 9230
+        },
+        {
+            "party": "PvdA",
+            "engagement_percentage": 11.75655510552121,
+            "topic_motions": 1103,
+            "total_motions": 9382
+        },
+        {
+            "party": "VVD",
+            "engagement_percentage": 11.0801393728223,
+            "topic_motions": 795,
+            "total_motions": 7175
+        },
+        {
+            "party": "SP",
+            "engagement_percentage": 9.764397905759163,
+            "topic_motions": 373,
+            "total_motions": 3820
+        },
+        {
+            "party": "FvD",
+            "engagement_percentage": 8.620689655172415,
+            "topic_motions": 20,
+            "total_motions": 232
+        },
+        {
+            "party": "DENK",
+            "engagement_percentage": 7.524752475247524,
+            "topic_motions": 38,
+            "total_motions": 505
+        },
+        {
+            "party": "50PLUS",
+            "engagement_percentage": 7.428571428571429,
+            "topic_motions": 39,
+            "total_motions": 525
+        },
+        {
+            "party": "PVV",
+            "engagement_percentage": 6.367041198501873,
+            "topic_motions": 34,
+            "total_motions": 534
+        }
+    ],
+    "Lokale samenwerking en uitvoering": [
+        {
+            "party": "FvD",
+            "engagement_percentage": 9.051724137931034,
+            "topic_motions": 21,
+            "total_motions": 232
+        },
+        {
+            "party": "VVD",
+            "engagement_percentage": 8.390243902439025,
+            "topic_motions": 602,
+            "total_motions": 7175
+        },
+        {
+            "party": "CDA",
+            "engagement_percentage": 7.475622968580716,
+            "topic_motions": 690,
+            "total_motions": 9230
+        },
+        {
+            "party": "D66",
+            "engagement_percentage": 6.980040155899374,
+            "topic_motions": 591,
+            "total_motions": 8467
+        },
+        {
+            "party": "PVV",
+            "engagement_percentage": 6.741573033707865,
+            "topic_motions": 36,
+            "total_motions": 534
+        },
+        {
+            "party": "PvdA",
+            "engagement_percentage": 6.6936687273502455,
+            "topic_motions": 628,
+            "total_motions": 9382
+        },
+        {
+            "party": "SP",
+            "engagement_percentage": 6.439790575916231,
+            "topic_motions": 246,
+            "total_motions": 3820
+        },
+        {
+            "party": "GroenLinks",
+            "engagement_percentage": 6.261203585147247,
+            "topic_motions": 489,
+            "total_motions": 7810
+        },
+        {
+            "party": "Volt",
+            "engagement_percentage": 6.198347107438017,
+            "topic_motions": 15,
+            "total_motions": 242
+        },
+        {
+            "party": "ChristenUnie",
+            "engagement_percentage": 6.0798728392608785,
+            "topic_motions": 306,
+            "total_motions": 5033
+        },
+        {
+            "party": "SGP",
+            "engagement_percentage": 6.051527860994608,
+            "topic_motions": 101,
+            "total_motions": 1669
+        },
+        {
+            "party": "50PLUS",
+            "engagement_percentage": 5.904761904761905,
+            "topic_motions": 31,
+            "total_motions": 525
+        },
+        {
+            "party": "DENK",
+            "engagement_percentage": 4.554455445544554,
+            "topic_motions": 23,
+            "total_motions": 505
+        },
+        {
+            "party": "PvdD",
+            "engagement_percentage": 4.314582195521573,
+            "topic_motions": 79,
+            "total_motions": 1831
+        }
+    ],
+    "Kinderarmoede en participatie": [
+        {
+            "party": "SP",
+            "engagement_percentage": 6.989528795811519,
+            "topic_motions": 267,
+            "total_motions": 3820
+        },
+        {
+            "party": "PvdA",
+            "engagement_percentage": 6.437859731400554,
+            "topic_motions": 604,
+            "total_motions": 9382
+        },
+        {
+            "party": "GroenLinks",
+            "engagement_percentage": 6.1459667093469905,
+            "topic_motions": 480,
+            "total_motions": 7810
+        },
+        {
+            "party": "ChristenUnie",
+            "engagement_percentage": 5.801708722431949,
+            "topic_motions": 292,
+            "total_motions": 5033
+        },
+        {
+            "party": "DENK",
+            "engagement_percentage": 5.742574257425743,
+            "topic_motions": 29,
+            "total_motions": 505
+        },
+        {
+            "party": "D66",
+            "engagement_percentage": 5.491909767331995,
+            "topic_motions": 465,
+            "total_motions": 8467
+        },
+        {
+            "party": "CDA",
+            "engagement_percentage": 5.482123510292524,
+            "topic_motions": 506,
+            "total_motions": 9230
+        },
+        {
+            "party": "SGP",
+            "engagement_percentage": 5.3325344517675255,
+            "topic_motions": 89,
+            "total_motions": 1669
+        },
+        {
+            "party": "50PLUS",
+            "engagement_percentage": 4.761904761904762,
+            "topic_motions": 25,
+            "total_motions": 525
+        },
+        {
+            "party": "VVD",
+            "engagement_percentage": 4.209059233449477,
+            "topic_motions": 302,
+            "total_motions": 7175
+        },
+        {
+            "party": "Volt",
+            "engagement_percentage": 3.71900826446281,
+            "topic_motions": 9,
+            "total_motions": 242
+        },
+        {
+            "party": "PvdD",
+            "engagement_percentage": 3.6045876570180226,
+            "topic_motions": 66,
+            "total_motions": 1831
+        },
+        {
+            "party": "PVV",
+            "engagement_percentage": 3.3707865168539324,
+            "topic_motions": 18,
+            "total_motions": 534
+        },
+        {
+            "party": "FvD",
+            "engagement_percentage": 3.0172413793103448,
+            "topic_motions": 7,
+            "total_motions": 232
+        }
+    ],
+    "Inclusieve samenleving": [
+        {
+            "party": "DENK",
+            "engagement_percentage": 16.435643564356436,
+            "topic_motions": 83,
+            "total_motions": 505
+        },
+        {
+            "party": "Volt",
+            "engagement_percentage": 9.917355371900827,
+            "topic_motions": 24,
+            "total_motions": 242
+        },
+        {
+            "party": "PvdD",
+            "engagement_percentage": 9.06608410704533,
+            "topic_motions": 166,
+            "total_motions": 1831
+        },
+        {
+            "party": "50PLUS",
+            "engagement_percentage": 7.809523809523809,
+            "topic_motions": 41,
+            "total_motions": 525
+        },
+        {
+            "party": "GroenLinks",
+            "engagement_percentage": 6.542893725992317,
+            "topic_motions": 511,
+            "total_motions": 7810
+        },
+        {
+            "party": "FvD",
+            "engagement_percentage": 6.4655172413793105,
+            "topic_motions": 15,
+            "total_motions": 232
+        },
+        {
+            "party": "D66",
+            "engagement_percentage": 6.058816582024329,
+            "topic_motions": 513,
+            "total_motions": 8467
+        },
+        {
+            "party": "SP",
+            "engagement_percentage": 5.968586387434556,
+            "topic_motions": 228,
+            "total_motions": 3820
+        },
+        {
+            "party": "PvdA",
+            "engagement_percentage": 5.617139202728629,
+            "topic_motions": 527,
+            "total_motions": 9382
+        },
+        {
+            "party": "PVV",
+            "engagement_percentage": 5.430711610486892,
+            "topic_motions": 29,
+            "total_motions": 534
+        },
+        {
+            "party": "ChristenUnie",
+            "engagement_percentage": 4.7685277170673555,
+            "topic_motions": 240,
+            "total_motions": 5033
+        },
+        {
+            "party": "VVD",
+            "engagement_percentage": 4.278745644599303,
+            "topic_motions": 307,
+            "total_motions": 7175
+        },
+        {
+            "party": "CDA",
+            "engagement_percentage": 4.019501625135428,
+            "topic_motions": 371,
+            "total_motions": 9230
+        },
+        {
+            "party": "SGP",
+            "engagement_percentage": 3.5350509286998206,
+            "topic_motions": 59,
+            "total_motions": 1669
+        }
+    ],
+    "Gemeentelijke financiële tekorten": [
+        {
+            "party": "VVD",
+            "engagement_percentage": 6.7595818815331015,
+            "topic_motions": 485,
+            "total_motions": 7175
+        },
+        {
+            "party": "PVV",
+            "engagement_percentage": 6.179775280898876,
+            "topic_motions": 33,
+            "total_motions": 534
+        },
+        {
+            "party": "FvD",
+            "engagement_percentage": 6.0344827586206895,
+            "topic_motions": 14,
+            "total_motions": 232
+        },
+        {
+            "party": "CDA",
+            "engagement_percentage": 6.023835319609967,
+            "topic_motions": 556,
+            "total_motions": 9230
+        },
+        {
+            "party": "SGP",
+            "engagement_percentage": 5.751947273816657,
+            "topic_motions": 96,
+            "total_motions": 1669
+        },
+        {
+            "party": "ChristenUnie",
+            "engagement_percentage": 5.642757798529704,
+            "topic_motions": 284,
+            "total_motions": 5033
+        },
+        {
+            "party": "D66",
+            "engagement_percentage": 5.2438880359040985,
+            "topic_motions": 444,
+            "total_motions": 8467
+        },
+        {
+            "party": "PvdA",
+            "engagement_percentage": 5.073545086335536,
+            "topic_motions": 476,
+            "total_motions": 9382
+        },
+        {
+            "party": "SP",
+            "engagement_percentage": 4.554973821989529,
+            "topic_motions": 174,
+            "total_motions": 3820
+        },
+        {
+            "party": "50PLUS",
+            "engagement_percentage": 4.380952380952381,
+            "topic_motions": 23,
+            "total_motions": 525
+        },
+        {
+            "party": "GroenLinks",
+            "engagement_percentage": 4.379001280409732,
+            "topic_motions": 342,
+            "total_motions": 7810
+        },
+        {
+            "party": "DENK",
+            "engagement_percentage": 3.564356435643564,
+            "topic_motions": 18,
+            "total_motions": 505
+        },
+        {
+            "party": "Volt",
+            "engagement_percentage": 2.479338842975207,
+            "topic_motions": 6,
+            "total_motions": 242
+        },
+        {
+            "party": "PvdD",
+            "engagement_percentage": 2.3484434735117423,
+            "topic_motions": 43,
+            "total_motions": 1831
+        }
+    ],
+    "Culturele ontwikkeling en participatie": [
+        {
+            "party": "Volt",
+            "engagement_percentage": 6.6115702479338845,
+            "topic_motions": 16,
+            "total_motions": 242
+        },
+        {
+            "party": "50PLUS",
+            "engagement_percentage": 5.904761904761905,
+            "topic_motions": 31,
+            "total_motions": 525
+        },
+        {
+            "party": "D66",
+            "engagement_percentage": 5.267509153182946,
+            "topic_motions": 446,
+            "total_motions": 8467
+        },
+        {
+            "party": "CDA",
+            "engagement_percentage": 4.886240520043337,
+            "topic_motions": 451,
+            "total_motions": 9230
+        },
+        {
+            "party": "VVD",
+            "engagement_percentage": 4.7665505226480835,
+            "topic_motions": 342,
+            "total_motions": 7175
+        },
+        {
+            "party": "FvD",
+            "engagement_percentage": 4.741379310344827,
+            "topic_motions": 11,
+            "total_motions": 232
+        },
+        {
+            "party": "SP",
+            "engagement_percentage": 4.738219895287958,
+            "topic_motions": 181,
+            "total_motions": 3820
+        },
+        {
+            "party": "GroenLinks",
+            "engagement_percentage": 4.673495518565941,
+            "topic_motions": 365,
+            "total_motions": 7810
+        },
+        {
+            "party": "PvdA",
+            "engagement_percentage": 4.551268386271584,
+            "topic_motions": 427,
+            "total_motions": 9382
+        },
+        {
+            "party": "ChristenUnie",
+            "engagement_percentage": 4.132724021458375,
+            "topic_motions": 208,
+            "total_motions": 5033
+        },
+        {
+            "party": "PvdD",
+            "engagement_percentage": 4.09612233752048,
+            "topic_motions": 75,
+            "total_motions": 1831
+        },
+        {
+            "party": "SGP",
+            "engagement_percentage": 3.894547633313361,
+            "topic_motions": 65,
+            "total_motions": 1669
+        },
+        {
+            "party": "PVV",
+            "engagement_percentage": 3.7453183520599254,
+            "topic_motions": 20,
+            "total_motions": 534
+        },
+        {
+            "party": "DENK",
+            "engagement_percentage": 3.3663366336633667,
+            "topic_motions": 17,
+            "total_motions": 505
+        }
+    ],
+    "Groen en leefomgeving": [
+        {
+            "party": "PvdD",
+            "engagement_percentage": 10.868377935554342,
+            "topic_motions": 199,
+            "total_motions": 1831
+        },
+        {
+            "party": "GroenLinks",
+            "engagement_percentage": 5.8898847631242,
+            "topic_motions": 460,
+            "total_motions": 7810
+        },
+        {
+            "party": "Volt",
+            "engagement_percentage": 5.371900826446281,
+            "topic_motions": 13,
+            "total_motions": 242
+        },
+        {
+            "party": "D66",
+            "engagement_percentage": 4.346285579307901,
+            "topic_motions": 368,
+            "total_motions": 8467
+        },
+        {
+            "party": "PvdA",
+            "engagement_percentage": 4.1888723086761885,
+            "topic_motions": 393,
+            "total_motions": 9382
+        },
+        {
+            "party": "FvD",
+            "engagement_percentage": 3.8793103448275863,
+            "topic_motions": 9,
+            "total_motions": 232
+        },
+        {
+            "party": "ChristenUnie",
+            "engagement_percentage": 3.874428770117226,
+            "topic_motions": 195,
+            "total_motions": 5033
+        },
+        {
+            "party": "SGP",
+            "engagement_percentage": 3.654883163571001,
+            "topic_motions": 61,
+            "total_motions": 1669
+        },
+        {
+            "party": "SP",
+            "engagement_percentage": 3.638743455497382,
+            "topic_motions": 139,
+            "total_motions": 3820
+        },
+        {
+            "party": "CDA",
+            "engagement_percentage": 3.4777898158179847,
+            "topic_motions": 321,
+            "total_motions": 9230
+        },
+        {
+            "party": "50PLUS",
+            "engagement_percentage": 3.0476190476190474,
+            "topic_motions": 16,
+            "total_motions": 525
+        },
+        {
+            "party": "VVD",
+            "engagement_percentage": 2.6898954703832754,
+            "topic_motions": 193,
+            "total_motions": 7175
+        },
+        {
+            "party": "PVV",
+            "engagement_percentage": 1.4981273408239701,
+            "topic_motions": 8,
+            "total_motions": 534
+        },
+        {
+            "party": "DENK",
+            "engagement_percentage": 1.188118811881188,
+            "topic_motions": 6,
+            "total_motions": 505
+        }
+    ],
+    "Sport en sociale cohesie": [
+        {
+            "party": "PVV",
+            "engagement_percentage": 6.928838951310862,
+            "topic_motions": 37,
+            "total_motions": 534
+        },
+        {
+            "party": "FvD",
+            "engagement_percentage": 6.896551724137931,
+            "topic_motions": 16,
+            "total_motions": 232
+        },
+        {
+            "party": "50PLUS",
+            "engagement_percentage": 5.333333333333334,
+            "topic_motions": 28,
+            "total_motions": 525
+        },
+        {
+            "party": "CDA",
+            "engagement_percentage": 5.027085590465872,
+            "topic_motions": 464,
+            "total_motions": 9230
+        },
+        {
+            "party": "VVD",
+            "engagement_percentage": 4.94773519163763,
+            "topic_motions": 355,
+            "total_motions": 7175
+        },
+        {
+            "party": "PvdA",
+            "engagement_percentage": 4.306118098486463,
+            "topic_motions": 404,
+            "total_motions": 9382
+        },
+        {
+            "party": "D66",
+            "engagement_percentage": 4.169127199716546,
+            "topic_motions": 353,
+            "total_motions": 8467
+        },
+        {
+            "party": "ChristenUnie",
+            "engagement_percentage": 3.834691039141665,
+            "topic_motions": 193,
+            "total_motions": 5033
+        },
+        {
+            "party": "DENK",
+            "engagement_percentage": 3.762376237623762,
+            "topic_motions": 19,
+            "total_motions": 505
+        },
+        {
+            "party": "GroenLinks",
+            "engagement_percentage": 3.5211267605633805,
+            "topic_motions": 275,
+            "total_motions": 7810
+        },
+        {
+            "party": "SP",
+            "engagement_percentage": 3.3769633507853407,
+            "topic_motions": 129,
+            "total_motions": 3820
+        },
+        {
+            "party": "SGP",
+            "engagement_percentage": 3.115638106650689,
+            "topic_motions": 52,
+            "total_motions": 1669
+        },
+        {
+            "party": "PvdD",
+            "engagement_percentage": 2.075368651010377,
+            "topic_motions": 38,
+            "total_motions": 1831
+        },
+        {
+            "party": "Volt",
+            "engagement_percentage": 2.066115702479339,
+            "topic_motions": 5,
+            "total_motions": 242
+        }
+    ],
+    "Afvalkosten en reductie": [
+        {
+            "party": "50PLUS",
+            "engagement_percentage": 4.0,
+            "topic_motions": 21,
+            "total_motions": 525
+        },
+        {
+            "party": "PvdD",
+            "engagement_percentage": 3.8776624795193886,
+            "topic_motions": 71,
+            "total_motions": 1831
+        },
+        {
+            "party": "ChristenUnie",
+            "engagement_percentage": 3.8148221736538845,
+            "topic_motions": 192,
+            "total_motions": 5033
+        },
+        {
+            "party": "Volt",
+            "engagement_percentage": 3.71900826446281,
+            "topic_motions": 9,
+            "total_motions": 242
+        },
+        {
+            "party": "GroenLinks",
+            "engagement_percentage": 3.585147247119078,
+            "topic_motions": 280,
+            "total_motions": 7810
+        },
+        {
+            "party": "D66",
+            "engagement_percentage": 3.4959253572693987,
+            "topic_motions": 296,
+            "total_motions": 8467
+        },
+        {
+            "party": "SGP",
+            "engagement_percentage": 3.4751348112642297,
+            "topic_motions": 58,
+            "total_motions": 1669
+        },
+        {
+            "party": "VVD",
+            "engagement_percentage": 3.3310104529616726,
+            "topic_motions": 239,
+            "total_motions": 7175
+        },
+        {
+            "party": "PVV",
+            "engagement_percentage": 3.1835205992509366,
+            "topic_motions": 17,
+            "total_motions": 534
+        },
+        {
+            "party": "DENK",
+            "engagement_percentage": 3.1683168316831685,
+            "topic_motions": 16,
+            "total_motions": 505
+        },
+        {
+            "party": "PvdA",
+            "engagement_percentage": 3.0483905350671496,
+            "topic_motions": 286,
+            "total_motions": 9382
+        },
+        {
+            "party": "CDA",
+            "engagement_percentage": 2.990249187432286,
+            "topic_motions": 276,
+            "total_motions": 9230
+        },
+        {
+            "party": "SP",
+            "engagement_percentage": 2.931937172774869,
+            "topic_motions": 112,
+            "total_motions": 3820
+        },
+        {
+            "party": "FvD",
+            "engagement_percentage": 1.7241379310344827,
+            "topic_motions": 4,
+            "total_motions": 232
+        }
+    ],
+    "Kwetsbare vluchtelingenopvang": [
+        {
+            "party": "Volt",
+            "engagement_percentage": 4.545454545454546,
+            "topic_motions": 11,
+            "total_motions": 242
+        },
+        {
+            "party": "DENK",
+            "engagement_percentage": 4.158415841584159,
+            "topic_motions": 21,
+            "total_motions": 505
+        },
+        {
+            "party": "FvD",
+            "engagement_percentage": 3.8793103448275863,
+            "topic_motions": 9,
+            "total_motions": 232
+        },
+        {
+            "party": "ChristenUnie",
+            "engagement_percentage": 3.5366580568249555,
+            "topic_motions": 178,
+            "total_motions": 5033
+        },
+        {
+            "party": "PvdA",
+            "engagement_percentage": 3.3574930718396927,
+            "topic_motions": 315,
+            "total_motions": 9382
+        },
+        {
+            "party": "SGP",
+            "engagement_percentage": 3.2953864589574597,
+            "topic_motions": 55,
+            "total_motions": 1669
+        },
+        {
+            "party": "SP",
+            "engagement_percentage": 3.1413612565445024,
+            "topic_motions": 120,
+            "total_motions": 3820
+        },
+        {
+            "party": "CDA",
+            "engagement_percentage": 3.1094257854821237,
+            "topic_motions": 287,
+            "total_motions": 9230
+        },
+        {
+            "party": "D66",
+            "engagement_percentage": 3.082555804889571,
+            "topic_motions": 261,
+            "total_motions": 8467
+        },
+        {
+            "party": "GroenLinks",
+            "engagement_percentage": 3.0473751600512164,
+            "topic_motions": 238,
+            "total_motions": 7810
+        },
+        {
+            "party": "VVD",
+            "engagement_percentage": 2.3554006968641112,
+            "topic_motions": 169,
+            "total_motions": 7175
+        },
+        {
+            "party": "PVV",
+            "engagement_percentage": 2.0599250936329585,
+            "topic_motions": 11,
+            "total_motions": 534
+        },
+        {
+            "party": "PvdD",
+            "engagement_percentage": 1.7476788640087382,
+            "topic_motions": 32,
+            "total_motions": 1831
+        },
+        {
+            "party": "50PLUS",
+            "engagement_percentage": 1.3333333333333335,
+            "topic_motions": 7,
+            "total_motions": 525
+        }
+    ],
+    "Verkeersveiligheid en leefbaarheid": [
+        {
+            "party": "FvD",
+            "engagement_percentage": 4.310344827586207,
+            "topic_motions": 10,
+            "total_motions": 232
+        },
+        {
+            "party": "VVD",
+            "engagement_percentage": 3.930313588850174,
+            "topic_motions": 282,
+            "total_motions": 7175
+        },
+        {
+            "party": "CDA",
+            "engagement_percentage": 3.71614301191766,
+            "topic_motions": 343,
+            "total_motions": 9230
+        },
+        {
+            "party": "SGP",
+            "engagement_percentage": 3.7147992810065906,
+            "topic_motions": 62,
+            "total_motions": 1669
+        },
+        {
+            "party": "ChristenUnie",
+            "engagement_percentage": 3.2187562090204653,
+            "topic_motions": 162,
+            "total_motions": 5033
+        },
+        {
+            "party": "D66",
+            "engagement_percentage": 3.082555804889571,
+            "topic_motions": 261,
+            "total_motions": 8467
+        },
+        {
+            "party": "50PLUS",
+            "engagement_percentage": 2.666666666666667,
+            "topic_motions": 14,
+            "total_motions": 525
+        },
+        {
+            "party": "PvdA",
+            "engagement_percentage": 2.6646770411426135,
+            "topic_motions": 250,
+            "total_motions": 9382
+        },
+        {
+            "party": "DENK",
+            "engagement_percentage": 2.376237623762376,
+            "topic_motions": 12,
+            "total_motions": 505
+        },
+        {
+            "party": "GroenLinks",
+            "engagement_percentage": 2.3431498079385404,
+            "topic_motions": 183,
+            "total_motions": 7810
+        },
+        {
+            "party": "SP",
+            "engagement_percentage": 2.2513089005235605,
+            "topic_motions": 86,
+            "total_motions": 3820
+        },
+        {
+            "party": "PVV",
+            "engagement_percentage": 2.247191011235955,
+            "topic_motions": 12,
+            "total_motions": 534
+        },
+        {
+            "party": "Volt",
+            "engagement_percentage": 1.6528925619834711,
+            "topic_motions": 4,
+            "total_motions": 242
+        },
+        {
+            "party": "PvdD",
+            "engagement_percentage": 1.5292190060076463,
+            "topic_motions": 28,
+            "total_motions": 1831
+        }
+    ],
+    "Onderwijskansen en inclusie": [
+        {
+            "party": "DENK",
+            "engagement_percentage": 4.9504950495049505,
+            "topic_motions": 25,
+            "total_motions": 505
+        },
+        {
+            "party": "50PLUS",
+            "engagement_percentage": 4.571428571428571,
+            "topic_motions": 24,
+            "total_motions": 525
+        },
+        {
+            "party": "D66",
+            "engagement_percentage": 3.5077359159088224,
+            "topic_motions": 297,
+            "total_motions": 8467
+        },
+        {
+            "party": "PvdA",
+            "engagement_percentage": 3.4960562779791085,
+            "topic_motions": 328,
+            "total_motions": 9382
+        },
+        {
+            "party": "FvD",
+            "engagement_percentage": 3.4482758620689653,
+            "topic_motions": 8,
+            "total_motions": 232
+        },
+        {
+            "party": "Volt",
+            "engagement_percentage": 3.3057851239669422,
+            "topic_motions": 8,
+            "total_motions": 242
+        },
+        {
+            "party": "SP",
+            "engagement_percentage": 3.0366492146596857,
+            "topic_motions": 116,
+            "total_motions": 3820
+        },
+        {
+            "party": "PvdD",
+            "engagement_percentage": 2.9492080830147462,
+            "topic_motions": 54,
+            "total_motions": 1831
+        },
+        {
+            "party": "GroenLinks",
+            "engagement_percentage": 2.9449423815621,
+            "topic_motions": 230,
+            "total_motions": 7810
+        },
+        {
+            "party": "PVV",
+            "engagement_percentage": 2.8089887640449436,
+            "topic_motions": 15,
+            "total_motions": 534
+        },
+        {
+            "party": "VVD",
+            "engagement_percentage": 2.731707317073171,
+            "topic_motions": 196,
+            "total_motions": 7175
+        },
+        {
+            "party": "CDA",
+            "engagement_percentage": 2.6435536294691224,
+            "topic_motions": 244,
+            "total_motions": 9230
+        },
+        {
+            "party": "ChristenUnie",
+            "engagement_percentage": 2.5034770514603615,
+            "topic_motions": 126,
+            "total_motions": 5033
+        },
+        {
+            "party": "SGP",
+            "engagement_percentage": 2.216896345116836,
+            "topic_motions": 37,
+            "total_motions": 1669
+        }
+    ],
+    "Openbaar vervoerbeleid": [
+        {
+            "party": "Volt",
+            "engagement_percentage": 4.132231404958678,
+            "topic_motions": 10,
+            "total_motions": 242
+        },
+        {
+            "party": "SP",
+            "engagement_percentage": 3.8219895287958114,
+            "topic_motions": 146,
+            "total_motions": 3820
+        },
+        {
+            "party": "PVV",
+            "engagement_percentage": 3.7453183520599254,
+            "topic_motions": 20,
+            "total_motions": 534
+        },
+        {
+            "party": "PvdD",
+            "engagement_percentage": 3.2768978700163847,
+            "topic_motions": 60,
+            "total_motions": 1831
+        },
+        {
+            "party": "DENK",
+            "engagement_percentage": 2.9702970297029703,
+            "topic_motions": 15,
+            "total_motions": 505
+        },
+        {
+            "party": "ChristenUnie",
+            "engagement_percentage": 2.940592092191536,
+            "topic_motions": 148,
+            "total_motions": 5033
+        },
+        {
+            "party": "D66",
+            "engagement_percentage": 2.8345340734616746,
+            "topic_motions": 240,
+            "total_motions": 8467
+        },
+        {
+            "party": "VVD",
+            "engagement_percentage": 2.8153310104529616,
+            "topic_motions": 202,
+            "total_motions": 7175
+        },
+        {
+            "party": "PvdA",
+            "engagement_percentage": 2.771264122788318,
+            "topic_motions": 260,
+            "total_motions": 9382
+        },
+        {
+            "party": "GroenLinks",
+            "engagement_percentage": 2.7400768245838667,
+            "topic_motions": 214,
+            "total_motions": 7810
+        },
+        {
+            "party": "CDA",
+            "engagement_percentage": 2.513542795232936,
+            "topic_motions": 232,
+            "total_motions": 9230
+        },
+        {
+            "party": "50PLUS",
+            "engagement_percentage": 2.2857142857142856,
+            "topic_motions": 12,
+            "total_motions": 525
+        },
+        {
+            "party": "FvD",
+            "engagement_percentage": 2.1551724137931036,
+            "topic_motions": 5,
+            "total_motions": 232
+        },
+        {
+            "party": "SGP",
+            "engagement_percentage": 2.037147992810066,
+            "topic_motions": 34,
+            "total_motions": 1669
+        }
+    ],
+    "Fietsgebruik stimuleren": [
+        {
+            "party": "50PLUS",
+            "engagement_percentage": 4.0,
+            "topic_motions": 21,
+            "total_motions": 525
+        },
+        {
+            "party": "PvdD",
+            "engagement_percentage": 3.54997269251775,
+            "topic_motions": 65,
+            "total_motions": 1831
+        },
+        {
+            "party": "ChristenUnie",
+            "engagement_percentage": 3.1392807470693422,
+            "topic_motions": 158,
+            "total_motions": 5033
+        },
+        {
+            "party": "GroenLinks",
+            "engagement_percentage": 3.085787451984635,
+            "topic_motions": 241,
+            "total_motions": 7810
+        },
+        {
+            "party": "D66",
+            "engagement_percentage": 3.0116924530530294,
+            "topic_motions": 255,
+            "total_motions": 8467
+        },
+        {
+            "party": "SGP",
+            "engagement_percentage": 2.995805871779509,
+            "topic_motions": 50,
+            "total_motions": 1669
+        },
+        {
+            "party": "SP",
+            "engagement_percentage": 2.8534031413612566,
+            "topic_motions": 109,
+            "total_motions": 3820
+        },
+        {
+            "party": "DENK",
+            "engagement_percentage": 2.7722772277227725,
+            "topic_motions": 14,
+            "total_motions": 505
+        },
+        {
+            "party": "CDA",
+            "engagement_percentage": 2.611050920910076,
+            "topic_motions": 241,
+            "total_motions": 9230
+        },
+        {
+            "party": "PvdA",
+            "engagement_percentage": 2.5474312513323385,
+            "topic_motions": 239,
+            "total_motions": 9382
+        },
+        {
+            "party": "VVD",
+            "engagement_percentage": 2.4390243902439024,
+            "topic_motions": 175,
+            "total_motions": 7175
+        },
+        {
+            "party": "PVV",
+            "engagement_percentage": 2.0599250936329585,
+            "topic_motions": 11,
+            "total_motions": 534
+        },
+        {
+            "party": "FvD",
+            "engagement_percentage": 0.8620689655172413,
+            "topic_motions": 2,
+            "total_motions": 232
+        },
+        {
+            "party": "Volt",
+            "engagement_percentage": 0.4132231404958678,
+            "topic_motions": 1,
+            "total_motions": 242
+        }
+    ],
+    "Parkeerbeleid en openbare ruimte": [
+        {
+            "party": "PVV",
+            "engagement_percentage": 5.617977528089887,
+            "topic_motions": 30,
+            "total_motions": 534
+        },
+        {
+            "party": "DENK",
+            "engagement_percentage": 3.9603960396039604,
+            "topic_motions": 20,
+            "total_motions": 505
+        },
+        {
+            "party": "FvD",
+            "engagement_percentage": 3.4482758620689653,
+            "topic_motions": 8,
+            "total_motions": 232
+        },
+        {
+            "party": "VVD",
+            "engagement_percentage": 3.442508710801394,
+            "topic_motions": 247,
+            "total_motions": 7175
+        },
+        {
+            "party": "SGP",
+            "engagement_percentage": 3.055721989215099,
+            "topic_motions": 51,
+            "total_motions": 1669
+        },
+        {
+            "party": "Volt",
+            "engagement_percentage": 2.8925619834710745,
+            "topic_motions": 7,
+            "total_motions": 242
+        },
+        {
+            "party": "ChristenUnie",
+            "engagement_percentage": 2.861116630240413,
+            "topic_motions": 144,
+            "total_motions": 5033
+        },
+        {
+            "party": "50PLUS",
+            "engagement_percentage": 2.857142857142857,
+            "topic_motions": 15,
+            "total_motions": 525
+        },
+        {
+            "party": "CDA",
+            "engagement_percentage": 2.7735644637053087,
+            "topic_motions": 256,
+            "total_motions": 9230
+        },
+        {
+            "party": "D66",
+            "engagement_percentage": 2.692807369788591,
+            "topic_motions": 228,
+            "total_motions": 8467
+        },
+        {
+            "party": "SP",
+            "engagement_percentage": 2.513089005235602,
+            "topic_motions": 96,
+            "total_motions": 3820
+        },
+        {
+            "party": "PvdA",
+            "engagement_percentage": 2.2703048390535066,
+            "topic_motions": 213,
+            "total_motions": 9382
+        },
+        {
+            "party": "PvdD",
+            "engagement_percentage": 2.239213544511196,
+            "topic_motions": 41,
+            "total_motions": 1831
+        },
+        {
+            "party": "GroenLinks",
+            "engagement_percentage": 2.1254801536491676,
+            "topic_motions": 166,
+            "total_motions": 7810
+        }
+    ],
+    "Sluiting zorgafdelingen": [
+        {
+            "party": "PVV",
+            "engagement_percentage": 2.8089887640449436,
+            "topic_motions": 15,
+            "total_motions": 534
+        },
+        {
+            "party": "SP",
+            "engagement_percentage": 2.643979057591623,
+            "topic_motions": 101,
+            "total_motions": 3820
+        },
+        {
+            "party": "FvD",
+            "engagement_percentage": 2.586206896551724,
+            "topic_motions": 6,
+            "total_motions": 232
+        },
+        {
+            "party": "50PLUS",
+            "engagement_percentage": 2.4761904761904763,
+            "topic_motions": 13,
+            "total_motions": 525
+        },
+        {
+            "party": "DENK",
+            "engagement_percentage": 2.376237623762376,
+            "topic_motions": 12,
+            "total_motions": 505
+        },
+        {
+            "party": "PvdA",
+            "engagement_percentage": 2.2703048390535066,
+            "topic_motions": 213,
+            "total_motions": 9382
+        },
+        {
+            "party": "SGP",
+            "engagement_percentage": 2.216896345116836,
+            "topic_motions": 37,
+            "total_motions": 1669
+        },
+        {
+            "party": "CDA",
+            "engagement_percentage": 2.18851570964247,
+            "topic_motions": 202,
+            "total_motions": 9230
+        },
+        {
+            "party": "ChristenUnie",
+            "engagement_percentage": 2.1855752036558713,
+            "topic_motions": 110,
+            "total_motions": 5033
+        },
+        {
+            "party": "D66",
+            "engagement_percentage": 2.1613322310145273,
+            "topic_motions": 183,
+            "total_motions": 8467
+        },
+        {
+            "party": "VVD",
+            "engagement_percentage": 2.034843205574913,
+            "topic_motions": 146,
+            "total_motions": 7175
+        },
+        {
+            "party": "GroenLinks",
+            "engagement_percentage": 1.997439180537772,
+            "topic_motions": 156,
+            "total_motions": 7810
+        },
+        {
+            "party": "PvdD",
+            "engagement_percentage": 1.3107591480065537,
+            "topic_motions": 24,
+            "total_motions": 1831
+        },
+        {
+            "party": "Volt",
+            "engagement_percentage": 1.2396694214876034,
+            "topic_motions": 3,
+            "total_motions": 242
+        }
+    ],
+    "Inclusieve arbeidsmarkt": [
+        {
+            "party": "SP",
+            "engagement_percentage": 3.9528795811518322,
+            "topic_motions": 151,
+            "total_motions": 3820
+        },
+        {
+            "party": "PvdA",
+            "engagement_percentage": 2.600724792155191,
+            "topic_motions": 244,
+            "total_motions": 9382
+        },
+        {
+            "party": "50PLUS",
+            "engagement_percentage": 2.4761904761904763,
+            "topic_motions": 13,
+            "total_motions": 525
+        },
+        {
+            "party": "GroenLinks",
+            "engagement_percentage": 2.3687580025608197,
+            "topic_motions": 185,
+            "total_motions": 7810
+        },
+        {
+            "party": "PVV",
+            "engagement_percentage": 2.247191011235955,
+            "topic_motions": 12,
+            "total_motions": 534
+        },
+        {
+            "party": "PvdD",
+            "engagement_percentage": 2.020753686510104,
+            "topic_motions": 37,
+            "total_motions": 1831
+        },
+        {
+            "party": "ChristenUnie",
+            "engagement_percentage": 1.986886548778065,
+            "topic_motions": 100,
+            "total_motions": 5033
+        },
+        {
+            "party": "DENK",
+            "engagement_percentage": 1.9801980198019802,
+            "topic_motions": 10,
+            "total_motions": 505
+        },
+        {
+            "party": "VVD",
+            "engagement_percentage": 1.7282229965156795,
+            "topic_motions": 124,
+            "total_motions": 7175
+        },
+        {
+            "party": "D66",
+            "engagement_percentage": 1.7007204440770047,
+            "topic_motions": 144,
+            "total_motions": 8467
+        },
+        {
+            "party": "SGP",
+            "engagement_percentage": 1.6177351707609346,
+            "topic_motions": 27,
+            "total_motions": 1669
+        },
+        {
+            "party": "CDA",
+            "engagement_percentage": 1.5601300108342362,
+            "topic_motions": 144,
+            "total_motions": 9230
+        },
+        {
+            "party": "FvD",
+            "engagement_percentage": 0.8620689655172413,
+            "topic_motions": 2,
+            "total_motions": 232
+        },
+        {
+            "party": "Volt",
+            "engagement_percentage": 0.4132231404958678,
+            "topic_motions": 1,
+            "total_motions": 242
+        }
+    ],
+    "Economische lokale ontwikkeling": [
+        {
+            "party": "PVV",
+            "engagement_percentage": 3.5580524344569286,
+            "topic_motions": 19,
+            "total_motions": 534
+        },
+        {
+            "party": "DENK",
+            "engagement_percentage": 3.1683168316831685,
+            "topic_motions": 16,
+            "total_motions": 505
+        },
+        {
+            "party": "VVD",
+            "engagement_percentage": 2.7177700348432055,
+            "topic_motions": 195,
+            "total_motions": 7175
+        },
+        {
+            "party": "50PLUS",
+            "engagement_percentage": 2.4761904761904763,
+            "topic_motions": 13,
+            "total_motions": 525
+        },
+        {
+            "party": "D66",
+            "engagement_percentage": 2.055037203259714,
+            "topic_motions": 174,
+            "total_motions": 8467
+        },
+        {
+            "party": "SGP",
+            "engagement_percentage": 2.037147992810066,
+            "topic_motions": 34,
+            "total_motions": 1669
+        },
+        {
+            "party": "PvdD",
+            "engagement_percentage": 1.9115237575095576,
+            "topic_motions": 35,
+            "total_motions": 1831
+        },
+        {
+            "party": "CDA",
+            "engagement_percentage": 1.8309859154929577,
+            "topic_motions": 169,
+            "total_motions": 9230
+        },
+        {
+            "party": "ChristenUnie",
+            "engagement_percentage": 1.688853566461355,
+            "topic_motions": 85,
+            "total_motions": 5033
+        },
+        {
+            "party": "SP",
+            "engagement_percentage": 1.5706806282722512,
+            "topic_motions": 60,
+            "total_motions": 3820
+        },
+        {
+            "party": "GroenLinks",
+            "engagement_percentage": 1.5108834827144686,
+            "topic_motions": 118,
+            "total_motions": 7810
+        },
+        {
+            "party": "PvdA",
+            "engagement_percentage": 1.4495843103815818,
+            "topic_motions": 136,
+            "total_motions": 9382
+        },
+        {
+            "party": "Volt",
+            "engagement_percentage": 1.2396694214876034,
+            "topic_motions": 3,
+            "total_motions": 242
+        },
+        {
+            "party": "FvD",
+            "engagement_percentage": 0.0,
+            "topic_motions": 0,
+            "total_motions": 232
+        }
+    ],
+    "Economische impact coronacrisis": [
+        {
+            "party": "PVV",
+            "engagement_percentage": 3.3707865168539324,
+            "topic_motions": 18,
+            "total_motions": 534
+        },
+        {
+            "party": "DENK",
+            "engagement_percentage": 3.1683168316831685,
+            "topic_motions": 16,
+            "total_motions": 505
+        },
+        {
+            "party": "VVD",
+            "engagement_percentage": 2.480836236933798,
+            "topic_motions": 178,
+            "total_motions": 7175
+        },
+        {
+            "party": "50PLUS",
+            "engagement_percentage": 2.4761904761904763,
+            "topic_motions": 13,
+            "total_motions": 525
+        },
+        {
+            "party": "D66",
+            "engagement_percentage": 1.8896893823077834,
+            "topic_motions": 160,
+            "total_motions": 8467
+        },
+        {
+            "party": "SP",
+            "engagement_percentage": 1.8062827225130889,
+            "topic_motions": 69,
+            "total_motions": 3820
+        },
+        {
+            "party": "PvdA",
+            "engagement_percentage": 1.6734171818375614,
+            "topic_motions": 157,
+            "total_motions": 9382
+        },
+        {
+            "party": "CDA",
+            "engagement_percentage": 1.6251354279523293,
+            "topic_motions": 150,
+            "total_motions": 9230
+        },
+        {
+            "party": "ChristenUnie",
+            "engagement_percentage": 1.589509239022452,
+            "topic_motions": 80,
+            "total_motions": 5033
+        },
+        {
+            "party": "PvdD",
+            "engagement_percentage": 1.5292190060076463,
+            "topic_motions": 28,
+            "total_motions": 1831
+        },
+        {
+            "party": "GroenLinks",
+            "engagement_percentage": 1.4084507042253522,
+            "topic_motions": 110,
+            "total_motions": 7810
+        },
+        {
+            "party": "SGP",
+            "engagement_percentage": 1.078490113840623,
+            "topic_motions": 18,
+            "total_motions": 1669
+        },
+        {
+            "party": "FvD",
+            "engagement_percentage": 0.8620689655172413,
+            "topic_motions": 2,
+            "total_motions": 232
+        },
+        {
+            "party": "Volt",
+            "engagement_percentage": 0.0,
+            "topic_motions": 0,
+            "total_motions": 242
+        }
+    ],
+    "Digitale inclusie en privacy": [
+        {
+            "party": "FvD",
+            "engagement_percentage": 2.1551724137931036,
+            "topic_motions": 5,
+            "total_motions": 232
+        },
+        {
+            "party": "Volt",
+            "engagement_percentage": 2.066115702479339,
+            "topic_motions": 5,
+            "total_motions": 242
+        },
+        {
+            "party": "D66",
+            "engagement_percentage": 1.5826148576827685,
+            "topic_motions": 134,
+            "total_motions": 8467
+        },
+        {
+            "party": "SP",
+            "engagement_percentage": 1.5183246073298429,
+            "topic_motions": 58,
+            "total_motions": 3820
+        },
+        {
+            "party": "PVV",
+            "engagement_percentage": 1.4981273408239701,
+            "topic_motions": 8,
+            "total_motions": 534
+        },
+        {
+            "party": "VVD",
+            "engagement_percentage": 1.4773519163763067,
+            "topic_motions": 106,
+            "total_motions": 7175
+        },
+        {
+            "party": "PvdA",
+            "engagement_percentage": 1.4495843103815818,
+            "topic_motions": 136,
+            "total_motions": 9382
+        },
+        {
+            "party": "CDA",
+            "engagement_percentage": 1.4084507042253522,
+            "topic_motions": 130,
+            "total_motions": 9230
+        },
+        {
+            "party": "GroenLinks",
+            "engagement_percentage": 1.3956466069142126,
+            "topic_motions": 109,
+            "total_motions": 7810
+        },
+        {
+            "party": "DENK",
+            "engagement_percentage": 1.3861386138613863,
+            "topic_motions": 7,
+            "total_motions": 505
+        },
+        {
+            "party": "ChristenUnie",
+            "engagement_percentage": 1.2120007947546194,
+            "topic_motions": 61,
+            "total_motions": 5033
+        },
+        {
+            "party": "SGP",
+            "engagement_percentage": 1.018573996405033,
+            "topic_motions": 17,
+            "total_motions": 1669
+        },
+        {
+            "party": "50PLUS",
+            "engagement_percentage": 0.9523809523809524,
+            "topic_motions": 5,
+            "total_motions": 525
+        },
+        {
+            "party": "PvdD",
+            "engagement_percentage": 0.8192244675040962,
+            "topic_motions": 15,
+            "total_motions": 1831
+        }
+    ],
+    "Vuurwerkoverlast en veiligheid": [
+        {
+            "party": "PvdD",
+            "engagement_percentage": 3.0584380120152925,
+            "topic_motions": 56,
+            "total_motions": 1831
+        },
+        {
+            "party": "GroenLinks",
+            "engagement_percentage": 1.9078104993597953,
+            "topic_motions": 149,
+            "total_motions": 7810
+        },
+        {
+            "party": "50PLUS",
+            "engagement_percentage": 1.9047619047619049,
+            "topic_motions": 10,
+            "total_motions": 525
+        },
+        {
+            "party": "SGP",
+            "engagement_percentage": 1.6776512881965249,
+            "topic_motions": 28,
+            "total_motions": 1669
+        },
+        {
+            "party": "SP",
+            "engagement_percentage": 1.4136125654450262,
+            "topic_motions": 54,
+            "total_motions": 3820
+        },
+        {
+            "party": "ChristenUnie",
+            "engagement_percentage": 1.3312139876813034,
+            "topic_motions": 67,
+            "total_motions": 5033
+        },
+        {
+            "party": "PVV",
+            "engagement_percentage": 1.3108614232209739,
+            "topic_motions": 7,
+            "total_motions": 534
+        },
+        {
+            "party": "PvdA",
+            "engagement_percentage": 1.2790449797484544,
+            "topic_motions": 120,
+            "total_motions": 9382
+        },
+        {
+            "party": "Volt",
+            "engagement_percentage": 1.2396694214876034,
+            "topic_motions": 3,
+            "total_motions": 242
+        },
+        {
+            "party": "D66",
+            "engagement_percentage": 1.0747608361875516,
+            "topic_motions": 91,
+            "total_motions": 8467
+        },
+        {
+            "party": "DENK",
+            "engagement_percentage": 0.9900990099009901,
+            "topic_motions": 5,
+            "total_motions": 505
+        },
+        {
+            "party": "FvD",
+            "engagement_percentage": 0.8620689655172413,
+            "topic_motions": 2,
+            "total_motions": 232
+        },
+        {
+            "party": "CDA",
+            "engagement_percentage": 0.7800650054171181,
+            "topic_motions": 72,
+            "total_motions": 9230
+        },
+        {
+            "party": "VVD",
+            "engagement_percentage": 0.7386759581881533,
+            "topic_motions": 53,
+            "total_motions": 7175
+        }
+    ],
+    "Dierenwelzijnsbeleid gemeenten": [
+        {
+            "party": "PvdD",
+            "engagement_percentage": 4.860731840524304,
+            "topic_motions": 89,
+            "total_motions": 1831
+        },
+        {
+            "party": "FvD",
+            "engagement_percentage": 3.4482758620689653,
+            "topic_motions": 8,
+            "total_motions": 232
+        },
+        {
+            "party": "PVV",
+            "engagement_percentage": 2.4344569288389515,
+            "topic_motions": 13,
+            "total_motions": 534
+        },
+        {
+            "party": "Volt",
+            "engagement_percentage": 2.066115702479339,
+            "topic_motions": 5,
+            "total_motions": 242
+        },
+        {
+            "party": "SP",
+            "engagement_percentage": 1.5183246073298429,
+            "topic_motions": 58,
+            "total_motions": 3820
+        },
+        {
+            "party": "50PLUS",
+            "engagement_percentage": 1.3333333333333335,
+            "topic_motions": 7,
+            "total_motions": 525
+        },
+        {
+            "party": "VVD",
+            "engagement_percentage": 1.32404181184669,
+            "topic_motions": 95,
+            "total_motions": 7175
+        },
+        {
+            "party": "GroenLinks",
+            "engagement_percentage": 1.203585147247119,
+            "topic_motions": 94,
+            "total_motions": 7810
+        },
+        {
+            "party": "PvdA",
+            "engagement_percentage": 1.1404817736090387,
+            "topic_motions": 107,
+            "total_motions": 9382
+        },
+        {
+            "party": "SGP",
+            "engagement_percentage": 1.078490113840623,
+            "topic_motions": 18,
+            "total_motions": 1669
+        },
+        {
+            "party": "CDA",
+            "engagement_percentage": 1.0617551462621884,
+            "topic_motions": 98,
+            "total_motions": 9230
+        },
+        {
+            "party": "DENK",
+            "engagement_percentage": 0.9900990099009901,
+            "topic_motions": 5,
+            "total_motions": 505
+        },
+        {
+            "party": "D66",
+            "engagement_percentage": 0.8503602220385024,
+            "topic_motions": 72,
+            "total_motions": 8467
+        },
+        {
+            "party": "ChristenUnie",
+            "engagement_percentage": 0.735148023047884,
+            "topic_motions": 37,
+            "total_motions": 5033
+        }
+    ],
+    "Herindeling luchtruim Nederland": [
+        {
+            "party": "ChristenUnie",
+            "engagement_percentage": 1.5100337770713292,
+            "topic_motions": 76,
+            "total_motions": 5033
+        },
+        {
+            "party": "PvdA",
+            "engagement_percentage": 1.4176081858878704,
+            "topic_motions": 133,
+            "total_motions": 9382
+        },
+        {
+            "party": "D66",
+            "engagement_percentage": 1.3345931262548718,
+            "topic_motions": 113,
+            "total_motions": 8467
+        },
+        {
+            "party": "CDA",
+            "engagement_percentage": 1.3109425785482123,
+            "topic_motions": 121,
+            "total_motions": 9230
+        },
+        {
+            "party": "GroenLinks",
+            "engagement_percentage": 1.267605633802817,
+            "topic_motions": 99,
+            "total_motions": 7810
+        },
+        {
+            "party": "PvdD",
+            "engagement_percentage": 1.2561441835062808,
+            "topic_motions": 23,
+            "total_motions": 1831
+        },
+        {
+            "party": "PVV",
+            "engagement_percentage": 1.1235955056179776,
+            "topic_motions": 6,
+            "total_motions": 534
+        },
+        {
+            "party": "SGP",
+            "engagement_percentage": 1.018573996405033,
+            "topic_motions": 17,
+            "total_motions": 1669
+        },
+        {
+            "party": "DENK",
+            "engagement_percentage": 0.9900990099009901,
+            "topic_motions": 5,
+            "total_motions": 505
+        },
+        {
+            "party": "VVD",
+            "engagement_percentage": 0.975609756097561,
+            "topic_motions": 70,
+            "total_motions": 7175
+        },
+        {
+            "party": "SP",
+            "engagement_percentage": 0.968586387434555,
+            "topic_motions": 37,
+            "total_motions": 3820
+        },
+        {
+            "party": "FvD",
+            "engagement_percentage": 0.8620689655172413,
+            "topic_motions": 2,
+            "total_motions": 232
+        },
+        {
+            "party": "Volt",
+            "engagement_percentage": 0.8264462809917356,
+            "topic_motions": 2,
+            "total_motions": 242
+        },
+        {
+            "party": "50PLUS",
+            "engagement_percentage": 0.19047619047619047,
+            "topic_motions": 1,
+            "total_motions": 525
+        }
+    ],
+    "Landelijk gebied en stikstof": [
+        {
+            "party": "SGP",
+            "engagement_percentage": 3.115638106650689,
+            "topic_motions": 52,
+            "total_motions": 1669
+        },
+        {
+            "party": "CDA",
+            "engagement_percentage": 1.9284940411700975,
+            "topic_motions": 178,
+            "total_motions": 9230
+        },
+        {
+            "party": "VVD",
+            "engagement_percentage": 1.5888501742160281,
+            "topic_motions": 114,
+            "total_motions": 7175
+        },
+        {
+            "party": "ChristenUnie",
+            "engagement_percentage": 1.351082853169084,
+            "topic_motions": 68,
+            "total_motions": 5033
+        },
+        {
+            "party": "D66",
+            "engagement_percentage": 0.9448446911538917,
+            "topic_motions": 80,
+            "total_motions": 8467
+        },
+        {
+            "party": "FvD",
+            "engagement_percentage": 0.8620689655172413,
+            "topic_motions": 2,
+            "total_motions": 232
+        },
+        {
+            "party": "GroenLinks",
+            "engagement_percentage": 0.8450704225352111,
+            "topic_motions": 66,
+            "total_motions": 7810
+        },
+        {
+            "party": "PvdA",
+            "engagement_percentage": 0.7994031123427842,
+            "topic_motions": 75,
+            "total_motions": 9382
+        },
+        {
+            "party": "PVV",
+            "engagement_percentage": 0.7490636704119851,
+            "topic_motions": 4,
+            "total_motions": 534
+        },
+        {
+            "party": "50PLUS",
+            "engagement_percentage": 0.5714285714285714,
+            "topic_motions": 3,
+            "total_motions": 525
+        },
+        {
+            "party": "SP",
+            "engagement_percentage": 0.4712041884816754,
+            "topic_motions": 18,
+            "total_motions": 3820
+        },
+        {
+            "party": "PvdD",
+            "engagement_percentage": 0.43691971600218454,
+            "topic_motions": 8,
+            "total_motions": 1831
+        },
+        {
+            "party": "DENK",
+            "engagement_percentage": 0.19801980198019803,
+            "topic_motions": 1,
+            "total_motions": 505
+        },
+        {
+            "party": "Volt",
+            "engagement_percentage": 0.0,
+            "topic_motions": 0,
+            "total_motions": 242
+        }
+    ]
+};
+        
+        document.getElementById('topic-selector').addEventListener('change', function() {
+            const selectedTopic = this.value;
+            const chartDiv = document.getElementById('engagement-chart');
+            const placeholder = document.getElementById('placeholder');
+            
+            if (selectedTopic && engagementData[selectedTopic]) {
+                // Hide placeholder, show chart
+                placeholder.style.display = 'none';
+                chartDiv.style.display = 'block';
+                
+                const data = engagementData[selectedTopic];
+                
+                // Prepare data for Plotly (take top 20 parties)
+                const topParties = data.slice(0, 20);
+                const parties = topParties.map(d => d.party);
+                const engagements = topParties.map(d => d.engagement_percentage);
+                const topicCounts = topParties.map(d => d.topic_motions);
+                const totalCounts = topParties.map(d => d.total_motions);
+                
+                // Create hover text
+                const hoverText = topParties.map(d => 
+                    `${d.party}<br>` +
+                    `Engagement: ${d.engagement_percentage.toFixed(1)}%<br>` +
+                    `Topic motions: ${d.topic_motions}<br>` +
+                    `Total motions: ${d.total_motions}`
+                );
+                
+                // Create color scale based on engagement
+                const colors = engagements.map(eng => {
+                    if (eng >= 20) return '#00A676';      // High engagement - green
+                    else if (eng >= 10) return '#7DD55C'; // Medium engagement - light green
+                    else if (eng >= 5) return '#FFD700';  // Low-medium engagement - yellow
+                    else return '#FFA500';                // Low engagement - orange
+                });
+                
+                const trace = {
+                    x: engagements,
+                    y: parties,
+                    type: 'bar',
+                    orientation: 'h',
+                    marker: {
+                        color: colors,
+                        line: {
+                            color: 'white',
+                            width: 1
+                        }
+                    },
+                    text: engagements.map((eng, i) => eng.toFixed(1) + '% (' + topicCounts[i] + ')'),
+                    textposition: 'outside',
+                    hovertext: hoverText,
+                    hoverinfo: 'text'
+                };
+                
+                const layout = {
+                    title: {
+                        text: `Party Engagement: ${selectedTopic}`,
+                        font: { size: 26, color: '#333' },
+                        x: 0.5
+                    },
+                    xaxis: {
+                        title: {
+                            text: 'Engagement Percentage (%)',
+                            font: { size: 18 }
+                        },
+                        tickfont: { size: 14 },
+                        showgrid: true,
+                        gridcolor: '#f0f0f0'
+                    },
+                    yaxis: {
+                        title: {
+                            text: 'Political Party',
+                            font: { size: 18 }
+                        },
+                        tickfont: { size: 14 },
+                        categoryorder: 'total ascending',
+                        showgrid: false
+                    },
+                    margin: { l: 180, r: 80, t: 120, b: 80 },
+                    height: Math.max(600, parties.length * 30),
+                    template: 'plotly_white',
+                    showlegend: false,
+                    font: { size: 14 }
+                };
+                
+                const config = {
+                    responsive: true,
+                    displayModeBar: true,
+                    modeBarButtonsToRemove: ['pan2d', 'lasso2d', 'select2d'],
+                    displaylogo: false
+                };
+                
+                Plotly.newPlot('engagement-chart', [trace], layout, config);
+                
+            } else {
+                // Show placeholder, hide chart
+                placeholder.style.display = 'flex';
+                chartDiv.style.display = 'none';
+            }
+        });
+        
+        // Auto-select first topic for demo
+        window.addEventListener('load', function() {
+            const selector = document.getElementById('topic-selector');
+            if (selector.options.length > 1) {
+                selector.selectedIndex = 1; // Select first real option
+                selector.dispatchEvent(new Event('change'));
+            }
+        });
+    </script>
+</body>
+</html>
