@@ -1,0 +1,652 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Brede Welkaart - Erasmus Universiteit Rotterdam</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --primary-green: #00A676;
+            --accent-green: #7DD55C;
+            --light-green: #E8F5F0;
+            --warm-grey: #6B7280;
+            --white: #FFFFFF;
+            --light-grey: #F9FAFB;
+            --dark-grey: #374151;
+            --transition: all 0.3s ease;
+        }
+        
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: 'Inter', sans-serif;
+            line-height: 1.8;
+            color: var(--dark-grey);
+            background: var(--light-grey);
+            font-size: 18px;
+        }
+        
+        /* Navigation */
+        .navbar {
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+            z-index: 1000;
+            background: rgba(255, 255, 255, 0.95);
+            backdrop-filter: blur(20px);
+            border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+            padding: 1.5rem 0;
+        }
+        
+        .nav-container {
+            max-width: 1400px;
+            margin: 0 auto;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 0 3rem;
+        }
+        
+        .logo-section {
+            display: flex;
+            align-items: center;
+            gap: 1.5rem;
+        }
+        
+        .logo {
+            height: 56px;
+            width: auto;
+        }
+        
+        .brand-title {
+            color: var(--primary-green);
+            font-family: 'Poppins', sans-serif;
+            font-size: 2.1rem;
+            font-weight: 700;
+            margin: 0;
+        }
+        
+        .nav-menu {
+            display: flex;
+            list-style: none;
+            gap: 2.5rem;
+            align-items: center;
+        }
+        
+        .nav-link {
+            color: var(--dark-grey);
+            text-decoration: none;
+            font-weight: 500;
+            font-size: 1.1rem;
+            padding: 1rem 2rem;
+            border-radius: 10px;
+            transition: var(--transition);
+            cursor: pointer;
+        }
+        
+        .nav-link:hover, .nav-link.active {
+            background: rgba(0, 166, 118, 0.1);
+            color: var(--primary-green);
+        }
+        
+        .language-toggle {
+            display: flex;
+            gap: 0.5rem;
+        }
+        
+        .lang-btn {
+            padding: 0.8rem 1.3rem;
+            border: 1px solid rgba(0, 166, 118, 0.3);
+            border-radius: 8px;
+            cursor: pointer;
+            font-weight: 500;
+            font-size: 1rem;
+            transition: var(--transition);
+            background: transparent;
+            color: var(--dark-grey);
+        }
+        
+        .lang-btn.active {
+            background: var(--primary-green);
+            color: white;
+            border-color: var(--primary-green);
+        }
+
+        /* Sub Navigation */
+        .sub-navbar {
+            position: fixed;
+            top: 110px;
+            left: 0;
+            right: 0;
+            z-index: 999;
+            background: rgba(255, 255, 255, 0.95);
+            backdrop-filter: blur(20px);
+            border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+            padding: 0.8rem 0;
+        }
+        
+        .sub-nav-container {
+            max-width: 1400px;
+            margin: 0 auto;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 1.5rem;
+            padding: 0 3rem;
+            flex-wrap: wrap;
+        }
+        
+        .sub-nav-btn {
+            background: transparent;
+            border: 2px solid rgba(0, 166, 118, 0.2);
+            color: var(--dark-grey);
+            padding: 12px 24px; /* Increased padding for better touch targets */
+            border-radius: 16px; /* More rounded corners to match modern styling */
+            cursor: pointer;
+            font-weight: 500;
+            font-size: 16px; /* Slightly larger font size */
+            transition: var(--transition);
+            white-space: nowrap;
+            font-family: 'Inter', sans-serif; /* Ensure consistent font family */
+        }
+        
+        .sub-nav-btn.active {
+            background: var(--primary-green);
+            color: white;
+            border-color: var(--primary-green);
+            box-shadow: 0 4px 15px rgba(0, 166, 118, 0.3);
+        }
+        
+        .sub-nav-btn:hover:not(.active) {
+            background: rgba(0, 166, 118, 0.1);
+            color: var(--primary-green);
+        }
+
+        /* Main Content */
+        .main-content {
+            margin-top: 200px; /* Optimized for analysis visualization content */
+            min-height: calc(100vh - 180px);
+            padding: 0 20px; /* Add side padding for better visual containment */
+        }
+        
+        .page-content {
+            display: none;
+        }
+        
+        .page-content.active {
+            display: block;
+        }
+        
+        .iframe-content {
+            width: 100%;
+            min-height: calc(100vh - 200px); /* Consistent with larger font requirements on mobile */
+            border: none;
+            background: white;
+            border-radius: 8px; /* Slightly less rounded on mobile */
+            box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+        }
+        
+        .text-content {
+            max-width: 1200px;
+            margin: 0 auto;
+            background: white;
+            padding: 4rem;
+            border-radius: 20px;
+            box-shadow: 0 6px 25px rgba(0, 0, 0, 0.08);
+            margin-top: 3rem;
+            margin-bottom: 3rem;
+        }
+        
+        .text-content h1 {
+            font-family: 'Poppins', sans-serif;
+            color: var(--primary-green);
+            font-size: 3rem;
+            margin-bottom: 2.5rem;
+            text-align: center;
+            font-weight: 600;
+        }
+        
+        .text-content h2 {
+            font-family: 'Poppins', sans-serif;
+            color: var(--dark-grey);
+            font-size: 2.2rem;
+            margin: 2.5rem 0 1.5rem 0;
+            font-weight: 600;
+        }
+        
+        .text-content p {
+            font-size: 1.3rem;
+            line-height: 1.9;
+            margin-bottom: 2rem;
+            color: var(--dark-grey);
+        }
+        
+        .text-content a {
+            color: var(--primary-green);
+            text-decoration: none;
+            font-weight: 500;
+        }
+        
+        .text-content a:hover {
+            text-decoration: underline;
+        }
+        
+        .stats-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+            gap: 2.5rem;
+            margin: 3rem 0;
+        }
+        
+        .stat-card {
+            background: var(--light-green);
+            padding: 2.5rem;
+            border-radius: 20px;
+            text-align: center;
+            border: 1px solid rgba(0, 166, 118, 0.1);
+        }
+        
+        .stat-number {
+            font-family: 'Poppins', sans-serif;
+            font-size: 2.5rem;
+            font-weight: 700;
+            color: var(--primary-green);
+            margin-bottom: 0.8rem;
+        }
+        
+        .stat-label {
+            color: var(--warm-grey);
+            font-weight: 500;
+            font-size: 1.1rem;
+        }
+        
+        /* Responsive Design */
+        @media (max-width: 768px) {
+            body {
+                font-size: 16px; /* Slightly smaller base font on mobile */
+            }
+            
+            .nav-container {
+                flex-direction: column;
+                gap: 1.5rem; /* Increased gap */
+                padding: 1.5rem; /* Increased padding */
+            }
+            
+            .nav-menu {
+                flex-wrap: wrap;
+                justify-content: center;
+                gap: 1.5rem; /* Increased gap */
+            }
+            
+            .nav-link {
+                padding: 0.8rem 1.5rem; /* Adjusted padding for mobile */
+                font-size: 1rem; /* Adjusted font size for mobile */
+            }
+            
+            .sub-nav-container {
+                padding: 0 1.5rem; /* Increased padding */
+                gap: 1rem; /* Adjusted gap for mobile */
+            }
+            
+            .sub-nav-btn {
+                padding: 10px 18px; /* Adjusted padding for mobile touch targets */
+                font-size: 15px; /* Slightly smaller on mobile but still readable */
+                margin: 3px; /* Add small margins for better spacing */
+            }
+            
+            .main-content {
+                margin-top: 200px; /* Reduced whitespace below submenu on mobile */
+            }
+            
+            .text-content {
+                padding: 2.5rem; /* Adjusted padding for mobile */
+                margin: 1.5rem; /* Increased margin */
+            }
+            
+            .text-content h1 {
+                font-size: 2.3rem; /* Adjusted font size for mobile */
+                margin-bottom: 2rem; /* Adjusted margin */
+            }
+            
+            .text-content h2 {
+                font-size: 1.8rem; /* Adjusted font size for mobile */
+                margin: 2rem 0 1.2rem 0; /* Adjusted margins */
+            }
+            
+            .text-content p {
+                font-size: 1.1rem; /* Adjusted font size for mobile */
+                margin-bottom: 1.5rem; /* Adjusted margin */
+            }
+            
+            .stats-grid {
+                grid-template-columns: 1fr; /* Single column on mobile */
+                gap: 1.5rem; /* Adjusted gap */
+                margin: 2rem 0; /* Adjusted margin */
+            }
+            
+            .stat-card {
+                padding: 2rem; /* Adjusted padding for mobile */
+            }
+            
+            .stat-number {
+                font-size: 2.2rem; /* Adjusted font size for mobile */
+            }
+            
+            .iframe-content {
+                min-height: calc(100vh - 220px); /* Reduced to match smaller top margin on mobile */
+            }
+        }
+        
+        .hidden {
+            display: none !important;
+        }
+    </style>
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="logo-section">
+                <img src="logo.png" alt="Erasmus University Rotterdam" class="logo">
+                <h1 class="brand-title">Brede Welkaart</h1>
+            </div>
+            <ul class="nav-menu">
+                <li><a class="nav-link active" onclick="showPage('kaart')" data-nl="Kaart" data-en="Map">Kaart</a></li>
+                <li><a class="nav-link" onclick="showPage('over')" data-nl="Over" data-en="About">Over</a></li>
+                <li><a class="nav-link" onclick="showPage('contact')" data-nl="Contact" data-en="Contact">Contact</a></li>
+                <li>
+                    <div class="language-toggle">
+                        <button class="lang-btn active" onclick="switchLanguage('nl')" id="btn-nl">NL</button>
+                        <button class="lang-btn" onclick="switchLanguage('en')" id="btn-en">EN</button>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Sub Navigation -->
+    <nav class="sub-navbar" id="sub-navbar">
+        <div class="sub-nav-container">
+            <button class="sub-nav-btn active" onclick="loadVisualizationBilingual('document_datamap_interactive')" 
+                    data-nl="Hoofdkaart" data-en="Main Map">Hoofdkaart</button>
+            <button class="sub-nav-btn" onclick="loadVisualizationBilingual('topic_evolution_timeline_scaled')" 
+                    data-nl="Tijdlijn" data-en="Timeline">Tijdlijn</button>
+            <button class="sub-nav-btn" onclick="loadVisualization('topic_switcher.html')" 
+                    data-nl="Thema's" data-en="Topic Explorer">Thema's</button>
+            <button class="sub-nav-btn" onclick="loadVisualization('dominant_topics_choropleth.html')" 
+                    data-nl="Heatmap" data-en="Heatmap">Heatmap</button>
+            <button class="sub-nav-btn" onclick="loadVisualization('topic_focused_party_engagement.html')" 
+                    data-nl="Partij Betrokkenheid" data-en="Party Engagement">Partij Betrokkenheid</button>
+            <button class="sub-nav-btn" onclick="loadVisualization('party_focused_topic_distribution.html')" 
+                    data-nl="Partij Thema's" data-en="Party Explorer">Partij Thema's</button>
+        </div>
+    </nav>
+
+    <!-- Main Content -->
+    <main class="main-content" id="main-content">
+        <!-- Kaart Page -->
+        <div class="page-content active" id="page-kaart">
+            <iframe class="iframe-content" id="visualization-frame" src="document_datamap_interactive_nl.html"></iframe>
+        </div>
+
+        <!-- Over Page -->
+        <div class="page-content" id="page-over">
+            <div class="text-content">
+                <h1 data-nl="Over de Brede Welkaart" data-en="About the Brede Welkaart">Over de Brede Welkaart</h1>
+                
+                <div class="stats-grid">
+                    <div class="stat-card">
+                        <div class="stat-number">36,688</div>
+                        <div class="stat-label" data-nl="Geanalyseerde Moties" data-en="Analyzed Motions">Geanalyseerde Moties</div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-number">273</div>
+                        <div class="stat-label" data-nl="Nederlandse Gemeenten" data-en="Dutch Municipalities">Nederlandse Gemeenten</div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-number">2015-2024</div>
+                        <div class="stat-label" data-nl="Tijdsperiode" data-en="Time Period">Tijdsperiode</div>
+                    </div>
+                </div>
+                
+                <div class="content-nl">
+                    <h2>Het Project</h2>
+                    <p>Dit is een onderzoeksproject van <strong>Erasmus Universiteit Rotterdam</strong> in samenwerking met TU Delft, Resilient Delta Initiative, Malmö University en Provincie Zuid-Holland. Het project onderzoekt hoe kunstmatige intelligentie kan helpen om beleidsthema's in Nederlandse gemeenten te identificeren en begrijpen.</p>
+                    
+                    <h2>Brede Welvaart</h2>
+                    <p>Welvaart is meer dan alleen geld. Terwijl traditionele maatstaven zoals het Bruto Binnenlands Product (BBP) vooral kijken naar economische prestaties, missen ze vaak de lokale aspecten die echt uitmaken voor mensen: betaalbare woningen, sociale samenhang, veiligheid en leefbaarheid.</p>
+                    
+                    <p>De Brede Welkaart biedt een nieuw perspectief door gemeentelijke moties te analyseren met kunstmatige intelligentie. We analyseren ongeveer <strong>36.688 raadsmoties van 273 Nederlandse gemeenten</strong> uit de periode 2015-2024 om 'van onderaf' te ontdekken welke thema's er echt leven: van betaalbare woningbouw en stedelijke armoede tot duurzaamheid en verkeersveiligheid.</p>
+                    
+                    <h2>Methodologie</h2>
+                    <p>We gebruiken <strong>BERTopic</strong>, een geavanceerde AI-techniek die automatisch thema's ontdekt in gemeentelijke moties. In plaats van vooraf bepaalde categorieën te gebruiken, laat onze AI de <strong>36.688 raadsmoties</strong> zelf 'spreken' om te zien welke onderwerpen er echt leven in Nederlandse gemeenten.</p>
+                    
+                    <h2>Proces</h2>
+                    <p>Elke motie wordt omgezet naar een semantische vingerafdruk, vergelijkbare moties worden gegroepeerd, en GPT-4 genereert begrijpelijke labels voor elk ontdekt thema. Voor de tijdsanalyse tonen we zowel absolute aantallen als <strong>geschaalde percentages per jaar</strong> om eerlijke vergelijkingen tussen verschillende periodes mogelijk te maken.</p>
+                    
+                    <h2>Data-gedreven Benadering</h2>
+                    <p>Onze methode is volledig data-gedreven: we leggen geen vooraf bepaalde categorieën op, maar laten de data zelf vertellen welke thema's belangrijk zijn voor Nederlandse gemeenten. Dit geeft een objectief beeld van wat er werkelijk speelt in de lokale politiek.</p>
+                </div>
+                
+                <div class="content-en hidden">
+                    <h2>The Project</h2>
+                    <p>This is a research project by <strong>Erasmus University Rotterdam</strong> in collaboration with TU Delft, Resilient Delta Initiative, Malmö University and Province Zuid-Holland. The project explores how artificial intelligence can help identify and understand policy themes in Dutch municipalities.</p>
+                    
+                    <h2>Broad Prosperity</h2>
+                    <p>Prosperity is about more than just money. While traditional measures like Gross Domestic Product (GDP) focus on economic performance, they often miss the local aspects that truly matter to people: affordable housing, social cohesion, safety, and livability.</p>
+                    
+                    <p>The Broad Prosperity Map offers a new perspective by analyzing municipal motions with artificial intelligence. We analyze approximately <strong>36,688 council motions from 273 Dutch municipalities</strong> from the period 2015-2024 to discover 'from the ground up' which themes truly matter: from affordable housing and urban poverty to sustainability and traffic safety.</p>
+                    
+                    <h2>Methodology</h2>
+                    <p>We use <strong>BERTopic</strong>, an advanced AI technique that automatically discovers themes in municipal motions. Instead of using predefined categories, our AI lets the <strong>36,688 council motions</strong> 'speak' for themselves to reveal what topics truly matter in Dutch municipalities.</p>
+                    
+                    <h2>Process</h2>
+                    <p>Each motion is converted to a semantic fingerprint, similar motions are grouped together, and GPT-4 generates understandable labels for each discovered theme. For temporal analysis, we show both absolute counts and <strong>scaled percentages per year</strong> to enable fair comparisons between different periods.</p>
+                    
+                    <h2>Data-Driven Approach</h2>
+                    <p>Our method is fully data-driven: we don't impose predefined categories, but let the data itself tell us which themes are important to Dutch municipalities. This provides an objective view of what is really happening in local politics.</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Contact Page -->
+        <div class="page-content" id="page-contact">
+            <div class="text-content">
+                <h1 data-nl="Contact" data-en="Contact">Contact</h1>
+                
+                <div class="content-nl">
+                    <p>Dit project is een samenwerking tussen <strong>Erasmus Universiteit Rotterdam, TU Delft, Resilient Delta Initiative, Malmö University en Provincie Zuid-Holland</strong>.</p>
+                    
+                    <h2>Lead Onderzoeker</h2>
+                    <p>Voor vragen over dit onderzoek of samenwerkingsmogelijkheden kunt u contact opnemen met:</p>
+                    <p><strong>Dr. Kees Krul</strong><br>
+                    Rotterdam School of Management<br>
+                    Erasmus Universiteit Rotterdam<br>
+                    <a href="mailto:krul@rsm.nl">krul@rsm.nl</a></p>
+                    
+                    <h2>Project Partners</h2>
+                    <p>
+                        • <a href="https://www.eur.nl" target="_blank">Erasmus Universiteit Rotterdam</a><br>
+                        • <a href="https://www.tudelft.nl" target="_blank">TU Delft</a><br>
+                        • <a href="https://www.zuidholland.nl" target="_blank">Provincie Zuid-Holland</a><br>
+                        • Resilient Delta Initiative<br>
+                        • Malmö University
+                    </p>
+                </div>
+                
+                <div class="content-en hidden">
+                    <p>This project is a collaboration between <strong>Erasmus University Rotterdam, TU Delft, Resilient Delta Initiative, Malmö University and Province Zuid-Holland</strong>.</p>
+                    
+                    <h2>Lead Researcher</h2>
+                    <p>For questions about this research or collaboration opportunities, please contact:</p>
+                    <p><strong>Dr. Kees Krul</strong><br>
+                    Rotterdam School of Management<br>
+                    Erasmus University Rotterdam<br>
+                    <a href="mailto:krul@rsm.nl">krul@rsm.nl</a></p>
+                    
+                    <h2>Project Partners</h2>
+                    <p>
+                        • <a href="https://www.eur.nl" target="_blank">Erasmus University Rotterdam</a><br>
+                        • <a href="https://www.tudelft.nl" target="_blank">TU Delft</a><br>
+                        • <a href="https://www.zuidholland.nl" target="_blank">Province Zuid-Holland</a><br>
+                        • Resilient Delta Initiative<br>
+                        • Malmö University
+                    </p>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <script>
+        let currentLanguage = 'nl';
+        let currentPage = 'kaart';
+        
+        function switchLanguage(lang) {
+            currentLanguage = lang;
+            
+            // Update language buttons
+            document.getElementById('btn-nl').classList.toggle('active', lang === 'nl');
+            document.getElementById('btn-en').classList.toggle('active', lang === 'en');
+            
+            // Update iframe src for bilingual visualizations if needed
+            if (currentPage === 'kaart') {
+                const frame = document.getElementById('visualization-frame');
+                const currentSrc = frame.src;
+                
+                // Check if current visualization is bilingual and update accordingly
+                if (currentSrc.includes('datamap_interactive')) {
+                    frame.src = `document_datamap_interactive_${lang}.html`;
+                } else if (currentSrc.includes('topic_evolution_timeline_scaled')) {
+                    frame.src = `topic_evolution_timeline_scaled_${lang}.html`;
+                } else if (currentSrc.includes('party_activity_overview')) {
+                    frame.src = `party_activity_overview_${lang}.html`;
+                }
+            }
+            
+            // Update all translatable elements
+            const elements = document.querySelectorAll('[data-nl][data-en]');
+            elements.forEach(element => {
+                const text = element.getAttribute(`data-${lang}`);
+                if (text) {
+                    element.textContent = text;
+                }
+            });
+            
+            // Show/hide content sections
+            const contentNl = document.querySelectorAll('.content-nl');
+            const contentEn = document.querySelectorAll('.content-en');
+            
+            contentNl.forEach(el => el.classList.toggle('hidden', lang !== 'nl'));
+            contentEn.forEach(el => el.classList.toggle('hidden', lang !== 'en'));
+        }
+        
+        function showPage(page) {
+            currentPage = page;
+            
+            // Update nav buttons
+            const navLinks = document.querySelectorAll('.nav-link');
+            navLinks.forEach(link => link.classList.remove('active'));
+            
+            // Find and activate the correct nav link
+            const navTexts = {
+                'kaart': ['Kaart', 'Map'],
+                'over': ['Over', 'About'], 
+                'contact': ['Contact', 'Contact']
+            };
+            
+            navLinks.forEach(link => {
+                const linkText = link.textContent.trim();
+                if (navTexts[page] && navTexts[page].includes(linkText)) {
+                    link.classList.add('active');
+                }
+            });
+            
+            // Update page content
+            const pages = document.querySelectorAll('.page-content');
+            pages.forEach(p => p.classList.remove('active'));
+            document.getElementById(`page-${page}`).classList.add('active');
+            
+            // Show/hide sub-navigation based on page
+            const subNavbar = document.getElementById('sub-navbar');
+            if (page === 'kaart') {
+                subNavbar.style.display = 'block';
+            } else {
+                subNavbar.style.display = 'none';
+            }
+        }
+        
+        function loadVisualization(filename) {
+            // Ensure we're on the Kaart page
+            showPage('kaart');
+            
+            // Update sub nav buttons
+            const subNavBtns = document.querySelectorAll('.sub-nav-btn');
+            subNavBtns.forEach(btn => btn.classList.remove('active'));
+            if (event && event.target) {
+                event.target.classList.add('active');
+            }
+            
+            // Update iframe src
+            const frame = document.getElementById('visualization-frame');
+            frame.src = filename;
+            
+            // Add loading indicator
+            frame.onload = function() {
+                console.log('Successfully loaded:', filename);
+            };
+            
+            console.log('Loading visualization:', filename); // Debug log
+        }
+        
+        function loadVisualizationBilingual(baseName) {
+            // Ensure we're on the Kaart page
+            showPage('kaart');
+            
+            // Update sub nav buttons
+            const subNavBtns = document.querySelectorAll('.sub-nav-btn');
+            subNavBtns.forEach(btn => btn.classList.remove('active'));
+            if (event && event.target) {
+                event.target.classList.add('active');
+            }
+            
+            // Load appropriate language version with fallback
+            const frame = document.getElementById('visualization-frame');
+            const filename = `${baseName}_${currentLanguage}.html`;
+            
+            // Try to load bilingual version, fallback to non-bilingual if needed
+            frame.src = filename;
+            
+            // Add error handling for missing bilingual files
+            frame.onerror = function() {
+                console.log(`Bilingual file ${filename} not found, trying fallback: ${baseName}.html`);
+                frame.src = `${baseName}.html`;
+            };
+            
+            console.log('Loading bilingual visualization:', filename); // Debug log
+        }
+        
+        // Initialize
+        document.addEventListener('DOMContentLoaded', function() {
+            // Initialize language
+            switchLanguage('nl');
+            
+            // Initialize page state
+            showPage('kaart');
+            
+            // Set initial active sub-nav button
+            const firstSubNavBtn = document.querySelector('.sub-nav-btn');
+            if (firstSubNavBtn) {
+                firstSubNavBtn.classList.add('active');
+            }
+            
+            console.log('Website initialized');
+        });
+    </script>
+</body>
+</html>
