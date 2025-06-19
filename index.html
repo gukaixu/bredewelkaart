@@ -357,7 +357,7 @@
                 <h1 class="brand-title">Brede Welkaart</h1>
             </div>
             <ul class="nav-menu">
-                <li><a class="nav-link active" onclick="showPage('kaart')" data-nl="Kaart" data-en="Map">Kaart</a></li>
+                <li><a class="nav-link active" onclick="showPage('kaart')" data-nl="Data" data-en="Data">Data</a></li>
                 <li><a class="nav-link" onclick="showPage('over')" data-nl="Over" data-en="About">Over</a></li>
                 <li><a class="nav-link" onclick="showPage('contact')" data-nl="Contact" data-en="Contact">Contact</a></li>
                 <li>
@@ -375,14 +375,18 @@
         <div class="sub-nav-container">
             <button class="sub-nav-btn active" onclick="loadVisualization('dominant_topics_choropleth.html')" 
                     data-nl="Heatmap" data-en="Heatmap">Heatmap</button>
-            <button class="sub-nav-btn" onclick="loadVisualizationBilingual('topic_evolution_timeline_scaled')" 
-                    data-nl="Tijdlijn" data-en="Timeline">Tijdlijn</button>
             <button class="sub-nav-btn" onclick="loadVisualization('topic_switcher.html')" 
                     data-nl="Thema's" data-en="Topic Explorer">Thema's</button>
+            <button class="sub-nav-btn" onclick="loadVisualization('interactive_gemeente_analysis.html')" 
+                    data-nl="Gemeenten" data-en="Municipalities">Gemeenten</button>
+            <button class="sub-nav-btn" onclick="loadVisualization('interactive_provincie_analysis.html')" 
+                    data-nl="Provincies" data-en="Provinces">Provincies</button>
             <button class="sub-nav-btn" onclick="loadVisualization('topic_focused_party_engagement.html')" 
                     data-nl="Partij Betrokkenheid" data-en="Party Engagement">Partij Betrokkenheid</button>
             <button class="sub-nav-btn" onclick="loadVisualization('party_focused_topic_distribution.html')" 
                     data-nl="Partij Thema's" data-en="Party Explorer">Partij Thema's</button>
+            <button class="sub-nav-btn" onclick="loadVisualizationBilingual('topic_evolution_timeline_scaled')" 
+                    data-nl="Tijdlijn" data-en="Timeline">Tijdlijn</button>
         </div>
     </nav>
 
@@ -553,7 +557,7 @@
             
             // Find and activate the correct nav link
             const navTexts = {
-                'kaart': ['Kaart', 'Map'],
+                'kaart': ['Data', 'Data'],
                 'over': ['Over', 'About'], 
                 'contact': ['Contact', 'Contact']
             };

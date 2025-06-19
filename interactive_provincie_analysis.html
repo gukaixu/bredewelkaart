@@ -1,0 +1,2304 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+    <link rel="stylesheet" href="graph-styles.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Brede Welvaart: Provincie Analyse</title>
+    <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        
+    body {
+        margin: 0;
+        padding: 25px;
+        font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+        background: #F9FAFB;
+        color: #374151;
+        font-size: 18px;
+        line-height: 1.7;
+    }
+    
+    .header {
+        background: linear-gradient(135deg, #00A676 0%, #7DD55C 100%);
+        color: white;
+        padding: 30px;
+        border-radius: 16px;
+        margin-bottom: 30px;
+        text-align: center;
+        box-shadow: 0 4px 20px rgba(0, 166, 118, 0.15);
+    }
+    
+    .header h1 {
+        margin: 0;
+        font-size: 36px;
+        font-weight: 700;
+        font-family: 'Poppins', sans-serif;
+    }
+    
+    .header p {
+        margin: 15px 0 0 0;
+        font-size: 20px;
+        opacity: 0.95;
+        font-weight: 400;
+    }
+    
+    .controls {
+        background: white;
+        padding: 30px;
+        border-radius: 16px;
+        margin-bottom: 30px;
+        box-shadow: 0 4px 15px rgba(0,0,0,0.08);
+        border: 1px solid #E5E7EB;
+    }
+    
+    .control-group {
+        display: flex;
+        align-items: center;
+        gap: 25px;
+        flex-wrap: wrap;
+    }
+    
+    label {
+        font-weight: 600;
+        color: #374151;
+        min-width: 180px;
+        font-size: 20px;
+        font-family: 'Poppins', sans-serif;
+    }
+    
+    select {
+        padding: 16px 20px;
+        border: 2px solid #E5E7EB;
+        border-radius: 12px;
+        font-size: 18px;
+        background: white;
+        min-width: 500px;
+        flex: 1;
+        max-width: 700px;
+        transition: all 0.3s ease;
+        font-family: 'Inter', sans-serif;
+        color: #374151;
+    }
+    
+    select:focus {
+        outline: none;
+        border-color: #00A676;
+        box-shadow: 0 0 0 4px rgba(0, 166, 118, 0.1);
+    }
+    
+    .chart-container {
+        background: white;
+        padding: 30px;
+        border-radius: 16px;
+        box-shadow: 0 4px 15px rgba(0,0,0,0.08);
+        margin-bottom: 30px;
+        border: 1px solid #E5E7EB;
+    }
+    
+    .info-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+        gap: 25px;
+        margin-bottom: 30px;
+    }
+    
+    .info-card {
+        background: linear-gradient(135deg, #E8F5F0 0%, #F0F9FF 100%);
+        border: 2px solid #7DD55C;
+        border-radius: 16px;
+        padding: 25px;
+        box-shadow: 0 2px 10px rgba(125, 213, 92, 0.1);
+    }
+    
+    .info-card h3 {
+        margin: 0 0 10px 0;
+        color: #00A676;
+        font-size: 22px;
+        font-weight: 600;
+        font-family: 'Poppins', sans-serif;
+    }
+    
+    .info-card .value {
+        font-size: 32px;
+        font-weight: 700;
+        color: #374151;
+        margin: 10px 0;
+    }
+    
+    .info-card .label {
+        font-size: 16px;
+        color: #6B7280;
+        font-weight: 500;
+    }
+    
+    .placeholder {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 500px;
+        color: #6B7280;
+        font-size: 22px;
+        background: #F9FAFB;
+        border-radius: 12px;
+        border: 2px dashed #D1D5DB;
+        font-weight: 500;
+    }
+    
+    @media (max-width: 768px) {
+        body {
+            padding: 20px;
+            font-size: 16px;
+        }
+        
+        .header h1 {
+            font-size: 28px;
+        }
+        
+        .header p {
+            font-size: 18px;
+        }
+        
+        label {
+            min-width: 140px;
+            font-size: 18px;
+        }
+        
+        select {
+            min-width: 300px;
+            font-size: 16px;
+            padding: 14px 18px;
+        }
+        
+        .info-card .value {
+            font-size: 28px;
+        }
+    }
+
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>🗺️ Provincie Analyse</h1>
+        <p>Ontdek welke onderwerpen belangrijk zijn per Nederlandse provincie</p>
+    </div>
+    
+    <div class="controls">
+        <div class="control-group">
+            <label for="provincie-selector">🌍 Selecteer Provincie:</label>
+            <select id="provincie-selector">
+                <option value="">-- Kies een provincie om de analyse te bekijken --</option>
+                <option value="Drenthe">Drenthe (516 moties)</option><option value="Flevoland">Flevoland (367 moties)</option><option value="Fryslân">Fryslân (788 moties)</option><option value="Gelderland">Gelderland (3,353 moties)</option><option value="Groningen">Groningen (698 moties)</option><option value="Limburg">Limburg (1,413 moties)</option><option value="Noord-Brabant">Noord-Brabant (2,745 moties)</option><option value="Noord-Holland">Noord-Holland (4,248 moties)</option><option value="Overijssel">Overijssel (1,897 moties)</option><option value="Utrecht">Utrecht (1,870 moties)</option><option value="Zeeland">Zeeland (242 moties)</option><option value="Zuid-Holland">Zuid-Holland (5,416 moties)</option>
+            </select>
+        </div>
+    </div>
+    
+    <div style="background: #e8f5f0; border: 1px solid #7dd55c; border-radius: 8px; padding: 20px; margin-bottom: 25px; display: none;" id="info-explanation">
+        <h3 style="margin: 0 0 12px 0; color: #00A676; font-size: 18px;">📊 Uitleg Grafiek</h3>
+        <p style="margin: 0; color: #333; line-height: 1.6; font-size: 16px;">
+            <strong>Kleurcodering:</strong> 🟢 Veel boven gemiddeld (+3%), 🟢 Boven gemiddeld (+1%), 🟡 Rond gemiddeld (±1%), 🟠 Onder gemiddeld (-3%), 🔴 Veel onder gemiddeld<br>
+            <strong>Grijze balken</strong> tonen het Nederlandse gemiddelde ter vergelijking.
+        </p>
+    </div>
+    
+    <div class="info-grid" id="info-grid" style="display: none;">
+        <div class="info-card">
+            <h3>📊 Totaal Moties</h3>
+            <div class="value" id="total-motions">-</div>
+            <div class="label">moties</div>
+        </div>
+        <div class="info-card">
+            <h3>🏛️ Gemeenten</h3>
+            <div class="value" id="unique-gemeenten">-</div>
+            <div class="label">actieve gemeenten</div>
+        </div>
+        <div class="info-card">
+            <h3>🏷️ Onderwerpen</h3>
+            <div class="value" id="unique-topics">-</div>
+            <div class="label">verschillende thema's</div>
+        </div>
+        <div class="info-card">
+            <h3>🌈 Diversiteit 
+                <span style="font-size: 14px; color: #6B7280; cursor: help;" 
+                      title="Shannon entropie van onderwerpen-verdeling. Hogere waarde = meer diverse onderwerpen. 0 = alle moties over 1 onderwerp, ~4+ = zeer gevarieerd">ℹ️</span>
+            </h3>
+            <div class="value" id="diversity-score">-</div>
+            <div class="label">onderwerp diversiteit</div>
+        </div>
+    </div>
+    
+    <div class="chart-container">
+        <div class="placeholder" id="placeholder">
+            🗺️ Selecteer een provincie om alle onderwerpen te bekijken
+        </div>
+        <div id="topic-chart" style="display: none;"></div>
+    </div>
+    
+    <script>
+        // Store all provincie data
+        const provincieData = {
+    "Drenthe": {
+        "topics": [
+            {
+                "topic": "Regionale energietransitie",
+                "count": 74,
+                "percentage": 14.34108527131783,
+                "national_average": 11.909310915806904
+            },
+            {
+                "topic": "Woningbouw en leefbaarheid",
+                "count": 69,
+                "percentage": 13.372093023255813,
+                "national_average": 17.212244724663524
+            },
+            {
+                "topic": "Gemeentelijke financiële tekorten",
+                "count": 40,
+                "percentage": 7.751937984496124,
+                "national_average": 5.506729503672568
+            },
+            {
+                "topic": "Lokale samenwerking en uitvoering",
+                "count": 37,
+                "percentage": 7.170542635658915,
+                "national_average": 7.260221627818113
+            },
+            {
+                "topic": "Kinderarmoede en jeugdparticipatie",
+                "count": 35,
+                "percentage": 6.782945736434108,
+                "national_average": 4.988748779348703
+            },
+            {
+                "topic": "Afvalkosten en reductie",
+                "count": 26,
+                "percentage": 5.038759689922481,
+                "national_average": 3.4050864008831145
+            },
+            {
+                "topic": "Sport en maatschappelijke welzijn",
+                "count": 25,
+                "percentage": 4.844961240310078,
+                "national_average": 4.220269180146903
+            },
+            {
+                "topic": "Inclusieve samenleving",
+                "count": 24,
+                "percentage": 4.651162790697675,
+                "national_average": 4.908079650150724
+            },
+            {
+                "topic": "Cultuur en stedelijke ontwikkeling",
+                "count": 24,
+                "percentage": 4.651162790697675,
+                "national_average": 4.610877595210802
+            },
+            {
+                "topic": "Groen en biodiversiteit",
+                "count": 21,
+                "percentage": 4.069767441860465,
+                "national_average": 4.360378720332866
+            },
+            {
+                "topic": "Kwetsbare vluchtelingenopvang",
+                "count": 18,
+                "percentage": 3.488372093023256,
+                "national_average": 2.628115314397317
+            },
+            {
+                "topic": "Fietsgebruik stimuleren",
+                "count": 15,
+                "percentage": 2.9069767441860463,
+                "national_average": 2.73001316180529
+            },
+            {
+                "topic": "Verkeersveiligheid en leefbaarheid",
+                "count": 15,
+                "percentage": 2.9069767441860463,
+                "national_average": 3.065426909523203
+            },
+            {
+                "topic": "Onderwijs en kansen",
+                "count": 14,
+                "percentage": 2.7131782945736433,
+                "national_average": 3.1078843459431917
+            },
+            {
+                "topic": "Landelijk gebied en stikstof",
+                "count": 13,
+                "percentage": 2.5193798449612403,
+                "national_average": 1.2185284252536832
+            },
+            {
+                "topic": "Openbaar vervoerbeleid",
+                "count": 12,
+                "percentage": 2.3255813953488373,
+                "national_average": 2.543200441557339
+            },
+            {
+                "topic": "Inclusieve arbeidsmarkt",
+                "count": 12,
+                "percentage": 2.3255813953488373,
+                "national_average": 2.0719228972954613
+            },
+            {
+                "topic": "Sluiting zorgvoorzieningen",
+                "count": 10,
+                "percentage": 1.937984496124031,
+                "national_average": 1.834161253343523
+            },
+            {
+                "topic": "Lokale economische ontwikkeling",
+                "count": 8,
+                "percentage": 1.550387596899225,
+                "national_average": 2.5771663906933298
+            },
+            {
+                "topic": "Dierenwelzijnsbeleid gemeenten",
+                "count": 7,
+                "percentage": 1.3565891472868217,
+                "national_average": 1.430815607353628
+            },
+            {
+                "topic": "Economische impact coronacrisis",
+                "count": 6,
+                "percentage": 1.1627906976744187,
+                "national_average": 1.7450006368615463
+            },
+            {
+                "topic": "Parkeerbeleid en openbare ruimte",
+                "count": 4,
+                "percentage": 0.7751937984496124,
+                "national_average": 2.989003523967223
+            },
+            {
+                "topic": "Digitale inclusie en privacy",
+                "count": 3,
+                "percentage": 0.5813953488372093,
+                "national_average": 1.3671294527236446
+            },
+            {
+                "topic": "Vuurwerkoverlast en veiligheid",
+                "count": 2,
+                "percentage": 0.3875968992248062,
+                "national_average": 1.1803167324756931
+            },
+            {
+                "topic": "Herindeling luchtruim",
+                "count": 2,
+                "percentage": 0.3875968992248062,
+                "national_average": 1.1293678087717065
+            }
+        ],
+        "total_motions": 516,
+        "unique_topics": 25,
+        "unique_gemeenten": 11,
+        "topic_diversity": 4.155388447504622
+    },
+    "Flevoland": {
+        "topics": [
+            {
+                "topic": "Woningbouw en leefbaarheid",
+                "count": 46,
+                "percentage": 12.534059945504087,
+                "national_average": 17.212244724663524
+            },
+            {
+                "topic": "Lokale samenwerking en uitvoering",
+                "count": 42,
+                "percentage": 11.444141689373296,
+                "national_average": 7.260221627818113
+            },
+            {
+                "topic": "Regionale energietransitie",
+                "count": 34,
+                "percentage": 9.264305177111716,
+                "national_average": 11.909310915806904
+            },
+            {
+                "topic": "Sport en maatschappelijke welzijn",
+                "count": 29,
+                "percentage": 7.901907356948229,
+                "national_average": 4.220269180146903
+            },
+            {
+                "topic": "Gemeentelijke financiële tekorten",
+                "count": 27,
+                "percentage": 7.3569482288828345,
+                "national_average": 5.506729503672568
+            },
+            {
+                "topic": "Kinderarmoede en jeugdparticipatie",
+                "count": 22,
+                "percentage": 5.994550408719346,
+                "national_average": 4.988748779348703
+            },
+            {
+                "topic": "Cultuur en stedelijke ontwikkeling",
+                "count": 22,
+                "percentage": 5.994550408719346,
+                "national_average": 4.610877595210802
+            },
+            {
+                "topic": "Sluiting zorgvoorzieningen",
+                "count": 17,
+                "percentage": 4.632152588555858,
+                "national_average": 1.834161253343523
+            },
+            {
+                "topic": "Inclusieve samenleving",
+                "count": 14,
+                "percentage": 3.8147138964577656,
+                "national_average": 4.908079650150724
+            },
+            {
+                "topic": "Afvalkosten en reductie",
+                "count": 12,
+                "percentage": 3.2697547683923704,
+                "national_average": 3.4050864008831145
+            },
+            {
+                "topic": "Kwetsbare vluchtelingenopvang",
+                "count": 12,
+                "percentage": 3.2697547683923704,
+                "national_average": 2.628115314397317
+            },
+            {
+                "topic": "Openbaar vervoerbeleid",
+                "count": 11,
+                "percentage": 2.997275204359673,
+                "national_average": 2.543200441557339
+            },
+            {
+                "topic": "Groen en biodiversiteit",
+                "count": 11,
+                "percentage": 2.997275204359673,
+                "national_average": 4.360378720332866
+            },
+            {
+                "topic": "Fietsgebruik stimuleren",
+                "count": 10,
+                "percentage": 2.7247956403269753,
+                "national_average": 2.73001316180529
+            },
+            {
+                "topic": "Onderwijs en kansen",
+                "count": 9,
+                "percentage": 2.452316076294278,
+                "national_average": 3.1078843459431917
+            },
+            {
+                "topic": "Dierenwelzijnsbeleid gemeenten",
+                "count": 9,
+                "percentage": 2.452316076294278,
+                "national_average": 1.430815607353628
+            },
+            {
+                "topic": "Herindeling luchtruim",
+                "count": 8,
+                "percentage": 2.17983651226158,
+                "national_average": 1.1293678087717065
+            },
+            {
+                "topic": "Economische impact coronacrisis",
+                "count": 7,
+                "percentage": 1.9073569482288828,
+                "national_average": 1.7450006368615463
+            },
+            {
+                "topic": "Verkeersveiligheid en leefbaarheid",
+                "count": 7,
+                "percentage": 1.9073569482288828,
+                "national_average": 3.065426909523203
+            },
+            {
+                "topic": "Inclusieve arbeidsmarkt",
+                "count": 5,
+                "percentage": 1.3623978201634876,
+                "national_average": 2.0719228972954613
+            },
+            {
+                "topic": "Landelijk gebied en stikstof",
+                "count": 4,
+                "percentage": 1.08991825613079,
+                "national_average": 1.2185284252536832
+            },
+            {
+                "topic": "Lokale economische ontwikkeling",
+                "count": 3,
+                "percentage": 0.8174386920980926,
+                "national_average": 2.5771663906933298
+            },
+            {
+                "topic": "Parkeerbeleid en openbare ruimte",
+                "count": 3,
+                "percentage": 0.8174386920980926,
+                "national_average": 2.989003523967223
+            },
+            {
+                "topic": "Digitale inclusie en privacy",
+                "count": 2,
+                "percentage": 0.544959128065395,
+                "national_average": 1.3671294527236446
+            },
+            {
+                "topic": "Vuurwerkoverlast en veiligheid",
+                "count": 1,
+                "percentage": 0.2724795640326975,
+                "national_average": 1.1803167324756931
+            }
+        ],
+        "total_motions": 367,
+        "unique_topics": 25,
+        "unique_gemeenten": 5,
+        "topic_diversity": 4.190889470350591
+    },
+    "Fryslân": {
+        "topics": [
+            {
+                "topic": "Woningbouw en leefbaarheid",
+                "count": 115,
+                "percentage": 14.593908629441623,
+                "national_average": 17.212244724663524
+            },
+            {
+                "topic": "Regionale energietransitie",
+                "count": 100,
+                "percentage": 12.690355329949238,
+                "national_average": 11.909310915806904
+            },
+            {
+                "topic": "Lokale samenwerking en uitvoering",
+                "count": 76,
+                "percentage": 9.644670050761421,
+                "national_average": 7.260221627818113
+            },
+            {
+                "topic": "Gemeentelijke financiële tekorten",
+                "count": 69,
+                "percentage": 8.756345177664974,
+                "national_average": 5.506729503672568
+            },
+            {
+                "topic": "Kinderarmoede en jeugdparticipatie",
+                "count": 48,
+                "percentage": 6.091370558375635,
+                "national_average": 4.988748779348703
+            },
+            {
+                "topic": "Cultuur en stedelijke ontwikkeling",
+                "count": 37,
+                "percentage": 4.695431472081219,
+                "national_average": 4.610877595210802
+            },
+            {
+                "topic": "Inclusieve samenleving",
+                "count": 36,
+                "percentage": 4.568527918781726,
+                "national_average": 4.908079650150724
+            },
+            {
+                "topic": "Groen en biodiversiteit",
+                "count": 36,
+                "percentage": 4.568527918781726,
+                "national_average": 4.360378720332866
+            },
+            {
+                "topic": "Kwetsbare vluchtelingenopvang",
+                "count": 33,
+                "percentage": 4.187817258883249,
+                "national_average": 2.628115314397317
+            },
+            {
+                "topic": "Sport en maatschappelijke welzijn",
+                "count": 28,
+                "percentage": 3.5532994923857872,
+                "national_average": 4.220269180146903
+            },
+            {
+                "topic": "Landelijk gebied en stikstof",
+                "count": 22,
+                "percentage": 2.7918781725888326,
+                "national_average": 1.2185284252536832
+            },
+            {
+                "topic": "Afvalkosten en reductie",
+                "count": 22,
+                "percentage": 2.7918781725888326,
+                "national_average": 3.4050864008831145
+            },
+            {
+                "topic": "Fietsgebruik stimuleren",
+                "count": 19,
+                "percentage": 2.4111675126903553,
+                "national_average": 2.73001316180529
+            },
+            {
+                "topic": "Openbaar vervoerbeleid",
+                "count": 17,
+                "percentage": 2.1573604060913705,
+                "national_average": 2.543200441557339
+            },
+            {
+                "topic": "Onderwijs en kansen",
+                "count": 16,
+                "percentage": 2.030456852791878,
+                "national_average": 3.1078843459431917
+            },
+            {
+                "topic": "Economische impact coronacrisis",
+                "count": 15,
+                "percentage": 1.903553299492386,
+                "national_average": 1.7450006368615463
+            },
+            {
+                "topic": "Inclusieve arbeidsmarkt",
+                "count": 13,
+                "percentage": 1.6497461928934012,
+                "national_average": 2.0719228972954613
+            },
+            {
+                "topic": "Parkeerbeleid en openbare ruimte",
+                "count": 13,
+                "percentage": 1.6497461928934012,
+                "national_average": 2.989003523967223
+            },
+            {
+                "topic": "Verkeersveiligheid en leefbaarheid",
+                "count": 13,
+                "percentage": 1.6497461928934012,
+                "national_average": 3.065426909523203
+            },
+            {
+                "topic": "Lokale economische ontwikkeling",
+                "count": 12,
+                "percentage": 1.5228426395939088,
+                "national_average": 2.5771663906933298
+            },
+            {
+                "topic": "Dierenwelzijnsbeleid gemeenten",
+                "count": 12,
+                "percentage": 1.5228426395939088,
+                "national_average": 1.430815607353628
+            },
+            {
+                "topic": "Herindeling luchtruim",
+                "count": 11,
+                "percentage": 1.3959390862944163,
+                "national_average": 1.1293678087717065
+            },
+            {
+                "topic": "Vuurwerkoverlast en veiligheid",
+                "count": 10,
+                "percentage": 1.2690355329949239,
+                "national_average": 1.1803167324756931
+            },
+            {
+                "topic": "Sluiting zorgvoorzieningen",
+                "count": 9,
+                "percentage": 1.1421319796954315,
+                "national_average": 1.834161253343523
+            },
+            {
+                "topic": "Digitale inclusie en privacy",
+                "count": 6,
+                "percentage": 0.7614213197969544,
+                "national_average": 1.3671294527236446
+            }
+        ],
+        "total_motions": 788,
+        "unique_topics": 25,
+        "unique_gemeenten": 16,
+        "topic_diversity": 4.169303861581362
+    },
+    "Gelderland": {
+        "topics": [
+            {
+                "topic": "Woningbouw en leefbaarheid",
+                "count": 560,
+                "percentage": 16.701461377870565,
+                "national_average": 17.212244724663524
+            },
+            {
+                "topic": "Regionale energietransitie",
+                "count": 407,
+                "percentage": 12.138383537130927,
+                "national_average": 11.909310915806904
+            },
+            {
+                "topic": "Lokale samenwerking en uitvoering",
+                "count": 321,
+                "percentage": 9.573516254100806,
+                "national_average": 7.260221627818113
+            },
+            {
+                "topic": "Gemeentelijke financiële tekorten",
+                "count": 191,
+                "percentage": 5.696391291380853,
+                "national_average": 5.506729503672568
+            },
+            {
+                "topic": "Cultuur en stedelijke ontwikkeling",
+                "count": 159,
+                "percentage": 4.742022069788249,
+                "national_average": 4.610877595210802
+            },
+            {
+                "topic": "Kinderarmoede en jeugdparticipatie",
+                "count": 158,
+                "percentage": 4.712198031613481,
+                "national_average": 4.988748779348703
+            },
+            {
+                "topic": "Inclusieve samenleving",
+                "count": 154,
+                "percentage": 4.592901878914405,
+                "national_average": 4.908079650150724
+            },
+            {
+                "topic": "Groen en biodiversiteit",
+                "count": 145,
+                "percentage": 4.324485535341485,
+                "national_average": 4.360378720332866
+            },
+            {
+                "topic": "Afvalkosten en reductie",
+                "count": 140,
+                "percentage": 4.175365344467641,
+                "national_average": 3.4050864008831145
+            },
+            {
+                "topic": "Sport en maatschappelijke welzijn",
+                "count": 128,
+                "percentage": 3.817476886370415,
+                "national_average": 4.220269180146903
+            },
+            {
+                "topic": "Verkeersveiligheid en leefbaarheid",
+                "count": 98,
+                "percentage": 2.9227557411273484,
+                "national_average": 3.065426909523203
+            },
+            {
+                "topic": "Onderwijs en kansen",
+                "count": 90,
+                "percentage": 2.6841634357291975,
+                "national_average": 3.1078843459431917
+            },
+            {
+                "topic": "Parkeerbeleid en openbare ruimte",
+                "count": 87,
+                "percentage": 2.594691321204891,
+                "national_average": 2.989003523967223
+            },
+            {
+                "topic": "Kwetsbare vluchtelingenopvang",
+                "count": 86,
+                "percentage": 2.5648672830301225,
+                "national_average": 2.628115314397317
+            },
+            {
+                "topic": "Inclusieve arbeidsmarkt",
+                "count": 78,
+                "percentage": 2.326274977631971,
+                "national_average": 2.0719228972954613
+            },
+            {
+                "topic": "Fietsgebruik stimuleren",
+                "count": 76,
+                "percentage": 2.2666269012824336,
+                "national_average": 2.73001316180529
+            },
+            {
+                "topic": "Sluiting zorgvoorzieningen",
+                "count": 73,
+                "percentage": 2.177154786758127,
+                "national_average": 1.834161253343523
+            },
+            {
+                "topic": "Landelijk gebied en stikstof",
+                "count": 63,
+                "percentage": 1.8789144050104383,
+                "national_average": 1.2185284252536832
+            },
+            {
+                "topic": "Openbaar vervoerbeleid",
+                "count": 61,
+                "percentage": 1.8192663286609005,
+                "national_average": 2.543200441557339
+            },
+            {
+                "topic": "Dierenwelzijnsbeleid gemeenten",
+                "count": 57,
+                "percentage": 1.6999701759618253,
+                "national_average": 1.430815607353628
+            },
+            {
+                "topic": "Economische impact coronacrisis",
+                "count": 55,
+                "percentage": 1.6403220996122876,
+                "national_average": 1.7450006368615463
+            },
+            {
+                "topic": "Lokale economische ontwikkeling",
+                "count": 43,
+                "percentage": 1.2824336415150612,
+                "national_average": 2.5771663906933298
+            },
+            {
+                "topic": "Vuurwerkoverlast en veiligheid",
+                "count": 43,
+                "percentage": 1.2824336415150612,
+                "national_average": 1.1803167324756931
+            },
+            {
+                "topic": "Digitale inclusie en privacy",
+                "count": 40,
+                "percentage": 1.1929615269907545,
+                "national_average": 1.3671294527236446
+            },
+            {
+                "topic": "Herindeling luchtruim",
+                "count": 40,
+                "percentage": 1.1929615269907545,
+                "national_average": 1.1293678087717065
+            }
+        ],
+        "total_motions": 3353,
+        "unique_topics": 25,
+        "unique_gemeenten": 44,
+        "topic_diversity": 4.20285765564164
+    },
+    "Groningen": {
+        "topics": [
+            {
+                "topic": "Woningbouw en leefbaarheid",
+                "count": 133,
+                "percentage": 19.054441260744987,
+                "national_average": 17.212244724663524
+            },
+            {
+                "topic": "Regionale energietransitie",
+                "count": 109,
+                "percentage": 15.616045845272206,
+                "national_average": 11.909310915806904
+            },
+            {
+                "topic": "Kinderarmoede en jeugdparticipatie",
+                "count": 41,
+                "percentage": 5.873925501432665,
+                "national_average": 4.988748779348703
+            },
+            {
+                "topic": "Inclusieve samenleving",
+                "count": 40,
+                "percentage": 5.730659025787966,
+                "national_average": 4.908079650150724
+            },
+            {
+                "topic": "Lokale samenwerking en uitvoering",
+                "count": 33,
+                "percentage": 4.7277936962750715,
+                "national_average": 7.260221627818113
+            },
+            {
+                "topic": "Gemeentelijke financiële tekorten",
+                "count": 33,
+                "percentage": 4.7277936962750715,
+                "national_average": 5.506729503672568
+            },
+            {
+                "topic": "Kwetsbare vluchtelingenopvang",
+                "count": 28,
+                "percentage": 4.011461318051576,
+                "national_average": 2.628115314397317
+            },
+            {
+                "topic": "Inclusieve arbeidsmarkt",
+                "count": 26,
+                "percentage": 3.7249283667621778,
+                "national_average": 2.0719228972954613
+            },
+            {
+                "topic": "Afvalkosten en reductie",
+                "count": 26,
+                "percentage": 3.7249283667621778,
+                "national_average": 3.4050864008831145
+            },
+            {
+                "topic": "Sluiting zorgvoorzieningen",
+                "count": 23,
+                "percentage": 3.29512893982808,
+                "national_average": 1.834161253343523
+            },
+            {
+                "topic": "Groen en biodiversiteit",
+                "count": 22,
+                "percentage": 3.151862464183381,
+                "national_average": 4.360378720332866
+            },
+            {
+                "topic": "Onderwijs en kansen",
+                "count": 21,
+                "percentage": 3.0085959885386817,
+                "national_average": 3.1078843459431917
+            },
+            {
+                "topic": "Openbaar vervoerbeleid",
+                "count": 20,
+                "percentage": 2.865329512893983,
+                "national_average": 2.543200441557339
+            },
+            {
+                "topic": "Sport en maatschappelijke welzijn",
+                "count": 19,
+                "percentage": 2.722063037249284,
+                "national_average": 4.220269180146903
+            },
+            {
+                "topic": "Dierenwelzijnsbeleid gemeenten",
+                "count": 19,
+                "percentage": 2.722063037249284,
+                "national_average": 1.430815607353628
+            },
+            {
+                "topic": "Cultuur en stedelijke ontwikkeling",
+                "count": 16,
+                "percentage": 2.292263610315186,
+                "national_average": 4.610877595210802
+            },
+            {
+                "topic": "Landelijk gebied en stikstof",
+                "count": 15,
+                "percentage": 2.148997134670487,
+                "national_average": 1.2185284252536832
+            },
+            {
+                "topic": "Fietsgebruik stimuleren",
+                "count": 14,
+                "percentage": 2.005730659025788,
+                "national_average": 2.73001316180529
+            },
+            {
+                "topic": "Verkeersveiligheid en leefbaarheid",
+                "count": 12,
+                "percentage": 1.7191977077363898,
+                "national_average": 3.065426909523203
+            },
+            {
+                "topic": "Lokale economische ontwikkeling",
+                "count": 12,
+                "percentage": 1.7191977077363898,
+                "national_average": 2.5771663906933298
+            },
+            {
+                "topic": "Digitale inclusie en privacy",
+                "count": 10,
+                "percentage": 1.4326647564469914,
+                "national_average": 1.3671294527236446
+            },
+            {
+                "topic": "Parkeerbeleid en openbare ruimte",
+                "count": 7,
+                "percentage": 1.002865329512894,
+                "national_average": 2.989003523967223
+            },
+            {
+                "topic": "Economische impact coronacrisis",
+                "count": 7,
+                "percentage": 1.002865329512894,
+                "national_average": 1.7450006368615463
+            },
+            {
+                "topic": "Herindeling luchtruim",
+                "count": 7,
+                "percentage": 1.002865329512894,
+                "national_average": 1.1293678087717065
+            },
+            {
+                "topic": "Vuurwerkoverlast en veiligheid",
+                "count": 5,
+                "percentage": 0.7163323782234957,
+                "national_average": 1.1803167324756931
+            }
+        ],
+        "total_motions": 698,
+        "unique_topics": 25,
+        "unique_gemeenten": 8,
+        "topic_diversity": 4.105311130394697
+    },
+    "Limburg": {
+        "topics": [
+            {
+                "topic": "Woningbouw en leefbaarheid",
+                "count": 215,
+                "percentage": 15.21585279547063,
+                "national_average": 17.212244724663524
+            },
+            {
+                "topic": "Regionale energietransitie",
+                "count": 161,
+                "percentage": 11.394196744515215,
+                "national_average": 11.909310915806904
+            },
+            {
+                "topic": "Lokale samenwerking en uitvoering",
+                "count": 118,
+                "percentage": 8.35102618542109,
+                "national_average": 7.260221627818113
+            },
+            {
+                "topic": "Gemeentelijke financiële tekorten",
+                "count": 77,
+                "percentage": 5.449398443029016,
+                "national_average": 5.506729503672568
+            },
+            {
+                "topic": "Cultuur en stedelijke ontwikkeling",
+                "count": 74,
+                "percentage": 5.237084217975937,
+                "national_average": 4.610877595210802
+            },
+            {
+                "topic": "Groen en biodiversiteit",
+                "count": 71,
+                "percentage": 5.024769992922859,
+                "national_average": 4.360378720332866
+            },
+            {
+                "topic": "Kinderarmoede en jeugdparticipatie",
+                "count": 64,
+                "percentage": 4.529370134465676,
+                "national_average": 4.988748779348703
+            },
+            {
+                "topic": "Inclusieve samenleving",
+                "count": 64,
+                "percentage": 4.529370134465676,
+                "national_average": 4.908079650150724
+            },
+            {
+                "topic": "Sport en maatschappelijke welzijn",
+                "count": 59,
+                "percentage": 4.175513092710545,
+                "national_average": 4.220269180146903
+            },
+            {
+                "topic": "Parkeerbeleid en openbare ruimte",
+                "count": 46,
+                "percentage": 3.255484784147204,
+                "national_average": 2.989003523967223
+            },
+            {
+                "topic": "Afvalkosten en reductie",
+                "count": 46,
+                "percentage": 3.255484784147204,
+                "national_average": 3.4050864008831145
+            },
+            {
+                "topic": "Inclusieve arbeidsmarkt",
+                "count": 44,
+                "percentage": 3.113941967445152,
+                "national_average": 2.0719228972954613
+            },
+            {
+                "topic": "Verkeersveiligheid en leefbaarheid",
+                "count": 43,
+                "percentage": 3.043170559094126,
+                "national_average": 3.065426909523203
+            },
+            {
+                "topic": "Onderwijs en kansen",
+                "count": 42,
+                "percentage": 2.9723991507431,
+                "national_average": 3.1078843459431917
+            },
+            {
+                "topic": "Economische impact coronacrisis",
+                "count": 39,
+                "percentage": 2.7600849256900215,
+                "national_average": 1.7450006368615463
+            },
+            {
+                "topic": "Sluiting zorgvoorzieningen",
+                "count": 38,
+                "percentage": 2.689313517338995,
+                "national_average": 1.834161253343523
+            },
+            {
+                "topic": "Fietsgebruik stimuleren",
+                "count": 36,
+                "percentage": 2.547770700636943,
+                "national_average": 2.73001316180529
+            },
+            {
+                "topic": "Openbaar vervoerbeleid",
+                "count": 31,
+                "percentage": 2.1939136588818116,
+                "national_average": 2.543200441557339
+            },
+            {
+                "topic": "Kwetsbare vluchtelingenopvang",
+                "count": 29,
+                "percentage": 2.0523708421797595,
+                "national_average": 2.628115314397317
+            },
+            {
+                "topic": "Dierenwelzijnsbeleid gemeenten",
+                "count": 27,
+                "percentage": 1.910828025477707,
+                "national_average": 1.430815607353628
+            },
+            {
+                "topic": "Lokale economische ontwikkeling",
+                "count": 24,
+                "percentage": 1.6985138004246285,
+                "national_average": 2.5771663906933298
+            },
+            {
+                "topic": "Vuurwerkoverlast en veiligheid",
+                "count": 23,
+                "percentage": 1.627742392073602,
+                "national_average": 1.1803167324756931
+            },
+            {
+                "topic": "Digitale inclusie en privacy",
+                "count": 21,
+                "percentage": 1.48619957537155,
+                "national_average": 1.3671294527236446
+            },
+            {
+                "topic": "Landelijk gebied en stikstof",
+                "count": 12,
+                "percentage": 0.8492569002123143,
+                "national_average": 1.2185284252536832
+            },
+            {
+                "topic": "Herindeling luchtruim",
+                "count": 9,
+                "percentage": 0.6369426751592357,
+                "national_average": 1.1293678087717065
+            }
+        ],
+        "total_motions": 1413,
+        "unique_topics": 25,
+        "unique_gemeenten": 26,
+        "topic_diversity": 4.270199140015171
+    },
+    "Noord-Brabant": {
+        "topics": [
+            {
+                "topic": "Woningbouw en leefbaarheid",
+                "count": 557,
+                "percentage": 20.29143897996357,
+                "national_average": 17.212244724663524
+            },
+            {
+                "topic": "Regionale energietransitie",
+                "count": 295,
+                "percentage": 10.746812386156648,
+                "national_average": 11.909310915806904
+            },
+            {
+                "topic": "Lokale samenwerking en uitvoering",
+                "count": 214,
+                "percentage": 7.795992714025502,
+                "national_average": 7.260221627818113
+            },
+            {
+                "topic": "Gemeentelijke financiële tekorten",
+                "count": 156,
+                "percentage": 5.683060109289618,
+                "national_average": 5.506729503672568
+            },
+            {
+                "topic": "Kinderarmoede en jeugdparticipatie",
+                "count": 142,
+                "percentage": 5.17304189435337,
+                "national_average": 4.988748779348703
+            },
+            {
+                "topic": "Sport en maatschappelijke welzijn",
+                "count": 135,
+                "percentage": 4.918032786885246,
+                "national_average": 4.220269180146903
+            },
+            {
+                "topic": "Verkeersveiligheid en leefbaarheid",
+                "count": 125,
+                "percentage": 4.553734061930783,
+                "national_average": 3.065426909523203
+            },
+            {
+                "topic": "Cultuur en stedelijke ontwikkeling",
+                "count": 122,
+                "percentage": 4.444444444444445,
+                "national_average": 4.610877595210802
+            },
+            {
+                "topic": "Groen en biodiversiteit",
+                "count": 110,
+                "percentage": 4.007285974499089,
+                "national_average": 4.360378720332866
+            },
+            {
+                "topic": "Inclusieve samenleving",
+                "count": 98,
+                "percentage": 3.570127504553734,
+                "national_average": 4.908079650150724
+            },
+            {
+                "topic": "Fietsgebruik stimuleren",
+                "count": 89,
+                "percentage": 3.242258652094718,
+                "national_average": 2.73001316180529
+            },
+            {
+                "topic": "Afvalkosten en reductie",
+                "count": 85,
+                "percentage": 3.096539162112933,
+                "national_average": 3.4050864008831145
+            },
+            {
+                "topic": "Onderwijs en kansen",
+                "count": 75,
+                "percentage": 2.73224043715847,
+                "national_average": 3.1078843459431917
+            },
+            {
+                "topic": "Kwetsbare vluchtelingenopvang",
+                "count": 75,
+                "percentage": 2.73224043715847,
+                "national_average": 2.628115314397317
+            },
+            {
+                "topic": "Openbaar vervoerbeleid",
+                "count": 61,
+                "percentage": 2.2222222222222223,
+                "national_average": 2.543200441557339
+            },
+            {
+                "topic": "Lokale economische ontwikkeling",
+                "count": 57,
+                "percentage": 2.0765027322404372,
+                "national_average": 2.5771663906933298
+            },
+            {
+                "topic": "Parkeerbeleid en openbare ruimte",
+                "count": 56,
+                "percentage": 2.040072859744991,
+                "national_average": 2.989003523967223
+            },
+            {
+                "topic": "Economische impact coronacrisis",
+                "count": 50,
+                "percentage": 1.8214936247723135,
+                "national_average": 1.7450006368615463
+            },
+            {
+                "topic": "Digitale inclusie en privacy",
+                "count": 47,
+                "percentage": 1.7122040072859743,
+                "national_average": 1.3671294527236446
+            },
+            {
+                "topic": "Inclusieve arbeidsmarkt",
+                "count": 42,
+                "percentage": 1.530054644808743,
+                "national_average": 2.0719228972954613
+            },
+            {
+                "topic": "Sluiting zorgvoorzieningen",
+                "count": 42,
+                "percentage": 1.530054644808743,
+                "national_average": 1.834161253343523
+            },
+            {
+                "topic": "Landelijk gebied en stikstof",
+                "count": 35,
+                "percentage": 1.2750455373406193,
+                "national_average": 1.2185284252536832
+            },
+            {
+                "topic": "Dierenwelzijnsbeleid gemeenten",
+                "count": 27,
+                "percentage": 0.9836065573770493,
+                "national_average": 1.430815607353628
+            },
+            {
+                "topic": "Herindeling luchtruim",
+                "count": 26,
+                "percentage": 0.9471766848816029,
+                "national_average": 1.1293678087717065
+            },
+            {
+                "topic": "Vuurwerkoverlast en veiligheid",
+                "count": 24,
+                "percentage": 0.8743169398907104,
+                "national_average": 1.1803167324756931
+            }
+        ],
+        "total_motions": 2745,
+        "unique_topics": 25,
+        "unique_gemeenten": 44,
+        "topic_diversity": 4.141486207699575
+    },
+    "Noord-Holland": {
+        "topics": [
+            {
+                "topic": "Woningbouw en leefbaarheid",
+                "count": 759,
+                "percentage": 17.86723163841808,
+                "national_average": 17.212244724663524
+            },
+            {
+                "topic": "Regionale energietransitie",
+                "count": 452,
+                "percentage": 10.64030131826742,
+                "national_average": 11.909310915806904
+            },
+            {
+                "topic": "Lokale samenwerking en uitvoering",
+                "count": 297,
+                "percentage": 6.991525423728813,
+                "national_average": 7.260221627818113
+            },
+            {
+                "topic": "Inclusieve samenleving",
+                "count": 236,
+                "percentage": 5.555555555555555,
+                "national_average": 4.908079650150724
+            },
+            {
+                "topic": "Cultuur en stedelijke ontwikkeling",
+                "count": 215,
+                "percentage": 5.06120527306968,
+                "national_average": 4.610877595210802
+            },
+            {
+                "topic": "Gemeentelijke financiële tekorten",
+                "count": 197,
+                "percentage": 4.637476459510357,
+                "national_average": 5.506729503672568
+            },
+            {
+                "topic": "Lokale economische ontwikkeling",
+                "count": 195,
+                "percentage": 4.590395480225989,
+                "national_average": 2.5771663906933298
+            },
+            {
+                "topic": "Kinderarmoede en jeugdparticipatie",
+                "count": 192,
+                "percentage": 4.519774011299435,
+                "national_average": 4.988748779348703
+            },
+            {
+                "topic": "Groen en biodiversiteit",
+                "count": 192,
+                "percentage": 4.519774011299435,
+                "national_average": 4.360378720332866
+            },
+            {
+                "topic": "Onderwijs en kansen",
+                "count": 168,
+                "percentage": 3.954802259887006,
+                "national_average": 3.1078843459431917
+            },
+            {
+                "topic": "Sport en maatschappelijke welzijn",
+                "count": 161,
+                "percentage": 3.7900188323917137,
+                "national_average": 4.220269180146903
+            },
+            {
+                "topic": "Parkeerbeleid en openbare ruimte",
+                "count": 160,
+                "percentage": 3.766478342749529,
+                "national_average": 2.989003523967223
+            },
+            {
+                "topic": "Openbaar vervoerbeleid",
+                "count": 151,
+                "percentage": 3.5546139359698685,
+                "national_average": 2.543200441557339
+            },
+            {
+                "topic": "Verkeersveiligheid en leefbaarheid",
+                "count": 118,
+                "percentage": 2.7777777777777777,
+                "national_average": 3.065426909523203
+            },
+            {
+                "topic": "Afvalkosten en reductie",
+                "count": 116,
+                "percentage": 2.7306967984934087,
+                "national_average": 3.4050864008831145
+            },
+            {
+                "topic": "Fietsgebruik stimuleren",
+                "count": 112,
+                "percentage": 2.6365348399246704,
+                "national_average": 2.73001316180529
+            },
+            {
+                "topic": "Kwetsbare vluchtelingenopvang",
+                "count": 96,
+                "percentage": 2.2598870056497176,
+                "national_average": 2.628115314397317
+            },
+            {
+                "topic": "Inclusieve arbeidsmarkt",
+                "count": 76,
+                "percentage": 1.7890772128060264,
+                "national_average": 2.0719228972954613
+            },
+            {
+                "topic": "Economische impact coronacrisis",
+                "count": 69,
+                "percentage": 1.6242937853107344,
+                "national_average": 1.7450006368615463
+            },
+            {
+                "topic": "Herindeling luchtruim",
+                "count": 62,
+                "percentage": 1.4595103578154425,
+                "national_average": 1.1293678087717065
+            },
+            {
+                "topic": "Sluiting zorgvoorzieningen",
+                "count": 59,
+                "percentage": 1.3888888888888888,
+                "national_average": 1.834161253343523
+            },
+            {
+                "topic": "Digitale inclusie en privacy",
+                "count": 57,
+                "percentage": 1.3418079096045197,
+                "national_average": 1.3671294527236446
+            },
+            {
+                "topic": "Dierenwelzijnsbeleid gemeenten",
+                "count": 54,
+                "percentage": 1.2711864406779663,
+                "national_average": 1.430815607353628
+            },
+            {
+                "topic": "Vuurwerkoverlast en veiligheid",
+                "count": 37,
+                "percentage": 0.8709981167608287,
+                "national_average": 1.1803167324756931
+            },
+            {
+                "topic": "Landelijk gebied en stikstof",
+                "count": 17,
+                "percentage": 0.4001883239171375,
+                "national_average": 1.2185284252536832
+            }
+        ],
+        "total_motions": 4248,
+        "unique_topics": 25,
+        "unique_gemeenten": 33,
+        "topic_diversity": 4.209062579145967
+    },
+    "Overijssel": {
+        "topics": [
+            {
+                "topic": "Regionale energietransitie",
+                "count": 317,
+                "percentage": 16.710595677385346,
+                "national_average": 11.909310915806904
+            },
+            {
+                "topic": "Woningbouw en leefbaarheid",
+                "count": 266,
+                "percentage": 14.022140221402212,
+                "national_average": 17.212244724663524
+            },
+            {
+                "topic": "Lokale samenwerking en uitvoering",
+                "count": 119,
+                "percentage": 6.273062730627306,
+                "national_average": 7.260221627818113
+            },
+            {
+                "topic": "Kinderarmoede en jeugdparticipatie",
+                "count": 107,
+                "percentage": 5.6404849762783345,
+                "national_average": 4.988748779348703
+            },
+            {
+                "topic": "Gemeentelijke financiële tekorten",
+                "count": 106,
+                "percentage": 5.58777016341592,
+                "national_average": 5.506729503672568
+            },
+            {
+                "topic": "Cultuur en stedelijke ontwikkeling",
+                "count": 101,
+                "percentage": 5.3241960991038475,
+                "national_average": 4.610877595210802
+            },
+            {
+                "topic": "Sport en maatschappelijke welzijn",
+                "count": 90,
+                "percentage": 4.744333157617291,
+                "national_average": 4.220269180146903
+            },
+            {
+                "topic": "Inclusieve samenleving",
+                "count": 73,
+                "percentage": 3.848181338956247,
+                "national_average": 4.908079650150724
+            },
+            {
+                "topic": "Afvalkosten en reductie",
+                "count": 71,
+                "percentage": 3.742751713231418,
+                "national_average": 3.4050864008831145
+            },
+            {
+                "topic": "Groen en biodiversiteit",
+                "count": 68,
+                "percentage": 3.584607274644175,
+                "national_average": 4.360378720332866
+            },
+            {
+                "topic": "Kwetsbare vluchtelingenopvang",
+                "count": 63,
+                "percentage": 3.3210332103321036,
+                "national_average": 2.628115314397317
+            },
+            {
+                "topic": "Onderwijs en kansen",
+                "count": 52,
+                "percentage": 2.7411702688455457,
+                "national_average": 3.1078843459431917
+            },
+            {
+                "topic": "Fietsgebruik stimuleren",
+                "count": 52,
+                "percentage": 2.7411702688455457,
+                "national_average": 2.73001316180529
+            },
+            {
+                "topic": "Verkeersveiligheid en leefbaarheid",
+                "count": 49,
+                "percentage": 2.5830258302583027,
+                "national_average": 3.065426909523203
+            },
+            {
+                "topic": "Inclusieve arbeidsmarkt",
+                "count": 48,
+                "percentage": 2.530311017395888,
+                "national_average": 2.0719228972954613
+            },
+            {
+                "topic": "Sluiting zorgvoorzieningen",
+                "count": 42,
+                "percentage": 2.214022140221402,
+                "national_average": 1.834161253343523
+            },
+            {
+                "topic": "Lokale economische ontwikkeling",
+                "count": 42,
+                "percentage": 2.214022140221402,
+                "national_average": 2.5771663906933298
+            },
+            {
+                "topic": "Landelijk gebied en stikstof",
+                "count": 42,
+                "percentage": 2.214022140221402,
+                "national_average": 1.2185284252536832
+            },
+            {
+                "topic": "Parkeerbeleid en openbare ruimte",
+                "count": 37,
+                "percentage": 1.9504480759093306,
+                "national_average": 2.989003523967223
+            },
+            {
+                "topic": "Openbaar vervoerbeleid",
+                "count": 31,
+                "percentage": 1.6341591987348445,
+                "national_average": 2.543200441557339
+            },
+            {
+                "topic": "Dierenwelzijnsbeleid gemeenten",
+                "count": 29,
+                "percentage": 1.5287295730100159,
+                "national_average": 1.430815607353628
+            },
+            {
+                "topic": "Digitale inclusie en privacy",
+                "count": 29,
+                "percentage": 1.5287295730100159,
+                "national_average": 1.3671294527236446
+            },
+            {
+                "topic": "Economische impact coronacrisis",
+                "count": 23,
+                "percentage": 1.2124406958355298,
+                "national_average": 1.7450006368615463
+            },
+            {
+                "topic": "Herindeling luchtruim",
+                "count": 23,
+                "percentage": 1.2124406958355298,
+                "national_average": 1.1293678087717065
+            },
+            {
+                "topic": "Vuurwerkoverlast en veiligheid",
+                "count": 17,
+                "percentage": 0.8961518186610438,
+                "national_average": 1.1803167324756931
+            }
+        ],
+        "total_motions": 1897,
+        "unique_topics": 25,
+        "unique_gemeenten": 20,
+        "topic_diversity": 4.200879757003163
+    },
+    "Utrecht": {
+        "topics": [
+            {
+                "topic": "Woningbouw en leefbaarheid",
+                "count": 373,
+                "percentage": 19.946524064171122,
+                "national_average": 17.212244724663524
+            },
+            {
+                "topic": "Regionale energietransitie",
+                "count": 218,
+                "percentage": 11.657754010695188,
+                "national_average": 11.909310915806904
+            },
+            {
+                "topic": "Lokale samenwerking en uitvoering",
+                "count": 137,
+                "percentage": 7.32620320855615,
+                "national_average": 7.260221627818113
+            },
+            {
+                "topic": "Inclusieve samenleving",
+                "count": 115,
+                "percentage": 6.149732620320856,
+                "national_average": 4.908079650150724
+            },
+            {
+                "topic": "Gemeentelijke financiële tekorten",
+                "count": 97,
+                "percentage": 5.18716577540107,
+                "national_average": 5.506729503672568
+            },
+            {
+                "topic": "Groen en biodiversiteit",
+                "count": 83,
+                "percentage": 4.438502673796791,
+                "national_average": 4.360378720332866
+            },
+            {
+                "topic": "Kinderarmoede en jeugdparticipatie",
+                "count": 78,
+                "percentage": 4.171122994652406,
+                "national_average": 4.988748779348703
+            },
+            {
+                "topic": "Cultuur en stedelijke ontwikkeling",
+                "count": 69,
+                "percentage": 3.689839572192513,
+                "national_average": 4.610877595210802
+            },
+            {
+                "topic": "Verkeersveiligheid en leefbaarheid",
+                "count": 68,
+                "percentage": 3.6363636363636362,
+                "national_average": 3.065426909523203
+            },
+            {
+                "topic": "Sport en maatschappelijke welzijn",
+                "count": 68,
+                "percentage": 3.6363636363636362,
+                "national_average": 4.220269180146903
+            },
+            {
+                "topic": "Onderwijs en kansen",
+                "count": 59,
+                "percentage": 3.155080213903743,
+                "national_average": 3.1078843459431917
+            },
+            {
+                "topic": "Parkeerbeleid en openbare ruimte",
+                "count": 55,
+                "percentage": 2.941176470588235,
+                "national_average": 2.989003523967223
+            },
+            {
+                "topic": "Afvalkosten en reductie",
+                "count": 53,
+                "percentage": 2.8342245989304815,
+                "national_average": 3.4050864008831145
+            },
+            {
+                "topic": "Lokale economische ontwikkeling",
+                "count": 52,
+                "percentage": 2.7807486631016043,
+                "national_average": 2.5771663906933298
+            },
+            {
+                "topic": "Fietsgebruik stimuleren",
+                "count": 48,
+                "percentage": 2.5668449197860963,
+                "national_average": 2.73001316180529
+            },
+            {
+                "topic": "Openbaar vervoerbeleid",
+                "count": 46,
+                "percentage": 2.4598930481283423,
+                "national_average": 2.543200441557339
+            },
+            {
+                "topic": "Kwetsbare vluchtelingenopvang",
+                "count": 37,
+                "percentage": 1.9786096256684493,
+                "national_average": 2.628115314397317
+            },
+            {
+                "topic": "Digitale inclusie en privacy",
+                "count": 36,
+                "percentage": 1.9251336898395723,
+                "national_average": 1.3671294527236446
+            },
+            {
+                "topic": "Inclusieve arbeidsmarkt",
+                "count": 35,
+                "percentage": 1.8716577540106951,
+                "national_average": 2.0719228972954613
+            },
+            {
+                "topic": "Sluiting zorgvoorzieningen",
+                "count": 28,
+                "percentage": 1.4973262032085561,
+                "national_average": 1.834161253343523
+            },
+            {
+                "topic": "Economische impact coronacrisis",
+                "count": 28,
+                "percentage": 1.4973262032085561,
+                "national_average": 1.7450006368615463
+            },
+            {
+                "topic": "Herindeling luchtruim",
+                "count": 28,
+                "percentage": 1.4973262032085561,
+                "national_average": 1.1293678087717065
+            },
+            {
+                "topic": "Vuurwerkoverlast en veiligheid",
+                "count": 26,
+                "percentage": 1.3903743315508021,
+                "national_average": 1.1803167324756931
+            },
+            {
+                "topic": "Landelijk gebied en stikstof",
+                "count": 19,
+                "percentage": 1.0160427807486632,
+                "national_average": 1.2185284252536832
+            },
+            {
+                "topic": "Dierenwelzijnsbeleid gemeenten",
+                "count": 14,
+                "percentage": 0.7486631016042781,
+                "national_average": 1.430815607353628
+            }
+        ],
+        "total_motions": 1870,
+        "unique_topics": 25,
+        "unique_gemeenten": 21,
+        "topic_diversity": 4.155297757961978
+    },
+    "Zeeland": {
+        "topics": [
+            {
+                "topic": "Woningbouw en leefbaarheid",
+                "count": 38,
+                "percentage": 15.702479338842975,
+                "national_average": 17.212244724663524
+            },
+            {
+                "topic": "Regionale energietransitie",
+                "count": 21,
+                "percentage": 8.677685950413224,
+                "national_average": 11.909310915806904
+            },
+            {
+                "topic": "Cultuur en stedelijke ontwikkeling",
+                "count": 19,
+                "percentage": 7.851239669421488,
+                "national_average": 4.610877595210802
+            },
+            {
+                "topic": "Gemeentelijke financiële tekorten",
+                "count": 17,
+                "percentage": 7.024793388429752,
+                "national_average": 5.506729503672568
+            },
+            {
+                "topic": "Sport en maatschappelijke welzijn",
+                "count": 16,
+                "percentage": 6.6115702479338845,
+                "national_average": 4.220269180146903
+            },
+            {
+                "topic": "Kinderarmoede en jeugdparticipatie",
+                "count": 14,
+                "percentage": 5.785123966942149,
+                "national_average": 4.988748779348703
+            },
+            {
+                "topic": "Inclusieve samenleving",
+                "count": 12,
+                "percentage": 4.958677685950414,
+                "national_average": 4.908079650150724
+            },
+            {
+                "topic": "Openbaar vervoerbeleid",
+                "count": 11,
+                "percentage": 4.545454545454546,
+                "national_average": 2.543200441557339
+            },
+            {
+                "topic": "Afvalkosten en reductie",
+                "count": 11,
+                "percentage": 4.545454545454546,
+                "national_average": 3.4050864008831145
+            },
+            {
+                "topic": "Verkeersveiligheid en leefbaarheid",
+                "count": 9,
+                "percentage": 3.71900826446281,
+                "national_average": 3.065426909523203
+            },
+            {
+                "topic": "Lokale samenwerking en uitvoering",
+                "count": 9,
+                "percentage": 3.71900826446281,
+                "national_average": 7.260221627818113
+            },
+            {
+                "topic": "Inclusieve arbeidsmarkt",
+                "count": 9,
+                "percentage": 3.71900826446281,
+                "national_average": 2.0719228972954613
+            },
+            {
+                "topic": "Vuurwerkoverlast en veiligheid",
+                "count": 8,
+                "percentage": 3.3057851239669422,
+                "national_average": 1.1803167324756931
+            },
+            {
+                "topic": "Groen en biodiversiteit",
+                "count": 8,
+                "percentage": 3.3057851239669422,
+                "national_average": 4.360378720332866
+            },
+            {
+                "topic": "Fietsgebruik stimuleren",
+                "count": 7,
+                "percentage": 2.8925619834710745,
+                "national_average": 2.73001316180529
+            },
+            {
+                "topic": "Kwetsbare vluchtelingenopvang",
+                "count": 6,
+                "percentage": 2.479338842975207,
+                "national_average": 2.628115314397317
+            },
+            {
+                "topic": "Landelijk gebied en stikstof",
+                "count": 6,
+                "percentage": 2.479338842975207,
+                "national_average": 1.2185284252536832
+            },
+            {
+                "topic": "Sluiting zorgvoorzieningen",
+                "count": 5,
+                "percentage": 2.066115702479339,
+                "national_average": 1.834161253343523
+            },
+            {
+                "topic": "Dierenwelzijnsbeleid gemeenten",
+                "count": 3,
+                "percentage": 1.2396694214876034,
+                "national_average": 1.430815607353628
+            },
+            {
+                "topic": "Parkeerbeleid en openbare ruimte",
+                "count": 3,
+                "percentage": 1.2396694214876034,
+                "national_average": 2.989003523967223
+            },
+            {
+                "topic": "Onderwijs en kansen",
+                "count": 3,
+                "percentage": 1.2396694214876034,
+                "national_average": 3.1078843459431917
+            },
+            {
+                "topic": "Economische impact coronacrisis",
+                "count": 2,
+                "percentage": 0.8264462809917356,
+                "national_average": 1.7450006368615463
+            },
+            {
+                "topic": "Lokale economische ontwikkeling",
+                "count": 2,
+                "percentage": 0.8264462809917356,
+                "national_average": 2.5771663906933298
+            },
+            {
+                "topic": "Herindeling luchtruim",
+                "count": 2,
+                "percentage": 0.8264462809917356,
+                "national_average": 1.1293678087717065
+            },
+            {
+                "topic": "Digitale inclusie en privacy",
+                "count": 1,
+                "percentage": 0.4132231404958678,
+                "national_average": 1.3671294527236446
+            }
+        ],
+        "total_motions": 242,
+        "unique_topics": 25,
+        "unique_gemeenten": 7,
+        "topic_diversity": 4.222909809769216
+    },
+    "Zuid-Holland": {
+        "topics": [
+            {
+                "topic": "Woningbouw en leefbaarheid",
+                "count": 923,
+                "percentage": 17.042097488921716,
+                "national_average": 17.212244724663524
+            },
+            {
+                "topic": "Regionale energietransitie",
+                "count": 617,
+                "percentage": 11.392171344165437,
+                "national_average": 11.909310915806904
+            },
+            {
+                "topic": "Lokale samenwerking en uitvoering",
+                "count": 307,
+                "percentage": 5.668389955686854,
+                "national_average": 7.260221627818113
+            },
+            {
+                "topic": "Inclusieve samenleving",
+                "count": 290,
+                "percentage": 5.3545051698670605,
+                "national_average": 4.908079650150724
+            },
+            {
+                "topic": "Gemeentelijke financiële tekorten",
+                "count": 287,
+                "percentage": 5.2991137370753325,
+                "national_average": 5.506729503672568
+            },
+            {
+                "topic": "Kinderarmoede en jeugdparticipatie",
+                "count": 274,
+                "percentage": 5.059084194977843,
+                "national_average": 4.988748779348703
+            },
+            {
+                "topic": "Groen en biodiversiteit",
+                "count": 260,
+                "percentage": 4.800590841949778,
+                "national_average": 4.360378720332866
+            },
+            {
+                "topic": "Sport en maatschappelijke welzijn",
+                "count": 236,
+                "percentage": 4.357459379615953,
+                "national_average": 4.220269180146903
+            },
+            {
+                "topic": "Parkeerbeleid en openbare ruimte",
+                "count": 233,
+                "percentage": 4.302067946824224,
+                "national_average": 2.989003523967223
+            },
+            {
+                "topic": "Cultuur en stedelijke ontwikkeling",
+                "count": 228,
+                "percentage": 4.209748892171344,
+                "national_average": 4.610877595210802
+            },
+            {
+                "topic": "Afvalkosten en reductie",
+                "count": 194,
+                "percentage": 3.5819793205317576,
+                "national_average": 3.4050864008831145
+            },
+            {
+                "topic": "Onderwijs en kansen",
+                "count": 183,
+                "percentage": 3.3788774002954205,
+                "national_average": 3.1078843459431917
+            },
+            {
+                "topic": "Verkeersveiligheid en leefbaarheid",
+                "count": 165,
+                "percentage": 3.0465288035450517,
+                "national_average": 3.065426909523203
+            },
+            {
+                "topic": "Fietsgebruik stimuleren",
+                "count": 165,
+                "percentage": 3.0465288035450517,
+                "national_average": 2.73001316180529
+            },
+            {
+                "topic": "Lokale economische ontwikkeling",
+                "count": 157,
+                "percentage": 2.898818316100443,
+                "national_average": 2.5771663906933298
+            },
+            {
+                "topic": "Openbaar vervoerbeleid",
+                "count": 147,
+                "percentage": 2.7141802067946825,
+                "national_average": 2.543200441557339
+            },
+            {
+                "topic": "Kwetsbare vluchtelingenopvang",
+                "count": 136,
+                "percentage": 2.511078286558346,
+                "national_average": 2.628115314397317
+            },
+            {
+                "topic": "Economische impact coronacrisis",
+                "count": 110,
+                "percentage": 2.031019202363368,
+                "national_average": 1.7450006368615463
+            },
+            {
+                "topic": "Inclusieve arbeidsmarkt",
+                "count": 100,
+                "percentage": 1.8463810930576072,
+                "national_average": 2.0719228972954613
+            },
+            {
+                "topic": "Sluiting zorgvoorzieningen",
+                "count": 86,
+                "percentage": 1.5878877400295421,
+                "national_average": 1.834161253343523
+            },
+            {
+                "topic": "Vuurwerkoverlast en veiligheid",
+                "count": 82,
+                "percentage": 1.5140324963072378,
+                "national_average": 1.1803167324756931
+            },
+            {
+                "topic": "Dierenwelzijnsbeleid gemeenten",
+                "count": 79,
+                "percentage": 1.4586410635155096,
+                "national_average": 1.430815607353628
+            },
+            {
+                "topic": "Digitale inclusie en privacy",
+                "count": 70,
+                "percentage": 1.292466765140325,
+                "national_average": 1.3671294527236446
+            },
+            {
+                "topic": "Herindeling luchtruim",
+                "count": 48,
+                "percentage": 0.8862629246676514,
+                "national_average": 1.1293678087717065
+            },
+            {
+                "topic": "Landelijk gebied en stikstof",
+                "count": 39,
+                "percentage": 0.7200886262924667,
+                "national_average": 1.2185284252536832
+            }
+        ],
+        "total_motions": 5416,
+        "unique_topics": 25,
+        "unique_gemeenten": 38,
+        "topic_diversity": 4.245757876741146
+    }
+};
+        
+        document.getElementById('provincie-selector').addEventListener('change', function() {
+            const selectedProvincie = this.value;
+            const chartDiv = document.getElementById('topic-chart');
+            const placeholder = document.getElementById('placeholder');
+            const infoGrid = document.getElementById('info-grid');
+            
+            if (selectedProvincie && provincieData[selectedProvincie]) {
+                // Show info cards, explanation, and chart
+                placeholder.style.display = 'none';
+                chartDiv.style.display = 'block';
+                infoGrid.style.display = 'grid';
+                document.getElementById('info-explanation').style.display = 'block';
+                
+                const data = provincieData[selectedProvincie];
+                
+                // Update info cards
+                document.getElementById('total-motions').textContent = data.total_motions.toLocaleString('nl-NL');
+                document.getElementById('unique-gemeenten').textContent = data.unique_gemeenten;
+                document.getElementById('unique-topics').textContent = data.unique_topics;
+                document.getElementById('diversity-score').textContent = data.topic_diversity.toFixed(2);
+                
+                // Prepare chart data
+                const topics = data.topics.map(t => t.topic);
+                const counts = data.topics.map(t => t.count);
+                const percentages = data.topics.map(t => t.percentage);
+                const nationalAverages = data.topics.map(t => t.national_average);
+                
+                // Create hover text for provincie bars
+                const hoverText = data.topics.map(t => 
+                    `${t.topic}<br>` +
+                    `${selectedProvincie}: ${t.percentage.toFixed(1)}%<br>` +
+                    `Nederland gemiddeld: ${t.national_average.toFixed(1)}%<br>` +
+                    `Verschil: ${(t.percentage - t.national_average).toFixed(1)}%<br>` +
+                    `Aantal: ${t.count}`
+                );
+                
+                // Create hover text for average bars
+                const avgHoverText = data.topics.map(t => 
+                    `${t.topic}<br>` +
+                    `Nederland gemiddeld: ${t.national_average.toFixed(1)}%<br>` +
+                    `${selectedProvincie}: ${t.percentage.toFixed(1)}%<br>` +
+                    `Verschil: ${(t.percentage - t.national_average).toFixed(1)}%`
+                );
+                
+                // Create color scale based on comparison to national average
+                const colors = percentages.map((pct, i) => {
+                    const diff = pct - nationalAverages[i];
+                    if (diff >= 3) return '#00A676';       // Much above average - dark green
+                    else if (diff >= 1) return '#7DD55C';  // Above average - light green
+                    else if (diff >= -1) return '#FFD700'; // Near average - yellow
+                    else if (diff >= -3) return '#FFA500'; // Below average - orange
+                    else return '#FF6B6B';                 // Much below average - red
+                });
+                
+                // National average trace (background reference)
+                const avgTrace = {
+                    x: nationalAverages,
+                    y: topics,
+                    type: 'bar',
+                    orientation: 'h',
+                    name: 'Nederland gemiddeld',
+                    marker: {
+                        color: 'rgba(128, 128, 128, 0.3)',
+                        line: {
+                            color: 'rgba(128, 128, 128, 0.5)',
+                            width: 1
+                        }
+                    },
+                    text: '',
+                    textposition: 'none',
+                    hovertext: avgHoverText,
+                    hoverinfo: 'text',
+                    width: 0.6
+                };
+                
+                // Provincie data trace
+                const trace = {
+                    x: percentages,
+                    y: topics,
+                    type: 'bar',
+                    orientation: 'h',
+                    name: selectedProvincie,
+                    marker: {
+                        color: colors,
+                        line: {
+                            color: 'white',
+                            width: 1
+                        }
+                    },
+                    text: percentages.map(pct => pct.toFixed(1) + '%'),
+                    textposition: 'outside',
+                    hovertext: hoverText,
+                    hoverinfo: 'text',
+                    width: 0.6
+                };
+                
+                const layout = {
+                    title: {
+                        text: `Alle Onderwerpen in ${selectedProvincie} vs. Nederland`,
+                        font: { size: 26, color: '#00A676', family: 'Poppins, sans-serif' },
+                        x: 0.5
+                    },
+                    xaxis: {
+                        title: {
+                            text: 'Percentage van Moties (%)',
+                            font: { size: 18 }
+                        },
+                        tickfont: { size: 14 },
+                        showgrid: true,
+                        gridcolor: '#f0f0f0'
+                    },
+                    yaxis: {
+                        title: '',
+                        tickfont: { size: 16 },
+                        categoryorder: 'total ascending',
+                        showgrid: false,
+                        automargin: true,
+                        tickmode: 'linear',
+                        dtick: 1
+                    },
+                    margin: { l: 350, r: 200, t: 140, b: 100 },
+                    height: Math.max(700, Math.min(1500, topics.length * 45)),
+                    template: 'plotly_white',
+                    showlegend: true,
+                    legend: {
+                        x: 1.02,
+                        y: 1,
+                        bgcolor: 'rgba(255,255,255,0.8)',
+                        bordercolor: 'rgba(0,0,0,0.2)',
+                        borderwidth: 1,
+                        font: { size: 12 }
+                    },
+                    barmode: 'group',
+                    bargap: 0.5,
+                    bargroupgap: 0.15,
+                    font: { size: 14 }
+                };
+                
+                const config = {
+                    responsive: true,
+                    displayModeBar: true,
+                    modeBarButtonsToRemove: ['pan2d', 'lasso2d', 'select2d'],
+                    displaylogo: false
+                };
+                
+                Plotly.newPlot('topic-chart', [avgTrace, trace], layout, config);
+                
+            } else {
+                // Hide everything
+                placeholder.style.display = 'flex';
+                chartDiv.style.display = 'none';
+                infoGrid.style.display = 'none';
+                document.getElementById('info-explanation').style.display = 'none';
+            }
+        });
+        
+        // Auto-select first provincie for demo
+        window.addEventListener('load', function() {
+            const selector = document.getElementById('provincie-selector');
+            if (selector.options.length > 1) {
+                selector.selectedIndex = 1;
+                selector.dispatchEvent(new Event('change'));
+            }
+        });
+    </script>
+</body>
+</html>
