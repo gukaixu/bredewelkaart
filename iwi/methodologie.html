@@ -79,9 +79,11 @@
 </head>
 <body>
     <div class="content">
-        <a href="index.html" class="back-link">← Terug naar kaart</a>
-        <h1>Methodologie</h1>
+        <a href="index.html" class="back-link" id="back-link">← Terug naar kaart</a>
+        <h1 data-i18n="methodologyTitle">Methodologie</h1>
         
+        <!-- Dutch Content -->
+        <div class="lang-content" data-lang="nl">
         <div class="highlight-box">
             <strong>Samenvatting:</strong> De Brede Welkaart visualiseert de verdeling van totaal kapitaal in Nederland voor 2023, opgedeeld in natuurlijk, geproduceerd en menselijk kapitaal. De data is gebaseerd op officiële CBS-statistieken, internationale wetenschappelijke methodieken en ruimtelijke allocatiemodellen.
         </div>
@@ -106,33 +108,46 @@
         
         <h3>Geproduceerd Kapitaal</h3>
         <div class="data-source">
-            <strong>Bron:</strong> LitPop methodiek (Lit¹Pop¹) met COROP-kalibratie<br>
-            <strong>Methode:</strong> Ruimtelijke verdeling van nationaal kapitaal op basis van nachtelijk licht en bevolking<br>
-            <strong>Resolutie:</strong> 100m<br>
+            <strong>Bron:</strong> World Bank Wealth Accounts (nationaal totaal)<br>
+            <strong>Methode:</strong> Twee-staps ruimtelijke verdeling - CBS BBP (COROP) + LitPop (lokaal)<br>
+            <strong>Resolutie:</strong> 250m (origineel), geaggregeerd naar administratieve niveaus<br>
             <strong>Totaal (NL 2023):</strong> €2,522 miljard
         </div>
         <p>
-            Geproduceerd kapitaal (gebouwen, infrastructuur, machines) wordt ruimtelijk verdeeld met de LitPop-methodiek. Deze combineert satellietdata van nachtelijk licht (als proxy voor economische activiteit) met bevolkingsdichtheid. De methode is gekalibreerd met regionale GDP-cijfers van het CBS op COROP-niveau voor hogere nauwkeurigheid.
+            Het nationale geproduceerde kapitaal (gebouwen, infrastructuur, machines) is gebaseerd op de <strong>World Bank Wealth Accounts</strong>. Dit wordt ruimtelijk verdeeld met een geavanceerde twee-staps methodiek:
+        </p>
+        <ul>
+            <li><strong>Stap 1:</strong> Verdeling van nationaal kapitaal naar 40 COROP-regio's op basis van CBS regionale BBP-aandelen</li>
+            <li><strong>Stap 2:</strong> Binnen elke COROP-regio verdeling naar gemeenten, wijken en buurten met LitPop (Lit¹Pop¹: nachtelijk licht × bevolkingsdichtheid)</li>
+        </ul>
+        <p>
+            Deze methode combineert de betrouwbaarheid van CBS-statistieken met de ruimtelijke detail van satellietdata.
         </p>
         
         <h3>Menselijk Kapitaal</h3>
         <div class="data-source">
             <strong>Bron:</strong> CBS Kerncijfers Wijken en Buurten (KWB) 2023<br>
-            <strong>Methode:</strong> IWI 2023 methodiek met leeftijdscorrectie<br>
+            <strong>Methode:</strong> UNEP IWI 2023 shadow price methodiek met leeftijdscorrectie<br>
             <strong>Resolutie:</strong> Wijk-niveau, ruimtelijk verdeeld met bevolkingsdata<br>
             <strong>Totaal (NL 2023):</strong> €9,411 miljard
         </div>
         <p>
-            Menselijk kapitaal vertegenwoordigt de economische waarde van kennis, vaardigheden en gezondheid van de bevolking. De berekening volgt de Inclusive Wealth Index (IWI) 2023 methodiek:
+            Menselijk kapitaal vertegenwoordigt de netto contante waarde van toekomstige arbeidsinkomen. De berekening volgt de <strong>UNEP Inclusive Wealth Index (IWI) 2023 shadow price methodiek</strong>:
         </p>
         <ul>
-            <li><strong>Opleiding:</strong> Gemiddelde verwachte jaren scholing per wijk</li>
+            <li><strong>Inkomensniveau:</strong> Gemiddeld inkomen per inwoner per wijk (CBS, in €1.000)</li>
+            <li><strong>Opleiding:</strong> Verwachte jaren scholing (Expected Years of Schooling) per wijk</li>
             <li><strong>Arbeidsparticipatie:</strong> Percentage werkzame beroepsbevolking</li>
-            <li><strong>Leeftijdscorrectie:</strong> Gewogen resterende arbeidsjaren op basis van leeftijdsverdeling</li>
-            <li><strong>Schaduwprijs:</strong> €22,000 per jaar (IWI 2023 standaard)</li>
+            <li><strong>Leeftijdscorrectie:</strong> Gewogen resterende arbeidsjaren op basis van leeftijdsverdeling (tot pensioenleeftijd 67 jaar)</li>
+            <li><strong>Discontovoet:</strong> 1.5% (IWI standaard voor intergenerationele equity)</li>
         </ul>
         <p>
-            De formule: <code>HC = Bevolking × EYS × Arbeidsparticipatie × Gewogen Resterende Jaren × Schaduwprijs</code>
+            <strong>Shadow Price Formule:</strong><br>
+            <code>Shadow Price = Gemiddeld Inkomen × Verwachte Arbeidsjaren × Discount Factor (NPV)</code><br>
+            <code>HC = Bevolking × Shadow Price</code>
+        </p>
+        <p>
+            Het gemiddelde inkomen per wijk dient als basis voor de waardering van toekomstig arbeidsproductiviteit. Door dit te vermenigvuldigen met verwachte arbeidsjaren en te verdisconteren naar huidige waarde, krijgen we de shadow price per inwoner.
         </p>
         
         <h2>Ruimtelijke Verdeling</h2>
@@ -159,9 +174,10 @@
         <div class="data-source">
             <strong>Internationale bronnen</strong>
             <ul>
-                <li>Inclusive Wealth Report 2023 (UN Environment Programme)</li>
+                <li>World Bank Wealth Accounts (nationaal geproduceerd kapitaal 2015-2024)</li>
+                <li>UNEP Inclusive Wealth Report 2023 (IWI methodologie)</li>
                 <li>WorldPop bevolkingsdata 2023 (100m resolutie)</li>
-                <li>VIIRS nachtelijk licht data (NASA)</li>
+                <li>VIIRS nachtelijk licht data (NASA Black Marble)</li>
             </ul>
         </div>
         
@@ -175,17 +191,193 @@
         
         <h2>Referenties</h2>
         <ul>
-            <li>CBS (2022). "Natuurlijk Kapitaalrekeningen Nederland 2020"</li>
-            <li>CBS (2024). "Kerncijfers Wijken en Buurten 2023"</li>
+            <li>CBS (2022). "Natuurlijk Kapitaalrekeningen Nederland 2020". Centraal Bureau voor de Statistiek.</li>
+            <li>CBS (2024). "Kerncijfers Wijken en Buurten 2023". Centraal Bureau voor de Statistiek.</li>
+            <li>CBS (2024). "Regionale Economische Cijfers". Centraal Bureau voor de Statistiek.</li>
+            <li>World Bank (2024). "The Changing Wealth of Nations 2024 - Building a Sustainable Future". World Bank Group.</li>
             <li>Managi, S. & Kumar, P. (2023). "Inclusive Wealth Report 2023". UN Environment Programme.</li>
             <li>Eberenz, S., Stocker, D., Röösli, T., & Bresch, D. N. (2020). "Asset exposure data for global physical risk assessment". Earth System Science Data, 12(2), 817-833.</li>
+            <li>Roman, M. O., et al. (2018). "NASA's Black Marble nighttime lights product suite". Remote Sensing of Environment, 210, 113-143.</li>
+        </ul>
+        
+        <h2>Open Data</h2>
+        <p>
+            Alle onderliggende data en scripts worden open beschikbaar gesteld in <strong>februari 2026</strong>. Deze omvatten:
+        </p>
+        <ul>
+            <li>Geaggregeerde kapitaaldata per administratief niveau (CSV)</li>
+            <li>Ruimtelijke rasterbestanden (GeoTIFF)</li>
+            <li>Verwerkingsscripts en methodologie (Python)</li>
+            <li>Technische documentatie</li>
         </ul>
         
         <p style="margin-top: 3rem; color: var(--text-light); font-size: 0.9rem;">
             <strong>Laatste update:</strong> Oktober 2025<br>
-            <strong>Contactgegevens en data downloads:</strong> Zie de <a href="over.html" style="color: var(--primary);">Over pagina</a>
+            <strong>Contact:</strong> Zie de <a href="over.html" style="color: var(--primary);">Over pagina</a>
         </p>
+        </div>
+        
+        <!-- English Content -->
+        <div class="lang-content" data-lang="en" style="display: none;">
+        <div class="highlight-box">
+            <strong>Summary:</strong> The Brede Welkaart visualizes the distribution of total capital in the Netherlands for 2023, divided into natural, produced and human capital. The data is based on official CBS statistics, international scientific methodologies and spatial allocation models.
+        </div>
+        
+        <h2>Project Overview</h2>
+        <p>
+            The Brede Welkaart project maps the wealth of the Netherlands by looking not only at traditional economic indicators, but also at natural and human capital. This provides a more complete picture of the broad prosperity of regions in the Netherlands.
+        </p>
+        
+        <h2>Capital Types</h2>
+        
+        <h3>Natural Capital</h3>
+        <div class="data-source">
+            <strong>Source:</strong> CBS Natural Capital Accounts (NKR) 2020<br>
+            <strong>Method:</strong> Total value of ecosystem capital per hectare, adjusted to 2023 prices (CPI factor: 1.138)<br>
+            <strong>Resolution:</strong> 10m original, aggregated to 100m<br>
+            <strong>Total (NL 2023):</strong> €616 billion
+        </div>
+        <p>
+            Natural capital includes the value of ecosystems and their services. CBS calculates this by estimating the net present value of future flows of ecosystem services (such as CO2 sequestration, water regulation, recreation). These values are based on market prices where possible, and on model-based approaches for non-marketed services.
+        </p>
+        
+        <h3>Produced Capital</h3>
+        <div class="data-source">
+            <strong>Source:</strong> World Bank Wealth Accounts (national total)<br>
+            <strong>Method:</strong> Two-stage spatial distribution - CBS GDP (COROP) + LitPop (local)<br>
+            <strong>Resolution:</strong> 250m (original), aggregated to administrative levels<br>
+            <strong>Total (NL 2023):</strong> €2,522 billion
+        </div>
+        <p>
+            The national produced capital (buildings, infrastructure, machinery) is based on the <strong>World Bank Wealth Accounts</strong>. This is spatially distributed using an advanced two-stage methodology:
+        </p>
+        <ul>
+            <li><strong>Stage 1:</strong> Distribution of national capital to 40 COROP regions based on CBS regional GDP shares</li>
+            <li><strong>Stage 2:</strong> Within each COROP region, distribution to municipalities, districts and neighborhoods using LitPop (Lit¹Pop¹: nighttime light × population density)</li>
+        </ul>
+        <p>
+            This method combines the reliability of CBS statistics with the spatial detail of satellite data.
+        </p>
+        
+        <h3>Human Capital</h3>
+        <div class="data-source">
+            <strong>Source:</strong> CBS Key Figures Neighborhoods and Districts (KWB) 2023<br>
+            <strong>Method:</strong> UNEP IWI 2023 shadow price methodology with age correction<br>
+            <strong>Resolution:</strong> District level, spatially distributed with population data<br>
+            <strong>Total (NL 2023):</strong> €9,411 billion
+        </div>
+        <p>
+            Human capital represents the net present value of future labor income. The calculation follows the <strong>UNEP Inclusive Wealth Index (IWI) 2023 shadow price methodology</strong>:
+        </p>
+        <ul>
+            <li><strong>Income level:</strong> Average income per inhabitant per district (CBS, in €1,000)</li>
+            <li><strong>Education:</strong> Expected Years of Schooling per district</li>
+            <li><strong>Labor participation:</strong> Percentage of working population</li>
+            <li><strong>Age correction:</strong> Weighted remaining working years based on age distribution (until retirement age 67)</li>
+            <li><strong>Discount rate:</strong> 1.5% (IWI standard for intergenerational equity)</li>
+        </ul>
+        <p>
+            <strong>Shadow Price Formula:</strong><br>
+            <code>Shadow Price = Average Income × Expected Working Years × Discount Factor (NPV)</code><br>
+            <code>HC = Population × Shadow Price</code>
+        </p>
+        <p>
+            The average income per district serves as the basis for valuing future labor productivity. By multiplying this by expected working years and discounting to present value, we get the shadow price per inhabitant.
+        </p>
+        
+        <h2>Spatial Distribution</h2>
+        <p>
+            The capital data is available at three administrative levels:
+        </p>
+        <ul>
+            <li><strong>Province:</strong> 12 regions</li>
+            <li><strong>Municipality:</strong> 340 regions (2025 classification)</li>
+            <li><strong>District:</strong> 3,411 districts</li>
+        </ul>
+        
+        <h2>Data Sources</h2>
+        <div class="data-source">
+            <strong>Statistics Netherlands (CBS)</strong>
+            <ul>
+                <li>Natural Capital Accounts 2020</li>
+                <li>Key Figures Neighborhoods and Districts 2023</li>
+                <li>Regional Economic Figures (COROP)</li>
+                <li>Geographic classifications 2025</li>
+            </ul>
+        </div>
+        
+        <div class="data-source">
+            <strong>International sources</strong>
+            <ul>
+                <li>World Bank Wealth Accounts (national produced capital 2015-2024)</li>
+                <li>UNEP Inclusive Wealth Report 2023 (IWI methodology)</li>
+                <li>WorldPop population data 2023 (100m resolution)</li>
+                <li>VIIRS nighttime light data (NASA Black Marble)</li>
+            </ul>
+        </div>
+        
+        <h2>Limitations and Accuracy</h2>
+        <ul>
+            <li><strong>Natural capital:</strong> Based on 2020 values, corrected for inflation to 2023</li>
+            <li><strong>Produced capital:</strong> Accuracy varies; better for residential areas than industrial areas</li>
+            <li><strong>Human capital:</strong> Imputations at district level (5 districts) with COROP averages</li>
+            <li><strong>Temporal coverage:</strong> Cross-sectional data for 2023</li>
+        </ul>
+        
+        <h2>References</h2>
+        <ul>
+            <li>CBS (2022). "Natural Capital Accounts Netherlands 2020". Statistics Netherlands.</li>
+            <li>CBS (2024). "Key Figures Neighborhoods and Districts 2023". Statistics Netherlands.</li>
+            <li>CBS (2024). "Regional Economic Figures". Statistics Netherlands.</li>
+            <li>World Bank (2024). "The Changing Wealth of Nations 2024 - Building a Sustainable Future". World Bank Group.</li>
+            <li>Managi, S. & Kumar, P. (2023). "Inclusive Wealth Report 2023". UN Environment Programme.</li>
+            <li>Eberenz, S., Stocker, D., Röösli, T., & Bresch, D. N. (2020). "Asset exposure data for global physical risk assessment". Earth System Science Data, 12(2), 817-833.</li>
+            <li>Roman, M. O., et al. (2018). "NASA's Black Marble nighttime lights product suite". Remote Sensing of Environment, 210, 113-143.</li>
+        </ul>
+        
+        <h2>Open Data</h2>
+        <p>
+            All underlying data and scripts will be made openly available in <strong>February 2026</strong>. These include:
+        </p>
+        <ul>
+            <li>Aggregated capital data per administrative level (CSV)</li>
+            <li>Spatial raster files (GeoTIFF)</li>
+            <li>Processing scripts and methodology (Python)</li>
+            <li>Technical documentation</li>
+        </ul>
+        
+        <p style="margin-top: 3rem; color: var(--text-light); font-size: 0.9rem;">
+            <strong>Last update:</strong> October 2025<br>
+            <strong>Contact:</strong> See the <a href="over.html" style="color: var(--primary);">About page</a>
+        </p>
+        </div>
     </div>
+    
+    <script src="js/translations.js"></script>
+    <script>
+        // Read language from URL parameter
+        const urlParams = new URLSearchParams(window.location.search);
+        const lang = urlParams.get('lang') || localStorage.getItem('preferredLanguage') || 'nl';
+        
+        // Show/hide content based on language
+        document.querySelectorAll('.lang-content').forEach(content => {
+            const contentLang = content.getAttribute('data-lang');
+            content.style.display = (contentLang === lang) ? 'block' : 'none';
+        });
+        
+        // Apply translations on page load
+        document.querySelectorAll('[data-i18n]').forEach(element => {
+            const key = element.getAttribute('data-i18n');
+            element.textContent = t(key, lang);
+        });
+        
+        // Update back link to preserve language
+        const backLink = document.getElementById('back-link');
+        if (backLink) {
+            backLink.href = `index.html`;
+            backLink.textContent = t('backToMap', lang);
+        }
+    </script>
 </body>
 </html>
 

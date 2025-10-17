@@ -89,9 +89,11 @@
 </head>
 <body>
     <div class="content">
-        <a href="index.html" class="back-link">← Terug naar kaart</a>
-        <h1>Over de Brede Welkaart</h1>
+        <a href="index.html" class="back-link" id="back-link">← Terug naar kaart</a>
+        <h1 data-i18n="aboutTitle">Over de Brede Welkaart</h1>
         
+        <!-- Dutch Content -->
+        <div class="lang-content" data-lang="nl">
         <div class="highlight-box">
             <strong>Missie:</strong> Het Brede Welkaart project visualiseert de brede welvaart van Nederland door natuurlijk, geproduceerd en menselijk kapitaal in kaart te brengen, om zo een completer beeld te geven dan traditionele economische indicatoren alleen.
         </div>
@@ -109,72 +111,101 @@
             Door deze drie vormen van kapitaal te integreren, krijgen we een veel completer beeld van de werkelijke welvaart en het duurzame potentieel van regio's in Nederland.
         </p>
         
-        <h2>Voor Wie Is Dit</h2>
-        <p>De Brede Welkaart is relevant voor:</p>
-        <ul>
-            <li><strong>Beleidsmakers:</strong> Onderbouwing voor beslissingen over ruimtelijke ordening, economische ontwikkeling en duurzaamheidsbeleid</li>
-            <li><strong>Onderzoekers:</strong> Gedetailleerde data voor studies naar regionale welvaart en duurzaamheid</li>
-            <li><strong>Onderwijsinstellingen:</strong> Visualisatie van brede welvaartconcepten</li>
-            <li><strong>Geïnteresseerde burgers:</strong> Inzicht in de welvaart van hun eigen regio</li>
-        </ul>
-        
         <h2>Project Team</h2>
-        <div class="contact-box">
-            <strong>Erasmus Universiteit Rotterdam</strong><br>
-            Erasmus School of Economics<br>
-            Institute for Water and Wetland Research (IWI)
-            <p style="margin-top: 1rem;">
-                Dit project is ontwikkeld in het kader van onderzoek naar duurzame ontwikkeling en brede welvaart in Nederland.
-            </p>
-        </div>
-        
-        <h2>Open Data en Open Source</h2>
         <p>
-            Het Brede Welkaart project is volledig open access. Alle data, methodieken en broncode zijn vrij beschikbaar voor hergebruik onder open licenties.
+            <strong>Principal Investigator:</strong> Kees Krul (<a href="mailto:krul@rsm.nl" style="color: var(--primary);">krul@rsm.nl</a>)
         </p>
         
-        <h2>Data Downloads</h2>
-        <p>De volgende datasets zijn beschikbaar:</p>
+        <h2>Partners</h2>
+        <p>Dit project is een samenwerking tussen:</p>
         <ul>
-            <li><strong>Totaal Kapitaal:</strong> Geaggregeerde data per administratief niveau (provincie, gemeente, wijk)</li>
-            <li><strong>Raster Maps:</strong> Hoge-resolutie ruimtelijke data (100m) voor alle kapitaaltypen</li>
-            <li><strong>Grensbestanden:</strong> Geografische indelingen 2025</li>
-            <li><strong>Scripts en Code:</strong> Volledige verwerkingspipeline</li>
+            <li><strong>Erasmus Universiteit Rotterdam</strong></li>
+            <li><strong>Delft University of Technology</strong></li>
+            <li><strong>Malmö University</strong></li>
+            <li><strong>Provincie Zuid-Holland</strong></li>
         </ul>
         
-        <h2>Licentie</h2>
+        <h2>Funding</h2>
         <p>
-            <strong>Data:</strong> Creative Commons Attribution 4.0 (CC BY 4.0)<br>
-            <strong>Code:</strong> MIT License<br>
-            <strong>Bronvermelding:</strong> "Brede Welkaart Nederland 2023, Erasmus Universiteit Rotterdam"
+            We zijn dankbaar voor de financiering van de <strong><a href="https://convergence.nl/resilient-delta/" target="_blank" style="color: var(--primary);">Resilient Delta Initiative</a></strong>, een programma van Convergence (een alliantie tussen TU Delft, Erasmus Universiteit Rotterdam en Erasmus MC).
         </p>
-        
-        <h2>Contact</h2>
-        <div class="contact-box">
-            <p>
-                Voor vragen, suggesties of samenwerkingsmogelijkheden, neem contact op via:
-            </p>
-            <p>
-                <strong>Email:</strong> [contact informatie]<br>
-                <strong>Website:</strong> [project website]
-            </p>
-        </div>
-        
-        <h2>Acknowledgements</h2>
-        <p>Dit project maakt gebruik van data en methodieken van:</p>
-        <ul>
-            <li>Centraal Bureau voor de Statistiek (CBS)</li>
-            <li>UN Environment Programme - Inclusive Wealth Initiative</li>
-            <li>NASA Earth Observations</li>
-            <li>WorldPop Project</li>
-            <li>CLIMADA Platform (ETH Zürich)</li>
-        </ul>
         
         <p style="margin-top: 3rem; color: var(--text-light); font-size: 0.9rem;">
             <strong>Versie:</strong> 1.0<br>
             <strong>Laatste update:</strong> Oktober 2025
         </p>
+        </div>
+        
+        <!-- English Content -->
+        <div class="lang-content" data-lang="en" style="display: none;">
+        <div class="highlight-box">
+            <strong>Mission:</strong> The Brede Welkaart project visualizes the broad prosperity of the Netherlands by mapping natural, produced and human capital, providing a more complete picture than traditional economic indicators alone.
+        </div>
+        
+        <h2>Context and Purpose</h2>
+        <p>
+            Traditional prosperity indicators such as Gross Domestic Product (GDP) primarily measure economic production, but don't tell the whole story about prosperity. The Brede Welkaart follows the principles of "Inclusive Wealth" by measuring three essential forms of capital:
+        </p>
+        <ul>
+            <li><strong>Natural capital:</strong> The value of ecosystems and natural resources</li>
+            <li><strong>Produced capital:</strong> Buildings, infrastructure and machinery</li>
+            <li><strong>Human capital:</strong> Knowledge, skills and health of people</li>
+        </ul>
+        <p>
+            By integrating these three forms of capital, we get a much more complete picture of the real prosperity and sustainable potential of regions in the Netherlands.
+        </p>
+        
+        <h2>Project Team</h2>
+        <p>
+            <strong>Principal Investigator:</strong> Kees Krul (<a href="mailto:krul@rsm.nl" style="color: var(--primary);">krul@rsm.nl</a>)
+        </p>
+        
+        <h2>Partners</h2>
+        <p>This project is a collaboration between:</p>
+        <ul>
+            <li><strong>Erasmus University Rotterdam</strong></li>
+            <li><strong>Delft University of Technology</strong></li>
+            <li><strong>Malmö University</strong></li>
+            <li><strong>Province of South Holland</strong></li>
+        </ul>
+        
+        <h2>Funding</h2>
+        <p>
+            We are grateful for funding from the <strong><a href="https://convergence.nl/resilient-delta/" target="_blank" style="color: var(--primary);">Resilient Delta Initiative</a></strong>, a programme of Convergence (an alliance between TU Delft, Erasmus University Rotterdam and Erasmus MC).
+        </p>
+        
+        <p style="margin-top: 3rem; color: var(--text-light); font-size: 0.9rem;">
+            <strong>Version:</strong> 1.0<br>
+            <strong>Last update:</strong> October 2025
+        </p>
+        </div>
     </div>
+    
+    <script src="js/translations.js"></script>
+    <script>
+        // Read language from URL parameter
+        const urlParams = new URLSearchParams(window.location.search);
+        const lang = urlParams.get('lang') || localStorage.getItem('preferredLanguage') || 'nl';
+        
+        // Show/hide content based on language
+        document.querySelectorAll('.lang-content').forEach(content => {
+            const contentLang = content.getAttribute('data-lang');
+            content.style.display = (contentLang === lang) ? 'block' : 'none';
+        });
+        
+        // Apply translations on page load
+        document.querySelectorAll('[data-i18n]').forEach(element => {
+            const key = element.getAttribute('data-i18n');
+            element.textContent = t(key, lang);
+        });
+        
+        // Update back link to preserve language
+        const backLink = document.getElementById('back-link');
+        if (backLink) {
+            backLink.href = `index.html`;
+            backLink.textContent = t('backToMap', lang);
+        }
+    </script>
 </body>
 </html>
 

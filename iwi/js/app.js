@@ -8,11 +8,12 @@ let currentBoundariesLayer;
 let currentRasterLayer;
 let currentStarMarker;
 let currentCapitalType = 'total';
-let currentAdminLevel = 'pixel';
-let currentScale = 'absolute';
+let currentAdminLevel = 'gemeente';
+let currentScale = 'per_hectare';
 let capitalData = {};
 let selectedRegion = null;
 let chart = null;
+let currentLanguage = 'nl'; // Default language
 
 // Color schemes for different capital types (3 classes) - High contrast
 const colorSchemes = {
@@ -36,6 +37,16 @@ async function init() {
     try {
         console.log('Initializing Brede Welkaart...');
         
+        // Load saved language preference
+        const savedLanguage = localStorage.getItem('preferredLanguage');
+        if (savedLanguage && (savedLanguage === 'nl' || savedLanguage === 'en')) {
+            currentLanguage = savedLanguage;
+            document.querySelectorAll('.lang-btn').forEach(btn => {
+                btn.classList.remove('active');
+            });
+            document.getElementById(`lang-${currentLanguage}`).classList.add('active');
+        }
+        
         // Check if Leaflet is loaded
         if (typeof L === 'undefined') {
             throw new Error('Leaflet library not loaded!');
@@ -55,14 +66,15 @@ async function init() {
         setupEventListeners();
         
         // Disable scale options for pixel level on initial load
-        if (currentAdminLevel === 'pixel') {
-            const scaleOptions = document.querySelectorAll('input[name="scale"]');
-            scaleOptions.forEach(option => {
-                if (option.value !== 'absolute') {
-                    option.disabled = true;
-                    option.parentElement.style.opacity = '0.5';
-                }
-            });
+        // (Not needed as default is now gemeente)
+        // Scale options are always enabled by default
+        
+        // Update page links with current language
+        updatePageLinks();
+        
+        // Apply saved language to UI
+        if (currentLanguage !== 'nl') {
+            updateAllTranslations();
         }
         
         // Hide loading screen
@@ -75,6 +87,59 @@ async function init() {
         console.error('Error in init():', error);
         throw error;
     }
+}
+
+// Language switching functions
+function setLanguage(lang) {
+    currentLanguage = lang;
+    localStorage.setItem('preferredLanguage', lang);
+    
+    // Update language toggle buttons
+    document.querySelectorAll('.lang-btn').forEach(btn => {
+        btn.classList.remove('active');
+    });
+    document.getElementById(`lang-${lang}`).classList.add('active');
+    
+    // Update methodology and about page links to include language parameter
+    updatePageLinks();
+    
+    // Update all translations
+    updateAllTranslations();
+}
+
+function updatePageLinks() {
+    // Update all links to methodology and about pages with current language
+    document.querySelectorAll('a[href^="methodologie.html"], a[href^="over.html"]').forEach(link => {
+        const basePath = link.getAttribute('href').split('?')[0];
+        link.setAttribute('href', `${basePath}?lang=${currentLanguage}`);
+    });
+}
+
+function updateAllTranslations() {
+    // Update all elements with data-i18n attribute
+    document.querySelectorAll('[data-i18n]').forEach(element => {
+        const key = element.getAttribute('data-i18n');
+        element.textContent = t(key);
+    });
+    
+    // Update legend
+    updateLegend();
+    
+    // Update info panel if region is selected
+    if (selectedRegion) {
+        displayRegionInfo(selectedRegion);
+    }
+    
+    // Update tooltips for all boundary features
+    if (currentBoundariesLayer && currentAdminLevel !== 'pixel') {
+        currentBoundariesLayer.eachLayer(layer => {
+            const code = getRegionCode(layer.feature);
+            updateTooltip(layer, code);
+        });
+    }
+    
+    // Update star marker tooltip
+    updateStarMarker();
 }
 
 function initMap() {
@@ -332,7 +397,7 @@ function updateStarMarker() {
         const regionData = capitalData[maxRegionCode];
         if (regionData) {
             currentStarMarker.bindTooltip(
-                `<strong>Hoogste waarde:</strong><br>${regionData.naam}`,
+                `<strong>${t('starHighest')}</strong><br>${regionData.naam}`,
                 { permanent: false, direction: 'top', offset: [0, -16] }
             );
         }
@@ -604,11 +669,11 @@ function updateTooltip(layer, code) {
     const value = getScaledValue(data, currentCapitalType);
     
     const capitalNames = {
-        total: 'Totaal',
-        balance: 'Balans',
-        natural: 'Natuurlijk',
-        produced: 'Geproduceerd',
-        human: 'Menselijk'
+        total: t('capitalTotal'),
+        balance: t('capitalBalance'),
+        natural: t('capitalNatural'),
+        produced: t('capitalProduced'),
+        human: t('capitalHuman')
     };
     
     let formatted, unit, prefix;
@@ -616,38 +681,38 @@ function updateTooltip(layer, code) {
     // Special formatting for balance
     if (currentCapitalType === 'balance') {
         const balanceLabels = {
-            '-3': 'Alle 3 onder gemiddelde',
-            '-2': '2 onder gemiddelde',
-            '-1': '1 onder gemiddelde',
-            '0': 'Evenwichtig',
-            '1': '1 boven gemiddelde',
-            '2': '2 boven gemiddelde',
-            '3': 'Alle 3 boven gemiddelde'
+            '-3': t('balanceAllBelow'),
+            '-2': t('balance2Below'),
+            '-1': t('balance1Below'),
+            '0': t('balanceBalanced'),
+            '1': t('balance1Above'),
+            '2': t('balance2Above'),
+            '3': t('balanceAllAbove')
         };
-        formatted = balanceLabels[value.toString()] || 'Onbekend';
+        formatted = balanceLabels[value.toString()] || t('balanceUnknown');
         unit = '';
         prefix = '';
     } else if (currentScale === 'absolute') {
         formatted = formatValue(value, true);
-        unit = ' mld.';
+        unit = ' ' + t('unitBillion');
         prefix = '€';
     } else if (currentScale === 'per_capita') {
         formatted = formatValue(value);
-        unit = ' p.p.';
+        unit = ' ' + t('unitPerPerson');
         prefix = '€';
     } else if (currentScale === 'per_hectare') {
         formatted = formatValue(value);
-        unit = '/ha';
+        unit = t('unitPerHectare');
         prefix = '€';
     } else if (currentScale === 'proportion') {
         formatted = value.toFixed(1);
-        unit = '%';
+        unit = t('unitPercent');
         prefix = '';
     } else if (currentScale === 'vs_national') {
         // Format as percentage deviation from national average
         const sign = value >= 0 ? '+' : '';
         formatted = value.toFixed(1);
-        unit = '% t.o.v. NL';
+        unit = t('unitVsNational');
         prefix = sign;
     }
     
@@ -697,12 +762,12 @@ function displayRegionInfo(code) {
     
     if (!data) {
         document.getElementById('info-content').innerHTML = `
-            <h2>Over deze kaart</h2>
-            <p style="color: #64748b; margin-top: 1rem; line-height: 1.8;">
-                De Brede Welkaart biedt een uitgebreid overzicht van het kapitaal in Nederland. Ontdek de verdeling van natuurlijk, geproduceerd en menselijk kapitaal in verschillende regio's voor het jaar 2023.
+            <h2 data-i18n="infoPanelTitle">${t('infoPanelTitle')}</h2>
+            <p style="color: #64748b; margin-top: 1rem; line-height: 1.8;" data-i18n="infoPanelIntro">
+                ${t('infoPanelIntro')}
             </p>
             <p style="color: #64748b; margin-top: 0.75rem; line-height: 1.8;">
-                <strong style="color: #1e293b;">Selecteer een regio</strong> op de kaart om gedetailleerde statistieken te bekijken, of gebruik de filters aan de linkerkant om verschillende kapitaalsoorten, niveaus en schalen te verkennen.
+                <strong style="color: #1e293b;" data-i18n="infoPanelInstruction">${t('infoPanelInstruction')}</strong> <span data-i18n="infoPanelInstructionText">${t('infoPanelInstructionText')}</span>
             </p>
             
             <div style="margin-top: 2rem; padding-top: 1.5rem; border-top: 1px solid #e2e8f0;">
@@ -711,119 +776,119 @@ function displayRegionInfo(code) {
                         <path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
                         <path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
                     </svg>
-                    Methodologie
-                </a>
-                <a href="data.html" style="color: #00aa7c; text-decoration: none; font-size: 0.95rem; font-weight: 500; display: flex; align-items: center; gap: 0.5rem; margin-bottom: 0.75rem;">
-                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <path d="M13 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V9z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-                        <path d="M13 2v7h7" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-                    </svg>
-                    Data
+                    <span data-i18n="linkMethodology">${t('linkMethodology')}</span>
                 </a>
                 <a href="over.html" style="color: #00aa7c; text-decoration: none; font-size: 0.95rem; font-weight: 500; display: flex; align-items: center; gap: 0.5rem;">
                     <svg width="16" height="16" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <circle cx="12" cy="12" r="10" stroke="currentColor" stroke-width="2"/>
                         <path d="M12 16v-4M12 8h.01" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
                     </svg>
-                    Over ons
+                    <span data-i18n="aboutUsLink">${t('aboutUsLink')}</span>
                 </a>
             </div>
             
             <div style="margin-top: 2rem; padding-top: 1.5rem; border-top: 1px solid #e2e8f0; text-align: center;">
                 <img src="assets/logo-eur.png" 
                      alt="Erasmus Universiteit Rotterdam" 
-                     style="max-width: 180px; height: auto; opacity: 0.9;">
+                     style="max-width: 180px; height: auto; opacity: 0.9; margin-bottom: 1.5rem;">
+                <p style="font-size: 0.75rem; color: var(--text-light); margin-bottom: 0.5rem; font-weight: 500;">Funded by</p>
+                <img src="assets/convergence-logo.jpg" 
+                     alt="Convergence" 
+                     style="max-width: 160px; height: auto; opacity: 0.85;">
             </div>
         `;
         return;
     }
     
+    const unitBillion = t('unitBillion');
+    const unitHa = t('unitHectares');
+    
     const html = `
         <h2>${data.naam}</h2>
-        ${data.gemeente ? `<p style="color: #666; margin-bottom: 1rem;">Gemeente: ${data.gemeente}</p>` : ''}
+        ${data.gemeente ? `<p style="color: #666; margin-bottom: 1rem;"><span data-i18n="infoGemeente">${t('infoGemeente')}</span> ${data.gemeente}</p>` : ''}
         
         <div class="stat-row">
-            <span class="stat-label">Bevolking</span>
+            <span class="stat-label" data-i18n="infoPopulation">${t('infoPopulation')}</span>
             <span class="stat-value">${formatValue(data.population)}</span>
         </div>
         <div class="stat-row">
-            <span class="stat-label">Oppervlakte</span>
-            <span class="stat-value">${formatValue(data.area_hectares)} ha.</span>
+            <span class="stat-label" data-i18n="infoArea">${t('infoArea')}</span>
+            <span class="stat-value">${formatValue(data.area_hectares)} ${unitHa}</span>
         </div>
         
-        <h3>Kapitaal (mld. €)</h3>
+        <h3 data-i18n="infoCapitalHeading">${t('infoCapitalHeading')}</h3>
         <div class="stat-row">
-            <span class="stat-label capital-human">Menselijk</span>
-            <span class="stat-value">€${formatValue(data.human, true)} mld.</span>
+            <span class="stat-label capital-human" data-i18n="infoCapitalHuman">${t('infoCapitalHuman')}</span>
+            <span class="stat-value">€${formatValue(data.human, true)} ${unitBillion}</span>
         </div>
         <div class="stat-row">
-            <span class="stat-label capital-produced">Geproduceerd</span>
-            <span class="stat-value">€${formatValue(data.produced, true)} mld.</span>
+            <span class="stat-label capital-produced" data-i18n="infoCapitalProduced">${t('infoCapitalProduced')}</span>
+            <span class="stat-value">€${formatValue(data.produced, true)} ${unitBillion}</span>
         </div>
         <div class="stat-row">
-            <span class="stat-label capital-natural">Natuurlijk</span>
-            <span class="stat-value">€${formatValue(data.natural, true)} mld.</span>
+            <span class="stat-label capital-natural" data-i18n="infoCapitalNatural">${t('infoCapitalNatural')}</span>
+            <span class="stat-value">€${formatValue(data.natural, true)} ${unitBillion}</span>
         </div>
         <div class="stat-row stat-row-total">
-            <span class="stat-label capital-total">Totaal</span>
-            <span class="stat-value">€${formatValue(data.total, true)} mld.</span>
+            <span class="stat-label capital-total" data-i18n="infoCapitalTotal">${t('infoCapitalTotal')}</span>
+            <span class="stat-value">€${formatValue(data.total, true)} ${unitBillion}</span>
         </div>
         
         <div id="chart-container">
             <canvas id="capital-chart"></canvas>
         </div>
         
-        <h3>Per Inwoner (€)</h3>
+        <h3 data-i18n="infoPerCapitaHeading">${t('infoPerCapitaHeading')}</h3>
         <div class="stat-row">
-            <span class="stat-label">Menselijk</span>
+            <span class="stat-label" data-i18n="infoCapitalHuman">${t('infoCapitalHuman')}</span>
             <span class="stat-value">€${formatValue(data.human_per_capita)}</span>
         </div>
         <div class="stat-row">
-            <span class="stat-label">Geproduceerd</span>
+            <span class="stat-label" data-i18n="infoCapitalProduced">${t('infoCapitalProduced')}</span>
             <span class="stat-value">€${formatValue(data.produced_per_capita)}</span>
         </div>
         <div class="stat-row">
-            <span class="stat-label">Natuurlijk</span>
+            <span class="stat-label" data-i18n="infoCapitalNatural">${t('infoCapitalNatural')}</span>
             <span class="stat-value">€${formatValue(data.natural_per_capita)}</span>
         </div>
         <div class="stat-row stat-row-total">
-            <span class="stat-label capital-total">Totaal</span>
+            <span class="stat-label capital-total" data-i18n="infoCapitalTotal">${t('infoCapitalTotal')}</span>
             <span class="stat-value">€${formatValue(data.total_per_capita)}</span>
         </div>
         
-        <h3>Per Hectare (€)</h3>
+        <h3 data-i18n="infoPerHectareHeading">${t('infoPerHectareHeading')}</h3>
         <div class="stat-row">
-            <span class="stat-label">Menselijk</span>
+            <span class="stat-label" data-i18n="infoCapitalHuman">${t('infoCapitalHuman')}</span>
             <span class="stat-value">€${formatValue(data.human_per_hectare * 1000000)}</span>
         </div>
         <div class="stat-row">
-            <span class="stat-label">Geproduceerd</span>
+            <span class="stat-label" data-i18n="infoCapitalProduced">${t('infoCapitalProduced')}</span>
             <span class="stat-value">€${formatValue(data.produced_per_hectare * 1000000)}</span>
         </div>
         <div class="stat-row">
-            <span class="stat-label">Natuurlijk</span>
+            <span class="stat-label" data-i18n="infoCapitalNatural">${t('infoCapitalNatural')}</span>
             <span class="stat-value">€${formatValue(data.natural_per_hectare * 1000000)}</span>
         </div>
         <div class="stat-row stat-row-total">
-            <span class="stat-label capital-total">Totaal</span>
+            <span class="stat-label capital-total" data-i18n="infoCapitalTotal">${t('infoCapitalTotal')}</span>
             <span class="stat-value">€${formatValue(data.total_per_hectare * 1000000)}</span>
         </div>
         
-        <h3>Aandeel (% van totaal)</h3>
+        <h3 data-i18n="infoProportionHeading">${t('infoProportionHeading')}</h3>
         <div class="stat-row">
-            <span class="stat-label">Menselijk</span>
+            <span class="stat-label" data-i18n="infoCapitalHuman">${t('infoCapitalHuman')}</span>
             <span class="stat-value">${((data.human / data.total) * 100).toFixed(1)}%</span>
         </div>
         <div class="stat-row">
-            <span class="stat-label">Geproduceerd</span>
+            <span class="stat-label" data-i18n="infoCapitalProduced">${t('infoCapitalProduced')}</span>
             <span class="stat-value">${((data.produced / data.total) * 100).toFixed(1)}%</span>
         </div>
         <div class="stat-row">
-            <span class="stat-label">Natuurlijk</span>
+            <span class="stat-label" data-i18n="infoCapitalNatural">${t('infoCapitalNatural')}</span>
             <span class="stat-value">${((data.natural / data.total) * 100).toFixed(1)}%</span>
         </div>
         <div class="stat-row stat-row-total">
-            <span class="stat-label capital-total">Totaal</span>
+            <span class="stat-label capital-total" data-i18n="infoCapitalTotal">${t('infoCapitalTotal')}</span>
             <span class="stat-value">100.0%</span>
         </div>
     `;
@@ -842,11 +907,12 @@ function createChart(data) {
     }
     
     const total = data.natural + data.produced + data.human;
+    const unitBillion = t('unitBillion');
     
     chart = new Chart(ctx, {
         type: 'pie',
         data: {
-            labels: ['Menselijk', 'Geproduceerd', 'Natuurlijk'],
+            labels: [t('infoCapitalHuman'), t('infoCapitalProduced'), t('infoCapitalNatural')],
             datasets: [{
                 data: [data.human, data.produced, data.natural],
                 backgroundColor: ['#f97316', '#7c3aed', '#00a854'],  // Orange, Purple, Green
@@ -883,7 +949,7 @@ function createChart(data) {
                             const label = context.label || '';
                             const value = context.parsed || 0;
                             const percentage = total > 0 ? ((value / total) * 100).toFixed(1) : 0;
-                            return label + ': €' + formatValue(value, true) + ' mld. (' + percentage + '%)';
+                            return label + ': €' + formatValue(value, true) + ' ' + unitBillion + ' (' + percentage + '%)';
                         }
                     }
                 },
@@ -964,6 +1030,10 @@ function setupTooltips() {
 }
 
 function setupEventListeners() {
+    // Language toggle buttons
+    document.getElementById('lang-nl').addEventListener('click', () => setLanguage('nl'));
+    document.getElementById('lang-en').addEventListener('click', () => setLanguage('en'));
+    
     // Title click to reset
     document.querySelector('.sidebar-title').addEventListener('click', () => {
         selectedRegion = null;
@@ -1050,24 +1120,24 @@ function setupEventListeners() {
 
 function updateLegend() {
     const baseTitles = {
-        total: 'Totaal Kapitaal',
-        balance: 'Balans',
-        natural: 'Natuurlijk Kapitaal',
-        produced: 'Geproduceerd Kapitaal',
-        human: 'Menselijk Kapitaal'
+        total: t('capitalTotal') + ' ' + t('capitalHeading'),
+        balance: t('capitalBalance'),
+        natural: t('capitalNatural'),
+        produced: t('capitalProduced'),
+        human: t('capitalHuman')
     };
     
     const scaleUnits = {
-        absolute: '(mld. €)',
-        per_capita: '(€ per inwoner)',
-        per_hectare: '(€ per hectare)',
-        proportion: '(% van totaal)',
-        vs_national: '(per hectare, t.o.v. NL gemiddelde)'
+        absolute: `(${t('unitBillion')} €)`,
+        per_capita: `(€ ${t('scalePerCapita').toLowerCase()})`,
+        per_hectare: `(€ ${t('scalePerHectare').toLowerCase()})`,
+        proportion: `(${t('scaleProportion')})`,
+        vs_national: `(${t('scalePerHectare').toLowerCase()}, ${t('scaleVsNational').toLowerCase()})`
     };
     
     // Balance always shows same unit regardless of scale
     const title = currentCapitalType === 'balance' 
-        ? 'Balans (per hectare, t.o.v. NL gemiddelde)'
+        ? `${t('capitalBalance')} (${t('scalePerHectare').toLowerCase()}, ${t('scaleVsNational').toLowerCase()})`
         : `${baseTitles[currentCapitalType]} ${scaleUnits[currentScale]}`;
     document.querySelector('.legend-title').textContent = title;
     
@@ -1089,19 +1159,19 @@ function updateLegend() {
         // Set 5-class balance colors and labels
         if (legendColors.length >= 5 && legendLabels.length >= 5) {
             legendColors[0].style.background = '#d73027';
-            legendLabels[0].textContent = 'Alle 3 onder gemiddelde';
+            legendLabels[0].textContent = t('legendBalanceAllBelow');
             
             legendColors[1].style.background = '#fc8d59';
-            legendLabels[1].textContent = '1-2 onder gemiddelde';
+            legendLabels[1].textContent = t('legendBalance12Below');
             
             legendColors[2].style.background = '#ffffbf';
-            legendLabels[2].textContent = 'Evenwichtig';
+            legendLabels[2].textContent = t('legendBalanceBalanced');
             
             legendColors[3].style.background = '#91cf60';
-            legendLabels[3].textContent = '1-2 boven gemiddelde';
+            legendLabels[3].textContent = t('legendBalance12Above');
             
             legendColors[4].style.background = '#1a9850';
-            legendLabels[4].textContent = 'Alle 3 boven gemiddelde';
+            legendLabels[4].textContent = t('legendBalanceAllAbove');
         }
     } else if (currentScale === 'vs_national') {
         // Show only 3 legend items
@@ -1117,15 +1187,15 @@ function updateLegend() {
         if (legendColors.length >= 3 && legendLabels.length >= 3) {
             // Dark red: Below national average
             legendColors[0].style.background = '#d73027';
-            legendLabels[0].textContent = 'Onder gemiddelde';
+            legendLabels[0].textContent = t('legendVsNationalBelow');
             
             // Yellow: Around average
             legendColors[1].style.background = '#ffffbf';
-            legendLabels[1].textContent = 'Gemiddeld';
+            legendLabels[1].textContent = t('legendVsNationalAverage');
             
             // Dark green: Above national average
             legendColors[2].style.background = '#1a9850';
-            legendLabels[2].textContent = 'Boven gemiddelde';
+            legendLabels[2].textContent = t('legendVsNationalAbove');
         }
     } else {
         // Regular 3-class legend - hide extra items
@@ -1139,9 +1209,9 @@ function updateLegend() {
         
         // Reset to standard labels
         if (legendLabels.length >= 3) {
-            legendLabels[0].textContent = 'Laag';
-            legendLabels[1].textContent = 'Gemiddeld';
-            legendLabels[2].textContent = 'Hoog';
+            legendLabels[0].textContent = t('legendLow');
+            legendLabels[1].textContent = t('legendMedium');
+            legendLabels[2].textContent = t('legendHigh');
         }
         
         // Update colors for 3 classes
@@ -1160,12 +1230,18 @@ function getRegionCode(feature) {
 }
 
 function formatValue(value, inBillions = false) {
+    const locale = currentLanguage === 'nl' ? 'nl-NL' : 'en-US';
+    
     // If inBillions is true, convert millions to billions with 1 decimal
     if (inBillions) {
-        return (value / 1000).toFixed(1);
+        const billions = value / 1000;
+        return billions.toLocaleString(locale, { 
+            minimumFractionDigits: 1, 
+            maximumFractionDigits: 1 
+        });
     }
     // For population, use full number with thousand separators
-    return Math.round(value).toLocaleString('nl-NL');
+    return Math.round(value).toLocaleString(locale);
 }
 
 function showLoading(show) {

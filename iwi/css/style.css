@@ -115,6 +115,46 @@ aside::-webkit-scrollbar-thumb:hover {
     transform: translateX(2px);
 }
 
+/* Language Toggle */
+.language-toggle {
+    display: flex;
+    gap: 0.15rem;
+    background: var(--bg-light);
+    padding: 0.2rem;
+    border-radius: 6px;
+    border: 1px solid var(--border);
+}
+
+.lang-btn {
+    padding: 0.25rem 0.5rem;
+    border: none;
+    background: transparent;
+    color: var(--text-light);
+    font-size: 0.75rem;
+    font-weight: 600;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: all 0.2s;
+    letter-spacing: 0.3px;
+    min-width: 32px;
+}
+
+.lang-btn:hover {
+    background: var(--primary-glow);
+    color: var(--primary);
+}
+
+.lang-btn.active {
+    background: var(--primary);
+    color: white;
+    box-shadow: 0 1px 3px rgba(0, 170, 124, 0.3);
+}
+
+.lang-btn.active:hover {
+    background: var(--primary-dark);
+    color: white;
+}
+
 /* Section Headers */
 h2 {
     color: var(--text-dark);
@@ -210,27 +250,27 @@ h2:first-child {
 /* Tooltip styling */
 .capital-tooltip {
     position: fixed;
-    background: rgba(15, 23, 42, 0.98);
-    color: white;
+    background: rgba(255, 255, 255, 0.98);
+    color: #1e293b;
     padding: 1rem;
     border-radius: 8px;
-    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.15);
     z-index: 10000;
     max-width: 320px;
     font-size: 0.85rem;
     line-height: 1.5;
     pointer-events: none;
-    border: 1px solid var(--primary);
+    border: 1px solid #e2e8f0;
 }
 
 .capital-tooltip strong {
-    color: var(--primary-light);
+    color: var(--primary);
     display: block;
-    margin-bottom: 0.5rem;
+    margin-bottom: 0.35rem;
 }
 
 .capital-tooltip a {
-    color: var(--primary-light);
+    color: var(--primary);
     text-decoration: none;
     font-weight: 600;
     display: inline-block;
