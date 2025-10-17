@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Brede Welkaart - Nederland 2023</title>
+    <link rel="icon" type="image/svg+xml" href="favicon.svg">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+    <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+    <main>
+        <aside id="controls">
+            <h1 class="sidebar-title">Brede Welkaart</h1>
+            
+            <h2>Kapitaal</h2>
+            <div class="control-group">
+                <label>
+                    <input type="radio" name="capital" value="total" checked>
+                    <span>Totaal</span>
+                    <span class="info-icon" data-tooltip="total">
+                        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <circle cx="12" cy="12" r="10" stroke="currentColor" stroke-width="2"/>
+                            <path d="M12 16V12M12 8H12.01" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+                        </svg>
+                    </span>
+                </label>
+                <label>
+                    <input type="radio" name="capital" value="human">
+                    <span>Menselijk Kapitaal</span>
+                    <span class="info-icon" data-tooltip="human">
+                        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <circle cx="12" cy="12" r="10" stroke="currentColor" stroke-width="2"/>
+                            <path d="M12 16V12M12 8H12.01" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+                        </svg>
+                    </span>
+                </label>
+                <label>
+                    <input type="radio" name="capital" value="produced">
+                    <span>Geproduceerd Kapitaal</span>
+                    <span class="info-icon" data-tooltip="produced">
+                        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <circle cx="12" cy="12" r="10" stroke="currentColor" stroke-width="2"/>
+                            <path d="M12 16V12M12 8H12.01" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+                        </svg>
+                    </span>
+                </label>
+                <label>
+                    <input type="radio" name="capital" value="natural">
+                    <span>Natuurlijk Kapitaal</span>
+                    <span class="info-icon" data-tooltip="natural">
+                        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <circle cx="12" cy="12" r="10" stroke="currentColor" stroke-width="2"/>
+                            <path d="M12 16V12M12 8H12.01" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+                        </svg>
+                    </span>
+                </label>
+                <label>
+                    <input type="radio" name="capital" value="balance">
+                    <span>Balans</span>
+                    <span class="info-icon" data-tooltip="balance">
+                        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <circle cx="12" cy="12" r="10" stroke="currentColor" stroke-width="2"/>
+                            <path d="M12 16V12M12 8H12.01" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+                        </svg>
+                    </span>
+                </label>
+            </div>
+            
+            <!-- Tooltips for capital types -->
+            <div id="capital-tooltips" style="display: none;">
+                <div id="tooltip-total">
+                    <strong>Totaal Kapitaal</strong><br>
+                    Som van natuurlijk, geproduceerd en menselijk kapitaal.<br><br>
+                    <strong>Berekening:</strong> NC + PC + HC<br><br>
+                    <a href="methodologie.html" target="_blank">→ Methodologie</a>
+                </div>
+                <div id="tooltip-balance">
+                    <strong>Balans</strong><br>
+                    Toont hoe evenwichtig een regio presteert over alle kapitaalvormen.<br><br>
+                    <strong>Berekening:</strong> Telt hoeveel kapitaalsoorten (per hectare) boven landelijk gemiddelde liggen<br><br>
+                    🟢 Donkergroen = alle 3 boven gemiddelde<br>
+                    🟢 Lichtgroen = 1-2 boven gemiddelde<br>
+                    🟡 Geel = evenwichtig (±5%)<br>
+                    🔴 Lichtrood = 1-2 onder gemiddelde<br>
+                    🔴 Donkerrood = alle 3 onder gemiddelde
+                </div>
+                <div id="tooltip-natural">
+                    <strong>Natuurlijk Kapitaal</strong><br>
+                    Waarde van ecosysteemdiensten en natuurlijke hulpbronnen.<br><br>
+                    <strong>Berekening:</strong> CBS Natuurlijk Kapitaalrekeningen (2020), aangepast naar 2023 prijzen<br><br>
+                    <strong>Bron:</strong> Atlas Natuurlijk Kapitaal (ANK)<br><br>
+                    <a href="methodologie.html" target="_blank">→ Methodologie</a>
+                </div>
+                <div id="tooltip-produced">
+                    <strong>Geproduceerd Kapitaal</strong><br>
+                    Waarde van gebouwen, infrastructuur en andere fysieke activa.<br><br>
+                    <strong>Berekening:</strong> LitPop-methode met CBS GDP-kalibratie op COROP-niveau<br><br>
+                    <strong>Bronnen:</strong> CBS Regionale Rekeningen, LitPop (nachtlicht + bevolkingsdichtheid)<br><br>
+                    <a href="methodologie.html" target="_blank">→ Methodologie</a>
+                </div>
+                <div id="tooltip-human">
+                    <strong>Menselijk Kapitaal</strong><br>
+                    Contante waarde van toekomstige arbeidsinkomen.<br><br>
+                    <strong>Berekening:</strong> UNEP IWI 2023 methodologie met leeftijdsgewogen NPV<br><br>
+                    <strong>Bronnen:</strong> CBS Kerncijfers Wijken en Buurten (inkomen, scholing, arbeidsparticipatie)<br><br>
+                    <a href="methodologie.html" target="_blank">→ Methodologie</a>
+                </div>
+                <div id="tooltip-vs_national_scale">
+                    <strong>T.o.v. NL Gemiddelde</strong><br>
+                    Toont hoe een regio afwijkt van het landelijk gemiddelde.<br><br>
+                    <strong>Normalisatie:</strong> Gebruikt kapitaal per hectare voor eerlijke vergelijking tussen grote en kleine regio's.<br><br>
+                    <strong>Interpretatie:</strong><br>
+                    🔴 Rood = onder gemiddelde<br>
+                    🟡 Geel = gemiddeld (±5%)<br>
+                    🟢 Groen = boven gemiddelde
+                </div>
+            </div>
+
+            <h2>Niveau</h2>
+            <div class="control-group">
+                <label>
+                    <input type="radio" name="admin" value="pixel" checked>
+                    <span>Pixel (100x100m)</span>
+                </label>
+                <label>
+                    <input type="radio" name="admin" value="wijk">
+                    <span>Wijk</span>
+                </label>
+                <label>
+                    <input type="radio" name="admin" value="gemeente">
+                    <span>Gemeente</span>
+                </label>
+                <label>
+                    <input type="radio" name="admin" value="provincie">
+                    <span>Provincie</span>
+                </label>
+            </div>
+
+            <h2>Schaal</h2>
+            <div class="control-group">
+                <label>
+                    <input type="radio" name="scale" value="absolute" checked>
+                    <span>Absoluut</span>
+                </label>
+                <label>
+                    <input type="radio" name="scale" value="per_capita">
+                    <span>Per Inwoner</span>
+                </label>
+                <label>
+                    <input type="radio" name="scale" value="per_hectare">
+                    <span>Per Hectare</span>
+                </label>
+            <label>
+                <input type="radio" name="scale" value="proportion">
+                <span>Aandeel (%)</span>
+            </label>
+            <label>
+                <input type="radio" name="scale" value="vs_national">
+                <span>T.o.v. NL Gemiddelde</span>
+                <span class="info-icon-inline" data-tooltip="vs_national_scale">
+                    <svg width="12" height="12" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <circle cx="12" cy="12" r="10" stroke="currentColor" stroke-width="2"/>
+                        <path d="M12 16v-4M12 8h.01" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+                    </svg>
+                </span>
+            </label>
+            </div>
+
+            <div class="sidebar-links">
+                <a href="methodologie.html" class="sidebar-link">
+                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+                        <path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+                    </svg>
+                    Methodologie
+                </a>
+                <a href="data.html" class="sidebar-link">
+                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M13 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V9z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                        <path d="M13 2v7h7" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                    </svg>
+                    Data
+                </a>
+                <a href="over.html" class="sidebar-link">
+                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <circle cx="12" cy="12" r="10" stroke="currentColor" stroke-width="2"/>
+                        <path d="M12 16v-4M12 8h.01" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+                    </svg>
+                    Over
+                </a>
+            </div>
+        </aside>
+        
+        <div id="map">
+            <div id="legend" class="map-legend">
+                <div class="legend-title">Totaal Kapitaal (mld. €)</div>
+                <div class="legend-scale">
+                    <div class="legend-item">
+                        <span class="legend-color" style="background: #c6dbef;"></span>
+                        <span class="legend-label">Laag</span>
+                    </div>
+                    <div class="legend-item">
+                        <span class="legend-color" style="background: #6baed6;"></span>
+                        <span class="legend-label">Gemiddeld</span>
+                    </div>
+                    <div class="legend-item">
+                        <span class="legend-color" style="background: #08519c;"></span>
+                        <span class="legend-label">Hoog</span>
+                    </div>
+                    <!-- Extra items for balance/vs_national 5-class scales (hidden by default) -->
+                    <div class="legend-item legend-extra" style="display: none;">
+                        <span class="legend-color"></span>
+                        <span class="legend-label"></span>
+                    </div>
+                    <div class="legend-item legend-extra" style="display: none;">
+                        <span class="legend-color"></span>
+                        <span class="legend-label"></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <aside id="info">
+            <div id="info-content">
+                <h2>Over deze kaart</h2>
+                <p style="color: #64748b; margin-top: 1rem; line-height: 1.8;">
+                    De Brede Welkaart biedt een uitgebreid overzicht van het kapitaal in Nederland. Ontdek de verdeling van natuurlijk, geproduceerd en menselijk kapitaal in verschillende regio's voor het jaar 2023.
+                </p>
+                <p style="color: #64748b; margin-top: 0.75rem; line-height: 1.8;">
+                    <strong style="color: #1e293b;">Selecteer een regio</strong> op de kaart om gedetailleerde statistieken te bekijken, of gebruik de filters aan de linkerkant om verschillende kapitaalsoorten, niveaus en schalen te verkennen.
+                </p>
+                
+                <div style="margin-top: 2rem; padding-top: 1.5rem; border-top: 1px solid #e2e8f0;">
+                    <a href="methodologie.html" style="color: #00aa7c; text-decoration: none; font-size: 0.95rem; font-weight: 500; display: flex; align-items: center; gap: 0.5rem; margin-bottom: 0.75rem;">
+                        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+                            <path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+                        </svg>
+                        Methodologie
+                    </a>
+                    <a href="data.html" style="color: #00aa7c; text-decoration: none; font-size: 0.95rem; font-weight: 500; display: flex; align-items: center; gap: 0.5rem; margin-bottom: 0.75rem;">
+                        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M13 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V9z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                            <path d="M13 2v7h7" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>
+                        Data
+                    </a>
+                    <a href="over.html" style="color: #00aa7c; text-decoration: none; font-size: 0.95rem; font-weight: 500; display: flex; align-items: center; gap: 0.5rem;">
+                        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <circle cx="12" cy="12" r="10" stroke="currentColor" stroke-width="2"/>
+                            <path d="M12 16v-4M12 8h.01" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+                        </svg>
+                        Over ons
+                    </a>
+                </div>
+                
+                <div style="margin-top: 2rem; padding-top: 1.5rem; border-top: 1px solid #e2e8f0; text-align: center;">
+                    <img src="assets/logo-eur.png" 
+                         alt="Erasmus Universiteit Rotterdam" 
+                         style="max-width: 180px; height: auto; opacity: 0.9;">
+                </div>
+            </div>
+        </aside>
+    </main>
+
+    <div id="loading">
+        <div class="loader"></div>
+        <p>Laden...</p>
+    </div>
+    
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.0/dist/chart.umd.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-datalabels@2.2.0/dist/chartjs-plugin-datalabels.min.js"></script>
+    <script src="js/app.js"></script>
+</body>
+</html>
+
+

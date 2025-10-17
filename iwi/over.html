@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Over - Brede Welkaart</title>
+    <link rel="icon" type="image/svg+xml" href="favicon.svg">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css" />
+    <style>
+        body {
+            overflow-y: auto;
+        }
+        
+        .back-link {
+            display: inline-block;
+            margin-bottom: 2rem;
+            color: var(--primary);
+            text-decoration: none;
+            font-weight: 500;
+            padding: 0.5rem 1rem;
+            border-radius: 8px;
+            background: var(--bg-light);
+            transition: all 0.2s;
+        }
+        
+        .back-link:hover {
+            background: var(--primary-glow);
+            transform: translateX(-2px);
+        }
+        
+        .content {
+            max-width: 1000px;
+            margin: 0 auto;
+            padding: 3rem 2rem;
+            line-height: 1.8;
+            min-height: 100vh;
+        }
+        .content h1 {
+            color: var(--primary);
+            margin-bottom: 2rem;
+        }
+        .content h2 {
+            color: var(--primary-dark);
+            margin-top: 2.5rem;
+            margin-bottom: 1rem;
+            text-transform: none;
+        }
+        .content p {
+            margin-bottom: 1rem;
+        }
+        .content ul {
+            margin-left: 2rem;
+            margin-bottom: 1rem;
+        }
+        .content li {
+            margin-bottom: 0.5rem;
+        }
+        .highlight-box {
+            background: var(--bg-light);
+            padding: 1.5rem;
+            border-left: 4px solid var(--primary);
+            margin: 1.5rem 0;
+        }
+        .button {
+            display: inline-block;
+            background: var(--primary);
+            color: white;
+            padding: 0.75rem 1.5rem;
+            text-decoration: none;
+            border-radius: 4px;
+            margin-top: 1rem;
+            margin-right: 1rem;
+            transition: background 0.3s;
+        }
+        .button:hover {
+            background: var(--primary-dark);
+        }
+        .contact-box {
+            background: white;
+            border: 1px solid var(--border);
+            padding: 1.5rem;
+            border-radius: 4px;
+            margin: 2rem 0;
+        }
+    </style>
+</head>
+<body>
+    <div class="content">
+        <a href="index.html" class="back-link">← Terug naar kaart</a>
+        <h1>Over de Brede Welkaart</h1>
+        
+        <div class="highlight-box">
+            <strong>Missie:</strong> Het Brede Welkaart project visualiseert de brede welvaart van Nederland door natuurlijk, geproduceerd en menselijk kapitaal in kaart te brengen, om zo een completer beeld te geven dan traditionele economische indicatoren alleen.
+        </div>
+        
+        <h2>Context en Doel</h2>
+        <p>
+            Traditionele welvaartsindicatoren zoals het Bruto Binnenlands Product (BBP) meten vooral economische productie, maar vertellen niet het hele verhaal over welvaart. De Brede Welkaart volgt de principes van "Inclusive Wealth" door drie essentiële kapitaalvormen te meten:
+        </p>
+        <ul>
+            <li><strong>Natuurlijk kapitaal:</strong> De waarde van ecosystemen en natuurlijke hulpbronnen</li>
+            <li><strong>Geproduceerd kapitaal:</strong> Gebouwen, infrastructuur en machines</li>
+            <li><strong>Menselijk kapitaal:</strong> Kennis, vaardigheden en gezondheid van mensen</li>
+        </ul>
+        <p>
+            Door deze drie vormen van kapitaal te integreren, krijgen we een veel completer beeld van de werkelijke welvaart en het duurzame potentieel van regio's in Nederland.
+        </p>
+        
+        <h2>Voor Wie Is Dit</h2>
+        <p>De Brede Welkaart is relevant voor:</p>
+        <ul>
+            <li><strong>Beleidsmakers:</strong> Onderbouwing voor beslissingen over ruimtelijke ordening, economische ontwikkeling en duurzaamheidsbeleid</li>
+            <li><strong>Onderzoekers:</strong> Gedetailleerde data voor studies naar regionale welvaart en duurzaamheid</li>
+            <li><strong>Onderwijsinstellingen:</strong> Visualisatie van brede welvaartconcepten</li>
+            <li><strong>Geïnteresseerde burgers:</strong> Inzicht in de welvaart van hun eigen regio</li>
+        </ul>
+        
+        <h2>Project Team</h2>
+        <div class="contact-box">
+            <strong>Erasmus Universiteit Rotterdam</strong><br>
+            Erasmus School of Economics<br>
+            Institute for Water and Wetland Research (IWI)
+            <p style="margin-top: 1rem;">
+                Dit project is ontwikkeld in het kader van onderzoek naar duurzame ontwikkeling en brede welvaart in Nederland.
+            </p>
+        </div>
+        
+        <h2>Open Data en Open Source</h2>
+        <p>
+            Het Brede Welkaart project is volledig open access. Alle data, methodieken en broncode zijn vrij beschikbaar voor hergebruik onder open licenties.
+        </p>
+        
+        <h2>Data Downloads</h2>
+        <p>De volgende datasets zijn beschikbaar:</p>
+        <ul>
+            <li><strong>Totaal Kapitaal:</strong> Geaggregeerde data per administratief niveau (provincie, gemeente, wijk)</li>
+            <li><strong>Raster Maps:</strong> Hoge-resolutie ruimtelijke data (100m) voor alle kapitaaltypen</li>
+            <li><strong>Grensbestanden:</strong> Geografische indelingen 2025</li>
+            <li><strong>Scripts en Code:</strong> Volledige verwerkingspipeline</li>
+        </ul>
+        
+        <h2>Licentie</h2>
+        <p>
+            <strong>Data:</strong> Creative Commons Attribution 4.0 (CC BY 4.0)<br>
+            <strong>Code:</strong> MIT License<br>
+            <strong>Bronvermelding:</strong> "Brede Welkaart Nederland 2023, Erasmus Universiteit Rotterdam"
+        </p>
+        
+        <h2>Contact</h2>
+        <div class="contact-box">
+            <p>
+                Voor vragen, suggesties of samenwerkingsmogelijkheden, neem contact op via:
+            </p>
+            <p>
+                <strong>Email:</strong> [contact informatie]<br>
+                <strong>Website:</strong> [project website]
+            </p>
+        </div>
+        
+        <h2>Acknowledgements</h2>
+        <p>Dit project maakt gebruik van data en methodieken van:</p>
+        <ul>
+            <li>Centraal Bureau voor de Statistiek (CBS)</li>
+            <li>UN Environment Programme - Inclusive Wealth Initiative</li>
+            <li>NASA Earth Observations</li>
+            <li>WorldPop Project</li>
+            <li>CLIMADA Platform (ETH Zürich)</li>
+        </ul>
+        
+        <p style="margin-top: 3rem; color: var(--text-light); font-size: 0.9rem;">
+            <strong>Versie:</strong> 1.0<br>
+            <strong>Laatste update:</strong> Oktober 2025
+        </p>
+    </div>
+</body>
+</html>
+

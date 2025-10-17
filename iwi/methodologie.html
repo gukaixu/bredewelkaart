@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Methodologie - Brede Welkaart</title>
+    <link rel="icon" type="image/svg+xml" href="favicon.svg">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css" />
+    <style>
+        body {
+            overflow-y: auto;
+        }
+        
+        .back-link {
+            display: inline-block;
+            margin-bottom: 2rem;
+            color: var(--primary);
+            text-decoration: none;
+            font-weight: 500;
+            padding: 0.5rem 1rem;
+            border-radius: 8px;
+            background: var(--bg-light);
+            transition: all 0.2s;
+        }
+        
+        .back-link:hover {
+            background: var(--primary-glow);
+            transform: translateX(-2px);
+        }
+        
+        .content {
+            max-width: 1000px;
+            margin: 0 auto;
+            padding: 3rem 2rem;
+            line-height: 1.8;
+            min-height: 100vh;
+        }
+        .content h1 {
+            color: var(--primary);
+            margin-bottom: 2rem;
+        }
+        .content h2 {
+            color: var(--primary-dark);
+            margin-top: 2.5rem;
+            margin-bottom: 1rem;
+        }
+        .content h3 {
+            color: var(--primary);
+            margin-top: 1.5rem;
+            margin-bottom: 0.75rem;
+        }
+        .content p {
+            margin-bottom: 1rem;
+        }
+        .content ul {
+            margin-left: 2rem;
+            margin-bottom: 1rem;
+        }
+        .content li {
+            margin-bottom: 0.5rem;
+        }
+        .highlight-box {
+            background: var(--bg-light);
+            padding: 1.5rem;
+            border-left: 4px solid var(--primary);
+            margin: 1.5rem 0;
+        }
+        .data-source {
+            background: white;
+            border: 1px solid var(--border);
+            padding: 1rem;
+            margin: 1rem 0;
+            border-radius: 4px;
+        }
+    </style>
+</head>
+<body>
+    <div class="content">
+        <a href="index.html" class="back-link">← Terug naar kaart</a>
+        <h1>Methodologie</h1>
+        
+        <div class="highlight-box">
+            <strong>Samenvatting:</strong> De Brede Welkaart visualiseert de verdeling van totaal kapitaal in Nederland voor 2023, opgedeeld in natuurlijk, geproduceerd en menselijk kapitaal. De data is gebaseerd op officiële CBS-statistieken, internationale wetenschappelijke methodieken en ruimtelijke allocatiemodellen.
+        </div>
+        
+        <h2>Projectoverzicht</h2>
+        <p>
+            Het Brede Welkaart project brengt de welvaart van Nederland in kaart door niet alleen naar traditionele economische indicatoren te kijken, maar ook naar natuurlijk en menselijk kapitaal. Dit geeft een completer beeld van de brede welvaart van regio's in Nederland.
+        </p>
+        
+        <h2>Kapitaaltypen</h2>
+        
+        <h3>Natuurlijk Kapitaal</h3>
+        <div class="data-source">
+            <strong>Bron:</strong> CBS Natuurlijk Kapitaalrekeningen (NKR) 2020<br>
+            <strong>Methode:</strong> Totale waarde ecosysteemkapitaal per hectare, aangepast naar 2023 prijzen (CPI factor: 1.138)<br>
+            <strong>Resolutie:</strong> 10m origineel, geaggregeerd naar 100m<br>
+            <strong>Totaal (NL 2023):</strong> €616 miljard
+        </div>
+        <p>
+            Het natuurlijk kapitaal omvat de waarde van ecosystemen en hun diensten. Het CBS berekent dit door de netto contante waarde van toekomstige stromen van ecosysteemdiensten (zoals CO2-vastlegging, waterregulatie, recreatie) te schatten. Deze waarden zijn gebaseerd op marktprijzen waar mogelijk, en op modelmatige benaderingen voor niet-vermarkte diensten.
+        </p>
+        
+        <h3>Geproduceerd Kapitaal</h3>
+        <div class="data-source">
+            <strong>Bron:</strong> LitPop methodiek (Lit¹Pop¹) met COROP-kalibratie<br>
+            <strong>Methode:</strong> Ruimtelijke verdeling van nationaal kapitaal op basis van nachtelijk licht en bevolking<br>
+            <strong>Resolutie:</strong> 100m<br>
+            <strong>Totaal (NL 2023):</strong> €2,522 miljard
+        </div>
+        <p>
+            Geproduceerd kapitaal (gebouwen, infrastructuur, machines) wordt ruimtelijk verdeeld met de LitPop-methodiek. Deze combineert satellietdata van nachtelijk licht (als proxy voor economische activiteit) met bevolkingsdichtheid. De methode is gekalibreerd met regionale GDP-cijfers van het CBS op COROP-niveau voor hogere nauwkeurigheid.
+        </p>
+        
+        <h3>Menselijk Kapitaal</h3>
+        <div class="data-source">
+            <strong>Bron:</strong> CBS Kerncijfers Wijken en Buurten (KWB) 2023<br>
+            <strong>Methode:</strong> IWI 2023 methodiek met leeftijdscorrectie<br>
+            <strong>Resolutie:</strong> Wijk-niveau, ruimtelijk verdeeld met bevolkingsdata<br>
+            <strong>Totaal (NL 2023):</strong> €9,411 miljard
+        </div>
+        <p>
+            Menselijk kapitaal vertegenwoordigt de economische waarde van kennis, vaardigheden en gezondheid van de bevolking. De berekening volgt de Inclusive Wealth Index (IWI) 2023 methodiek:
+        </p>
+        <ul>
+            <li><strong>Opleiding:</strong> Gemiddelde verwachte jaren scholing per wijk</li>
+            <li><strong>Arbeidsparticipatie:</strong> Percentage werkzame beroepsbevolking</li>
+            <li><strong>Leeftijdscorrectie:</strong> Gewogen resterende arbeidsjaren op basis van leeftijdsverdeling</li>
+            <li><strong>Schaduwprijs:</strong> €22,000 per jaar (IWI 2023 standaard)</li>
+        </ul>
+        <p>
+            De formule: <code>HC = Bevolking × EYS × Arbeidsparticipatie × Gewogen Resterende Jaren × Schaduwprijs</code>
+        </p>
+        
+        <h2>Ruimtelijke Verdeling</h2>
+        <p>
+            De kapitaalgegevens zijn beschikbaar op drie administratieve niveaus:
+        </p>
+        <ul>
+            <li><strong>Provincie:</strong> 12 regio's</li>
+            <li><strong>Gemeente:</strong> 340 regio's (2025 indeling)</li>
+            <li><strong>Wijk:</strong> 3,411 wijken</li>
+        </ul>
+        
+        <h2>Databronnen</h2>
+        <div class="data-source">
+            <strong>Centraal Bureau voor de Statistiek (CBS)</strong>
+            <ul>
+                <li>Natuurlijk Kapitaalrekeningen 2020</li>
+                <li>Kerncijfers Wijken en Buurten 2023</li>
+                <li>Regionale Economische Cijfers (COROP)</li>
+                <li>Geografische indelingen 2025</li>
+            </ul>
+        </div>
+        
+        <div class="data-source">
+            <strong>Internationale bronnen</strong>
+            <ul>
+                <li>Inclusive Wealth Report 2023 (UN Environment Programme)</li>
+                <li>WorldPop bevolkingsdata 2023 (100m resolutie)</li>
+                <li>VIIRS nachtelijk licht data (NASA)</li>
+            </ul>
+        </div>
+        
+        <h2>Beperkingen en Nauwkeurigheid</h2>
+        <ul>
+            <li><strong>Natuurlijk kapitaal:</strong> Gebaseerd op 2020 waarden, gecorrigeerd voor inflatie naar 2023</li>
+            <li><strong>Geproduceerd kapitaal:</strong> Nauwkeurigheid varieert; beter voor woongebieden dan industriegebieden</li>
+            <li><strong>Menselijk kapitaal:</strong> Imputaties op wijkniveau (5 wijken) met COROP-gemiddelden</li>
+            <li><strong>Temporele dekking:</strong> Cross-sectionele data voor 2023</li>
+        </ul>
+        
+        <h2>Referenties</h2>
+        <ul>
+            <li>CBS (2022). "Natuurlijk Kapitaalrekeningen Nederland 2020"</li>
+            <li>CBS (2024). "Kerncijfers Wijken en Buurten 2023"</li>
+            <li>Managi, S. & Kumar, P. (2023). "Inclusive Wealth Report 2023". UN Environment Programme.</li>
+            <li>Eberenz, S., Stocker, D., Röösli, T., & Bresch, D. N. (2020). "Asset exposure data for global physical risk assessment". Earth System Science Data, 12(2), 817-833.</li>
+        </ul>
+        
+        <p style="margin-top: 3rem; color: var(--text-light); font-size: 0.9rem;">
+            <strong>Laatste update:</strong> Oktober 2025<br>
+            <strong>Contactgegevens en data downloads:</strong> Zie de <a href="over.html" style="color: var(--primary);">Over pagina</a>
+        </p>
+    </div>
+</body>
+</html>
+
