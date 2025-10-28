@@ -11,10 +11,10 @@
     "produced_per_capita": 128288.47,
     "human_per_capita": 516912.92,
     "total_per_capita": 657460.67,
-    "natural_per_hectare": 0.81,
-    "produced_per_hectare": 8.44,
-    "human_per_hectare": 33.99,
-    "total_per_hectare": 43.23
+    "natural_per_hectare": 83.7,
+    "produced_per_hectare": 875.86,
+    "human_per_hectare": 3529.1,
+    "total_per_hectare": 4488.65
   },
   "GM0796": {
     "naam": "'s-Hertogenbosch",
@@ -28,10 +28,10 @@
     "produced_per_capita": 223904.45,
     "human_per_capita": 589528.76,
     "total_per_capita": 822189.77,
-    "natural_per_hectare": 0.12,
-    "produced_per_hectare": 3.02,
-    "human_per_hectare": 7.94,
-    "total_per_hectare": 11.08
+    "natural_per_hectare": 12.7,
+    "produced_per_hectare": 324.68,
+    "human_per_hectare": 854.85,
+    "total_per_hectare": 1192.23
   },
   "GM1680": {
     "naam": "Aa en Hunze",
@@ -45,10 +45,10 @@
     "produced_per_capita": 34965.18,
     "human_per_capita": 486715.69,
     "total_per_capita": 710420.65,
-    "natural_per_hectare": 0.17,
-    "produced_per_hectare": 0.03,
-    "human_per_hectare": 0.45,
-    "total_per_hectare": 0.66
+    "natural_per_hectare": 17.59,
+    "produced_per_hectare": 3.26,
+    "human_per_hectare": 45.35,
+    "total_per_hectare": 66.2
   },
   "GM0358": {
     "naam": "Aalsmeer",
@@ -62,10 +62,10 @@
     "produced_per_capita": 278944.07,
     "human_per_capita": 621440.1,
     "total_per_capita": 913798.03,
-    "natural_per_hectare": 0.14,
-    "produced_per_hectare": 2.86,
-    "human_per_hectare": 6.36,
-    "total_per_hectare": 9.36
+    "natural_per_hectare": 22.06,
+    "produced_per_hectare": 458.84,
+    "human_per_hectare": 1022.22,
+    "total_per_hectare": 1503.13
   },
   "GM0197": {
     "naam": "Aalten",
@@ -79,10 +79,10 @@
     "produced_per_capita": 69017.98,
     "human_per_capita": 467023.86,
     "total_per_capita": 555982.74,
-    "natural_per_hectare": 0.06,
-    "produced_per_hectare": 0.19,
-    "human_per_hectare": 1.31,
-    "total_per_hectare": 1.56
+    "natural_per_hectare": 5.63,
+    "produced_per_hectare": 19.48,
+    "human_per_hectare": 131.81,
+    "total_per_hectare": 156.92
   },
   "GM0059": {
     "naam": "Achtkarspelen",
@@ -96,10 +96,10 @@
     "produced_per_capita": 35876.51,
     "human_per_capita": 413667.42,
     "total_per_capita": 469197.21,
-    "natural_per_hectare": 0.05,
-    "produced_per_hectare": 0.1,
-    "human_per_hectare": 1.12,
-    "total_per_hectare": 1.27
+    "natural_per_hectare": 5.41,
+    "produced_per_hectare": 9.88,
+    "human_per_hectare": 113.93,
+    "total_per_hectare": 129.22
   },
   "GM0482": {
     "naam": "Alblasserdam",
@@ -113,10 +113,10 @@
     "produced_per_capita": 155261.73,
     "human_per_capita": 504448.67,
     "total_per_capita": 664109.62,
-    "natural_per_hectare": 0.09,
-    "produced_per_hectare": 3.14,
-    "human_per_hectare": 10.21,
-    "total_per_hectare": 13.44
+    "natural_per_hectare": 10.21,
+    "produced_per_hectare": 360.38,
+    "human_per_hectare": 1170.87,
+    "total_per_hectare": 1541.46
   },
   "GM0613": {
     "naam": "Albrandswaard",
@@ -130,10 +130,10 @@
     "produced_per_capita": 56916.76,
     "human_per_capita": 626173.22,
     "total_per_capita": 694272.77,
-    "natural_per_hectare": 0.12,
-    "produced_per_hectare": 0.63,
-    "human_per_hectare": 6.95,
-    "total_per_hectare": 7.7
+    "natural_per_hectare": 13.6,
+    "produced_per_hectare": 69.23,
+    "human_per_hectare": 761.61,
+    "total_per_hectare": 844.44
   },
   "GM0361": {
     "naam": "Alkmaar",
@@ -147,10 +147,10 @@
     "produced_per_capita": 128148.72,
     "human_per_capita": 522704.8,
     "total_per_capita": 660423.17,
-    "natural_per_hectare": 0.09,
-    "produced_per_hectare": 1.22,
-    "human_per_hectare": 4.98,
-    "total_per_hectare": 6.29
+    "natural_per_hectare": 9.7,
+    "produced_per_hectare": 129.92,
+    "human_per_hectare": 529.93,
+    "total_per_hectare": 669.55
   },
   "GM0141": {
     "naam": "Almelo",
@@ -164,10 +164,10 @@
     "produced_per_capita": 156989.96,
     "human_per_capita": 435286.44,
     "total_per_capita": 601929.1,
-    "natural_per_hectare": 0.1,
-    "produced_per_hectare": 1.67,
-    "human_per_hectare": 4.64,
-    "total_per_hectare": 6.41
+    "natural_per_hectare": 10.63,
+    "produced_per_hectare": 172.81,
+    "human_per_hectare": 479.15,
+    "total_per_hectare": 662.58
   },
   "GM0034": {
     "naam": "Almere",
@@ -181,10 +181,10 @@
     "produced_per_capita": 115301.42,
     "human_per_capita": 536589.52,
     "total_per_capita": 669977.95,
-    "natural_per_hectare": 0.29,
-    "produced_per_hectare": 1.84,
-    "human_per_hectare": 8.58,
-    "total_per_hectare": 10.72
+    "natural_per_hectare": 31.2,
+    "produced_per_hectare": 198.89,
+    "human_per_hectare": 925.57,
+    "total_per_hectare": 1155.66
   },
   "GM0484": {
     "naam": "Alphen aan den Rijn",
@@ -198,10 +198,10 @@
     "produced_per_capita": 71672.58,
     "human_per_capita": 578332.34,
     "total_per_capita": 658078.06,
-    "natural_per_hectare": 0.07,
-    "produced_per_hectare": 0.62,
-    "human_per_hectare": 4.98,
-    "total_per_hectare": 5.67
+    "natural_per_hectare": 7.32,
+    "produced_per_hectare": 64.99,
+    "human_per_hectare": 524.38,
+    "total_per_hectare": 596.69
   },
   "GM1723": {
     "naam": "Alphen-Chaam",
@@ -215,10 +215,10 @@
     "produced_per_capita": 24979.66,
     "human_per_capita": 559301.71,
     "total_per_capita": 725408.6,
-    "natural_per_hectare": 0.16,
-    "produced_per_hectare": 0.03,
-    "human_per_hectare": 0.63,
-    "total_per_hectare": 0.81
+    "natural_per_hectare": 15.88,
+    "produced_per_hectare": 2.81,
+    "human_per_hectare": 62.94,
+    "total_per_hectare": 81.63
   },
   "GM1959": {
     "naam": "Altena",
@@ -232,10 +232,10 @@
     "produced_per_capita": 52171.36,
     "human_per_capita": 530231.04,
     "total_per_capita": 611259.75,
-    "natural_per_hectare": 0.07,
-    "produced_per_hectare": 0.13,
-    "human_per_hectare": 1.35,
-    "total_per_hectare": 1.56
+    "natural_per_hectare": 8.34,
+    "produced_per_hectare": 15.08,
+    "human_per_hectare": 153.24,
+    "total_per_hectare": 176.66
   },
   "GM0060": {
     "naam": "Ameland",
@@ -249,10 +249,10 @@
     "produced_per_capita": 16128.86,
     "human_per_capita": 515903.95,
     "total_per_capita": 1245721.6,
-    "natural_per_hectare": 0.13,
-    "produced_per_hectare": 0.0,
-    "human_per_hectare": 0.09,
-    "total_per_hectare": 0.23
+    "natural_per_hectare": 48.43,
+    "produced_per_hectare": 1.09,
+    "human_per_hectare": 35.01,
+    "total_per_hectare": 84.53
   },
   "GM0307": {
     "naam": "Amersfoort",
@@ -266,10 +266,10 @@
     "produced_per_capita": 198111.16,
     "human_per_capita": 605066.27,
     "total_per_capita": 820558.57,
-    "natural_per_hectare": 0.44,
-    "produced_per_hectare": 4.99,
-    "human_per_hectare": 15.23,
-    "total_per_hectare": 20.66
+    "natural_per_hectare": 44.71,
+    "produced_per_hectare": 509.65,
+    "human_per_hectare": 1556.57,
+    "total_per_hectare": 2110.93
   },
   "GM0362": {
     "naam": "Amstelveen",
@@ -283,10 +283,10 @@
     "produced_per_capita": 192786.48,
     "human_per_capita": 689471.16,
     "total_per_capita": 941270.09,
-    "natural_per_hectare": 1.26,
-    "produced_per_hectare": 4.13,
-    "human_per_hectare": 14.77,
-    "total_per_hectare": 20.16
+    "natural_per_hectare": 135.53,
+    "produced_per_hectare": 442.78,
+    "human_per_hectare": 1583.52,
+    "total_per_hectare": 2161.83
   },
   "GM0363": {
     "naam": "Amsterdam",
@@ -300,10 +300,10 @@
     "produced_per_capita": 308712.2,
     "human_per_capita": 657916.67,
     "total_per_capita": 990290.69,
-    "natural_per_hectare": 9.48,
-    "produced_per_hectare": 123.66,
-    "human_per_hectare": 263.54,
-    "total_per_hectare": 396.68
+    "natural_per_hectare": 115.48,
+    "produced_per_hectare": 1506.67,
+    "human_per_hectare": 3210.95,
+    "total_per_hectare": 4833.1
   },
   "GM0200": {
     "naam": "Apeldoorn",
@@ -317,10 +317,10 @@
     "produced_per_capita": 155725.51,
     "human_per_capita": 519880.21,
     "total_per_capita": 749190.12,
-    "natural_per_hectare": 0.36,
-    "produced_per_hectare": 0.76,
-    "human_per_hectare": 2.55,
-    "total_per_hectare": 3.67
+    "natural_per_hectare": 36.2,
+    "produced_per_hectare": 76.61,
+    "human_per_hectare": 255.75,
+    "total_per_hectare": 368.56
   },
   "GM0202": {
     "naam": "Arnhem",
@@ -334,10 +334,10 @@
     "produced_per_capita": 161790.14,
     "human_per_capita": 512025.88,
     "total_per_capita": 698769.95,
-    "natural_per_hectare": 0.41,
-    "produced_per_hectare": 2.64,
-    "human_per_hectare": 8.36,
-    "total_per_hectare": 11.41
+    "natural_per_hectare": 42.32,
+    "produced_per_hectare": 274.4,
+    "human_per_hectare": 868.41,
+    "total_per_hectare": 1185.14
   },
   "GM0106": {
     "naam": "Assen",
@@ -351,10 +351,10 @@
     "produced_per_capita": 182080.27,
     "human_per_capita": 479493.93,
     "total_per_capita": 681122.74,
-    "natural_per_hectare": 0.16,
-    "produced_per_hectare": 1.51,
-    "human_per_hectare": 3.99,
-    "total_per_hectare": 5.67
+    "natural_per_hectare": 16.57,
+    "produced_per_hectare": 154.36,
+    "human_per_hectare": 406.49,
+    "total_per_hectare": 577.42
   },
   "GM0743": {
     "naam": "Asten",
@@ -368,10 +368,10 @@
     "produced_per_capita": 78471.7,
     "human_per_capita": 521309.35,
     "total_per_capita": 644423.86,
-    "natural_per_hectare": 0.11,
-    "produced_per_hectare": 0.19,
-    "human_per_hectare": 1.26,
-    "total_per_hectare": 1.56
+    "natural_per_hectare": 10.96,
+    "produced_per_hectare": 19.27,
+    "human_per_hectare": 128.02,
+    "total_per_hectare": 158.26
   },
   "GM0744": {
     "naam": "Baarle-Nassau",
@@ -385,10 +385,10 @@
     "produced_per_capita": 21978.69,
     "human_per_capita": 493004.83,
     "total_per_capita": 612438.58,
-    "natural_per_hectare": 0.09,
-    "produced_per_hectare": 0.02,
-    "human_per_hectare": 0.46,
-    "total_per_hectare": 0.57
+    "natural_per_hectare": 9.05,
+    "produced_per_hectare": 2.04,
+    "human_per_hectare": 45.8,
+    "total_per_hectare": 56.89
   },
   "GM0308": {
     "naam": "Baarn",
@@ -402,10 +402,10 @@
     "produced_per_capita": 98789.8,
     "human_per_capita": 600816.61,
     "total_per_capita": 839675.41,
-    "natural_per_hectare": 1.06,
-    "produced_per_hectare": 0.75,
-    "human_per_hectare": 4.55,
-    "total_per_hectare": 6.36
+    "natural_per_hectare": 107.65,
+    "produced_per_hectare": 75.92,
+    "human_per_hectare": 461.75,
+    "total_per_hectare": 645.32
   },
   "GM0489": {
     "naam": "Barendrecht",
@@ -419,10 +419,10 @@
     "produced_per_capita": 75373.58,
     "human_per_capita": 593383.6,
     "total_per_capita": 674276.36,
-    "natural_per_hectare": 0.12,
-    "produced_per_hectare": 1.69,
-    "human_per_hectare": 13.33,
-    "total_per_hectare": 15.15
+    "natural_per_hectare": 13.76,
+    "produced_per_hectare": 187.9,
+    "human_per_hectare": 1479.28,
+    "total_per_hectare": 1680.94
   },
   "GM0203": {
     "naam": "Barneveld",
@@ -436,10 +436,10 @@
     "produced_per_capita": 84279.18,
     "human_per_capita": 545370.51,
     "total_per_capita": 684788.62,
-    "natural_per_hectare": 0.19,
-    "produced_per_hectare": 0.29,
-    "human_per_hectare": 1.9,
-    "total_per_hectare": 2.39
+    "natural_per_hectare": 19.33,
+    "produced_per_hectare": 29.55,
+    "human_per_hectare": 191.22,
+    "total_per_hectare": 240.11
   },
   "GM0888": {
     "naam": "Beek (L.)",
@@ -453,10 +453,10 @@
     "produced_per_capita": 113970.36,
     "human_per_capita": 486031.27,
     "total_per_capita": 611324.51,
-    "natural_per_hectare": 0.09,
-    "produced_per_hectare": 0.87,
-    "human_per_hectare": 3.72,
-    "total_per_hectare": 4.68
+    "natural_per_hectare": 8.67,
+    "produced_per_hectare": 87.26,
+    "human_per_hectare": 372.12,
+    "total_per_hectare": 468.05
   },
   "GM1954": {
     "naam": "Beekdaelen",
@@ -470,10 +470,10 @@
     "produced_per_capita": 50014.32,
     "human_per_capita": 483542.4,
     "total_per_capita": 573095.48,
-    "natural_per_hectare": 0.18,
-    "produced_per_hectare": 0.23,
-    "human_per_hectare": 2.22,
-    "total_per_hectare": 2.63
+    "natural_per_hectare": 18.16,
+    "produced_per_hectare": 22.97,
+    "human_per_hectare": 222.11,
+    "total_per_hectare": 263.24
   },
   "GM0889": {
     "naam": "Beesel",
@@ -487,10 +487,10 @@
     "produced_per_capita": 78099.68,
     "human_per_capita": 456029.13,
     "total_per_capita": 582926.8,
-    "natural_per_hectare": 0.23,
-    "produced_per_hectare": 0.36,
-    "human_per_hectare": 2.1,
-    "total_per_hectare": 2.69
+    "natural_per_hectare": 23.54,
+    "produced_per_hectare": 37.67,
+    "human_per_hectare": 219.98,
+    "total_per_hectare": 281.2
   },
   "GM1945": {
     "naam": "Berg en Dal",
@@ -504,10 +504,10 @@
     "produced_per_capita": 53299.8,
     "human_per_capita": 482598.87,
     "total_per_capita": 614516.77,
-    "natural_per_hectare": 0.3,
-    "produced_per_hectare": 0.2,
-    "human_per_hectare": 1.83,
-    "total_per_hectare": 2.33
+    "natural_per_hectare": 32.23,
+    "produced_per_hectare": 21.85,
+    "human_per_hectare": 197.87,
+    "total_per_hectare": 251.95
   },
   "GM1724": {
     "naam": "Bergeijk",
@@ -521,10 +521,10 @@
     "produced_per_capita": 51177.22,
     "human_per_capita": 555944.25,
     "total_per_capita": 679141.81,
-    "natural_per_hectare": 0.14,
-    "produced_per_hectare": 0.1,
-    "human_per_hectare": 1.04,
-    "total_per_hectare": 1.27
+    "natural_per_hectare": 13.61,
+    "produced_per_hectare": 9.67,
+    "human_per_hectare": 105.07,
+    "total_per_hectare": 128.35
   },
   "GM0893": {
     "naam": "Bergen (L.)",
@@ -538,10 +538,10 @@
     "produced_per_capita": 30858.8,
     "human_per_capita": 471666.08,
     "total_per_capita": 859076.84,
-    "natural_per_hectare": 0.43,
-    "produced_per_hectare": 0.04,
-    "human_per_hectare": 0.57,
-    "total_per_hectare": 1.04
+    "natural_per_hectare": 45.3,
+    "produced_per_hectare": 3.92,
+    "human_per_hectare": 59.92,
+    "total_per_hectare": 109.14
   },
   "GM0373": {
     "naam": "Bergen (NH.)",
@@ -555,10 +555,10 @@
     "produced_per_capita": 33169.43,
     "human_per_capita": 539932.91,
     "total_per_capita": 824753.79,
-    "natural_per_hectare": 3.74,
-    "produced_per_hectare": 0.49,
-    "human_per_hectare": 8.02,
-    "total_per_hectare": 12.25
+    "natural_per_hectare": 76.61,
+    "produced_per_hectare": 10.1,
+    "human_per_hectare": 164.37,
+    "total_per_hectare": 251.08
   },
   "GM0748": {
     "naam": "Bergen op Zoom",
@@ -572,10 +572,10 @@
     "produced_per_capita": 182364.03,
     "human_per_capita": 483048.58,
     "total_per_capita": 686639.45,
-    "natural_per_hectare": 0.16,
-    "produced_per_hectare": 1.35,
-    "human_per_hectare": 3.57,
-    "total_per_hectare": 5.08
+    "natural_per_hectare": 18.28,
+    "produced_per_hectare": 157.04,
+    "human_per_hectare": 415.96,
+    "total_per_hectare": 591.28
   },
   "GM1859": {
     "naam": "Berkelland",
@@ -589,10 +589,10 @@
     "produced_per_capita": 49362.81,
     "human_per_capita": 488363.74,
     "total_per_capita": 582404.19,
-    "natural_per_hectare": 0.08,
-    "produced_per_hectare": 0.08,
-    "human_per_hectare": 0.83,
-    "total_per_hectare": 0.99
+    "natural_per_hectare": 7.62,
+    "produced_per_hectare": 8.42,
+    "human_per_hectare": 83.3,
+    "total_per_hectare": 99.34
   },
   "GM1721": {
     "naam": "Bernheze",
@@ -606,10 +606,10 @@
     "produced_per_capita": 78366.59,
     "human_per_capita": 554347.54,
     "total_per_capita": 665282.78,
-    "natural_per_hectare": 0.12,
-    "produced_per_hectare": 0.28,
-    "human_per_hectare": 1.98,
-    "total_per_hectare": 2.37
+    "natural_per_hectare": 11.71,
+    "produced_per_hectare": 28.18,
+    "human_per_hectare": 199.32,
+    "total_per_hectare": 239.21
   },
   "GM0753": {
     "naam": "Best",
@@ -623,10 +623,10 @@
     "produced_per_capita": 152269.55,
     "human_per_capita": 582972.57,
     "total_per_capita": 774437.57,
-    "natural_per_hectare": 0.35,
-    "produced_per_hectare": 1.36,
-    "human_per_hectare": 5.2,
-    "total_per_hectare": 6.9
+    "natural_per_hectare": 35.73,
+    "produced_per_hectare": 138.82,
+    "human_per_hectare": 531.49,
+    "total_per_hectare": 706.04
   },
   "GM0209": {
     "naam": "Beuningen",
@@ -640,10 +640,10 @@
     "produced_per_capita": 89351.5,
     "human_per_capita": 537546.07,
     "total_per_capita": 645135.46,
-    "natural_per_hectare": 0.1,
-    "produced_per_hectare": 0.5,
-    "human_per_hectare": 3.03,
-    "total_per_hectare": 3.64
+    "natural_per_hectare": 11.12,
+    "produced_per_hectare": 54.46,
+    "human_per_hectare": 327.62,
+    "total_per_hectare": 393.19
   },
   "GM0375": {
     "naam": "Beverwijk",
@@ -657,10 +657,10 @@
     "produced_per_capita": 150242.18,
     "human_per_capita": 517250.95,
     "total_per_capita": 685366.68,
-    "natural_per_hectare": 0.4,
-    "produced_per_hectare": 3.4,
-    "human_per_hectare": 11.7,
-    "total_per_hectare": 15.5
+    "natural_per_hectare": 41.6,
+    "produced_per_hectare": 349.7,
+    "human_per_hectare": 1203.94,
+    "total_per_hectare": 1595.24
   },
   "GM1728": {
     "naam": "Bladel",
@@ -674,10 +674,10 @@
     "produced_per_capita": 70928.01,
     "human_per_capita": 572584.52,
     "total_per_capita": 689212.85,
-    "natural_per_hectare": 0.13,
-    "produced_per_hectare": 0.2,
-    "human_per_hectare": 1.59,
-    "total_per_hectare": 1.91
+    "natural_per_hectare": 12.75,
+    "produced_per_hectare": 19.78,
+    "human_per_hectare": 159.69,
+    "total_per_hectare": 192.22
   },
   "GM0376": {
     "naam": "Blaricum",
@@ -691,10 +691,10 @@
     "produced_per_capita": 99427.48,
     "human_per_capita": 720633.65,
     "total_per_capita": 863877.77,
-    "natural_per_hectare": 1.23,
-    "produced_per_hectare": 2.8,
-    "human_per_hectare": 20.29,
-    "total_per_hectare": 24.33
+    "natural_per_hectare": 49.44,
+    "produced_per_hectare": 112.18,
+    "human_per_hectare": 813.07,
+    "total_per_hectare": 974.69
   },
   "GM0377": {
     "naam": "Bloemendaal",
@@ -708,10 +708,10 @@
     "produced_per_capita": 62087.8,
     "human_per_capita": 753079.02,
     "total_per_capita": 1075035.16,
-    "natural_per_hectare": 13.27,
-    "produced_per_hectare": 3.17,
-    "human_per_hectare": 38.45,
-    "total_per_hectare": 54.88
+    "natural_per_hectare": 156.31,
+    "produced_per_hectare": 37.35,
+    "human_per_hectare": 452.98,
+    "total_per_hectare": 646.64
   },
   "GM1901": {
     "naam": "Bodegraven-Reeuwijk",
@@ -725,10 +725,10 @@
     "produced_per_capita": 55169.28,
     "human_per_capita": 593155.17,
     "total_per_capita": 685238.61,
-    "natural_per_hectare": 0.15,
-    "produced_per_hectare": 0.23,
-    "human_per_hectare": 2.43,
-    "total_per_hectare": 2.81
+    "natural_per_hectare": 17.78,
+    "produced_per_hectare": 26.57,
+    "human_per_hectare": 285.63,
+    "total_per_hectare": 329.97
   },
   "GM0755": {
     "naam": "Boekel",
@@ -742,10 +742,10 @@
     "produced_per_capita": 71608.11,
     "human_per_capita": 539738.92,
     "total_per_capita": 628582.92,
-    "natural_per_hectare": 0.06,
-    "produced_per_hectare": 0.23,
-    "human_per_hectare": 1.75,
-    "total_per_hectare": 2.03
+    "natural_per_hectare": 5.58,
+    "produced_per_hectare": 23.17,
+    "human_per_hectare": 174.64,
+    "total_per_hectare": 203.39
   },
   "GM1681": {
     "naam": "Borger-Odoorn",
@@ -759,10 +759,10 @@
     "produced_per_capita": 28458.96,
     "human_per_capita": 438787.14,
     "total_per_capita": 576494.29,
-    "natural_per_hectare": 0.1,
-    "produced_per_hectare": 0.03,
-    "human_per_hectare": 0.41,
-    "total_per_hectare": 0.54
+    "natural_per_hectare": 10.31,
+    "produced_per_hectare": 2.69,
+    "human_per_hectare": 41.4,
+    "total_per_hectare": 54.4
   },
   "GM0147": {
     "naam": "Borne",
@@ -776,10 +776,10 @@
     "produced_per_capita": 130583.73,
     "human_per_capita": 528867.32,
     "total_per_capita": 669663.34,
-    "natural_per_hectare": 0.1,
-    "produced_per_hectare": 1.22,
-    "human_per_hectare": 4.96,
-    "total_per_hectare": 6.28
+    "natural_per_hectare": 9.64,
+    "produced_per_hectare": 123.22,
+    "human_per_hectare": 499.04,
+    "total_per_hectare": 631.89
   },
   "GM0654": {
     "naam": "Borsele",
@@ -793,10 +793,10 @@
     "produced_per_capita": 73227.65,
     "human_per_capita": 514113.03,
     "total_per_capita": 662093.26,
-    "natural_per_hectare": 0.12,
-    "produced_per_hectare": 0.12,
-    "human_per_hectare": 0.83,
-    "total_per_hectare": 1.07
+    "natural_per_hectare": 12.24,
+    "produced_per_hectare": 11.99,
+    "human_per_hectare": 84.16,
+    "total_per_hectare": 108.39
   },
   "GM0757": {
     "naam": "Boxtel",
@@ -810,10 +810,10 @@
     "produced_per_capita": 120360.74,
     "human_per_capita": 525834.2,
     "total_per_capita": 679210.06,
-    "natural_per_hectare": 0.16,
-    "produced_per_hectare": 0.58,
-    "human_per_hectare": 2.52,
-    "total_per_hectare": 3.26
+    "natural_per_hectare": 16.15,
+    "produced_per_hectare": 58.86,
+    "human_per_hectare": 257.15,
+    "total_per_hectare": 332.15
   },
   "GM0758": {
     "naam": "Breda",
@@ -827,10 +827,10 @@
     "produced_per_capita": 181846.18,
     "human_per_capita": 598630.73,
     "total_per_capita": 798190.04,
-    "natural_per_hectare": 0.26,
-    "produced_per_hectare": 2.63,
-    "human_per_hectare": 8.67,
-    "total_per_hectare": 11.56
+    "natural_per_hectare": 26.27,
+    "produced_per_hectare": 269.74,
+    "human_per_hectare": 887.96,
+    "total_per_hectare": 1183.97
   },
   "GM1876": {
     "naam": "Bronckhorst",
@@ -844,10 +844,10 @@
     "produced_per_capita": 33138.14,
     "human_per_capita": 510271.12,
     "total_per_capita": 623668.56,
-    "natural_per_hectare": 0.1,
-    "produced_per_hectare": 0.04,
-    "human_per_hectare": 0.65,
-    "total_per_hectare": 0.79
+    "natural_per_hectare": 10.27,
+    "produced_per_hectare": 4.24,
+    "human_per_hectare": 65.29,
+    "total_per_hectare": 79.8
   },
   "GM0213": {
     "naam": "Brummen",
@@ -861,10 +861,10 @@
     "produced_per_capita": 87997.68,
     "human_per_capita": 499696.28,
     "total_per_capita": 649650.37,
-    "natural_per_hectare": 0.15,
-    "produced_per_hectare": 0.22,
-    "human_per_hectare": 1.24,
-    "total_per_hectare": 1.61
+    "natural_per_hectare": 15.64,
+    "produced_per_hectare": 22.21,
+    "human_per_hectare": 126.1,
+    "total_per_hectare": 163.95
   },
   "GM0899": {
     "naam": "Brunssum",
@@ -878,10 +878,10 @@
     "produced_per_capita": 121447.32,
     "human_per_capita": 395325.68,
     "total_per_capita": 536667.48,
-    "natural_per_hectare": 0.32,
-    "produced_per_hectare": 1.94,
-    "human_per_hectare": 6.31,
-    "total_per_hectare": 8.57
+    "natural_per_hectare": 31.94,
+    "produced_per_hectare": 195.01,
+    "human_per_hectare": 634.77,
+    "total_per_hectare": 861.72
   },
   "GM0312": {
     "naam": "Bunnik",
@@ -895,10 +895,10 @@
     "produced_per_capita": 105346.63,
     "human_per_capita": 625882.87,
     "total_per_capita": 869085.66,
-    "natural_per_hectare": 0.59,
-    "produced_per_hectare": 0.45,
-    "human_per_hectare": 2.67,
-    "total_per_hectare": 3.71
+    "natural_per_hectare": 59.82,
+    "produced_per_hectare": 45.72,
+    "human_per_hectare": 271.61,
+    "total_per_hectare": 377.15
   },
   "GM0313": {
     "naam": "Bunschoten",
@@ -912,10 +912,10 @@
     "produced_per_capita": 163087.42,
     "human_per_capita": 566760.01,
     "total_per_capita": 740927.2,
-    "natural_per_hectare": 0.63,
-    "produced_per_hectare": 9.26,
-    "human_per_hectare": 32.19,
-    "total_per_hectare": 42.08
+    "natural_per_hectare": 8.2,
+    "produced_per_hectare": 120.75,
+    "human_per_hectare": 419.62,
+    "total_per_hectare": 548.56
   },
   "GM0214": {
     "naam": "Buren",
@@ -929,10 +929,10 @@
     "produced_per_capita": 41232.68,
     "human_per_capita": 554618.12,
     "total_per_capita": 668480.57,
-    "natural_per_hectare": 0.14,
-    "produced_per_hectare": 0.08,
-    "human_per_hectare": 1.08,
-    "total_per_hectare": 1.3
+    "natural_per_hectare": 15.07,
+    "produced_per_hectare": 8.56,
+    "human_per_hectare": 115.1,
+    "total_per_hectare": 138.72
   },
   "GM0502": {
     "naam": "Capelle aan den IJssel",
@@ -946,10 +946,10 @@
     "produced_per_capita": 63450.63,
     "human_per_capita": 505980.32,
     "total_per_capita": 573628.5,
-    "natural_per_hectare": 0.18,
-    "produced_per_hectare": 2.78,
-    "human_per_hectare": 22.19,
-    "total_per_hectare": 25.16
+    "natural_per_hectare": 20.05,
+    "produced_per_hectare": 303.13,
+    "human_per_hectare": 2417.25,
+    "total_per_hectare": 2740.44
   },
   "GM0383": {
     "naam": "Castricum",
@@ -963,10 +963,10 @@
     "produced_per_capita": 54359.31,
     "human_per_capita": 586798.31,
     "total_per_capita": 723059.28,
-    "natural_per_hectare": 0.54,
-    "produced_per_hectare": 0.36,
-    "human_per_hectare": 3.86,
-    "total_per_hectare": 4.76
+    "natural_per_hectare": 59.97,
+    "produced_per_hectare": 39.8,
+    "human_per_hectare": 429.64,
+    "total_per_hectare": 529.4
   },
   "GM0109": {
     "naam": "Coevorden",
@@ -980,10 +980,10 @@
     "produced_per_capita": 81455.13,
     "human_per_capita": 444834.01,
     "total_per_capita": 609782.07,
-    "natural_per_hectare": 0.1,
-    "produced_per_hectare": 0.1,
-    "human_per_hectare": 0.53,
-    "total_per_hectare": 0.73
+    "natural_per_hectare": 10.07,
+    "produced_per_hectare": 9.82,
+    "human_per_hectare": 53.63,
+    "total_per_hectare": 73.52
   },
   "GM1706": {
     "naam": "Cranendonck",
@@ -997,10 +997,10 @@
     "produced_per_capita": 66722.78,
     "human_per_capita": 508294.58,
     "total_per_capita": 626229.86,
-    "natural_per_hectare": 0.14,
-    "produced_per_hectare": 0.18,
-    "human_per_hectare": 1.36,
-    "total_per_hectare": 1.67
+    "natural_per_hectare": 13.96,
+    "produced_per_hectare": 18.19,
+    "human_per_hectare": 138.54,
+    "total_per_hectare": 170.69
   },
   "GM0216": {
     "naam": "Culemborg",
@@ -1014,10 +1014,10 @@
     "produced_per_capita": 149804.87,
     "human_per_capita": 540885.33,
     "total_per_capita": 707676.16,
-    "natural_per_hectare": 0.16,
-    "produced_per_hectare": 1.43,
-    "human_per_hectare": 5.16,
-    "total_per_hectare": 6.76
+    "natural_per_hectare": 17.25,
+    "produced_per_hectare": 152.15,
+    "human_per_hectare": 549.37,
+    "total_per_hectare": 718.77
   },
   "GM0148": {
     "naam": "Dalfsen",
@@ -1031,10 +1031,10 @@
     "produced_per_capita": 41791.91,
     "human_per_capita": 527309.63,
     "total_per_capita": 627651.2,
-    "natural_per_hectare": 0.1,
-    "produced_per_hectare": 0.07,
-    "human_per_hectare": 0.94,
-    "total_per_hectare": 1.12
+    "natural_per_hectare": 10.51,
+    "produced_per_hectare": 7.5,
+    "human_per_hectare": 94.62,
+    "total_per_hectare": 112.63
   },
   "GM1891": {
     "naam": "Dantumadiel",
@@ -1048,10 +1048,10 @@
     "produced_per_capita": 30526.06,
     "human_per_capita": 411123.89,
     "total_per_capita": 469106.55,
-    "natural_per_hectare": 0.06,
-    "produced_per_hectare": 0.07,
-    "human_per_hectare": 0.9,
-    "total_per_hectare": 1.03
+    "natural_per_hectare": 6.23,
+    "produced_per_hectare": 6.93,
+    "human_per_hectare": 93.28,
+    "total_per_hectare": 106.43
   },
   "GM0310": {
     "naam": "De Bilt",
@@ -1065,10 +1065,10 @@
     "produced_per_capita": 80195.22,
     "human_per_capita": 628861.97,
     "total_per_capita": 811064.44,
-    "natural_per_hectare": 0.67,
-    "produced_per_hectare": 0.52,
-    "human_per_hectare": 4.11,
-    "total_per_hectare": 5.3
+    "natural_per_hectare": 67.63,
+    "produced_per_hectare": 53.17,
+    "human_per_hectare": 416.94,
+    "total_per_hectare": 537.74
   },
   "GM1940": {
     "naam": "De Fryske Marren",
@@ -1082,10 +1082,10 @@
     "produced_per_capita": 74263.51,
     "human_per_capita": 484646.21,
     "total_per_capita": 624401.59,
-    "natural_per_hectare": 0.08,
-    "produced_per_hectare": 0.09,
-    "human_per_hectare": 0.6,
-    "total_per_hectare": 0.78
+    "natural_per_hectare": 9.7,
+    "produced_per_hectare": 10.99,
+    "human_per_hectare": 71.75,
+    "total_per_hectare": 92.43
   },
   "GM0736": {
     "naam": "De Ronde Venen",
@@ -1099,10 +1099,10 @@
     "produced_per_capita": 88317.26,
     "human_per_capita": 622230.96,
     "total_per_capita": 747071.89,
-    "natural_per_hectare": 0.14,
-    "produced_per_hectare": 0.34,
-    "human_per_hectare": 2.42,
-    "total_per_hectare": 2.91
+    "natural_per_hectare": 16.7,
+    "produced_per_hectare": 40.38,
+    "human_per_hectare": 284.47,
+    "total_per_hectare": 341.55
   },
   "GM1690": {
     "naam": "De Wolden",
@@ -1116,10 +1116,10 @@
     "produced_per_capita": 23777.24,
     "human_per_capita": 512512.25,
     "total_per_capita": 630455.06,
-    "natural_per_hectare": 0.1,
-    "produced_per_hectare": 0.03,
-    "human_per_hectare": 0.56,
-    "total_per_hectare": 0.69
+    "natural_per_hectare": 10.32,
+    "produced_per_hectare": 2.61,
+    "human_per_hectare": 56.19,
+    "total_per_hectare": 69.12
   },
   "GM0503": {
     "naam": "Delft",
@@ -1133,10 +1133,10 @@
     "produced_per_capita": 63321.0,
     "human_per_capita": 523349.41,
     "total_per_capita": 589930.37,
-    "natural_per_hectare": 0.14,
-    "produced_per_hectare": 2.79,
-    "human_per_hectare": 23.07,
-    "total_per_hectare": 26.01
+    "natural_per_hectare": 15.26,
+    "produced_per_hectare": 296.45,
+    "human_per_hectare": 2450.13,
+    "total_per_hectare": 2761.84
   },
   "GM0400": {
     "naam": "Den Helder",
@@ -1150,10 +1150,10 @@
     "produced_per_capita": 105071.32,
     "human_per_capita": 461856.83,
     "total_per_capita": 597777.84,
-    "natural_per_hectare": 0.13,
-    "produced_per_hectare": 0.45,
-    "human_per_hectare": 1.99,
-    "total_per_hectare": 2.57
+    "natural_per_hectare": 38.67,
+    "produced_per_hectare": 131.72,
+    "human_per_hectare": 579.0,
+    "total_per_hectare": 749.4
   },
   "GM0762": {
     "naam": "Deurne",
@@ -1167,10 +1167,10 @@
     "produced_per_capita": 74646.25,
     "human_per_capita": 518257.94,
     "total_per_capita": 635296.42,
-    "natural_per_hectare": 0.12,
-    "produced_per_hectare": 0.21,
-    "human_per_hectare": 1.44,
-    "total_per_hectare": 1.77
+    "natural_per_hectare": 11.97,
+    "produced_per_hectare": 21.08,
+    "human_per_hectare": 146.37,
+    "total_per_hectare": 179.43
   },
   "GM0150": {
     "naam": "Deventer",
@@ -1184,10 +1184,10 @@
     "produced_per_capita": 142453.39,
     "human_per_capita": 509818.29,
     "total_per_capita": 675698.76,
-    "natural_per_hectare": 0.18,
-    "produced_per_hectare": 1.09,
-    "human_per_hectare": 3.9,
-    "total_per_hectare": 5.17
+    "natural_per_hectare": 18.44,
+    "produced_per_hectare": 112.14,
+    "human_per_hectare": 401.35,
+    "total_per_hectare": 531.93
   },
   "GM0384": {
     "naam": "Diemen",
@@ -1201,10 +1201,10 @@
     "produced_per_capita": 247559.22,
     "human_per_capita": 632993.18,
     "total_per_capita": 902657.11,
-    "natural_per_hectare": 0.56,
-    "produced_per_hectare": 6.29,
-    "human_per_hectare": 16.07,
-    "total_per_hectare": 22.92
+    "natural_per_hectare": 60.64,
+    "produced_per_hectare": 679.18,
+    "human_per_hectare": 1736.63,
+    "total_per_hectare": 2476.45
   },
   "GM1980": {
     "naam": "Dijk en Waard",
@@ -1218,10 +1218,10 @@
     "produced_per_capita": 103675.93,
     "human_per_capita": 532729.83,
     "total_per_capita": 649174.23,
-    "natural_per_hectare": 0.17,
-    "produced_per_hectare": 1.38,
-    "human_per_hectare": 7.07,
-    "total_per_hectare": 8.62
+    "natural_per_hectare": 18.36,
+    "produced_per_hectare": 149.04,
+    "human_per_hectare": 765.83,
+    "total_per_hectare": 933.23
   },
   "GM1774": {
     "naam": "Dinkelland",
@@ -1235,10 +1235,10 @@
     "produced_per_capita": 35929.73,
     "human_per_capita": 549172.12,
     "total_per_capita": 652315.74,
-    "natural_per_hectare": 0.1,
-    "produced_per_hectare": 0.05,
-    "human_per_hectare": 0.83,
-    "total_per_hectare": 0.99
+    "natural_per_hectare": 10.23,
+    "produced_per_hectare": 5.47,
+    "human_per_hectare": 83.58,
+    "total_per_hectare": 99.28
   },
   "GM0221": {
     "naam": "Doesburg",
@@ -1252,10 +1252,10 @@
     "produced_per_capita": 57643.8,
     "human_per_capita": 414045.21,
     "total_per_capita": 480876.74,
-    "natural_per_hectare": 0.08,
-    "produced_per_hectare": 0.49,
-    "human_per_hectare": 3.54,
-    "total_per_hectare": 4.11
+    "natural_per_hectare": 8.81,
+    "produced_per_hectare": 55.26,
+    "human_per_hectare": 396.89,
+    "total_per_hectare": 460.95
   },
   "GM0222": {
     "naam": "Doetinchem",
@@ -1269,10 +1269,10 @@
     "produced_per_capita": 185600.53,
     "human_per_capita": 484722.53,
     "total_per_capita": 683878.97,
-    "natural_per_hectare": 0.1,
-    "produced_per_hectare": 1.38,
-    "human_per_hectare": 3.6,
-    "total_per_hectare": 5.08
+    "natural_per_hectare": 10.15,
+    "produced_per_hectare": 139.0,
+    "human_per_hectare": 363.02,
+    "total_per_hectare": 512.17
   },
   "GM0766": {
     "naam": "Dongen",
@@ -1286,10 +1286,10 @@
     "produced_per_capita": 85537.69,
     "human_per_capita": 529005.64,
     "total_per_capita": 620151.6,
-    "natural_per_hectare": 0.05,
-    "produced_per_hectare": 0.78,
-    "human_per_hectare": 4.84,
-    "total_per_hectare": 5.67
+    "natural_per_hectare": 5.22,
+    "produced_per_hectare": 79.6,
+    "human_per_hectare": 492.27,
+    "total_per_hectare": 577.08
   },
   "GM0505": {
     "naam": "Dordrecht",
@@ -1303,10 +1303,10 @@
     "produced_per_capita": 144425.33,
     "human_per_capita": 506583.57,
     "total_per_capita": 659967.03,
-    "natural_per_hectare": 0.11,
-    "produced_per_hectare": 1.78,
-    "human_per_hectare": 6.24,
-    "total_per_hectare": 8.13
+    "natural_per_hectare": 14.03,
+    "produced_per_hectare": 226.12,
+    "human_per_hectare": 793.15,
+    "total_per_hectare": 1033.3
   },
   "GM0498": {
     "naam": "Drechterland",
@@ -1320,10 +1320,10 @@
     "produced_per_capita": 43040.03,
     "human_per_capita": 524242.81,
     "total_per_capita": 598702.21,
-    "natural_per_hectare": 0.3,
-    "produced_per_hectare": 0.42,
-    "human_per_hectare": 5.08,
-    "total_per_hectare": 5.8
+    "natural_per_hectare": 10.88,
+    "produced_per_hectare": 14.9,
+    "human_per_hectare": 181.5,
+    "total_per_hectare": 207.28
   },
   "GM1719": {
     "naam": "Drimmelen",
@@ -1337,10 +1337,10 @@
     "produced_per_capita": 73480.51,
     "human_per_capita": 546064.17,
     "total_per_capita": 656421.39,
-    "natural_per_hectare": 0.09,
-    "produced_per_hectare": 0.17,
-    "human_per_hectare": 1.28,
-    "total_per_hectare": 1.54
+    "natural_per_hectare": 10.86,
+    "produced_per_hectare": 21.64,
+    "human_per_hectare": 160.83,
+    "total_per_hectare": 193.33
   },
   "GM0303": {
     "naam": "Dronten",
@@ -1354,10 +1354,10 @@
     "produced_per_capita": 31857.82,
     "human_per_capita": 521058.31,
     "total_per_capita": 638504.3,
-    "natural_per_hectare": 0.44,
-    "produced_per_hectare": 0.16,
-    "human_per_hectare": 2.66,
-    "total_per_hectare": 3.27
+    "natural_per_hectare": 11.18,
+    "produced_per_hectare": 4.16,
+    "human_per_hectare": 68.09,
+    "total_per_hectare": 83.44
   },
   "GM0225": {
     "naam": "Druten",
@@ -1371,10 +1371,10 @@
     "produced_per_capita": 71837.66,
     "human_per_capita": 515296.48,
     "total_per_capita": 609990.63,
-    "natural_per_hectare": 0.11,
-    "produced_per_hectare": 0.33,
-    "human_per_hectare": 2.37,
-    "total_per_hectare": 2.8
+    "natural_per_hectare": 11.88,
+    "produced_per_hectare": 37.35,
+    "human_per_hectare": 267.88,
+    "total_per_hectare": 317.11
   },
   "GM0226": {
     "naam": "Duiven",
@@ -1388,10 +1388,10 @@
     "produced_per_capita": 102042.0,
     "human_per_capita": 510904.51,
     "total_per_capita": 624088.38,
-    "natural_per_hectare": 0.08,
-    "produced_per_hectare": 0.72,
-    "human_per_hectare": 3.62,
-    "total_per_hectare": 4.42
+    "natural_per_hectare": 8.2,
+    "produced_per_hectare": 75.11,
+    "human_per_hectare": 376.05,
+    "total_per_hectare": 459.35
   },
   "GM1711": {
     "naam": "Echt-Susteren",
@@ -1405,10 +1405,10 @@
     "produced_per_capita": 87847.12,
     "human_per_capita": 461933.69,
     "total_per_capita": 606488.58,
-    "natural_per_hectare": 0.17,
-    "produced_per_hectare": 0.27,
-    "human_per_hectare": 1.41,
-    "total_per_hectare": 1.85
+    "natural_per_hectare": 17.6,
+    "produced_per_hectare": 27.26,
+    "human_per_hectare": 143.34,
+    "total_per_hectare": 188.19
   },
   "GM0385": {
     "naam": "Edam-Volendam",
@@ -1422,10 +1422,10 @@
     "produced_per_capita": 92570.45,
     "human_per_capita": 576999.82,
     "total_per_capita": 680447.56,
-    "natural_per_hectare": 0.07,
-    "produced_per_hectare": 0.59,
-    "human_per_hectare": 3.71,
-    "total_per_hectare": 4.37
+    "natural_per_hectare": 7.36,
+    "produced_per_hectare": 62.65,
+    "human_per_hectare": 390.47,
+    "total_per_hectare": 460.48
   },
   "GM0228": {
     "naam": "Ede",
@@ -1439,10 +1439,10 @@
     "produced_per_capita": 149508.52,
     "human_per_capita": 548348.23,
     "total_per_capita": 785389.12,
-    "natural_per_hectare": 0.34,
-    "produced_per_hectare": 0.57,
-    "human_per_hectare": 2.1,
-    "total_per_hectare": 3.01
+    "natural_per_hectare": 33.57,
+    "produced_per_hectare": 57.34,
+    "human_per_hectare": 210.29,
+    "total_per_hectare": 301.2
   },
   "GM0317": {
     "naam": "Eemnes",
@@ -1456,10 +1456,10 @@
     "produced_per_capita": 85619.61,
     "human_per_capita": 583769.03,
     "total_per_capita": 700383.75,
-    "natural_per_hectare": 0.09,
-    "produced_per_hectare": 0.26,
-    "human_per_hectare": 1.78,
-    "total_per_hectare": 2.14
+    "natural_per_hectare": 9.58,
+    "produced_per_hectare": 26.47,
+    "human_per_hectare": 180.51,
+    "total_per_hectare": 216.57
   },
   "GM1979": {
     "naam": "Eemsdelta",
@@ -1473,10 +1473,10 @@
     "produced_per_capita": 123517.56,
     "human_per_capita": 403291.36,
     "total_per_capita": 550542.86,
-    "natural_per_hectare": 0.04,
-    "produced_per_hectare": 0.21,
-    "human_per_hectare": 0.67,
-    "total_per_hectare": 0.92
+    "natural_per_hectare": 4.02,
+    "produced_per_hectare": 20.92,
+    "human_per_hectare": 68.29,
+    "total_per_hectare": 93.23
   },
   "GM0770": {
     "naam": "Eersel",
@@ -1490,10 +1490,10 @@
     "produced_per_capita": 59683.84,
     "human_per_capita": 587663.19,
     "total_per_capita": 708872.17,
-    "natural_per_hectare": 0.15,
-    "produced_per_hectare": 0.14,
-    "human_per_hectare": 1.41,
-    "total_per_hectare": 1.7
+    "natural_per_hectare": 14.92,
+    "produced_per_hectare": 14.48,
+    "human_per_hectare": 142.54,
+    "total_per_hectare": 171.94
   },
   "GM1903": {
     "naam": "Eijsden-Margraten",
@@ -1507,10 +1507,10 @@
     "produced_per_capita": 53347.02,
     "human_per_capita": 542158.34,
     "total_per_capita": 655794.2,
-    "natural_per_hectare": 0.2,
-    "produced_per_hectare": 0.18,
-    "human_per_hectare": 1.79,
-    "total_per_hectare": 2.16
+    "natural_per_hectare": 20.2,
+    "produced_per_hectare": 17.88,
+    "human_per_hectare": 181.68,
+    "total_per_hectare": 219.76
   },
   "GM0772": {
     "naam": "Eindhoven",
@@ -1524,10 +1524,10 @@
     "produced_per_capita": 284079.89,
     "human_per_capita": 589510.61,
     "total_per_capita": 889291.1,
-    "natural_per_hectare": 0.43,
-    "produced_per_hectare": 7.75,
-    "human_per_hectare": 16.08,
-    "total_per_hectare": 24.25
+    "natural_per_hectare": 43.48,
+    "produced_per_hectare": 786.63,
+    "human_per_hectare": 1632.37,
+    "total_per_hectare": 2462.47
   },
   "GM0230": {
     "naam": "Elburg",
@@ -1541,10 +1541,10 @@
     "produced_per_capita": 63752.79,
     "human_per_capita": 497457.46,
     "total_per_capita": 617228.73,
-    "natural_per_hectare": 0.21,
-    "produced_per_hectare": 0.24,
-    "human_per_hectare": 1.87,
-    "total_per_hectare": 2.32
+    "natural_per_hectare": 21.1,
+    "produced_per_hectare": 24.01,
+    "human_per_hectare": 187.36,
+    "total_per_hectare": 232.47
   },
   "GM0114": {
     "naam": "Emmen",
@@ -1558,10 +1558,10 @@
     "produced_per_capita": 114182.23,
     "human_per_capita": 417300.05,
     "total_per_capita": 558510.88,
-    "natural_per_hectare": 0.08,
-    "produced_per_hectare": 0.36,
-    "human_per_hectare": 1.31,
-    "total_per_hectare": 1.75
+    "natural_per_hectare": 8.77,
+    "produced_per_hectare": 37.04,
+    "human_per_hectare": 135.35,
+    "total_per_hectare": 181.15
   },
   "GM0388": {
     "naam": "Enkhuizen",
@@ -1575,10 +1575,10 @@
     "produced_per_capita": 149643.15,
     "human_per_capita": 481865.71,
     "total_per_capita": 638885.47,
-    "natural_per_hectare": 0.01,
-    "produced_per_hectare": 0.27,
-    "human_per_hectare": 0.88,
-    "total_per_hectare": 1.17
+    "natural_per_hectare": 11.0,
+    "produced_per_hectare": 223.22,
+    "human_per_hectare": 718.8,
+    "total_per_hectare": 953.03
   },
   "GM0153": {
     "naam": "Enschede",
@@ -1592,10 +1592,10 @@
     "produced_per_capita": 175397.9,
     "human_per_capita": 447536.34,
     "total_per_capita": 645592.77,
-    "natural_per_hectare": 0.26,
-    "produced_per_hectare": 1.98,
-    "human_per_hectare": 5.06,
-    "total_per_hectare": 7.29
+    "natural_per_hectare": 25.96,
+    "produced_per_hectare": 200.95,
+    "human_per_hectare": 512.74,
+    "total_per_hectare": 739.66
   },
   "GM0232": {
     "naam": "Epe",
@@ -1609,10 +1609,10 @@
     "produced_per_capita": 47412.36,
     "human_per_capita": 491204.5,
     "total_per_capita": 659106.86,
-    "natural_per_hectare": 0.25,
-    "produced_per_hectare": 0.1,
-    "human_per_hectare": 1.04,
-    "total_per_hectare": 1.39
+    "natural_per_hectare": 25.69,
+    "produced_per_hectare": 10.11,
+    "human_per_hectare": 104.72,
+    "total_per_hectare": 140.51
   },
   "GM0233": {
     "naam": "Ermelo",
@@ -1626,10 +1626,10 @@
     "produced_per_capita": 111883.75,
     "human_per_capita": 528785.48,
     "total_per_capita": 757995.44,
-    "natural_per_hectare": 19.09,
-    "produced_per_hectare": 18.2,
-    "human_per_hectare": 86.03,
-    "total_per_hectare": 123.32
+    "natural_per_hectare": 37.67,
+    "produced_per_hectare": 35.92,
+    "human_per_hectare": 169.77,
+    "total_per_hectare": 243.37
   },
   "GM0777": {
     "naam": "Etten-Leur",
@@ -1643,10 +1643,10 @@
     "produced_per_capita": 160229.06,
     "human_per_capita": 514052.61,
     "total_per_capita": 684636.89,
-    "natural_per_hectare": 0.08,
-    "produced_per_hectare": 1.28,
-    "human_per_hectare": 4.1,
-    "total_per_hectare": 5.46
+    "natural_per_hectare": 8.35,
+    "produced_per_hectare": 129.19,
+    "human_per_hectare": 414.46,
+    "total_per_hectare": 551.99
   },
   "GM0779": {
     "naam": "Geertruidenberg",
@@ -1660,10 +1660,10 @@
     "produced_per_capita": 125674.6,
     "human_per_capita": 521564.67,
     "total_per_capita": 657180.92,
-    "natural_per_hectare": 0.07,
-    "produced_per_hectare": 0.94,
-    "human_per_hectare": 3.89,
-    "total_per_hectare": 4.9
+    "natural_per_hectare": 8.26,
+    "produced_per_hectare": 104.41,
+    "human_per_hectare": 433.31,
+    "total_per_hectare": 545.98
   },
   "GM1771": {
     "naam": "Geldrop-Mierlo",
@@ -1677,10 +1677,10 @@
     "produced_per_capita": 123255.41,
     "human_per_capita": 533955.86,
     "total_per_capita": 678887.96,
-    "natural_per_hectare": 0.28,
-    "produced_per_hectare": 1.59,
-    "human_per_hectare": 6.88,
-    "total_per_hectare": 8.75
+    "natural_per_hectare": 28.27,
+    "produced_per_hectare": 160.74,
+    "human_per_hectare": 696.35,
+    "total_per_hectare": 885.36
   },
   "GM1652": {
     "naam": "Gemert-Bakel",
@@ -1694,10 +1694,10 @@
     "produced_per_capita": 55984.45,
     "human_per_capita": 505865.88,
     "total_per_capita": 617965.56,
-    "natural_per_hectare": 0.14,
-    "produced_per_hectare": 0.14,
-    "human_per_hectare": 1.29,
-    "total_per_hectare": 1.57
+    "natural_per_hectare": 14.43,
+    "produced_per_hectare": 14.39,
+    "human_per_hectare": 130.05,
+    "total_per_hectare": 158.87
   },
   "GM0907": {
     "naam": "Gennep",
@@ -1711,10 +1711,10 @@
     "produced_per_capita": 71507.66,
     "human_per_capita": 486333.97,
     "total_per_capita": 621133.73,
-    "natural_per_hectare": 0.22,
-    "produced_per_hectare": 0.25,
-    "human_per_hectare": 1.71,
-    "total_per_hectare": 2.19
+    "natural_per_hectare": 23.64,
+    "produced_per_hectare": 26.7,
+    "human_per_hectare": 181.61,
+    "total_per_hectare": 231.95
   },
   "GM0784": {
     "naam": "Gilze en Rijen",
@@ -1728,10 +1728,10 @@
     "produced_per_capita": 75153.34,
     "human_per_capita": 524927.23,
     "total_per_capita": 638587.89,
-    "natural_per_hectare": 0.16,
-    "produced_per_hectare": 0.31,
-    "human_per_hectare": 2.14,
-    "total_per_hectare": 2.61
+    "natural_per_hectare": 15.79,
+    "produced_per_hectare": 30.82,
+    "human_per_hectare": 215.29,
+    "total_per_hectare": 261.91
   },
   "GM1924": {
     "naam": "Goeree-Overflakkee",
@@ -1745,10 +1745,10 @@
     "produced_per_capita": 16753.9,
     "human_per_capita": 532618.19,
     "total_per_capita": 610497.76,
-    "natural_per_hectare": 0.2,
-    "produced_per_hectare": 0.06,
-    "human_per_hectare": 1.76,
-    "total_per_hectare": 2.02
+    "natural_per_hectare": 12.03,
+    "produced_per_hectare": 3.3,
+    "human_per_hectare": 104.8,
+    "total_per_hectare": 120.12
   },
   "GM0664": {
     "naam": "Goes",
@@ -1762,10 +1762,10 @@
     "produced_per_capita": 121842.49,
     "human_per_capita": 509659.17,
     "total_per_capita": 655288.34,
-    "natural_per_hectare": 0.1,
-    "produced_per_hectare": 0.51,
-    "human_per_hectare": 2.13,
-    "total_per_hectare": 2.73
+    "natural_per_hectare": 10.14,
+    "produced_per_hectare": 51.95,
+    "human_per_hectare": 217.32,
+    "total_per_hectare": 279.41
   },
   "GM0785": {
     "naam": "Goirle",
@@ -1779,10 +1779,10 @@
     "produced_per_capita": 78478.94,
     "human_per_capita": 533600.8,
     "total_per_capita": 638873.39,
-    "natural_per_hectare": 0.15,
-    "produced_per_hectare": 0.44,
-    "human_per_hectare": 2.97,
-    "total_per_hectare": 3.56
+    "natural_per_hectare": 15.08,
+    "produced_per_hectare": 44.16,
+    "human_per_hectare": 300.23,
+    "total_per_hectare": 359.46
   },
   "GM1942": {
     "naam": "Gooise Meren",
@@ -1796,10 +1796,10 @@
     "produced_per_capita": 127853.89,
     "human_per_capita": 713381.39,
     "total_per_capita": 875701.47,
-    "natural_per_hectare": 0.7,
-    "produced_per_hectare": 2.58,
-    "human_per_hectare": 14.42,
-    "total_per_hectare": 17.7
+    "natural_per_hectare": 50.21,
+    "produced_per_hectare": 186.27,
+    "human_per_hectare": 1039.32,
+    "total_per_hectare": 1275.8
   },
   "GM0512": {
     "naam": "Gorinchem",
@@ -1813,10 +1813,10 @@
     "produced_per_capita": 144453.18,
     "human_per_capita": 528284.83,
     "total_per_capita": 677483.53,
-    "natural_per_hectare": 0.08,
-    "produced_per_hectare": 2.53,
-    "human_per_hectare": 9.26,
-    "total_per_hectare": 11.88
+    "natural_per_hectare": 9.76,
+    "produced_per_hectare": 296.94,
+    "human_per_hectare": 1085.96,
+    "total_per_hectare": 1392.66
   },
   "GM0513": {
     "naam": "Gouda",
@@ -1830,10 +1830,10 @@
     "produced_per_capita": 102304.07,
     "human_per_capita": 530053.58,
     "total_per_capita": 634163.1,
-    "natural_per_hectare": 0.08,
-    "produced_per_hectare": 4.25,
-    "human_per_hectare": 22.04,
-    "total_per_hectare": 26.37
+    "natural_per_hectare": 8.24,
+    "produced_per_hectare": 466.98,
+    "human_per_hectare": 2419.49,
+    "total_per_hectare": 2894.7
   },
   "GM0014": {
     "naam": "Groningen",
@@ -1847,10 +1847,10 @@
     "produced_per_capita": 256010.56,
     "human_per_capita": 526866.12,
     "total_per_capita": 803125.68,
-    "natural_per_hectare": 0.24,
-    "produced_per_hectare": 3.08,
-    "human_per_hectare": 6.34,
-    "total_per_hectare": 9.66
+    "natural_per_hectare": 25.99,
+    "produced_per_hectare": 328.62,
+    "human_per_hectare": 676.29,
+    "total_per_hectare": 1030.9
   },
   "GM1729": {
     "naam": "Gulpen-Wittem",
@@ -1864,10 +1864,10 @@
     "produced_per_capita": 23949.63,
     "human_per_capita": 465574.96,
     "total_per_capita": 611775.5,
-    "natural_per_hectare": 0.24,
-    "produced_per_hectare": 0.05,
-    "human_per_hectare": 0.9,
-    "total_per_hectare": 1.19
+    "natural_per_hectare": 23.74,
+    "produced_per_hectare": 4.65,
+    "human_per_hectare": 90.4,
+    "total_per_hectare": 118.79
   },
   "GM0158": {
     "naam": "Haaksbergen",
@@ -1881,10 +1881,10 @@
     "produced_per_capita": 81437.56,
     "human_per_capita": 508068.18,
     "total_per_capita": 653655.06,
-    "natural_per_hectare": 0.15,
-    "produced_per_hectare": 0.19,
-    "human_per_hectare": 1.18,
-    "total_per_hectare": 1.52
+    "natural_per_hectare": 15.0,
+    "produced_per_hectare": 19.04,
+    "human_per_hectare": 118.81,
+    "total_per_hectare": 152.85
   },
   "GM0392": {
     "naam": "Haarlem",
@@ -1898,10 +1898,10 @@
     "produced_per_capita": 112653.05,
     "human_per_capita": 614169.51,
     "total_per_capita": 732199.36,
-    "natural_per_hectare": 0.28,
-    "produced_per_hectare": 5.81,
-    "human_per_hectare": 31.65,
-    "total_per_hectare": 37.74
+    "natural_per_hectare": 30.45,
+    "produced_per_hectare": 637.88,
+    "human_per_hectare": 3477.62,
+    "total_per_hectare": 4145.94
   },
   "GM0394": {
     "naam": "Haarlemmermeer",
@@ -1915,10 +1915,10 @@
     "produced_per_capita": 213433.98,
     "human_per_capita": 604127.09,
     "total_per_capita": 841598.5,
-    "natural_per_hectare": 0.19,
-    "produced_per_hectare": 1.68,
-    "human_per_hectare": 4.75,
-    "total_per_hectare": 6.62
+    "natural_per_hectare": 19.78,
+    "produced_per_hectare": 175.65,
+    "human_per_hectare": 497.18,
+    "total_per_hectare": 692.62
   },
   "GM1655": {
     "naam": "Halderberge",
@@ -1932,10 +1932,10 @@
     "produced_per_capita": 86679.64,
     "human_per_capita": 492422.28,
     "total_per_capita": 596492.56,
-    "natural_per_hectare": 0.07,
-    "produced_per_hectare": 0.36,
-    "human_per_hectare": 2.03,
-    "total_per_hectare": 2.46
+    "natural_per_hectare": 7.25,
+    "produced_per_hectare": 36.14,
+    "human_per_hectare": 205.34,
+    "total_per_hectare": 248.73
   },
   "GM0160": {
     "naam": "Hardenberg",
@@ -1949,10 +1949,10 @@
     "produced_per_capita": 64423.41,
     "human_per_capita": 500704.99,
     "total_per_capita": 608075.37,
-    "natural_per_hectare": 0.08,
-    "produced_per_hectare": 0.13,
-    "human_per_hectare": 0.99,
-    "total_per_hectare": 1.2
+    "natural_per_hectare": 8.6,
+    "produced_per_hectare": 12.9,
+    "human_per_hectare": 100.26,
+    "total_per_hectare": 121.77
   },
   "GM0243": {
     "naam": "Harderwijk",
@@ -1966,10 +1966,10 @@
     "produced_per_capita": 168558.16,
     "human_per_capita": 527024.8,
     "total_per_capita": 719934.93,
-    "natural_per_hectare": 1.29,
-    "produced_per_hectare": 8.93,
-    "human_per_hectare": 27.92,
-    "total_per_hectare": 38.14
+    "natural_per_hectare": 30.59,
+    "produced_per_hectare": 211.75,
+    "human_per_hectare": 662.08,
+    "total_per_hectare": 904.42
   },
   "GM0523": {
     "naam": "Hardinxveld-Giessendam",
@@ -1983,10 +1983,10 @@
     "produced_per_capita": 78880.86,
     "human_per_capita": 530812.39,
     "total_per_capita": 615361.41,
-    "natural_per_hectare": 0.05,
-    "produced_per_hectare": 0.76,
-    "human_per_hectare": 5.12,
-    "total_per_hectare": 5.94
+    "natural_per_hectare": 6.28,
+    "produced_per_hectare": 87.4,
+    "human_per_hectare": 588.14,
+    "total_per_hectare": 681.82
   },
   "GM0072": {
     "naam": "Harlingen",
@@ -2000,10 +2000,10 @@
     "produced_per_capita": 109052.59,
     "human_per_capita": 423048.92,
     "total_per_capita": 538887.81,
-    "natural_per_hectare": 0.0,
-    "produced_per_hectare": 0.05,
-    "human_per_hectare": 0.19,
-    "total_per_hectare": 0.24
+    "natural_per_hectare": 4.4,
+    "produced_per_hectare": 70.73,
+    "human_per_hectare": 274.37,
+    "total_per_hectare": 349.5
   },
   "GM0244": {
     "naam": "Hattem",
@@ -2017,10 +2017,10 @@
     "produced_per_capita": 65363.06,
     "human_per_capita": 538702.01,
     "total_per_capita": 642824.56,
-    "natural_per_hectare": 0.2,
-    "produced_per_hectare": 0.34,
-    "human_per_hectare": 2.8,
-    "total_per_hectare": 3.34
+    "natural_per_hectare": 21.11,
+    "produced_per_hectare": 35.59,
+    "human_per_hectare": 293.36,
+    "total_per_hectare": 350.06
   },
   "GM0396": {
     "naam": "Heemskerk",
@@ -2034,10 +2034,10 @@
     "produced_per_capita": 136499.37,
     "human_per_capita": 516115.19,
     "total_per_capita": 708202.72,
-    "natural_per_hectare": 0.79,
-    "produced_per_hectare": 1.94,
-    "human_per_hectare": 7.34,
-    "total_per_hectare": 10.08
+    "natural_per_hectare": 80.38,
+    "produced_per_hectare": 197.37,
+    "human_per_hectare": 746.28,
+    "total_per_hectare": 1024.02
   },
   "GM0397": {
     "naam": "Heemstede",
@@ -2051,10 +2051,10 @@
     "produced_per_capita": 72349.28,
     "human_per_capita": 713185.97,
     "total_per_capita": 809851.56,
-    "natural_per_hectare": 0.7,
-    "produced_per_hectare": 2.08,
-    "human_per_hectare": 20.54,
-    "total_per_hectare": 23.33
+    "natural_per_hectare": 73.66,
+    "produced_per_hectare": 219.16,
+    "human_per_hectare": 2160.4,
+    "total_per_hectare": 2453.22
   },
   "GM0246": {
     "naam": "Heerde",
@@ -2068,10 +2068,10 @@
     "produced_per_capita": 50861.3,
     "human_per_capita": 488297.36,
     "total_per_capita": 604463.93,
-    "natural_per_hectare": 0.16,
-    "produced_per_hectare": 0.12,
-    "human_per_hectare": 1.17,
-    "total_per_hectare": 1.44
+    "natural_per_hectare": 15.97,
+    "produced_per_hectare": 12.44,
+    "human_per_hectare": 119.44,
+    "total_per_hectare": 147.86
   },
   "GM0074": {
     "naam": "Heerenveen",
@@ -2085,10 +2085,10 @@
     "produced_per_capita": 144172.77,
     "human_per_capita": 486491.67,
     "total_per_capita": 665585.82,
-    "natural_per_hectare": 0.09,
-    "produced_per_hectare": 0.38,
-    "human_per_hectare": 1.27,
-    "total_per_hectare": 1.73
+    "natural_per_hectare": 9.49,
+    "produced_per_hectare": 39.19,
+    "human_per_hectare": 132.24,
+    "total_per_hectare": 180.92
   },
   "GM0917": {
     "naam": "Heerlen",
@@ -2102,10 +2102,10 @@
     "produced_per_capita": 131392.77,
     "human_per_capita": 386878.24,
     "total_per_capita": 537135.07,
-    "natural_per_hectare": 0.36,
-    "produced_per_hectare": 2.51,
-    "human_per_hectare": 7.4,
-    "total_per_hectare": 10.28
+    "natural_per_hectare": 36.59,
+    "produced_per_hectare": 254.89,
+    "human_per_hectare": 750.51,
+    "total_per_hectare": 1042.0
   },
   "GM1658": {
     "naam": "Heeze-Leende",
@@ -2119,10 +2119,10 @@
     "produced_per_capita": 52315.22,
     "human_per_capita": 606357.91,
     "total_per_capita": 783456.48,
-    "natural_per_hectare": 0.2,
-    "produced_per_hectare": 0.08,
-    "human_per_hectare": 0.96,
-    "total_per_hectare": 1.24
+    "natural_per_hectare": 19.97,
+    "produced_per_hectare": 8.37,
+    "human_per_hectare": 97.02,
+    "total_per_hectare": 125.35
   },
   "GM0399": {
     "naam": "Heiloo",
@@ -2136,10 +2136,10 @@
     "produced_per_capita": 82571.94,
     "human_per_capita": 591311.55,
     "total_per_capita": 690449.73,
-    "natural_per_hectare": 0.21,
-    "produced_per_hectare": 1.06,
-    "human_per_hectare": 7.56,
-    "total_per_hectare": 8.83
+    "natural_per_hectare": 21.53,
+    "produced_per_hectare": 107.33,
+    "human_per_hectare": 768.58,
+    "total_per_hectare": 897.44
   },
   "GM0163": {
     "naam": "Hellendoorn",
@@ -2153,10 +2153,10 @@
     "produced_per_capita": 55797.57,
     "human_per_capita": 505087.98,
     "total_per_capita": 646332.79,
-    "natural_per_hectare": 0.22,
-    "produced_per_hectare": 0.15,
-    "human_per_hectare": 1.32,
-    "total_per_hectare": 1.69
+    "natural_per_hectare": 22.46,
+    "produced_per_hectare": 14.67,
+    "human_per_hectare": 132.78,
+    "total_per_hectare": 169.92
   },
   "GM0794": {
     "naam": "Helmond",
@@ -2170,10 +2170,10 @@
     "produced_per_capita": 182364.24,
     "human_per_capita": 492583.26,
     "total_per_capita": 690436.01,
-    "natural_per_hectare": 0.27,
-    "produced_per_hectare": 3.16,
-    "human_per_hectare": 8.54,
-    "total_per_hectare": 11.97
+    "natural_per_hectare": 27.64,
+    "produced_per_hectare": 325.48,
+    "human_per_hectare": 879.16,
+    "total_per_hectare": 1232.29
   },
   "GM0531": {
     "naam": "Hendrik-Ido-Ambacht",
@@ -2187,10 +2187,10 @@
     "produced_per_capita": 185024.5,
     "human_per_capita": 588216.61,
     "total_per_capita": 777717.34,
-    "natural_per_hectare": 0.12,
-    "produced_per_hectare": 5.0,
-    "human_per_hectare": 15.91,
-    "total_per_hectare": 21.03
+    "natural_per_hectare": 14.14,
+    "produced_per_hectare": 584.36,
+    "human_per_hectare": 1857.76,
+    "total_per_hectare": 2456.26
   },
   "GM0164": {
     "naam": "Hengelo (O.)",
@@ -2204,10 +2204,10 @@
     "produced_per_capita": 157575.34,
     "human_per_capita": 495741.1,
     "total_per_capita": 663614.67,
-    "natural_per_hectare": 0.14,
-    "produced_per_hectare": 2.1,
-    "human_per_hectare": 6.6,
-    "total_per_hectare": 8.83
+    "natural_per_hectare": 13.93,
+    "produced_per_hectare": 213.19,
+    "human_per_hectare": 670.69,
+    "total_per_hectare": 897.81
   },
   "GM1966": {
     "naam": "Het Hogeland",
@@ -2221,10 +2221,10 @@
     "produced_per_capita": 43827.64,
     "human_per_capita": 424409.66,
     "total_per_capita": 526975.58,
-    "natural_per_hectare": 0.06,
-    "produced_per_hectare": 0.04,
-    "human_per_hectare": 0.43,
-    "total_per_hectare": 0.53
+    "natural_per_hectare": 5.95,
+    "produced_per_hectare": 4.44,
+    "human_per_hectare": 43.0,
+    "total_per_hectare": 53.39
   },
   "GM0252": {
     "naam": "Heumen",
@@ -2238,10 +2238,10 @@
     "produced_per_capita": 62279.15,
     "human_per_capita": 561100.39,
     "total_per_capita": 696897.76,
-    "natural_per_hectare": 0.3,
-    "produced_per_hectare": 0.25,
-    "human_per_hectare": 2.27,
-    "total_per_hectare": 2.82
+    "natural_per_hectare": 31.13,
+    "produced_per_hectare": 26.37,
+    "human_per_hectare": 237.6,
+    "total_per_hectare": 295.11
   },
   "GM0797": {
     "naam": "Heusden",
@@ -2255,10 +2255,10 @@
     "produced_per_capita": 138852.68,
     "human_per_capita": 534716.99,
     "total_per_capita": 698088.8,
-    "natural_per_hectare": 0.14,
-    "produced_per_hectare": 0.78,
-    "human_per_hectare": 3.02,
-    "total_per_hectare": 3.94
+    "natural_per_hectare": 14.25,
+    "produced_per_hectare": 80.7,
+    "human_per_hectare": 310.75,
+    "total_per_hectare": 405.7
   },
   "GM0534": {
     "naam": "Hillegom",
@@ -2272,10 +2272,10 @@
     "produced_per_capita": 71212.79,
     "human_per_capita": 562845.09,
     "total_per_capita": 640306.43,
-    "natural_per_hectare": 0.1,
-    "produced_per_hectare": 1.19,
-    "human_per_hectare": 9.39,
-    "total_per_hectare": 10.68
+    "natural_per_hectare": 10.91,
+    "produced_per_hectare": 124.33,
+    "human_per_hectare": 982.7,
+    "total_per_hectare": 1117.95
   },
   "GM0798": {
     "naam": "Hilvarenbeek",
@@ -2289,10 +2289,10 @@
     "produced_per_capita": 36852.3,
     "human_per_capita": 579867.15,
     "total_per_capita": 719992.34,
-    "natural_per_hectare": 0.17,
-    "produced_per_hectare": 0.06,
-    "human_per_hectare": 0.96,
-    "total_per_hectare": 1.19
+    "natural_per_hectare": 17.36,
+    "produced_per_hectare": 6.2,
+    "human_per_hectare": 97.48,
+    "total_per_hectare": 121.04
   },
   "GM0402": {
     "naam": "Hilversum",
@@ -2306,10 +2306,10 @@
     "produced_per_capita": 173897.68,
     "human_per_capita": 616199.97,
     "total_per_capita": 848972.28,
-    "natural_per_hectare": 1.19,
-    "produced_per_hectare": 3.5,
-    "human_per_hectare": 12.41,
-    "total_per_hectare": 17.09
+    "natural_per_hectare": 120.47,
+    "produced_per_hectare": 355.83,
+    "human_per_hectare": 1260.87,
+    "total_per_hectare": 1737.16
   },
   "GM1963": {
     "naam": "Hoeksche Waard",
@@ -2323,10 +2323,10 @@
     "produced_per_capita": 27812.33,
     "human_per_capita": 560827.76,
     "total_per_capita": 606248.32,
-    "natural_per_hectare": 0.38,
-    "produced_per_hectare": 0.6,
-    "human_per_hectare": 12.01,
-    "total_per_hectare": 12.98
+    "natural_per_hectare": 5.89,
+    "produced_per_hectare": 9.3,
+    "human_per_hectare": 187.46,
+    "total_per_hectare": 202.64
   },
   "GM1735": {
     "naam": "Hof van Twente",
@@ -2340,10 +2340,10 @@
     "produced_per_capita": 44771.93,
     "human_per_capita": 520528.58,
     "total_per_capita": 656955.09,
-    "natural_per_hectare": 0.15,
-    "produced_per_hectare": 0.07,
-    "human_per_hectare": 0.86,
-    "total_per_hectare": 1.08
+    "natural_per_hectare": 15.3,
+    "produced_per_hectare": 7.47,
+    "human_per_hectare": 86.88,
+    "total_per_hectare": 109.65
   },
   "GM1911": {
     "naam": "Hollands Kroon",
@@ -2357,10 +2357,10 @@
     "produced_per_capita": 84497.53,
     "human_per_capita": 506257.03,
     "total_per_capita": 651794.78,
-    "natural_per_hectare": 0.08,
-    "produced_per_hectare": 0.11,
-    "human_per_hectare": 0.67,
-    "total_per_hectare": 0.86
+    "natural_per_hectare": 8.44,
+    "produced_per_hectare": 11.68,
+    "human_per_hectare": 69.97,
+    "total_per_hectare": 90.09
   },
   "GM0118": {
     "naam": "Hoogeveen",
@@ -2374,10 +2374,10 @@
     "produced_per_capita": 132002.39,
     "human_per_capita": 446649.51,
     "total_per_capita": 600270.26,
-    "natural_per_hectare": 0.09,
-    "produced_per_hectare": 0.58,
-    "human_per_hectare": 1.95,
-    "total_per_hectare": 2.62
+    "natural_per_hectare": 9.57,
+    "produced_per_hectare": 58.41,
+    "human_per_hectare": 197.63,
+    "total_per_hectare": 265.6
   },
   "GM0405": {
     "naam": "Hoorn",
@@ -2391,10 +2391,10 @@
     "produced_per_capita": 164996.32,
     "human_per_capita": 509243.75,
     "total_per_capita": 677821.84,
-    "natural_per_hectare": 0.13,
-    "produced_per_hectare": 5.94,
-    "human_per_hectare": 18.33,
-    "total_per_hectare": 24.4
+    "natural_per_hectare": 13.23,
+    "produced_per_hectare": 609.25,
+    "human_per_hectare": 1880.38,
+    "total_per_hectare": 2502.85
   },
   "GM1507": {
     "naam": "Horst aan de Maas",
@@ -2408,10 +2408,10 @@
     "produced_per_capita": 66565.29,
     "human_per_capita": 531056.42,
     "total_per_capita": 719987.91,
-    "natural_per_hectare": 0.28,
-    "produced_per_hectare": 0.15,
-    "human_per_hectare": 1.21,
-    "total_per_hectare": 1.64
+    "natural_per_hectare": 28.3,
+    "produced_per_hectare": 15.4,
+    "human_per_hectare": 122.83,
+    "total_per_hectare": 166.53
   },
   "GM0321": {
     "naam": "Houten",
@@ -2425,10 +2425,10 @@
     "produced_per_capita": 157724.92,
     "human_per_capita": 617265.18,
     "total_per_capita": 803294.57,
-    "natural_per_hectare": 0.24,
-    "produced_per_hectare": 1.35,
-    "human_per_hectare": 5.29,
-    "total_per_hectare": 6.89
+    "natural_per_hectare": 26.08,
+    "produced_per_hectare": 145.32,
+    "human_per_hectare": 568.7,
+    "total_per_hectare": 740.1
   },
   "GM0406": {
     "naam": "Huizen",
@@ -2442,10 +2442,10 @@
     "produced_per_capita": 148260.84,
     "human_per_capita": 542583.79,
     "total_per_capita": 724734.61,
-    "natural_per_hectare": 1.89,
-    "produced_per_hectare": 8.28,
-    "human_per_hectare": 30.32,
-    "total_per_hectare": 40.49
+    "natural_per_hectare": 88.43,
+    "produced_per_hectare": 386.85,
+    "human_per_hectare": 1415.73,
+    "total_per_hectare": 1891.0
   },
   "GM0677": {
     "naam": "Hulst",
@@ -2459,10 +2459,10 @@
     "produced_per_capita": 67754.25,
     "human_per_capita": 479390.43,
     "total_per_capita": 628584.59,
-    "natural_per_hectare": 0.11,
-    "produced_per_hectare": 0.09,
-    "human_per_hectare": 0.65,
-    "total_per_hectare": 0.85
+    "natural_per_hectare": 11.17,
+    "produced_per_hectare": 9.29,
+    "human_per_hectare": 65.73,
+    "total_per_hectare": 86.19
   },
   "GM0353": {
     "naam": "IJsselstein",
@@ -2476,10 +2476,10 @@
     "produced_per_capita": 149111.05,
     "human_per_capita": 577144.46,
     "total_per_capita": 738016.24,
-    "natural_per_hectare": 0.18,
-    "produced_per_hectare": 2.3,
-    "human_per_hectare": 8.92,
-    "total_per_hectare": 11.4
+    "natural_per_hectare": 18.75,
+    "produced_per_hectare": 237.7,
+    "human_per_hectare": 920.02,
+    "total_per_hectare": 1176.47
   },
   "GM1884": {
     "naam": "Kaag en Braassem",
@@ -2493,10 +2493,10 @@
     "produced_per_capita": 58942.66,
     "human_per_capita": 583353.99,
     "total_per_capita": 662009.06,
-    "natural_per_hectare": 0.08,
-    "produced_per_hectare": 0.23,
-    "human_per_hectare": 2.31,
-    "total_per_hectare": 2.62
+    "natural_per_hectare": 8.92,
+    "produced_per_hectare": 26.68,
+    "human_per_hectare": 264.03,
+    "total_per_hectare": 299.63
   },
   "GM0166": {
     "naam": "Kampen",
@@ -2510,10 +2510,10 @@
     "produced_per_capita": 152748.87,
     "human_per_capita": 503219.83,
     "total_per_capita": 676288.43,
-    "natural_per_hectare": 0.08,
-    "produced_per_hectare": 0.57,
-    "human_per_hectare": 1.87,
-    "total_per_hectare": 2.52
+    "natural_per_hectare": 8.0,
+    "produced_per_hectare": 60.15,
+    "human_per_hectare": 198.16,
+    "total_per_hectare": 266.31
   },
   "GM0678": {
     "naam": "Kapelle",
@@ -2527,10 +2527,10 @@
     "produced_per_capita": 68026.06,
     "human_per_capita": 531613.93,
     "total_per_capita": 648754.36,
-    "natural_per_hectare": 0.17,
-    "produced_per_hectare": 0.23,
-    "human_per_hectare": 1.82,
-    "total_per_hectare": 2.23
+    "natural_per_hectare": 17.26,
+    "produced_per_hectare": 23.91,
+    "human_per_hectare": 186.86,
+    "total_per_hectare": 228.03
   },
   "GM0537": {
     "naam": "Katwijk",
@@ -2544,10 +2544,10 @@
     "produced_per_capita": 150714.58,
     "human_per_capita": 544829.22,
     "total_per_capita": 714500.46,
-    "natural_per_hectare": 2.64,
-    "produced_per_hectare": 20.97,
-    "human_per_hectare": 75.8,
-    "total_per_hectare": 99.4
+    "natural_per_hectare": 50.89,
+    "produced_per_hectare": 404.62,
+    "human_per_hectare": 1462.69,
+    "total_per_hectare": 1918.21
   },
   "GM0928": {
     "naam": "Kerkrade",
@@ -2561,10 +2561,10 @@
     "produced_per_capita": 113739.98,
     "human_per_capita": 370807.17,
     "total_per_capita": 494782.47,
-    "natural_per_hectare": 0.21,
-    "produced_per_hectare": 2.34,
-    "human_per_hectare": 7.64,
-    "total_per_hectare": 10.19
+    "natural_per_hectare": 21.31,
+    "produced_per_hectare": 236.82,
+    "human_per_hectare": 772.08,
+    "total_per_hectare": 1030.21
   },
   "GM1598": {
     "naam": "Koggenland",
@@ -2578,10 +2578,10 @@
     "produced_per_capita": 48121.62,
     "human_per_capita": 548022.98,
     "total_per_capita": 621748.62,
-    "natural_per_hectare": 0.07,
-    "produced_per_hectare": 0.14,
-    "human_per_hectare": 1.55,
-    "total_per_hectare": 1.75
+    "natural_per_hectare": 7.5,
+    "produced_per_hectare": 14.1,
+    "human_per_hectare": 160.52,
+    "total_per_hectare": 182.12
   },
   "GM0542": {
     "naam": "Krimpen aan den IJssel",
@@ -2595,10 +2595,10 @@
     "produced_per_capita": 55138.31,
     "human_per_capita": 513225.06,
     "total_per_capita": 573116.21,
-    "natural_per_hectare": 0.16,
-    "produced_per_hectare": 1.82,
-    "human_per_hectare": 16.92,
-    "total_per_hectare": 18.89
+    "natural_per_hectare": 18.28,
+    "produced_per_hectare": 212.1,
+    "human_per_hectare": 1974.21,
+    "total_per_hectare": 2204.59
   },
   "GM1931": {
     "naam": "Krimpenerwaard",
@@ -2612,10 +2612,10 @@
     "produced_per_capita": 37761.97,
     "human_per_capita": 548198.96,
     "total_per_capita": 604572.1,
-    "natural_per_hectare": 0.07,
-    "produced_per_hectare": 0.14,
-    "human_per_hectare": 1.96,
-    "total_per_hectare": 2.16
+    "natural_per_hectare": 7.24,
+    "produced_per_hectare": 14.69,
+    "human_per_hectare": 213.26,
+    "total_per_hectare": 235.19
   },
   "GM1659": {
     "naam": "Laarbeek",
@@ -2629,10 +2629,10 @@
     "produced_per_capita": 80607.28,
     "human_per_capita": 526359.87,
     "total_per_capita": 635571.34,
-    "natural_per_hectare": 0.12,
-    "produced_per_hectare": 0.33,
-    "human_per_hectare": 2.18,
-    "total_per_hectare": 2.63
+    "natural_per_hectare": 12.02,
+    "produced_per_hectare": 33.87,
+    "human_per_hectare": 221.19,
+    "total_per_hectare": 267.09
   },
   "GM1982": {
     "naam": "Land van Cuijk",
@@ -2646,10 +2646,10 @@
     "produced_per_capita": 69259.18,
     "human_per_capita": 521108.94,
     "total_per_capita": 626502.04,
-    "natural_per_hectare": 0.09,
-    "produced_per_hectare": 0.18,
-    "human_per_hectare": 1.35,
-    "total_per_hectare": 1.63
+    "natural_per_hectare": 9.68,
+    "produced_per_hectare": 18.55,
+    "human_per_hectare": 139.6,
+    "total_per_hectare": 167.84
   },
   "GM0882": {
     "naam": "Landgraaf",
@@ -2663,10 +2663,10 @@
     "produced_per_capita": 102296.74,
     "human_per_capita": 409009.0,
     "total_per_capita": 527442.96,
-    "natural_per_hectare": 0.24,
-    "produced_per_hectare": 1.54,
-    "human_per_hectare": 6.16,
-    "total_per_hectare": 7.95
+    "natural_per_hectare": 24.41,
+    "produced_per_hectare": 154.71,
+    "human_per_hectare": 618.59,
+    "total_per_hectare": 797.71
   },
   "GM0415": {
     "naam": "Landsmeer",
@@ -2680,10 +2680,10 @@
     "produced_per_capita": 70472.95,
     "human_per_capita": 580369.23,
     "total_per_capita": 717197.7,
-    "natural_per_hectare": 0.29,
-    "produced_per_hectare": 0.31,
-    "human_per_hectare": 2.56,
-    "total_per_hectare": 3.17
+    "natural_per_hectare": 34.61,
+    "produced_per_hectare": 36.76,
+    "human_per_hectare": 302.73,
+    "total_per_hectare": 374.1
   },
   "GM1621": {
     "naam": "Lansingerland",
@@ -2697,10 +2697,10 @@
     "produced_per_capita": 165444.94,
     "human_per_capita": 640063.32,
     "total_per_capita": 812460.17,
-    "natural_per_hectare": 0.08,
-    "produced_per_hectare": 1.9,
-    "human_per_hectare": 7.35,
-    "total_per_hectare": 9.33
+    "natural_per_hectare": 8.45,
+    "produced_per_hectare": 201.11,
+    "human_per_hectare": 778.05,
+    "total_per_hectare": 987.61
   },
   "GM0417": {
     "naam": "Laren (NH.)",
@@ -2714,10 +2714,10 @@
     "produced_per_capita": 126453.05,
     "human_per_capita": 704449.42,
     "total_per_capita": 939996.39,
-    "natural_per_hectare": 1.03,
-    "produced_per_hectare": 1.19,
-    "human_per_hectare": 6.65,
-    "total_per_hectare": 8.87
+    "natural_per_hectare": 102.96,
+    "produced_per_hectare": 119.34,
+    "human_per_hectare": 664.83,
+    "total_per_hectare": 887.13
   },
   "GM0080": {
     "naam": "Leeuwarden",
@@ -2731,10 +2731,10 @@
     "produced_per_capita": 201461.24,
     "human_per_capita": 476194.56,
     "total_per_capita": 690067.97,
-    "natural_per_hectare": 0.06,
-    "produced_per_hectare": 1.0,
-    "human_per_hectare": 2.37,
-    "total_per_hectare": 3.44
+    "natural_per_hectare": 6.64,
+    "produced_per_hectare": 107.77,
+    "human_per_hectare": 254.73,
+    "total_per_hectare": 369.14
   },
   "GM0546": {
     "naam": "Leiden",
@@ -2748,10 +2748,10 @@
     "produced_per_capita": 149743.53,
     "human_per_capita": 600784.44,
     "total_per_capita": 752827.71,
-    "natural_per_hectare": 0.13,
-    "produced_per_hectare": 8.18,
-    "human_per_hectare": 32.81,
-    "total_per_hectare": 41.12
+    "natural_per_hectare": 13.38,
+    "produced_per_hectare": 870.97,
+    "human_per_hectare": 3494.42,
+    "total_per_hectare": 4378.77
   },
   "GM0547": {
     "naam": "Leiderdorp",
@@ -2765,10 +2765,10 @@
     "produced_per_capita": 122704.48,
     "human_per_capita": 583236.7,
     "total_per_capita": 733602.03,
-    "natural_per_hectare": 0.62,
-    "produced_per_hectare": 2.76,
-    "human_per_hectare": 13.14,
-    "total_per_hectare": 16.53
+    "natural_per_hectare": 66.52,
+    "produced_per_hectare": 295.1,
+    "human_per_hectare": 1402.66,
+    "total_per_hectare": 1764.28
   },
   "GM1916": {
     "naam": "Leidschendam-Voorburg",
@@ -2782,10 +2782,10 @@
     "produced_per_capita": 94403.35,
     "human_per_capita": 588412.59,
     "total_per_capita": 688302.29,
-    "natural_per_hectare": 0.12,
-    "produced_per_hectare": 2.06,
-    "human_per_hectare": 12.84,
-    "total_per_hectare": 15.03
+    "natural_per_hectare": 13.08,
+    "produced_per_hectare": 225.09,
+    "human_per_hectare": 1402.97,
+    "total_per_hectare": 1641.14
   },
   "GM0995": {
     "naam": "Lelystad",
@@ -2799,10 +2799,10 @@
     "produced_per_capita": 95393.26,
     "human_per_capita": 477834.8,
     "total_per_capita": 617201.48,
-    "natural_per_hectare": 0.14,
-    "produced_per_hectare": 0.31,
-    "human_per_hectare": 1.54,
-    "total_per_hectare": 1.99
+    "natural_per_hectare": 15.94,
+    "produced_per_hectare": 34.59,
+    "human_per_hectare": 173.26,
+    "total_per_hectare": 223.79
   },
   "GM1640": {
     "naam": "Leudal",
@@ -2816,10 +2816,10 @@
     "produced_per_capita": 50543.89,
     "human_per_capita": 507622.69,
     "total_per_capita": 677363.01,
-    "natural_per_hectare": 0.26,
-    "produced_per_hectare": 0.11,
-    "human_per_hectare": 1.11,
-    "total_per_hectare": 1.48
+    "natural_per_hectare": 26.51,
+    "produced_per_hectare": 11.24,
+    "human_per_hectare": 112.89,
+    "total_per_hectare": 150.64
   },
   "GM0327": {
     "naam": "Leusden",
@@ -2833,10 +2833,10 @@
     "produced_per_capita": 80685.37,
     "human_per_capita": 589453.07,
     "total_per_capita": 748342.18,
-    "natural_per_hectare": 0.42,
-    "produced_per_hectare": 0.43,
-    "human_per_hectare": 3.15,
-    "total_per_hectare": 4.0
+    "natural_per_hectare": 42.06,
+    "produced_per_hectare": 43.39,
+    "human_per_hectare": 317.01,
+    "total_per_hectare": 402.46
   },
   "GM1705": {
     "naam": "Lingewaard",
@@ -2850,10 +2850,10 @@
     "produced_per_capita": 77238.4,
     "human_per_capita": 524735.51,
     "total_per_capita": 615644.35,
-    "natural_per_hectare": 0.09,
-    "produced_per_hectare": 0.53,
-    "human_per_hectare": 3.58,
-    "total_per_hectare": 4.2
+    "natural_per_hectare": 10.42,
+    "produced_per_hectare": 58.86,
+    "human_per_hectare": 399.9,
+    "total_per_hectare": 469.19
   },
   "GM0553": {
     "naam": "Lisse",
@@ -2867,10 +2867,10 @@
     "produced_per_capita": 78933.58,
     "human_per_capita": 554937.32,
     "total_per_capita": 644219.88,
-    "natural_per_hectare": 0.15,
-    "produced_per_hectare": 1.15,
-    "human_per_hectare": 8.09,
-    "total_per_hectare": 9.39
+    "natural_per_hectare": 15.42,
+    "produced_per_hectare": 117.6,
+    "human_per_hectare": 826.75,
+    "total_per_hectare": 959.76
   },
   "GM0262": {
     "naam": "Lochem",
@@ -2884,10 +2884,10 @@
     "produced_per_capita": 46377.01,
     "human_per_capita": 525288.47,
     "total_per_capita": 646630.64,
-    "natural_per_hectare": 0.12,
-    "produced_per_hectare": 0.07,
-    "human_per_hectare": 0.83,
-    "total_per_hectare": 1.03
+    "natural_per_hectare": 12.07,
+    "produced_per_hectare": 7.47,
+    "human_per_hectare": 84.6,
+    "total_per_hectare": 104.15
   },
   "GM0809": {
     "naam": "Loon op Zand",
@@ -2901,10 +2901,10 @@
     "produced_per_capita": 82081.65,
     "human_per_capita": 525300.82,
     "total_per_capita": 662905.88,
-    "natural_per_hectare": 0.26,
-    "produced_per_hectare": 0.39,
-    "human_per_hectare": 2.47,
-    "total_per_hectare": 3.11
+    "natural_per_hectare": 26.47,
+    "produced_per_hectare": 39.13,
+    "human_per_hectare": 250.41,
+    "total_per_hectare": 316.01
   },
   "GM0331": {
     "naam": "Lopik",
@@ -2918,10 +2918,10 @@
     "produced_per_capita": 31756.63,
     "human_per_capita": 574661.88,
     "total_per_capita": 683902.92,
-    "natural_per_hectare": 0.14,
-    "produced_per_hectare": 0.06,
-    "human_per_hectare": 1.07,
-    "total_per_hectare": 1.27
+    "natural_per_hectare": 15.08,
+    "produced_per_hectare": 6.18,
+    "human_per_hectare": 111.83,
+    "total_per_hectare": 133.09
   },
   "GM0168": {
     "naam": "Losser",
@@ -2935,10 +2935,10 @@
     "produced_per_capita": 47825.51,
     "human_per_capita": 465342.11,
     "total_per_capita": 576775.6,
-    "natural_per_hectare": 0.15,
-    "produced_per_hectare": 0.11,
-    "human_per_hectare": 1.09,
-    "total_per_hectare": 1.35
+    "natural_per_hectare": 15.05,
+    "produced_per_hectare": 11.32,
+    "human_per_hectare": 110.1,
+    "total_per_hectare": 136.47
   },
   "GM0263": {
     "naam": "Maasdriel",
@@ -2952,10 +2952,10 @@
     "produced_per_capita": 97678.0,
     "human_per_capita": 541225.9,
     "total_per_capita": 673572.02,
-    "natural_per_hectare": 0.12,
-    "produced_per_hectare": 0.34,
-    "human_per_hectare": 1.87,
-    "total_per_hectare": 2.32
+    "natural_per_hectare": 13.69,
+    "produced_per_hectare": 38.58,
+    "human_per_hectare": 213.76,
+    "total_per_hectare": 266.03
   },
   "GM1641": {
     "naam": "Maasgouw",
@@ -2969,10 +2969,10 @@
     "produced_per_capita": 82862.99,
     "human_per_capita": 502936.12,
     "total_per_capita": 647707.07,
-    "natural_per_hectare": 0.26,
-    "produced_per_hectare": 0.35,
-    "human_per_hectare": 2.1,
-    "total_per_hectare": 2.71
+    "natural_per_hectare": 32.93,
+    "produced_per_hectare": 44.07,
+    "human_per_hectare": 267.48,
+    "total_per_hectare": 344.48
   },
   "GM1991": {
     "naam": "Maashorst",
@@ -2986,10 +2986,10 @@
     "produced_per_capita": 116099.0,
     "human_per_capita": 528148.09,
     "total_per_capita": 677517.92,
-    "natural_per_hectare": 0.14,
-    "produced_per_hectare": 0.49,
-    "human_per_hectare": 2.25,
-    "total_per_hectare": 2.89
+    "natural_per_hectare": 14.28,
+    "produced_per_hectare": 49.82,
+    "human_per_hectare": 226.65,
+    "total_per_hectare": 290.75
   },
   "GM0556": {
     "naam": "Maassluis",
@@ -3003,10 +3003,10 @@
     "produced_per_capita": 78868.64,
     "human_per_capita": 499536.23,
     "total_per_capita": 581439.18,
-    "natural_per_hectare": 0.11,
-    "produced_per_hectare": 2.75,
-    "human_per_hectare": 17.42,
-    "total_per_hectare": 20.27
+    "natural_per_hectare": 12.68,
+    "produced_per_hectare": 329.5,
+    "human_per_hectare": 2087.0,
+    "total_per_hectare": 2429.18
   },
   "GM0935": {
     "naam": "Maastricht",
@@ -3020,10 +3020,10 @@
     "produced_per_capita": 210122.05,
     "human_per_capita": 469937.79,
     "total_per_capita": 694180.28,
-    "natural_per_hectare": 0.29,
-    "produced_per_hectare": 4.29,
-    "human_per_hectare": 9.59,
-    "total_per_hectare": 14.17
+    "natural_per_hectare": 31.06,
+    "produced_per_hectare": 462.25,
+    "human_per_hectare": 1033.83,
+    "total_per_hectare": 1527.15
   },
   "GM0420": {
     "naam": "Medemblik",
@@ -3037,10 +3037,10 @@
     "produced_per_capita": 60799.43,
     "human_per_capita": 504887.11,
     "total_per_capita": 592449.2,
-    "natural_per_hectare": 0.1,
-    "produced_per_hectare": 0.22,
-    "human_per_hectare": 1.84,
-    "total_per_hectare": 2.16
+    "natural_per_hectare": 10.16,
+    "produced_per_hectare": 23.09,
+    "human_per_hectare": 191.71,
+    "total_per_hectare": 224.95
   },
   "GM0938": {
     "naam": "Meerssen",
@@ -3054,10 +3054,10 @@
     "produced_per_capita": 65588.59,
     "human_per_capita": 527846.96,
     "total_per_capita": 626703.67,
-    "natural_per_hectare": 0.22,
-    "produced_per_hectare": 0.44,
-    "human_per_hectare": 3.55,
-    "total_per_hectare": 4.21
+    "natural_per_hectare": 23.15,
+    "produced_per_hectare": 45.64,
+    "human_per_hectare": 367.3,
+    "total_per_hectare": 436.09
   },
   "GM1948": {
     "naam": "Meierijstad",
@@ -3071,10 +3071,10 @@
     "produced_per_capita": 130190.81,
     "human_per_capita": 539812.64,
     "total_per_capita": 692625.67,
-    "natural_per_hectare": 0.1,
-    "produced_per_hectare": 0.59,
-    "human_per_hectare": 2.44,
-    "total_per_hectare": 3.13
+    "natural_per_hectare": 10.29,
+    "produced_per_hectare": 59.23,
+    "human_per_hectare": 245.6,
+    "total_per_hectare": 315.13
   },
   "GM0119": {
     "naam": "Meppel",
@@ -3088,10 +3088,10 @@
     "produced_per_capita": 163218.08,
     "human_per_capita": 515114.64,
     "total_per_capita": 710532.58,
-    "natural_per_hectare": 0.2,
-    "produced_per_hectare": 1.02,
-    "human_per_hectare": 3.2,
-    "total_per_hectare": 4.42
+    "natural_per_hectare": 20.58,
+    "produced_per_hectare": 104.29,
+    "human_per_hectare": 329.15,
+    "total_per_hectare": 454.02
   },
   "GM0687": {
     "naam": "Middelburg (Z.)",
@@ -3105,10 +3105,10 @@
     "produced_per_capita": 110801.44,
     "human_per_capita": 496994.8,
     "total_per_capita": 617626.97,
-    "natural_per_hectare": 1.6,
-    "produced_per_hectare": 18.01,
-    "human_per_hectare": 80.79,
-    "total_per_hectare": 100.4
+    "natural_per_hectare": 10.15,
+    "produced_per_hectare": 114.41,
+    "human_per_hectare": 513.18,
+    "total_per_hectare": 637.75
   },
   "GM1842": {
     "naam": "Midden-Delfland",
@@ -3122,10 +3122,10 @@
     "produced_per_capita": 77445.02,
     "human_per_capita": 607476.33,
     "total_per_capita": 697955.16,
-    "natural_per_hectare": 0.05,
-    "produced_per_hectare": 0.31,
-    "human_per_hectare": 2.4,
-    "total_per_hectare": 2.75
+    "natural_per_hectare": 5.38,
+    "produced_per_hectare": 31.96,
+    "human_per_hectare": 250.66,
+    "total_per_hectare": 288.0
   },
   "GM1731": {
     "naam": "Midden-Drenthe",
@@ -3139,10 +3139,10 @@
     "produced_per_capita": 51029.05,
     "human_per_capita": 485293.28,
     "total_per_capita": 656802.74,
-    "natural_per_hectare": 0.12,
-    "produced_per_hectare": 0.05,
-    "human_per_hectare": 0.48,
-    "total_per_hectare": 0.65
+    "natural_per_hectare": 12.02,
+    "produced_per_hectare": 5.09,
+    "human_per_hectare": 48.42,
+    "total_per_hectare": 65.54
   },
   "GM1952": {
     "naam": "Midden-Groningen",
@@ -3156,10 +3156,10 @@
     "produced_per_capita": 82194.65,
     "human_per_capita": 417805.48,
     "total_per_capita": 528605.59,
-    "natural_per_hectare": 0.06,
-    "produced_per_hectare": 0.17,
-    "human_per_hectare": 0.87,
-    "total_per_hectare": 1.1
+    "natural_per_hectare": 6.33,
+    "produced_per_hectare": 18.2,
+    "human_per_hectare": 92.53,
+    "total_per_hectare": 117.06
   },
   "GM1709": {
     "naam": "Moerdijk",
@@ -3173,10 +3173,10 @@
     "produced_per_capita": 159061.77,
     "human_per_capita": 525941.24,
     "total_per_capita": 709150.1,
-    "natural_per_hectare": 0.06,
-    "produced_per_hectare": 0.37,
-    "human_per_hectare": 1.21,
-    "total_per_hectare": 1.63
+    "natural_per_hectare": 5.72,
+    "produced_per_hectare": 37.69,
+    "human_per_hectare": 124.61,
+    "total_per_hectare": 168.01
   },
   "GM1978": {
     "naam": "Molenlanden",
@@ -3190,10 +3190,10 @@
     "produced_per_capita": 34595.29,
     "human_per_capita": 565190.08,
     "total_per_capita": 623100.37,
-    "natural_per_hectare": 0.05,
-    "produced_per_hectare": 0.08,
-    "human_per_hectare": 1.33,
-    "total_per_hectare": 1.47
+    "natural_per_hectare": 5.8,
+    "produced_per_hectare": 8.6,
+    "human_per_hectare": 140.57,
+    "total_per_hectare": 154.97
   },
   "GM1955": {
     "naam": "Montferland",
@@ -3207,10 +3207,10 @@
     "produced_per_capita": 135381.13,
     "human_per_capita": 468190.82,
     "total_per_capita": 639291.02,
-    "natural_per_hectare": 0.12,
-    "produced_per_hectare": 0.47,
-    "human_per_hectare": 1.62,
-    "total_per_hectare": 2.21
+    "natural_per_hectare": 12.46,
+    "produced_per_hectare": 47.24,
+    "human_per_hectare": 163.37,
+    "total_per_hectare": 223.07
   },
   "GM0335": {
     "naam": "Montfoort",
@@ -3224,10 +3224,10 @@
     "produced_per_capita": 64662.53,
     "human_per_capita": 597565.36,
     "total_per_capita": 699762.67,
-    "natural_per_hectare": 0.14,
-    "produced_per_hectare": 0.24,
-    "human_per_hectare": 2.18,
-    "total_per_hectare": 2.55
+    "natural_per_hectare": 13.91,
+    "produced_per_hectare": 23.97,
+    "human_per_hectare": 221.49,
+    "total_per_hectare": 259.37
   },
   "GM0944": {
     "naam": "Mook en Middelaar",
@@ -3241,10 +3241,10 @@
     "produced_per_capita": 60465.17,
     "human_per_capita": 541869.3,
     "total_per_capita": 739040.19,
-    "natural_per_hectare": 0.58,
-    "produced_per_hectare": 0.26,
-    "human_per_hectare": 2.32,
-    "total_per_hectare": 3.16
+    "natural_per_hectare": 63.23,
+    "produced_per_hectare": 27.97,
+    "human_per_hectare": 250.62,
+    "total_per_hectare": 341.81
   },
   "GM1740": {
     "naam": "Neder-Betuwe",
@@ -3258,10 +3258,10 @@
     "produced_per_capita": 87567.0,
     "human_per_capita": 500025.48,
     "total_per_capita": 611500.18,
-    "natural_per_hectare": 0.09,
-    "produced_per_hectare": 0.33,
-    "human_per_hectare": 1.89,
-    "total_per_hectare": 2.31
+    "natural_per_hectare": 10.14,
+    "produced_per_hectare": 37.15,
+    "human_per_hectare": 212.11,
+    "total_per_hectare": 259.4
   },
   "GM0946": {
     "naam": "Nederweert",
@@ -3275,10 +3275,10 @@
     "produced_per_capita": 68723.71,
     "human_per_capita": 517779.0,
     "total_per_capita": 720122.96,
-    "natural_per_hectare": 0.23,
-    "produced_per_hectare": 0.12,
-    "human_per_hectare": 0.89,
-    "total_per_hectare": 1.24
+    "natural_per_hectare": 23.41,
+    "produced_per_hectare": 12.04,
+    "human_per_hectare": 90.7,
+    "total_per_hectare": 126.14
   },
   "GM0356": {
     "naam": "Nieuwegein",
@@ -3292,10 +3292,10 @@
     "produced_per_capita": 228966.21,
     "human_per_capita": 532153.88,
     "total_per_capita": 777915.95,
-    "natural_per_hectare": 0.43,
-    "produced_per_hectare": 5.84,
-    "human_per_hectare": 13.58,
-    "total_per_hectare": 19.85
+    "natural_per_hectare": 46.92,
+    "produced_per_hectare": 639.64,
+    "human_per_hectare": 1486.62,
+    "total_per_hectare": 2173.18
   },
   "GM0569": {
     "naam": "Nieuwkoop",
@@ -3309,10 +3309,10 @@
     "produced_per_capita": 37086.05,
     "human_per_capita": 570818.03,
     "total_per_capita": 631565.21,
-    "natural_per_hectare": 0.08,
-    "produced_per_hectare": 0.12,
-    "human_per_hectare": 1.84,
-    "total_per_hectare": 2.04
+    "natural_per_hectare": 8.89,
+    "produced_per_hectare": 13.93,
+    "human_per_hectare": 214.35,
+    "total_per_hectare": 237.16
   },
   "GM0267": {
     "naam": "Nijkerk",
@@ -3326,10 +3326,10 @@
     "produced_per_capita": 127127.37,
     "human_per_capita": 554417.48,
     "total_per_capita": 695817.18,
-    "natural_per_hectare": 0.09,
-    "produced_per_hectare": 0.82,
-    "human_per_hectare": 3.57,
-    "total_per_hectare": 4.48
+    "natural_per_hectare": 9.26,
+    "produced_per_hectare": 82.48,
+    "human_per_hectare": 359.71,
+    "total_per_hectare": 451.45
   },
   "GM0268": {
     "naam": "Nijmegen",
@@ -3343,10 +3343,10 @@
     "produced_per_capita": 174883.01,
     "human_per_capita": 546066.65,
     "total_per_capita": 727843.55,
-    "natural_per_hectare": 0.22,
-    "produced_per_hectare": 5.54,
-    "human_per_hectare": 17.29,
-    "total_per_hectare": 23.05
+    "natural_per_hectare": 23.82,
+    "produced_per_hectare": 604.29,
+    "human_per_hectare": 1886.88,
+    "total_per_hectare": 2515.0
   },
   "GM1930": {
     "naam": "Nissewaard",
@@ -3360,10 +3360,10 @@
     "produced_per_capita": 55930.69,
     "human_per_capita": 499114.42,
     "total_per_capita": 563078.45,
-    "natural_per_hectare": 2.05,
-    "produced_per_hectare": 14.25,
-    "human_per_hectare": 127.13,
-    "total_per_hectare": 143.42
+    "natural_per_hectare": 9.52,
+    "produced_per_hectare": 66.25,
+    "human_per_hectare": 591.18,
+    "total_per_hectare": 666.95
   },
   "GM1970": {
     "naam": "Noardeast-Fryslân",
@@ -3377,10 +3377,10 @@
     "produced_per_capita": 36889.02,
     "human_per_capita": 422128.33,
     "total_per_capita": 525636.63,
-    "natural_per_hectare": 0.23,
-    "produced_per_hectare": 0.13,
-    "human_per_hectare": 1.47,
-    "total_per_hectare": 1.83
+    "natural_per_hectare": 8.05,
+    "produced_per_hectare": 4.46,
+    "human_per_hectare": 51.0,
+    "total_per_hectare": 63.5
   },
   "GM1695": {
     "naam": "Noord-Beveland",
@@ -3394,10 +3394,10 @@
     "produced_per_capita": 18275.79,
     "human_per_capita": 471819.12,
     "total_per_capita": 644988.77,
-    "natural_per_hectare": 0.35,
-    "produced_per_hectare": 0.04,
-    "human_per_hectare": 1.06,
-    "total_per_hectare": 1.46
+    "natural_per_hectare": 14.15,
+    "produced_per_hectare": 1.67,
+    "human_per_hectare": 43.11,
+    "total_per_hectare": 58.93
   },
   "GM1699": {
     "naam": "Noordenveld",
@@ -3411,10 +3411,10 @@
     "produced_per_capita": 63807.51,
     "human_per_capita": 476267.56,
     "total_per_capita": 661582.49,
-    "natural_per_hectare": 0.19,
-    "produced_per_hectare": 0.1,
-    "human_per_hectare": 0.73,
-    "total_per_hectare": 1.02
+    "natural_per_hectare": 19.29,
+    "produced_per_hectare": 10.13,
+    "human_per_hectare": 75.6,
+    "total_per_hectare": 105.02
   },
   "GM0171": {
     "naam": "Noordoostpolder",
@@ -3428,10 +3428,10 @@
     "produced_per_capita": 96914.57,
     "human_per_capita": 497620.73,
     "total_per_capita": 666600.78,
-    "natural_per_hectare": 0.08,
-    "produced_per_hectare": 0.1,
-    "human_per_hectare": 0.53,
-    "total_per_hectare": 0.71
+    "natural_per_hectare": 7.82,
+    "produced_per_hectare": 10.52,
+    "human_per_hectare": 54.02,
+    "total_per_hectare": 72.36
   },
   "GM0575": {
     "naam": "Noordwijk",
@@ -3445,10 +3445,10 @@
     "produced_per_capita": 73949.67,
     "human_per_capita": 593742.52,
     "total_per_capita": 724252.87,
-    "natural_per_hectare": 0.43,
-    "produced_per_hectare": 0.56,
-    "human_per_hectare": 4.52,
-    "total_per_hectare": 5.51
+    "natural_per_hectare": 43.8,
+    "produced_per_hectare": 57.27,
+    "human_per_hectare": 459.8,
+    "total_per_hectare": 560.87
   },
   "GM0820": {
     "naam": "Nuenen, Gerwen en Nederwetten",
@@ -3462,10 +3462,10 @@
     "produced_per_capita": 103366.8,
     "human_per_capita": 600374.25,
     "total_per_capita": 725195.86,
-    "natural_per_hectare": 0.15,
-    "produced_per_hectare": 0.73,
-    "human_per_hectare": 4.25,
-    "total_per_hectare": 5.13
+    "natural_per_hectare": 15.31,
+    "produced_per_hectare": 73.77,
+    "human_per_hectare": 428.47,
+    "total_per_hectare": 517.55
   },
   "GM0302": {
     "naam": "Nunspeet",
@@ -3479,10 +3479,10 @@
     "produced_per_capita": 72355.98,
     "human_per_capita": 503578.27,
     "total_per_capita": 731206.81,
-    "natural_per_hectare": 63.07,
-    "produced_per_hectare": 29.39,
-    "human_per_hectare": 204.54,
-    "total_per_hectare": 297.0
+    "natural_per_hectare": 34.65,
+    "produced_per_hectare": 16.15,
+    "human_per_hectare": 112.39,
+    "total_per_hectare": 163.2
   },
   "GM0579": {
     "naam": "Oegstgeest",
@@ -3496,10 +3496,10 @@
     "produced_per_capita": 113844.74,
     "human_per_capita": 717947.67,
     "total_per_capita": 837502.35,
-    "natural_per_hectare": 0.18,
-    "produced_per_hectare": 3.68,
-    "human_per_hectare": 23.2,
-    "total_per_hectare": 27.06
+    "natural_per_hectare": 20.17,
+    "produced_per_hectare": 402.06,
+    "human_per_hectare": 2535.57,
+    "total_per_hectare": 2957.8
   },
   "GM0823": {
     "naam": "Oirschot",
@@ -3513,10 +3513,10 @@
     "produced_per_capita": 62574.68,
     "human_per_capita": 577568.72,
     "total_per_capita": 729822.09,
-    "natural_per_hectare": 0.17,
-    "produced_per_hectare": 0.12,
-    "human_per_hectare": 1.08,
-    "total_per_hectare": 1.36
+    "natural_per_hectare": 16.93,
+    "produced_per_hectare": 11.81,
+    "human_per_hectare": 109.04,
+    "total_per_hectare": 137.78
   },
   "GM0824": {
     "naam": "Oisterwijk",
@@ -3530,10 +3530,10 @@
     "produced_per_capita": 69321.32,
     "human_per_capita": 591578.18,
     "total_per_capita": 702700.53,
-    "natural_per_hectare": 0.17,
-    "produced_per_hectare": 0.28,
-    "human_per_hectare": 2.39,
-    "total_per_hectare": 2.84
+    "natural_per_hectare": 17.19,
+    "produced_per_hectare": 28.5,
+    "human_per_hectare": 243.26,
+    "total_per_hectare": 288.95
   },
   "GM1895": {
     "naam": "Oldambt",
@@ -3547,10 +3547,10 @@
     "produced_per_capita": 76936.95,
     "human_per_capita": 393522.97,
     "total_per_capita": 504839.27,
-    "natural_per_hectare": 0.24,
-    "produced_per_hectare": 0.54,
-    "human_per_hectare": 2.77,
-    "total_per_hectare": 3.55
+    "natural_per_hectare": 5.92,
+    "produced_per_hectare": 13.26,
+    "human_per_hectare": 67.81,
+    "total_per_hectare": 87.0
   },
   "GM0269": {
     "naam": "Oldebroek",
@@ -3564,10 +3564,10 @@
     "produced_per_capita": 49928.67,
     "human_per_capita": 479885.28,
     "total_per_capita": 590732.04,
-    "natural_per_hectare": 0.15,
-    "produced_per_hectare": 0.12,
-    "human_per_hectare": 1.19,
-    "total_per_hectare": 1.46
+    "natural_per_hectare": 15.14,
+    "produced_per_hectare": 12.4,
+    "human_per_hectare": 119.23,
+    "total_per_hectare": 146.77
   },
   "GM0173": {
     "naam": "Oldenzaal",
@@ -3581,10 +3581,10 @@
     "produced_per_capita": 120409.23,
     "human_per_capita": 502932.02,
     "total_per_capita": 635984.77,
-    "natural_per_hectare": 0.18,
-    "produced_per_hectare": 1.75,
-    "human_per_hectare": 7.31,
-    "total_per_hectare": 9.25
+    "natural_per_hectare": 18.73,
+    "produced_per_hectare": 178.38,
+    "human_per_hectare": 745.06,
+    "total_per_hectare": 942.17
   },
   "GM1773": {
     "naam": "Olst-Wijhe",
@@ -3598,10 +3598,10 @@
     "produced_per_capita": 30210.01,
     "human_per_capita": 515269.91,
     "total_per_capita": 611860.77,
-    "natural_per_hectare": 0.1,
-    "produced_per_hectare": 0.05,
-    "human_per_hectare": 0.81,
-    "total_per_hectare": 0.97
+    "natural_per_hectare": 10.91,
+    "produced_per_hectare": 4.97,
+    "human_per_hectare": 84.69,
+    "total_per_hectare": 100.57
   },
   "GM0175": {
     "naam": "Ommen",
@@ -3615,10 +3615,10 @@
     "produced_per_capita": 54248.63,
     "human_per_capita": 507833.51,
     "total_per_capita": 788498.42,
-    "natural_per_hectare": 0.24,
-    "produced_per_hectare": 0.06,
-    "human_per_hectare": 0.53,
-    "total_per_hectare": 0.82
+    "natural_per_hectare": 23.86,
+    "produced_per_hectare": 5.72,
+    "human_per_hectare": 53.52,
+    "total_per_hectare": 83.1
   },
   "GM1586": {
     "naam": "Oost Gelre",
@@ -3632,10 +3632,10 @@
     "produced_per_capita": 94562.27,
     "human_per_capita": 537938.69,
     "total_per_capita": 653879.91,
-    "natural_per_hectare": 0.06,
-    "produced_per_hectare": 0.26,
-    "human_per_hectare": 1.45,
-    "total_per_hectare": 1.77
+    "natural_per_hectare": 5.8,
+    "produced_per_hectare": 25.67,
+    "human_per_hectare": 146.05,
+    "total_per_hectare": 177.53
   },
   "GM0826": {
     "naam": "Oosterhout",
@@ -3649,10 +3649,10 @@
     "produced_per_capita": 149608.62,
     "human_per_capita": 511616.04,
     "total_per_capita": 683269.88,
-    "natural_per_hectare": 0.17,
-    "produced_per_hectare": 1.18,
-    "human_per_hectare": 4.02,
-    "total_per_hectare": 5.37
+    "natural_per_hectare": 17.72,
+    "produced_per_hectare": 120.28,
+    "human_per_hectare": 411.31,
+    "total_per_hectare": 549.3
   },
   "GM0085": {
     "naam": "Ooststellingwerf",
@@ -3666,10 +3666,10 @@
     "produced_per_capita": 47663.93,
     "human_per_capita": 430091.82,
     "total_per_capita": 607681.83,
-    "natural_per_hectare": 0.15,
-    "produced_per_hectare": 0.05,
-    "human_per_hectare": 0.49,
-    "total_per_hectare": 0.69
+    "natural_per_hectare": 15.03,
+    "produced_per_hectare": 5.51,
+    "human_per_hectare": 49.76,
+    "total_per_hectare": 70.31
   },
   "GM0431": {
     "naam": "Oostzaan",
@@ -3683,10 +3683,10 @@
     "produced_per_capita": 127598.12,
     "human_per_capita": 561560.03,
     "total_per_capita": 769553.5,
-    "natural_per_hectare": 0.49,
-    "produced_per_hectare": 0.77,
-    "human_per_hectare": 3.4,
-    "total_per_hectare": 4.65
+    "natural_per_hectare": 67.6,
+    "produced_per_hectare": 107.29,
+    "human_per_hectare": 472.18,
+    "total_per_hectare": 647.06
   },
   "GM0432": {
     "naam": "Opmeer",
@@ -3700,10 +3700,10 @@
     "produced_per_capita": 50445.91,
     "human_per_capita": 537193.59,
     "total_per_capita": 610627.58,
-    "natural_per_hectare": 0.07,
-    "produced_per_hectare": 0.15,
-    "human_per_hectare": 1.56,
-    "total_per_hectare": 1.77
+    "natural_per_hectare": 6.75,
+    "produced_per_hectare": 14.81,
+    "human_per_hectare": 157.74,
+    "total_per_hectare": 179.3
   },
   "GM0086": {
     "naam": "Opsterland",
@@ -3717,10 +3717,10 @@
     "produced_per_capita": 41043.22,
     "human_per_capita": 474363.94,
     "total_per_capita": 605670.66,
-    "natural_per_hectare": 0.12,
-    "produced_per_hectare": 0.05,
-    "human_per_hectare": 0.63,
-    "total_per_hectare": 0.8
+    "natural_per_hectare": 12.09,
+    "produced_per_hectare": 5.5,
+    "human_per_hectare": 63.53,
+    "total_per_hectare": 81.12
   },
   "GM0828": {
     "naam": "Oss",
@@ -3734,10 +3734,10 @@
     "produced_per_capita": 149328.69,
     "human_per_capita": 511374.84,
     "total_per_capita": 676635.3,
-    "natural_per_hectare": 0.09,
-    "produced_per_hectare": 0.83,
-    "human_per_hectare": 2.83,
-    "total_per_hectare": 3.74
+    "natural_per_hectare": 9.29,
+    "produced_per_hectare": 87.04,
+    "human_per_hectare": 298.08,
+    "total_per_hectare": 394.42
   },
   "GM1509": {
     "naam": "Oude IJsselstreek",
@@ -3751,10 +3751,10 @@
     "produced_per_capita": 86293.22,
     "human_per_capita": 453872.59,
     "total_per_capita": 558989.64,
-    "natural_per_hectare": 0.05,
-    "produced_per_hectare": 0.25,
-    "human_per_hectare": 1.3,
-    "total_per_hectare": 1.61
+    "natural_per_hectare": 5.48,
+    "produced_per_hectare": 25.12,
+    "human_per_hectare": 132.13,
+    "total_per_hectare": 162.73
   },
   "GM0437": {
     "naam": "Ouder-Amstel",
@@ -3768,10 +3768,10 @@
     "produced_per_capita": 201284.32,
     "human_per_capita": 675924.51,
     "total_per_capita": 948942.6,
-    "natural_per_hectare": 0.4,
-    "produced_per_hectare": 1.11,
-    "human_per_hectare": 3.74,
-    "total_per_hectare": 5.25
+    "natural_per_hectare": 42.76,
+    "produced_per_hectare": 119.98,
+    "human_per_hectare": 402.9,
+    "total_per_hectare": 565.64
   },
   "GM0589": {
     "naam": "Oudewater",
@@ -3785,10 +3785,10 @@
     "produced_per_capita": 73699.44,
     "human_per_capita": 590164.66,
     "total_per_capita": 708685.75,
-    "natural_per_hectare": 0.11,
-    "produced_per_hectare": 0.19,
-    "human_per_hectare": 1.51,
-    "total_per_hectare": 1.81
+    "natural_per_hectare": 11.79,
+    "produced_per_hectare": 19.39,
+    "human_per_hectare": 155.23,
+    "total_per_hectare": 186.41
   },
   "GM1734": {
     "naam": "Overbetuwe",
@@ -3802,10 +3802,10 @@
     "produced_per_capita": 90400.58,
     "human_per_capita": 544107.59,
     "total_per_capita": 655119.53,
-    "natural_per_hectare": 0.09,
-    "produced_per_hectare": 0.38,
-    "human_per_hectare": 2.3,
-    "total_per_hectare": 2.77
+    "natural_per_hectare": 9.21,
+    "produced_per_hectare": 40.38,
+    "human_per_hectare": 243.07,
+    "total_per_hectare": 292.66
   },
   "GM0590": {
     "naam": "Papendrecht",
@@ -3819,10 +3819,10 @@
     "produced_per_capita": 155546.91,
     "human_per_capita": 537026.9,
     "total_per_capita": 696524.2,
-    "natural_per_hectare": 0.12,
-    "produced_per_hectare": 4.65,
-    "human_per_hectare": 16.06,
-    "total_per_hectare": 20.84
+    "natural_per_hectare": 13.55,
+    "produced_per_hectare": 533.54,
+    "human_per_hectare": 1842.04,
+    "total_per_hectare": 2389.13
   },
   "GM1894": {
     "naam": "Peel en Maas",
@@ -3836,10 +3836,10 @@
     "produced_per_capita": 105128.3,
     "human_per_capita": 507478.8,
     "total_per_capita": 702001.22,
-    "natural_per_hectare": 0.25,
-    "produced_per_hectare": 0.29,
-    "human_per_hectare": 1.42,
-    "total_per_hectare": 1.97
+    "natural_per_hectare": 25.4,
+    "produced_per_hectare": 29.87,
+    "human_per_hectare": 144.19,
+    "total_per_hectare": 199.46
   },
   "GM0765": {
     "naam": "Pekela",
@@ -3853,10 +3853,10 @@
     "produced_per_capita": 48678.12,
     "human_per_capita": 366049.35,
     "total_per_capita": 431317.69,
-    "natural_per_hectare": 0.04,
-    "produced_per_hectare": 0.12,
-    "human_per_hectare": 0.9,
-    "total_per_hectare": 1.07
+    "natural_per_hectare": 4.2,
+    "produced_per_hectare": 12.31,
+    "human_per_hectare": 92.59,
+    "total_per_hectare": 109.1
   },
   "GM1926": {
     "naam": "Pijnacker-Nootdorp",
@@ -3870,10 +3870,10 @@
     "produced_per_capita": 323768.58,
     "human_per_capita": 637427.16,
     "total_per_capita": 968253.78,
-    "natural_per_hectare": 0.11,
-    "produced_per_hectare": 4.84,
-    "human_per_hectare": 9.52,
-    "total_per_hectare": 14.46
+    "natural_per_hectare": 11.04,
+    "produced_per_hectare": 506.44,
+    "human_per_hectare": 997.06,
+    "total_per_hectare": 1514.54
   },
   "GM0439": {
     "naam": "Purmerend",
@@ -3887,10 +3887,10 @@
     "produced_per_capita": 129826.0,
     "human_per_capita": 524009.69,
     "total_per_capita": 664379.31,
-    "natural_per_hectare": 0.1,
-    "produced_per_hectare": 1.26,
-    "human_per_hectare": 5.1,
-    "total_per_hectare": 6.46
+    "natural_per_hectare": 10.59,
+    "produced_per_hectare": 130.36,
+    "human_per_hectare": 526.15,
+    "total_per_hectare": 667.09
   },
   "GM0273": {
     "naam": "Putten",
@@ -3904,10 +3904,10 @@
     "produced_per_capita": 79694.21,
     "human_per_capita": 531171.45,
     "total_per_capita": 690685.44,
-    "natural_per_hectare": 0.23,
-    "produced_per_hectare": 0.23,
-    "human_per_hectare": 1.55,
-    "total_per_hectare": 2.02
+    "natural_per_hectare": 23.33,
+    "produced_per_hectare": 23.29,
+    "human_per_hectare": 155.24,
+    "total_per_hectare": 201.86
   },
   "GM0177": {
     "naam": "Raalte",
@@ -3921,10 +3921,10 @@
     "produced_per_capita": 52217.21,
     "human_per_capita": 508537.31,
     "total_per_capita": 602918.33,
-    "natural_per_hectare": 0.09,
-    "produced_per_hectare": 0.12,
-    "human_per_hectare": 1.14,
-    "total_per_hectare": 1.35
+    "natural_per_hectare": 9.49,
+    "produced_per_hectare": 11.76,
+    "human_per_hectare": 114.52,
+    "total_per_hectare": 135.77
   },
   "GM0703": {
     "naam": "Reimerswaal",
@@ -3938,10 +3938,10 @@
     "produced_per_capita": 48519.02,
     "human_per_capita": 499154.01,
     "total_per_capita": 624238.11,
-    "natural_per_hectare": 0.16,
-    "produced_per_hectare": 0.1,
-    "human_per_hectare": 1.03,
-    "total_per_hectare": 1.29
+    "natural_per_hectare": 17.5,
+    "produced_per_hectare": 11.09,
+    "human_per_hectare": 114.07,
+    "total_per_hectare": 142.66
   },
   "GM0274": {
     "naam": "Renkum",
@@ -3955,10 +3955,10 @@
     "produced_per_capita": 59301.87,
     "human_per_capita": 532871.88,
     "total_per_capita": 649318.39,
-    "natural_per_hectare": 0.38,
-    "produced_per_hectare": 0.39,
-    "human_per_hectare": 3.55,
-    "total_per_hectare": 4.32
+    "natural_per_hectare": 39.12,
+    "produced_per_hectare": 40.59,
+    "human_per_hectare": 364.77,
+    "total_per_hectare": 444.48
   },
   "GM0339": {
     "naam": "Renswoude",
@@ -3972,10 +3972,10 @@
     "produced_per_capita": 63742.84,
     "human_per_capita": 589497.63,
     "total_per_capita": 692677.27,
-    "natural_per_hectare": 0.12,
-    "produced_per_hectare": 0.2,
-    "human_per_hectare": 1.83,
-    "total_per_hectare": 2.15
+    "natural_per_hectare": 12.32,
+    "produced_per_hectare": 19.92,
+    "human_per_hectare": 184.22,
+    "total_per_hectare": 216.47
   },
   "GM1667": {
     "naam": "Reusel-De Mierden",
@@ -3989,10 +3989,10 @@
     "produced_per_capita": 46768.63,
     "human_per_capita": 538583.64,
     "total_per_capita": 662280.05,
-    "natural_per_hectare": 0.13,
-    "produced_per_hectare": 0.08,
-    "human_per_hectare": 0.93,
-    "total_per_hectare": 1.14
+    "natural_per_hectare": 13.39,
+    "produced_per_hectare": 8.14,
+    "human_per_hectare": 93.73,
+    "total_per_hectare": 115.26
   },
   "GM0275": {
     "naam": "Rheden",
@@ -4006,10 +4006,10 @@
     "produced_per_capita": 81181.34,
     "human_per_capita": 483469.48,
     "total_per_capita": 622865.88,
-    "natural_per_hectare": 0.3,
-    "produced_per_hectare": 0.42,
-    "human_per_hectare": 2.5,
-    "total_per_hectare": 3.22
+    "natural_per_hectare": 31.02,
+    "produced_per_hectare": 43.26,
+    "human_per_hectare": 257.61,
+    "total_per_hectare": 331.89
   },
   "GM0340": {
     "naam": "Rhenen",
@@ -4023,10 +4023,10 @@
     "produced_per_capita": 58808.01,
     "human_per_capita": 528845.7,
     "total_per_capita": 722788.22,
-    "natural_per_hectare": 0.63,
-    "produced_per_hectare": 0.27,
-    "human_per_hectare": 2.46,
-    "total_per_hectare": 3.36
+    "natural_per_hectare": 65.38,
+    "produced_per_hectare": 28.45,
+    "human_per_hectare": 255.85,
+    "total_per_hectare": 349.68
   },
   "GM0597": {
     "naam": "Ridderkerk",
@@ -4040,10 +4040,10 @@
     "produced_per_capita": 57967.6,
     "human_per_capita": 492482.87,
     "total_per_capita": 556275.8,
-    "natural_per_hectare": 0.11,
-    "produced_per_hectare": 1.09,
-    "human_per_hectare": 9.26,
-    "total_per_hectare": 10.45
+    "natural_per_hectare": 11.78,
+    "produced_per_hectare": 117.21,
+    "human_per_hectare": 995.81,
+    "total_per_hectare": 1124.8
   },
   "GM1742": {
     "naam": "Rijssen-Holten",
@@ -4057,10 +4057,10 @@
     "produced_per_capita": 92025.17,
     "human_per_capita": 508832.34,
     "total_per_capita": 653861.74,
-    "natural_per_hectare": 0.22,
-    "produced_per_hectare": 0.38,
-    "human_per_hectare": 2.08,
-    "total_per_hectare": 2.67
+    "natural_per_hectare": 21.68,
+    "produced_per_hectare": 37.64,
+    "human_per_hectare": 208.1,
+    "total_per_hectare": 267.42
   },
   "GM0603": {
     "naam": "Rijswijk (ZH.)",
@@ -4074,10 +4074,10 @@
     "produced_per_capita": 124876.7,
     "human_per_capita": 539417.21,
     "total_per_capita": 669629.6,
-    "natural_per_hectare": 0.21,
-    "produced_per_hectare": 4.99,
-    "human_per_hectare": 21.57,
-    "total_per_hectare": 26.78
+    "natural_per_hectare": 22.14,
+    "produced_per_hectare": 518.06,
+    "human_per_hectare": 2237.81,
+    "total_per_hectare": 2778.0
   },
   "GM1669": {
     "naam": "Roerdalen",
@@ -4091,10 +4091,10 @@
     "produced_per_capita": 54738.91,
     "human_per_capita": 456366.01,
     "total_per_capita": 665538.35,
-    "natural_per_hectare": 0.36,
-    "produced_per_hectare": 0.13,
-    "human_per_hectare": 1.06,
-    "total_per_hectare": 1.55
+    "natural_per_hectare": 36.24,
+    "produced_per_hectare": 12.85,
+    "human_per_hectare": 107.1,
+    "total_per_hectare": 156.2
   },
   "GM0957": {
     "naam": "Roermond",
@@ -4108,10 +4108,10 @@
     "produced_per_capita": 208609.45,
     "human_per_capita": 474875.32,
     "total_per_capita": 713443.92,
-    "natural_per_hectare": 0.25,
-    "produced_per_hectare": 1.76,
-    "human_per_hectare": 4.01,
-    "total_per_hectare": 6.02
+    "natural_per_hectare": 29.63,
+    "produced_per_hectare": 206.34,
+    "human_per_hectare": 469.71,
+    "total_per_hectare": 705.69
   },
   "GM1674": {
     "naam": "Roosendaal",
@@ -4125,10 +4125,10 @@
     "produced_per_capita": 155149.4,
     "human_per_capita": 481859.02,
     "total_per_capita": 647483.11,
-    "natural_per_hectare": 0.08,
-    "produced_per_hectare": 1.12,
-    "human_per_hectare": 3.49,
-    "total_per_hectare": 4.69
+    "natural_per_hectare": 7.63,
+    "produced_per_hectare": 113.07,
+    "human_per_hectare": 351.16,
+    "total_per_hectare": 471.86
   },
   "GM0599": {
     "naam": "Rotterdam",
@@ -4142,10 +4142,10 @@
     "produced_per_capita": 127954.55,
     "human_per_capita": 504293.74,
     "total_per_capita": 647693.35,
-    "natural_per_hectare": 0.35,
-    "produced_per_hectare": 2.89,
-    "human_per_hectare": 11.39,
-    "total_per_hectare": 14.62
+    "natural_per_hectare": 46.95,
+    "produced_per_hectare": 388.93,
+    "human_per_hectare": 1532.83,
+    "total_per_hectare": 1968.7
   },
   "GM0277": {
     "naam": "Rozendaal",
@@ -4159,10 +4159,10 @@
     "produced_per_capita": 103672.38,
     "human_per_capita": 485168.51,
     "total_per_capita": 1461890.17,
-    "natural_per_hectare": 0.55,
-    "produced_per_hectare": 0.07,
-    "human_per_hectare": 0.3,
-    "total_per_hectare": 0.92
+    "natural_per_hectare": 54.89,
+    "produced_per_hectare": 6.52,
+    "human_per_hectare": 30.5,
+    "total_per_hectare": 91.91
   },
   "GM0840": {
     "naam": "Rucphen",
@@ -4176,10 +4176,10 @@
     "produced_per_capita": 80345.46,
     "human_per_capita": 458571.38,
     "total_per_capita": 588866.99,
-    "natural_per_hectare": 0.18,
-    "produced_per_hectare": 0.29,
-    "human_per_hectare": 1.68,
-    "total_per_hectare": 2.16
+    "natural_per_hectare": 18.34,
+    "produced_per_hectare": 29.5,
+    "human_per_hectare": 168.36,
+    "total_per_hectare": 216.19
   },
   "GM0441": {
     "naam": "Schagen",
@@ -4193,10 +4193,10 @@
     "produced_per_capita": 50191.79,
     "human_per_capita": 517229.73,
     "total_per_capita": 650065.11,
-    "natural_per_hectare": 0.23,
-    "produced_per_hectare": 0.14,
-    "human_per_hectare": 1.43,
-    "total_per_hectare": 1.79
+    "natural_per_hectare": 23.34,
+    "produced_per_hectare": 14.18,
+    "human_per_hectare": 146.1,
+    "total_per_hectare": 183.62
   },
   "GM0279": {
     "naam": "Scherpenzeel",
@@ -4210,10 +4210,10 @@
     "produced_per_capita": 120672.55,
     "human_per_capita": 555038.85,
     "total_per_capita": 691713.94,
-    "natural_per_hectare": 0.12,
-    "produced_per_hectare": 0.91,
-    "human_per_hectare": 4.17,
-    "total_per_hectare": 5.2
+    "natural_per_hectare": 12.05,
+    "produced_per_hectare": 90.89,
+    "human_per_hectare": 418.03,
+    "total_per_hectare": 520.97
   },
   "GM0606": {
     "naam": "Schiedam",
@@ -4227,10 +4227,10 @@
     "produced_per_capita": 97688.15,
     "human_per_capita": 494133.64,
     "total_per_capita": 594888.52,
-    "natural_per_hectare": 0.12,
-    "produced_per_hectare": 3.97,
-    "human_per_hectare": 20.06,
-    "total_per_hectare": 24.15
+    "natural_per_hectare": 13.88,
+    "produced_per_hectare": 442.25,
+    "human_per_hectare": 2237.0,
+    "total_per_hectare": 2693.13
   },
   "GM0088": {
     "naam": "Schiermonnikoog",
@@ -4244,10 +4244,10 @@
     "produced_per_capita": 10373.04,
     "human_per_capita": 458162.92,
     "total_per_capita": 3565624.77,
-    "natural_per_hectare": 0.19,
-    "produced_per_hectare": 0.0,
-    "human_per_hectare": 0.03,
-    "total_per_hectare": 0.22
+    "natural_per_hectare": 70.84,
+    "produced_per_hectare": 0.24,
+    "human_per_hectare": 10.48,
+    "total_per_hectare": 81.56
   },
   "GM1676": {
     "naam": "Schouwen-Duiveland",
@@ -4261,10 +4261,10 @@
     "produced_per_capita": 34054.59,
     "human_per_capita": 500585.58,
     "total_per_capita": 771478.0,
-    "natural_per_hectare": 0.32,
-    "produced_per_hectare": 0.05,
-    "human_per_hectare": 0.69,
-    "total_per_hectare": 1.06
+    "natural_per_hectare": 35.81,
+    "produced_per_hectare": 5.15,
+    "human_per_hectare": 75.68,
+    "total_per_hectare": 116.64
   },
   "GM0965": {
     "naam": "Simpelveld",
@@ -4278,10 +4278,10 @@
     "produced_per_capita": 55450.52,
     "human_per_capita": 456390.65,
     "total_per_capita": 530558.09,
-    "natural_per_hectare": 0.12,
-    "produced_per_hectare": 0.36,
-    "human_per_hectare": 2.96,
-    "total_per_hectare": 3.44
+    "natural_per_hectare": 12.14,
+    "produced_per_hectare": 35.96,
+    "human_per_hectare": 295.98,
+    "total_per_hectare": 344.08
   },
   "GM0845": {
     "naam": "Sint-Michielsgestel",
@@ -4295,10 +4295,10 @@
     "produced_per_capita": 72276.69,
     "human_per_capita": 583596.08,
     "total_per_capita": 674112.79,
-    "natural_per_hectare": 0.09,
-    "produced_per_hectare": 0.37,
-    "human_per_hectare": 2.96,
-    "total_per_hectare": 3.42
+    "natural_per_hectare": 9.42,
+    "produced_per_hectare": 37.33,
+    "human_per_hectare": 301.4,
+    "total_per_hectare": 348.15
   },
   "GM1883": {
     "naam": "Sittard-Geleen",
@@ -4312,10 +4312,10 @@
     "produced_per_capita": 167710.44,
     "human_per_capita": 452513.6,
     "total_per_capita": 628695.09,
-    "natural_per_hectare": 0.1,
-    "produced_per_hectare": 1.92,
-    "human_per_hectare": 5.18,
-    "total_per_hectare": 7.2
+    "natural_per_hectare": 9.94,
+    "produced_per_hectare": 196.78,
+    "human_per_hectare": 530.94,
+    "total_per_hectare": 737.66
   },
   "GM0610": {
     "naam": "Sliedrecht",
@@ -4329,10 +4329,10 @@
     "produced_per_capita": 130680.02,
     "human_per_capita": 497235.64,
     "total_per_capita": 631474.25,
-    "natural_per_hectare": 0.07,
-    "produced_per_hectare": 2.44,
-    "human_per_hectare": 9.29,
-    "total_per_hectare": 11.8
+    "natural_per_hectare": 7.25,
+    "produced_per_hectare": 266.28,
+    "human_per_hectare": 1013.2,
+    "total_per_hectare": 1286.73
   },
   "GM1714": {
     "naam": "Sluis",
@@ -4346,10 +4346,10 @@
     "produced_per_capita": 45342.81,
     "human_per_capita": 459193.4,
     "total_per_capita": 731784.85,
-    "natural_per_hectare": 2.2,
-    "produced_per_hectare": 0.44,
-    "human_per_hectare": 4.44,
-    "total_per_hectare": 7.08
+    "natural_per_hectare": 18.96,
+    "produced_per_hectare": 3.78,
+    "human_per_hectare": 38.31,
+    "total_per_hectare": 61.05
   },
   "GM0090": {
     "naam": "Smallingerland",
@@ -4363,10 +4363,10 @@
     "produced_per_capita": 173417.63,
     "human_per_capita": 449003.51,
     "total_per_capita": 638982.37,
-    "natural_per_hectare": 0.07,
-    "produced_per_hectare": 0.77,
-    "human_per_hectare": 2.0,
-    "total_per_hectare": 2.84
+    "natural_per_hectare": 7.93,
+    "produced_per_hectare": 83.03,
+    "human_per_hectare": 214.97,
+    "total_per_hectare": 305.93
   },
   "GM0342": {
     "naam": "Soest",
@@ -4380,10 +4380,10 @@
     "produced_per_capita": 119019.64,
     "human_per_capita": 588899.07,
     "total_per_capita": 770013.74,
-    "natural_per_hectare": 0.63,
-    "produced_per_hectare": 1.22,
-    "human_per_hectare": 6.02,
-    "total_per_hectare": 7.87
+    "natural_per_hectare": 63.69,
+    "produced_per_hectare": 122.08,
+    "human_per_hectare": 604.04,
+    "total_per_hectare": 789.81
   },
   "GM0847": {
     "naam": "Someren",
@@ -4397,10 +4397,10 @@
     "produced_per_capita": 92164.13,
     "human_per_capita": 522948.81,
     "total_per_capita": 665727.97,
-    "natural_per_hectare": 0.12,
-    "produced_per_hectare": 0.23,
-    "human_per_hectare": 1.29,
-    "total_per_hectare": 1.64
+    "natural_per_hectare": 12.68,
+    "produced_per_hectare": 23.08,
+    "human_per_hectare": 130.97,
+    "total_per_hectare": 166.73
   },
   "GM0848": {
     "naam": "Son en Breugel",
@@ -4414,10 +4414,10 @@
     "produced_per_capita": 138670.79,
     "human_per_capita": 634613.63,
     "total_per_capita": 802458.15,
-    "natural_per_hectare": 0.2,
-    "produced_per_hectare": 0.94,
-    "human_per_hectare": 4.31,
-    "total_per_hectare": 5.45
+    "natural_per_hectare": 20.25,
+    "produced_per_hectare": 96.24,
+    "human_per_hectare": 440.44,
+    "total_per_hectare": 556.93
   },
   "GM0037": {
     "naam": "Stadskanaal",
@@ -4431,10 +4431,10 @@
     "produced_per_capita": 76137.94,
     "human_per_capita": 392424.48,
     "total_per_capita": 494520.91,
-    "natural_per_hectare": 0.07,
-    "produced_per_hectare": 0.2,
-    "human_per_hectare": 1.05,
-    "total_per_hectare": 1.32
+    "natural_per_hectare": 7.09,
+    "produced_per_hectare": 20.8,
+    "human_per_hectare": 107.21,
+    "total_per_hectare": 135.1
   },
   "GM0180": {
     "naam": "Staphorst",
@@ -4448,10 +4448,10 @@
     "produced_per_capita": 49276.52,
     "human_per_capita": 513158.76,
     "total_per_capita": 649438.84,
-    "natural_per_hectare": 0.11,
-    "produced_per_hectare": 0.06,
-    "human_per_hectare": 0.67,
-    "total_per_hectare": 0.84
+    "natural_per_hectare": 11.45,
+    "produced_per_hectare": 6.49,
+    "human_per_hectare": 67.54,
+    "total_per_hectare": 85.47
   },
   "GM0532": {
     "naam": "Stede Broec",
@@ -4465,10 +4465,10 @@
     "produced_per_capita": 91548.16,
     "human_per_capita": 482943.6,
     "total_per_capita": 585199.64,
-    "natural_per_hectare": 0.15,
-    "produced_per_hectare": 1.3,
-    "human_per_hectare": 6.87,
-    "total_per_hectare": 8.32
+    "natural_per_hectare": 16.37,
+    "produced_per_hectare": 139.96,
+    "human_per_hectare": 738.36,
+    "total_per_hectare": 894.69
   },
   "GM0851": {
     "naam": "Steenbergen",
@@ -4482,10 +4482,10 @@
     "produced_per_capita": 53077.69,
     "human_per_capita": 498759.9,
     "total_per_capita": 587134.22,
-    "natural_per_hectare": 0.06,
-    "produced_per_hectare": 0.09,
-    "human_per_hectare": 0.81,
-    "total_per_hectare": 0.96
+    "natural_per_hectare": 5.93,
+    "produced_per_hectare": 8.92,
+    "human_per_hectare": 83.78,
+    "total_per_hectare": 98.63
   },
   "GM1708": {
     "naam": "Steenwijkerland",
@@ -4499,10 +4499,10 @@
     "produced_per_capita": 55854.79,
     "human_per_capita": 474054.14,
     "total_per_capita": 634890.21,
-    "natural_per_hectare": 3618.28,
-    "produced_per_hectare": 1925.09,
-    "human_per_hectare": 16338.73,
-    "total_per_hectare": 21882.1
+    "natural_per_hectare": 16.52,
+    "produced_per_hectare": 8.79,
+    "human_per_hectare": 74.61,
+    "total_per_hectare": 99.92
   },
   "GM0971": {
     "naam": "Stein (L.)",
@@ -4516,10 +4516,10 @@
     "produced_per_capita": 140721.07,
     "human_per_capita": 462608.93,
     "total_per_capita": 615475.18,
-    "natural_per_hectare": 0.13,
-    "produced_per_hectare": 1.53,
-    "human_per_hectare": 5.03,
-    "total_per_hectare": 6.69
+    "natural_per_hectare": 14.38,
+    "produced_per_hectare": 166.63,
+    "human_per_hectare": 547.79,
+    "total_per_hectare": 728.8
   },
   "GM1904": {
     "naam": "Stichtse Vecht",
@@ -4533,10 +4533,10 @@
     "produced_per_capita": 113717.29,
     "human_per_capita": 601736.44,
     "total_per_capita": 750729.08,
-    "natural_per_hectare": 0.22,
-    "produced_per_hectare": 0.7,
-    "human_per_hectare": 3.71,
-    "total_per_hectare": 4.62
+    "natural_per_hectare": 24.16,
+    "produced_per_hectare": 77.88,
+    "human_per_hectare": 412.09,
+    "total_per_hectare": 514.12
   },
   "GM1900": {
     "naam": "Súdwest-Fryslân",
@@ -4550,10 +4550,10 @@
     "produced_per_capita": 94772.85,
     "human_per_capita": 465567.64,
     "total_per_capita": 590082.31,
-    "natural_per_hectare": 0.08,
-    "produced_per_hectare": 0.26,
-    "human_per_hectare": 1.27,
-    "total_per_hectare": 1.61
+    "natural_per_hectare": 5.17,
+    "produced_per_hectare": 16.48,
+    "human_per_hectare": 80.95,
+    "total_per_hectare": 102.6
   },
   "GM0715": {
     "naam": "Terneuzen",
@@ -4567,10 +4567,10 @@
     "produced_per_capita": 202960.5,
     "human_per_capita": 474015.03,
     "total_per_capita": 707123.56,
-    "natural_per_hectare": 0.29,
-    "produced_per_hectare": 1.96,
-    "human_per_hectare": 4.59,
-    "total_per_hectare": 6.84
+    "natural_per_hectare": 6.63,
+    "produced_per_hectare": 44.62,
+    "human_per_hectare": 104.22,
+    "total_per_hectare": 155.47
   },
   "GM0093": {
     "naam": "Terschelling",
@@ -4584,10 +4584,10 @@
     "produced_per_capita": 15724.02,
     "human_per_capita": 547429.22,
     "total_per_capita": 1523018.35,
-    "natural_per_hectare": 0.08,
-    "produced_per_hectare": 0.0,
-    "human_per_hectare": 0.05,
-    "total_per_hectare": 0.13
+    "natural_per_hectare": 54.25,
+    "produced_per_hectare": 0.89,
+    "human_per_hectare": 30.94,
+    "total_per_hectare": 86.07
   },
   "GM0448": {
     "naam": "Texel",
@@ -4601,10 +4601,10 @@
     "produced_per_capita": 11809.28,
     "human_per_capita": 477291.13,
     "total_per_capita": 1061416.17,
-    "natural_per_hectare": 0.27,
-    "produced_per_hectare": 0.01,
-    "human_per_hectare": 0.22,
-    "total_per_hectare": 0.5
+    "natural_per_hectare": 49.31,
+    "produced_per_hectare": 1.02,
+    "human_per_hectare": 41.12,
+    "total_per_hectare": 91.44
   },
   "GM1525": {
     "naam": "Teylingen",
@@ -4618,10 +4618,10 @@
     "produced_per_capita": 79166.47,
     "human_per_capita": 633051.89,
     "total_per_capita": 755611.5,
-    "natural_per_hectare": 0.5,
-    "produced_per_hectare": 0.91,
-    "human_per_hectare": 7.28,
-    "total_per_hectare": 8.69
+    "natural_per_hectare": 59.01,
+    "produced_per_hectare": 107.65,
+    "human_per_hectare": 860.83,
+    "total_per_hectare": 1027.49
   },
   "GM0716": {
     "naam": "Tholen",
@@ -4635,10 +4635,10 @@
     "produced_per_capita": 46008.18,
     "human_per_capita": 488290.5,
     "total_per_capita": 592168.63,
-    "natural_per_hectare": 0.16,
-    "produced_per_hectare": 0.13,
-    "human_per_hectare": 1.34,
-    "total_per_hectare": 1.62
+    "natural_per_hectare": 10.58,
+    "produced_per_hectare": 8.41,
+    "human_per_hectare": 89.27,
+    "total_per_hectare": 108.27
   },
   "GM0281": {
     "naam": "Tiel",
@@ -4652,10 +4652,10 @@
     "produced_per_capita": 176975.78,
     "human_per_capita": 488836.67,
     "total_per_capita": 676491.76,
-    "natural_per_hectare": 0.13,
-    "produced_per_hectare": 2.12,
-    "human_per_hectare": 5.86,
-    "total_per_hectare": 8.12
+    "natural_per_hectare": 13.87,
+    "produced_per_hectare": 229.87,
+    "human_per_hectare": 634.95,
+    "total_per_hectare": 878.7
   },
   "GM0855": {
     "naam": "Tilburg",
@@ -4669,10 +4669,10 @@
     "produced_per_capita": 168422.89,
     "human_per_capita": 526140.39,
     "total_per_capita": 702378.93,
-    "natural_per_hectare": 0.14,
-    "produced_per_hectare": 2.99,
-    "human_per_hectare": 9.33,
-    "total_per_hectare": 12.45
+    "natural_per_hectare": 14.14,
+    "produced_per_hectare": 304.64,
+    "human_per_hectare": 951.67,
+    "total_per_hectare": 1270.45
   },
   "GM0183": {
     "naam": "Tubbergen",
@@ -4686,10 +4686,10 @@
     "produced_per_capita": 25104.17,
     "human_per_capita": 550892.7,
     "total_per_capita": 636207.45,
-    "natural_per_hectare": 0.09,
-    "produced_per_hectare": 0.04,
-    "human_per_hectare": 0.8,
-    "total_per_hectare": 0.92
+    "natural_per_hectare": 8.77,
+    "produced_per_hectare": 3.66,
+    "human_per_hectare": 80.23,
+    "total_per_hectare": 92.65
   },
   "GM1700": {
     "naam": "Twenterand",
@@ -4703,10 +4703,10 @@
     "produced_per_capita": 52974.57,
     "human_per_capita": 454600.19,
     "total_per_capita": 536639.49,
-    "natural_per_hectare": 0.09,
-    "produced_per_hectare": 0.17,
-    "human_per_hectare": 1.42,
-    "total_per_hectare": 1.68
+    "natural_per_hectare": 9.27,
+    "produced_per_hectare": 16.9,
+    "human_per_hectare": 145.05,
+    "total_per_hectare": 171.23
   },
   "GM1730": {
     "naam": "Tynaarlo",
@@ -4720,10 +4720,10 @@
     "produced_per_capita": 39873.66,
     "human_per_capita": 541227.2,
     "total_per_capita": 652344.98,
-    "natural_per_hectare": 0.17,
-    "produced_per_hectare": 0.09,
-    "human_per_hectare": 1.27,
-    "total_per_hectare": 1.53
+    "natural_per_hectare": 17.25,
+    "produced_per_hectare": 9.65,
+    "human_per_hectare": 131.03,
+    "total_per_hectare": 157.94
   },
   "GM0737": {
     "naam": "Tytsjerksteradiel",
@@ -4737,10 +4737,10 @@
     "produced_per_capita": 41102.03,
     "human_per_capita": 461652.52,
     "total_per_capita": 537126.54,
-    "natural_per_hectare": 0.07,
-    "produced_per_hectare": 0.08,
-    "human_per_hectare": 0.93,
-    "total_per_hectare": 1.08
+    "natural_per_hectare": 7.49,
+    "produced_per_hectare": 8.96,
+    "human_per_hectare": 100.66,
+    "total_per_hectare": 117.12
   },
   "GM0450": {
     "naam": "Uitgeest",
@@ -4754,10 +4754,10 @@
     "produced_per_capita": 62739.59,
     "human_per_capita": 581045.56,
     "total_per_capita": 660642.07,
-    "natural_per_hectare": 0.1,
-    "produced_per_hectare": 0.38,
-    "human_per_hectare": 3.51,
-    "total_per_hectare": 3.99
+    "natural_per_hectare": 11.85,
+    "produced_per_hectare": 44.11,
+    "human_per_hectare": 408.55,
+    "total_per_hectare": 464.52
   },
   "GM0451": {
     "naam": "Uithoorn",
@@ -4771,10 +4771,10 @@
     "produced_per_capita": 173613.25,
     "human_per_capita": 593501.63,
     "total_per_capita": 777204.46,
-    "natural_per_hectare": 0.16,
-    "produced_per_hectare": 2.81,
-    "human_per_hectare": 9.61,
-    "total_per_hectare": 12.58
+    "natural_per_hectare": 17.51,
+    "produced_per_hectare": 301.26,
+    "human_per_hectare": 1029.85,
+    "total_per_hectare": 1348.61
   },
   "GM0184": {
     "naam": "Urk",
@@ -4788,10 +4788,10 @@
     "produced_per_capita": 102074.04,
     "human_per_capita": 492783.6,
     "total_per_capita": 603105.78,
-    "natural_per_hectare": 0.13,
-    "produced_per_hectare": 1.66,
-    "human_per_hectare": 8.01,
-    "total_per_hectare": 9.81
+    "natural_per_hectare": 13.7,
+    "produced_per_hectare": 169.57,
+    "human_per_hectare": 818.64,
+    "total_per_hectare": 1001.92
   },
   "GM0344": {
     "naam": "Utrecht",
@@ -4805,10 +4805,10 @@
     "produced_per_capita": 270230.03,
     "human_per_capita": 672617.23,
     "total_per_capita": 954047.06,
-    "natural_per_hectare": 0.42,
-    "produced_per_hectare": 10.02,
-    "human_per_hectare": 24.95,
-    "total_per_hectare": 35.38
+    "natural_per_hectare": 43.95,
+    "produced_per_hectare": 1060.36,
+    "human_per_hectare": 2639.3,
+    "total_per_hectare": 3743.61
   },
   "GM1581": {
     "naam": "Utrechtse Heuvelrug",
@@ -4822,10 +4822,10 @@
     "produced_per_capita": 57560.58,
     "human_per_capita": 599161.52,
     "total_per_capita": 865126.54,
-    "natural_per_hectare": 0.78,
-    "produced_per_hectare": 0.22,
-    "human_per_hectare": 2.26,
-    "total_per_hectare": 3.26
+    "natural_per_hectare": 79.61,
+    "produced_per_hectare": 21.99,
+    "human_per_hectare": 228.87,
+    "total_per_hectare": 330.46
   },
   "GM0981": {
     "naam": "Vaals",
@@ -4839,10 +4839,10 @@
     "produced_per_capita": 69554.16,
     "human_per_capita": 360612.01,
     "total_per_capita": 511861.1,
-    "natural_per_hectare": 0.35,
-    "produced_per_hectare": 0.3,
-    "human_per_hectare": 1.54,
-    "total_per_hectare": 2.18
+    "natural_per_hectare": 34.85,
+    "produced_per_hectare": 29.67,
+    "human_per_hectare": 153.81,
+    "total_per_hectare": 218.33
   },
   "GM0994": {
     "naam": "Valkenburg aan de Geul",
@@ -4856,10 +4856,10 @@
     "produced_per_capita": 73872.25,
     "human_per_capita": 484801.83,
     "total_per_capita": 641353.65,
-    "natural_per_hectare": 0.37,
-    "produced_per_hectare": 0.33,
-    "human_per_hectare": 2.16,
-    "total_per_hectare": 2.85
+    "natural_per_hectare": 36.97,
+    "produced_per_hectare": 33.03,
+    "human_per_hectare": 216.77,
+    "total_per_hectare": 286.77
   },
   "GM0858": {
     "naam": "Valkenswaard",
@@ -4873,10 +4873,10 @@
     "produced_per_capita": 128247.0,
     "human_per_capita": 530574.37,
     "total_per_capita": 686692.61,
-    "natural_per_hectare": 0.16,
-    "produced_per_hectare": 0.72,
-    "human_per_hectare": 2.96,
-    "total_per_hectare": 3.83
+    "natural_per_hectare": 16.0,
+    "produced_per_hectare": 73.63,
+    "human_per_hectare": 304.63,
+    "total_per_hectare": 394.27
   },
   "GM0047": {
     "naam": "Veendam",
@@ -4890,10 +4890,10 @@
     "produced_per_capita": 136799.15,
     "human_per_capita": 410171.31,
     "total_per_capita": 558756.41,
-    "natural_per_hectare": 0.04,
-    "produced_per_hectare": 0.48,
-    "human_per_hectare": 1.44,
-    "total_per_hectare": 1.96
+    "natural_per_hectare": 4.29,
+    "produced_per_hectare": 49.75,
+    "human_per_hectare": 149.18,
+    "total_per_hectare": 203.22
   },
   "GM0345": {
     "naam": "Veenendaal",
@@ -4907,10 +4907,10 @@
     "produced_per_capita": 191622.48,
     "human_per_capita": 518525.25,
     "total_per_capita": 714920.5,
-    "natural_per_hectare": 0.17,
-    "produced_per_hectare": 6.66,
-    "human_per_hectare": 18.01,
-    "total_per_hectare": 24.84
+    "natural_per_hectare": 16.84,
+    "produced_per_hectare": 676.16,
+    "human_per_hectare": 1829.66,
+    "total_per_hectare": 2522.65
   },
   "GM0717": {
     "naam": "Veere",
@@ -4924,10 +4924,10 @@
     "produced_per_capita": 21083.56,
     "human_per_capita": 494114.33,
     "total_per_capita": 723111.96,
-    "natural_per_hectare": 0.64,
-    "produced_per_hectare": 0.06,
-    "human_per_hectare": 1.52,
-    "total_per_hectare": 2.22
+    "natural_per_hectare": 34.46,
+    "produced_per_hectare": 3.49,
+    "human_per_hectare": 81.91,
+    "total_per_hectare": 119.87
   },
   "GM0861": {
     "naam": "Veldhoven",
@@ -4941,10 +4941,10 @@
     "produced_per_capita": 202849.06,
     "human_per_capita": 593726.3,
     "total_per_capita": 804646.94,
-    "natural_per_hectare": 0.12,
-    "produced_per_hectare": 2.95,
-    "human_per_hectare": 8.64,
-    "total_per_hectare": 11.71
+    "natural_per_hectare": 11.83,
+    "produced_per_hectare": 297.21,
+    "human_per_hectare": 869.92,
+    "total_per_hectare": 1178.96
   },
   "GM0453": {
     "naam": "Velsen",
@@ -4958,10 +4958,10 @@
     "produced_per_capita": 127193.18,
     "human_per_capita": 529289.18,
     "total_per_capita": 716780.9,
-    "natural_per_hectare": 0.84,
-    "produced_per_hectare": 1.78,
-    "human_per_hectare": 7.39,
-    "total_per_hectare": 10.0
+    "natural_per_hectare": 92.11,
+    "produced_per_hectare": 194.31,
+    "human_per_hectare": 808.57,
+    "total_per_hectare": 1094.99
   },
   "GM0983": {
     "naam": "Venlo",
@@ -4975,10 +4975,10 @@
     "produced_per_capita": 211771.8,
     "human_per_capita": 455417.45,
     "total_per_capita": 704838.02,
-    "natural_per_hectare": 0.3,
-    "produced_per_hectare": 1.7,
-    "human_per_hectare": 3.65,
-    "total_per_hectare": 5.65
+    "natural_per_hectare": 31.33,
+    "produced_per_hectare": 176.24,
+    "human_per_hectare": 379.01,
+    "total_per_hectare": 586.58
   },
   "GM0984": {
     "naam": "Venray",
@@ -4992,10 +4992,10 @@
     "produced_per_capita": 97504.4,
     "human_per_capita": 508393.07,
     "total_per_capita": 701144.88,
-    "natural_per_hectare": 0.26,
-    "produced_per_hectare": 0.26,
-    "human_per_hectare": 1.38,
-    "total_per_hectare": 1.9
+    "natural_per_hectare": 26.05,
+    "produced_per_hectare": 26.67,
+    "human_per_hectare": 139.04,
+    "total_per_hectare": 191.76
   },
   "GM1961": {
     "naam": "Vijfheerenlanden",
@@ -5009,10 +5009,10 @@
     "produced_per_capita": 103390.36,
     "human_per_capita": 541845.26,
     "total_per_capita": 674673.78,
-    "natural_per_hectare": 0.12,
-    "produced_per_hectare": 0.4,
-    "human_per_hectare": 2.12,
-    "total_per_hectare": 2.64
+    "natural_per_hectare": 12.09,
+    "produced_per_hectare": 42.44,
+    "human_per_hectare": 222.44,
+    "total_per_hectare": 276.97
   },
   "GM0622": {
     "naam": "Vlaardingen",
@@ -5026,10 +5026,10 @@
     "produced_per_capita": 106457.38,
     "human_per_capita": 480086.38,
     "total_per_capita": 604421.33,
-    "natural_per_hectare": 0.5,
-    "produced_per_hectare": 2.99,
-    "human_per_hectare": 13.5,
-    "total_per_hectare": 17.0
+    "natural_per_hectare": 57.46,
+    "produced_per_hectare": 342.15,
+    "human_per_hectare": 1543.0,
+    "total_per_hectare": 1942.61
   },
   "GM0096": {
     "naam": "Vlieland",
@@ -5043,10 +5043,10 @@
     "produced_per_capita": 5138.56,
     "human_per_capita": 498768.28,
     "total_per_capita": 3524412.79,
-    "natural_per_hectare": 0.92,
-    "produced_per_hectare": 0.0,
-    "human_per_hectare": 0.15,
-    "total_per_hectare": 1.07
+    "natural_per_hectare": 93.2,
+    "produced_per_hectare": 0.16,
+    "human_per_hectare": 15.39,
+    "total_per_hectare": 108.75
   },
   "GM0718": {
     "naam": "Vlissingen",
@@ -5060,10 +5060,10 @@
     "produced_per_capita": 182800.42,
     "human_per_capita": 448405.37,
     "total_per_capita": 646961.85,
-    "natural_per_hectare": 0.02,
-    "produced_per_hectare": 0.27,
-    "human_per_hectare": 0.65,
-    "total_per_hectare": 0.94
+    "natural_per_hectare": 20.7,
+    "produced_per_hectare": 240.13,
+    "human_per_hectare": 589.05,
+    "total_per_hectare": 849.88
   },
   "GM0986": {
     "naam": "Voerendaal",
@@ -5077,10 +5077,10 @@
     "produced_per_capita": 51974.21,
     "human_per_capita": 500212.8,
     "total_per_capita": 579431.46,
-    "natural_per_hectare": 0.11,
-    "produced_per_hectare": 0.2,
-    "human_per_hectare": 1.97,
-    "total_per_hectare": 2.28
+    "natural_per_hectare": 10.73,
+    "produced_per_hectare": 20.46,
+    "human_per_hectare": 196.93,
+    "total_per_hectare": 228.11
   },
   "GM1992": {
     "naam": "Voorne aan Zee",
@@ -5094,10 +5094,10 @@
     "produced_per_capita": 37983.06,
     "human_per_capita": 558064.28,
     "total_per_capita": 624807.02,
-    "natural_per_hectare": 0.36,
-    "produced_per_hectare": 0.48,
-    "human_per_hectare": 7.07,
-    "total_per_hectare": 7.92
+    "natural_per_hectare": 17.46,
+    "produced_per_hectare": 23.07,
+    "human_per_hectare": 338.89,
+    "total_per_hectare": 379.41
   },
   "GM0626": {
     "naam": "Voorschoten",
@@ -5111,10 +5111,10 @@
     "produced_per_capita": 77093.34,
     "human_per_capita": 620229.59,
     "total_per_capita": 704780.12,
-    "natural_per_hectare": 0.17,
-    "produced_per_hectare": 1.71,
-    "human_per_hectare": 13.77,
-    "total_per_hectare": 15.65
+    "natural_per_hectare": 17.23,
+    "produced_per_hectare": 178.09,
+    "human_per_hectare": 1432.78,
+    "total_per_hectare": 1628.1
   },
   "GM0285": {
     "naam": "Voorst",
@@ -5128,10 +5128,10 @@
     "produced_per_capita": 41138.76,
     "human_per_capita": 517541.82,
     "total_per_capita": 599225.72,
-    "natural_per_hectare": 0.08,
-    "produced_per_hectare": 0.08,
-    "human_per_hectare": 1.03,
-    "total_per_hectare": 1.19
+    "natural_per_hectare": 8.32,
+    "produced_per_hectare": 8.44,
+    "human_per_hectare": 106.16,
+    "total_per_hectare": 122.91
   },
   "GM0865": {
     "naam": "Vught",
@@ -5145,10 +5145,10 @@
     "produced_per_capita": 115384.03,
     "human_per_capita": 639573.27,
     "total_per_capita": 800283.58,
-    "natural_per_hectare": 0.24,
-    "produced_per_hectare": 0.61,
-    "human_per_hectare": 3.36,
-    "total_per_hectare": 4.21
+    "natural_per_hectare": 24.25,
+    "produced_per_hectare": 61.73,
+    "human_per_hectare": 342.2,
+    "total_per_hectare": 428.18
   },
   "GM1949": {
     "naam": "Waadhoeke",
@@ -5162,10 +5162,10 @@
     "produced_per_capita": 44392.06,
     "human_per_capita": 444172.91,
     "total_per_capita": 515670.31,
-    "natural_per_hectare": 0.04,
-    "produced_per_hectare": 0.07,
-    "human_per_hectare": 0.72,
-    "total_per_hectare": 0.83
+    "natural_per_hectare": 4.44,
+    "produced_per_hectare": 7.27,
+    "human_per_hectare": 72.7,
+    "total_per_hectare": 84.41
   },
   "GM0866": {
     "naam": "Waalre",
@@ -5179,10 +5179,10 @@
     "produced_per_capita": 112539.97,
     "human_per_capita": 639307.12,
     "total_per_capita": 805460.61,
-    "natural_per_hectare": 0.43,
-    "produced_per_hectare": 0.89,
-    "human_per_hectare": 5.07,
-    "total_per_hectare": 6.39
+    "natural_per_hectare": 43.07,
+    "produced_per_hectare": 90.41,
+    "human_per_hectare": 513.62,
+    "total_per_hectare": 647.1
   },
   "GM0867": {
     "naam": "Waalwijk",
@@ -5196,10 +5196,10 @@
     "produced_per_capita": 140976.66,
     "human_per_capita": 514289.06,
     "total_per_capita": 664274.93,
-    "natural_per_hectare": 0.07,
-    "produced_per_hectare": 1.04,
-    "human_per_hectare": 3.8,
-    "total_per_hectare": 4.91
+    "natural_per_hectare": 6.97,
+    "produced_per_hectare": 109.11,
+    "human_per_hectare": 398.04,
+    "total_per_hectare": 514.13
   },
   "GM0627": {
     "naam": "Waddinxveen",
@@ -5213,10 +5213,10 @@
     "produced_per_capita": 423780.17,
     "human_per_capita": 563511.99,
     "total_per_capita": 993240.04,
-    "natural_per_hectare": 0.07,
-    "produced_per_hectare": 4.7,
-    "human_per_hectare": 6.25,
-    "total_per_hectare": 11.02
+    "natural_per_hectare": 6.99,
+    "produced_per_hectare": 497.86,
+    "human_per_hectare": 662.02,
+    "total_per_hectare": 1166.87
   },
   "GM0289": {
     "naam": "Wageningen",
@@ -5230,10 +5230,10 @@
     "produced_per_capita": 161443.25,
     "human_per_capita": 493206.41,
     "total_per_capita": 683192.94,
-    "natural_per_hectare": 0.36,
-    "produced_per_hectare": 2.04,
-    "human_per_hectare": 6.24,
-    "total_per_hectare": 8.65
+    "natural_per_hectare": 38.43,
+    "produced_per_hectare": 217.38,
+    "human_per_hectare": 664.09,
+    "total_per_hectare": 919.91
   },
   "GM0629": {
     "naam": "Wassenaar",
@@ -5247,10 +5247,10 @@
     "produced_per_capita": 48026.73,
     "human_per_capita": 706998.85,
     "total_per_capita": 915259.79,
-    "natural_per_hectare": 0.82,
-    "produced_per_hectare": 0.25,
-    "human_per_hectare": 3.62,
-    "total_per_hectare": 4.68
+    "natural_per_hectare": 84.82,
+    "produced_per_hectare": 25.42,
+    "human_per_hectare": 374.26,
+    "total_per_hectare": 484.51
   },
   "GM0852": {
     "naam": "Waterland",
@@ -5264,10 +5264,10 @@
     "produced_per_capita": 29755.55,
     "human_per_capita": 569427.19,
     "total_per_capita": 626947.56,
-    "natural_per_hectare": 0.08,
-    "produced_per_hectare": 0.09,
-    "human_per_hectare": 1.68,
-    "total_per_hectare": 1.85
+    "natural_per_hectare": 9.4,
+    "produced_per_hectare": 10.08,
+    "human_per_hectare": 192.86,
+    "total_per_hectare": 212.35
   },
   "GM0988": {
     "naam": "Weert",
@@ -5281,10 +5281,10 @@
     "produced_per_capita": 131533.69,
     "human_per_capita": 503541.55,
     "total_per_capita": 697439.8,
-    "natural_per_hectare": 0.3,
-    "produced_per_hectare": 0.63,
-    "human_per_hectare": 2.43,
-    "total_per_hectare": 3.36
+    "natural_per_hectare": 30.43,
+    "produced_per_hectare": 64.19,
+    "human_per_hectare": 245.72,
+    "total_per_hectare": 340.34
   },
   "GM1960": {
     "naam": "West Betuwe",
@@ -5298,10 +5298,10 @@
     "produced_per_capita": 89805.55,
     "human_per_capita": 561808.56,
     "total_per_capita": 717742.84,
-    "natural_per_hectare": 0.15,
-    "produced_per_hectare": 0.21,
-    "human_per_hectare": 1.29,
-    "total_per_hectare": 1.65
+    "natural_per_hectare": 16.15,
+    "produced_per_hectare": 21.93,
+    "human_per_hectare": 137.17,
+    "total_per_hectare": 175.24
   },
   "GM0668": {
     "naam": "West Maas en Waal",
@@ -5315,10 +5315,10 @@
     "produced_per_capita": 65072.76,
     "human_per_capita": 517452.51,
     "total_per_capita": 629135.17,
-    "natural_per_hectare": 0.11,
-    "produced_per_hectare": 0.15,
-    "human_per_hectare": 1.22,
-    "total_per_hectare": 1.48
+    "natural_per_hectare": 12.27,
+    "produced_per_hectare": 17.14,
+    "human_per_hectare": 136.27,
+    "total_per_hectare": 165.69
   },
   "GM1969": {
     "naam": "Westerkwartier",
@@ -5332,10 +5332,10 @@
     "produced_per_capita": 32097.05,
     "human_per_capita": 482896.48,
     "total_per_capita": 547251.98,
-    "natural_per_hectare": 783.43,
-    "produced_per_hectare": 779.51,
-    "human_per_hectare": 11727.63,
-    "total_per_hectare": 13290.57
+    "natural_per_hectare": 5.78,
+    "produced_per_hectare": 5.75,
+    "human_per_hectare": 86.49,
+    "total_per_hectare": 98.01
   },
   "GM1701": {
     "naam": "Westerveld",
@@ -5349,10 +5349,10 @@
     "produced_per_capita": 18157.74,
     "human_per_capita": 465532.11,
     "total_per_capita": 800154.22,
-    "natural_per_hectare": 0.22,
-    "produced_per_hectare": 0.01,
-    "human_per_hectare": 0.33,
-    "total_per_hectare": 0.56
+    "natural_per_hectare": 22.56,
+    "produced_per_hectare": 1.29,
+    "human_per_hectare": 33.18,
+    "total_per_hectare": 57.03
   },
   "GM0293": {
     "naam": "Westervoort",
@@ -5366,10 +5366,10 @@
     "produced_per_capita": 88935.18,
     "human_per_capita": 463043.76,
     "total_per_capita": 556100.48,
-    "natural_per_hectare": 0.08,
-    "produced_per_hectare": 1.71,
-    "human_per_hectare": 8.93,
-    "total_per_hectare": 10.72
+    "natural_per_hectare": 8.89,
+    "produced_per_hectare": 191.75,
+    "human_per_hectare": 998.35,
+    "total_per_hectare": 1198.99
   },
   "GM1950": {
     "naam": "Westerwolde",
@@ -5383,10 +5383,10 @@
     "produced_per_capita": 28166.18,
     "human_per_capita": 391356.01,
     "total_per_capita": 496404.86,
-    "natural_per_hectare": 0.07,
-    "produced_per_hectare": 0.03,
-    "human_per_hectare": 0.37,
-    "total_per_hectare": 0.47
+    "natural_per_hectare": 7.4,
+    "produced_per_hectare": 2.71,
+    "human_per_hectare": 37.66,
+    "total_per_hectare": 47.77
   },
   "GM1783": {
     "naam": "Westland",
@@ -5400,10 +5400,10 @@
     "produced_per_capita": 254511.18,
     "human_per_capita": 565156.4,
     "total_per_capita": 831731.91,
-    "natural_per_hectare": 1.79,
-    "produced_per_hectare": 37.85,
-    "human_per_hectare": 84.04,
-    "total_per_hectare": 123.68
+    "natural_per_hectare": 17.16,
+    "produced_per_hectare": 362.06,
+    "human_per_hectare": 803.98,
+    "total_per_hectare": 1183.2
   },
   "GM0098": {
     "naam": "Weststellingwerf",
@@ -5417,10 +5417,10 @@
     "produced_per_capita": 49862.82,
     "human_per_capita": 442302.0,
     "total_per_capita": 568176.9,
-    "natural_per_hectare": 0.09,
-    "produced_per_hectare": 0.06,
-    "human_per_hectare": 0.51,
-    "total_per_hectare": 0.66
+    "natural_per_hectare": 9.14,
+    "produced_per_hectare": 5.99,
+    "human_per_hectare": 53.16,
+    "total_per_hectare": 68.29
   },
   "GM0189": {
     "naam": "Wierden",
@@ -5434,10 +5434,10 @@
     "produced_per_capita": 59208.6,
     "human_per_capita": 541753.83,
     "total_per_capita": 641348.56,
-    "natural_per_hectare": 0.11,
-    "produced_per_hectare": 0.15,
-    "human_per_hectare": 1.41,
-    "total_per_hectare": 1.67
+    "natural_per_hectare": 10.61,
+    "produced_per_hectare": 15.56,
+    "human_per_hectare": 142.38,
+    "total_per_hectare": 168.55
   },
   "GM0296": {
     "naam": "Wijchen",
@@ -5451,10 +5451,10 @@
     "produced_per_capita": 99368.02,
     "human_per_capita": 520878.96,
     "total_per_capita": 643760.3,
-    "natural_per_hectare": 0.14,
-    "produced_per_hectare": 0.59,
-    "human_per_hectare": 3.11,
-    "total_per_hectare": 3.84
+    "natural_per_hectare": 14.79,
+    "produced_per_hectare": 62.5,
+    "human_per_hectare": 327.62,
+    "total_per_hectare": 404.9
   },
   "GM1696": {
     "naam": "Wijdemeren",
@@ -5468,10 +5468,10 @@
     "produced_per_capita": 45810.76,
     "human_per_capita": 602586.74,
     "total_per_capita": 736685.71,
-    "natural_per_hectare": 0.29,
-    "produced_per_hectare": 0.15,
-    "human_per_hectare": 1.95,
-    "total_per_hectare": 2.38
+    "natural_per_hectare": 45.8,
+    "produced_per_hectare": 23.76,
+    "human_per_hectare": 312.56,
+    "total_per_hectare": 382.12
   },
   "GM0352": {
     "naam": "Wijk bij Duurstede",
@@ -5485,10 +5485,10 @@
     "produced_per_capita": 67516.07,
     "human_per_capita": 553502.59,
     "total_per_capita": 672392.41,
-    "natural_per_hectare": 0.24,
-    "produced_per_hectare": 0.32,
-    "human_per_hectare": 2.63,
-    "total_per_hectare": 3.2
+    "natural_per_hectare": 25.91,
+    "produced_per_hectare": 34.05,
+    "human_per_hectare": 279.14,
+    "total_per_hectare": 339.09
   },
   "GM0294": {
     "naam": "Winterswijk",
@@ -5502,10 +5502,10 @@
     "produced_per_capita": 104387.65,
     "human_per_capita": 463836.37,
     "total_per_capita": 615365.46,
-    "natural_per_hectare": 0.1,
-    "produced_per_hectare": 0.22,
-    "human_per_hectare": 0.98,
-    "total_per_hectare": 1.3
+    "natural_per_hectare": 9.98,
+    "produced_per_hectare": 22.11,
+    "human_per_hectare": 98.23,
+    "total_per_hectare": 130.32
   },
   "GM0873": {
     "naam": "Woensdrecht",
@@ -5519,10 +5519,10 @@
     "produced_per_capita": 60902.36,
     "human_per_capita": 478747.01,
     "total_per_capita": 608792.99,
-    "natural_per_hectare": 0.17,
-    "produced_per_hectare": 0.15,
-    "human_per_hectare": 1.16,
-    "total_per_hectare": 1.47
+    "natural_per_hectare": 16.74,
+    "produced_per_hectare": 14.74,
+    "human_per_hectare": 115.91,
+    "total_per_hectare": 147.39
   },
   "GM0632": {
     "naam": "Woerden",
@@ -5536,10 +5536,10 @@
     "produced_per_capita": 153296.7,
     "human_per_capita": 602560.89,
     "total_per_capita": 782407.21,
-    "natural_per_hectare": 0.15,
-    "produced_per_hectare": 0.88,
-    "human_per_hectare": 3.45,
-    "total_per_hectare": 4.48
+    "natural_per_hectare": 15.96,
+    "produced_per_hectare": 92.16,
+    "human_per_hectare": 362.27,
+    "total_per_hectare": 470.4
   },
   "GM0880": {
     "naam": "Wormerland",
@@ -5553,10 +5553,10 @@
     "produced_per_capita": 55581.11,
     "human_per_capita": 531506.65,
     "total_per_capita": 628408.56,
-    "natural_per_hectare": 0.15,
-    "produced_per_hectare": 0.2,
-    "human_per_hectare": 1.95,
-    "total_per_hectare": 2.31
+    "natural_per_hectare": 17.82,
+    "produced_per_hectare": 23.98,
+    "human_per_hectare": 229.28,
+    "total_per_hectare": 271.08
   },
   "GM0351": {
     "naam": "Woudenberg",
@@ -5570,10 +5570,10 @@
     "produced_per_capita": 70557.61,
     "human_per_capita": 566511.19,
     "total_per_capita": 742151.45,
-    "natural_per_hectare": 0.41,
-    "produced_per_hectare": 0.28,
-    "human_per_hectare": 2.21,
-    "total_per_hectare": 2.89
+    "natural_per_hectare": 41.31,
+    "produced_per_hectare": 27.74,
+    "human_per_hectare": 222.73,
+    "total_per_hectare": 291.78
   },
   "GM0479": {
     "naam": "Zaanstad",
@@ -5587,10 +5587,10 @@
     "produced_per_capita": 100578.35,
     "human_per_capita": 503950.0,
     "total_per_capita": 614041.19,
-    "natural_per_hectare": 0.18,
-    "produced_per_hectare": 1.93,
-    "human_per_hectare": 9.66,
-    "total_per_hectare": 11.78
+    "natural_per_hectare": 20.59,
+    "produced_per_hectare": 217.71,
+    "human_per_hectare": 1090.85,
+    "total_per_hectare": 1329.16
   },
   "GM0297": {
     "naam": "Zaltbommel",
@@ -5604,10 +5604,10 @@
     "produced_per_capita": 223969.06,
     "human_per_capita": 549518.71,
     "total_per_capita": 804495.88,
-    "natural_per_hectare": 0.11,
-    "produced_per_hectare": 0.76,
-    "human_per_hectare": 1.87,
-    "total_per_hectare": 2.74
+    "natural_per_hectare": 11.97,
+    "produced_per_hectare": 86.42,
+    "human_per_hectare": 212.05,
+    "total_per_hectare": 310.43
   },
   "GM0473": {
     "naam": "Zandvoort",
@@ -5621,10 +5621,10 @@
     "produced_per_capita": 78544.13,
     "human_per_capita": 524479.97,
     "total_per_capita": 923146.35,
-    "natural_per_hectare": 1.66,
-    "produced_per_hectare": 0.41,
-    "human_per_hectare": 2.73,
-    "total_per_hectare": 4.8
+    "natural_per_hectare": 175.05,
+    "produced_per_hectare": 42.95,
+    "human_per_hectare": 286.8,
+    "total_per_hectare": 504.8
   },
   "GM0050": {
     "naam": "Zeewolde",
@@ -5638,10 +5638,10 @@
     "produced_per_capita": 52262.27,
     "human_per_capita": 580185.49,
     "total_per_capita": 806260.33,
-    "natural_per_hectare": 0.16,
-    "produced_per_hectare": 0.05,
-    "human_per_hectare": 0.54,
-    "total_per_hectare": 0.76
+    "natural_per_hectare": 16.66,
+    "produced_per_hectare": 5.01,
+    "human_per_hectare": 55.63,
+    "total_per_hectare": 77.3
   },
   "GM0355": {
     "naam": "Zeist",
@@ -5655,10 +5655,10 @@
     "produced_per_capita": 111864.45,
     "human_per_capita": 622260.07,
     "total_per_capita": 806430.44,
-    "natural_per_hectare": 0.99,
-    "produced_per_hectare": 1.53,
-    "human_per_hectare": 8.52,
-    "total_per_hectare": 11.04
+    "natural_per_hectare": 99.33,
+    "produced_per_hectare": 153.68,
+    "human_per_hectare": 854.86,
+    "total_per_hectare": 1107.87
   },
   "GM0299": {
     "naam": "Zevenaar",
@@ -5672,10 +5672,10 @@
     "produced_per_capita": 68000.33,
     "human_per_capita": 468702.77,
     "total_per_capita": 555763.25,
-    "natural_per_hectare": 0.08,
-    "produced_per_hectare": 0.29,
-    "human_per_hectare": 1.99,
-    "total_per_hectare": 2.36
+    "natural_per_hectare": 9.27,
+    "produced_per_hectare": 33.07,
+    "human_per_hectare": 227.93,
+    "total_per_hectare": 270.27
   },
   "GM0637": {
     "naam": "Zoetermeer",
@@ -5689,10 +5689,10 @@
     "produced_per_capita": 112128.14,
     "human_per_capita": 522597.74,
     "total_per_capita": 638320.32,
-    "natural_per_hectare": 0.12,
-    "produced_per_hectare": 3.84,
-    "human_per_hectare": 17.91,
-    "total_per_hectare": 21.88
+    "natural_per_hectare": 13.26,
+    "produced_per_hectare": 413.59,
+    "human_per_hectare": 1927.65,
+    "total_per_hectare": 2354.5
   },
   "GM0638": {
     "naam": "Zoeterwoude",
@@ -5706,10 +5706,10 @@
     "produced_per_capita": 69406.41,
     "human_per_capita": 617233.58,
     "total_per_capita": 696415.54,
-    "natural_per_hectare": 0.04,
-    "produced_per_hectare": 0.3,
-    "human_per_hectare": 2.65,
-    "total_per_hectare": 2.99
+    "natural_per_hectare": 4.36,
+    "produced_per_hectare": 30.97,
+    "human_per_hectare": 275.45,
+    "total_per_hectare": 310.79
   },
   "GM1892": {
     "naam": "Zuidplas",
@@ -5723,10 +5723,10 @@
     "produced_per_capita": 284790.0,
     "human_per_capita": 589432.13,
     "total_per_capita": 884110.25,
-    "natural_per_hectare": 0.07,
-    "produced_per_hectare": 2.09,
-    "human_per_hectare": 4.32,
-    "total_per_hectare": 6.48
+    "natural_per_hectare": 8.02,
+    "produced_per_hectare": 230.84,
+    "human_per_hectare": 477.78,
+    "total_per_hectare": 716.64
   },
   "GM0879": {
     "naam": "Zundert",
@@ -5740,10 +5740,10 @@
     "produced_per_capita": 43840.89,
     "human_per_capita": 522371.92,
     "total_per_capita": 620932.67,
-    "natural_per_hectare": 0.1,
-    "produced_per_hectare": 0.08,
-    "human_per_hectare": 0.97,
-    "total_per_hectare": 1.15
+    "natural_per_hectare": 10.22,
+    "produced_per_hectare": 8.19,
+    "human_per_hectare": 97.54,
+    "total_per_hectare": 115.95
   },
   "GM0301": {
     "naam": "Zutphen",
@@ -5757,10 +5757,10 @@
     "produced_per_capita": 160505.48,
     "human_per_capita": 466165.51,
     "total_per_capita": 638908.32,
-    "natural_per_hectare": 0.14,
-    "produced_per_hectare": 1.81,
-    "human_per_hectare": 5.27,
-    "total_per_hectare": 7.22
+    "natural_per_hectare": 14.51,
+    "produced_per_hectare": 190.28,
+    "human_per_hectare": 552.63,
+    "total_per_hectare": 757.42
   },
   "GM1896": {
     "naam": "Zwartewaterland",
@@ -5774,10 +5774,10 @@
     "produced_per_capita": 117232.98,
     "human_per_capita": 522616.85,
     "total_per_capita": 667364.78,
-    "natural_per_hectare": 8.03,
-    "produced_per_hectare": 34.2,
-    "human_per_hectare": 152.46,
-    "total_per_hectare": 194.69
+    "natural_per_hectare": 7.81,
+    "produced_per_hectare": 33.26,
+    "human_per_hectare": 148.28,
+    "total_per_hectare": 189.35
   },
   "GM0642": {
     "naam": "Zwijndrecht",
@@ -5791,10 +5791,10 @@
     "produced_per_capita": 152035.8,
     "human_per_capita": 491263.17,
     "total_per_capita": 648598.49,
-    "natural_per_hectare": 0.1,
-    "produced_per_hectare": 3.01,
-    "human_per_hectare": 9.71,
-    "total_per_hectare": 12.82
+    "natural_per_hectare": 11.75,
+    "produced_per_hectare": 336.99,
+    "human_per_hectare": 1088.91,
+    "total_per_hectare": 1437.65
   },
   "GM0193": {
     "naam": "Zwolle",
@@ -5808,9 +5808,9 @@
     "produced_per_capita": 211550.88,
     "human_per_capita": 565022.9,
     "total_per_capita": 787438.93,
-    "natural_per_hectare": 0.12,
-    "produced_per_hectare": 2.35,
-    "human_per_hectare": 6.27,
-    "total_per_hectare": 8.74
+    "natural_per_hectare": 13.0,
+    "produced_per_hectare": 253.11,
+    "human_per_hectare": 676.02,
+    "total_per_hectare": 942.13
   }
 }

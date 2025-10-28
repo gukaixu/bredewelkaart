@@ -2,7 +2,7 @@
   "PV20": {
     "naam": "Groningen",
     "population": 596075,
-    "area_hectares": 295518.22,
+    "area_hectares": 0.0,
     "natural": 17334.64,
     "produced": 42719.23,
     "human": 275584.98,
@@ -11,15 +11,15 @@
     "produced_per_capita": 71667.54,
     "human_per_capita": 462332.72,
     "total_per_capita": 563081.57,
-    "natural_per_hectare": 0.06,
-    "produced_per_hectare": 0.14,
-    "human_per_hectare": 0.93,
-    "total_per_hectare": 1.14
+    "natural_per_hectare": 7.49,
+    "produced_per_hectare": 18.45,
+    "human_per_hectare": 119.0,
+    "total_per_hectare": 144.93
   },
   "PV21": {
     "naam": "Fryslân",
     "population": 659551,
-    "area_hectares": 575325.68,
+    "area_hectares": 0.0,
     "natural": 39600.0,
     "produced": 27700.01,
     "human": 302612.8,
@@ -28,15 +28,15 @@
     "produced_per_capita": 41998.28,
     "human_per_capita": 458816.38,
     "total_per_capita": 560855.5,
-    "natural_per_hectare": 0.07,
-    "produced_per_hectare": 0.05,
-    "human_per_hectare": 0.53,
-    "total_per_hectare": 0.64
+    "natural_per_hectare": 12.01,
+    "produced_per_hectare": 8.4,
+    "human_per_hectare": 91.75,
+    "total_per_hectare": 112.15
   },
   "PV22": {
     "naam": "Drenthe",
     "population": 502051,
-    "area_hectares": 268039.26,
+    "area_hectares": 0.0,
     "natural": 36332.55,
     "produced": 21276.36,
     "human": 234034.66,
@@ -45,15 +45,15 @@
     "produced_per_capita": 42378.88,
     "human_per_capita": 466157.14,
     "total_per_capita": 580904.26,
-    "natural_per_hectare": 0.14,
-    "produced_per_hectare": 0.08,
-    "human_per_hectare": 0.87,
-    "total_per_hectare": 1.09
+    "natural_per_hectare": 13.8,
+    "produced_per_hectare": 8.08,
+    "human_per_hectare": 88.9,
+    "total_per_hectare": 110.78
   },
   "PV23": {
     "naam": "Overijssel",
     "population": 1184333,
-    "area_hectares": 342074.09,
+    "area_hectares": 0.0,
     "natural": 45879.51,
     "produced": 89634.26,
     "human": 592914.69,
@@ -62,15 +62,15 @@
     "produced_per_capita": 75683.33,
     "human_per_capita": 500631.74,
     "total_per_capita": 615053.76,
-    "natural_per_hectare": 0.13,
-    "produced_per_hectare": 0.26,
-    "human_per_hectare": 1.73,
-    "total_per_hectare": 2.13
+    "natural_per_hectare": 13.83,
+    "produced_per_hectare": 27.03,
+    "human_per_hectare": 178.78,
+    "total_per_hectare": 219.64
   },
   "PV24": {
     "naam": "Flevoland",
     "population": 444701,
-    "area_hectares": 241230.7,
+    "area_hectares": 0.0,
     "natural": 19273.6,
     "produced": 45835.49,
     "human": 231205.02,
@@ -79,15 +79,15 @@
     "produced_per_capita": 103070.36,
     "human_per_capita": 519911.18,
     "total_per_capita": 666322.12,
-    "natural_per_hectare": 0.08,
-    "produced_per_hectare": 0.19,
-    "human_per_hectare": 0.96,
-    "total_per_hectare": 1.23
+    "natural_per_hectare": 13.67,
+    "produced_per_hectare": 32.5,
+    "human_per_hectare": 163.96,
+    "total_per_hectare": 210.13
   },
   "PV25": {
     "naam": "Gelderland",
     "population": 2133708,
-    "area_hectares": 513630.26,
+    "area_hectares": 0.0,
     "natural": 93589.21,
     "produced": 171301.91,
     "human": 1101189.9,
@@ -96,15 +96,15 @@
     "produced_per_capita": 80283.67,
     "human_per_capita": 516092.13,
     "total_per_capita": 640238.04,
-    "natural_per_hectare": 0.18,
-    "produced_per_hectare": 0.33,
-    "human_per_hectare": 2.14,
-    "total_per_hectare": 2.66
+    "natural_per_hectare": 18.87,
+    "produced_per_hectare": 34.53,
+    "human_per_hectare": 221.99,
+    "total_per_hectare": 275.39
   },
   "PV26": {
     "naam": "Utrecht",
     "population": 1387643,
-    "area_hectares": 156005.43,
+    "area_hectares": 0.0,
     "natural": 56640.99,
     "produced": 182079.06,
     "human": 845746.75,
@@ -113,15 +113,15 @@
     "produced_per_capita": 131214.63,
     "human_per_capita": 609484.39,
     "total_per_capita": 781517.15,
-    "natural_per_hectare": 0.36,
-    "produced_per_hectare": 1.17,
-    "human_per_hectare": 5.42,
-    "total_per_hectare": 6.95
+    "natural_per_hectare": 38.16,
+    "produced_per_hectare": 122.65,
+    "human_per_hectare": 569.72,
+    "total_per_hectare": 730.53
   },
   "PV27": {
     "naam": "Noord-Holland",
     "population": 2952622,
-    "area_hectares": 409192.75,
+    "area_hectares": 0.0,
     "natural": 106695.06,
     "produced": 519626.98,
     "human": 1760803.55,
@@ -130,15 +130,15 @@
     "produced_per_capita": 175988.32,
     "human_per_capita": 596352.51,
     "total_per_capita": 808476.53,
-    "natural_per_hectare": 0.26,
-    "produced_per_hectare": 1.27,
-    "human_per_hectare": 4.3,
-    "total_per_hectare": 5.83
+    "natural_per_hectare": 40.07,
+    "produced_per_hectare": 195.16,
+    "human_per_hectare": 661.32,
+    "total_per_hectare": 896.56
   },
   "PV28": {
     "naam": "Zuid-Holland",
     "population": 3804906,
-    "area_hectares": 330785.93,
+    "area_hectares": 0.0,
     "natural": 51959.89,
     "produced": 987555.58,
     "human": 2056341.03,
@@ -147,15 +147,15 @@
     "produced_per_capita": 259547.96,
     "human_per_capita": 540444.63,
     "total_per_capita": 813648.62,
-    "natural_per_hectare": 0.16,
-    "produced_per_hectare": 2.99,
-    "human_per_hectare": 6.22,
-    "total_per_hectare": 9.36
+    "natural_per_hectare": 19.26,
+    "produced_per_hectare": 365.98,
+    "human_per_hectare": 762.06,
+    "total_per_hectare": 1147.29
   },
   "PV29": {
     "naam": "Zeeland",
     "population": 391124,
-    "area_hectares": 293343.68,
+    "area_hectares": 0.0,
     "natural": 31153.66,
     "produced": 27760.81,
     "human": 190591.79,
@@ -164,15 +164,15 @@
     "produced_per_capita": 70977.0,
     "human_per_capita": 487292.5,
     "total_per_capita": 637921.12,
-    "natural_per_hectare": 0.11,
-    "produced_per_hectare": 0.09,
-    "human_per_hectare": 0.65,
-    "total_per_hectare": 0.85
+    "natural_per_hectare": 18.56,
+    "produced_per_hectare": 16.54,
+    "human_per_hectare": 113.57,
+    "total_per_hectare": 148.68
   },
   "PV30": {
     "naam": "Noord-Brabant",
     "population": 2626210,
-    "area_hectares": 508205.6,
+    "area_hectares": 0.0,
     "natural": 68332.88,
     "produced": 308602.77,
     "human": 1429989.49,
@@ -181,15 +181,15 @@
     "produced_per_capita": 117508.8,
     "human_per_capita": 544506.91,
     "total_per_capita": 688035.28,
-    "natural_per_hectare": 0.13,
-    "produced_per_hectare": 0.61,
-    "human_per_hectare": 2.81,
-    "total_per_hectare": 3.56
+    "natural_per_hectare": 13.94,
+    "produced_per_hectare": 62.96,
+    "human_per_hectare": 291.74,
+    "total_per_hectare": 368.64
   },
   "PV31": {
     "naam": "Limburg",
     "population": 1128367,
-    "area_hectares": 220985.0,
+    "area_hectares": 0.0,
     "natural": 57534.11,
     "produced": 119467.54,
     "human": 525148.7,
@@ -198,9 +198,9 @@
     "produced_per_capita": 105876.49,
     "human_per_capita": 465405.93,
     "total_per_capita": 622271.25,
-    "natural_per_hectare": 0.26,
-    "produced_per_hectare": 0.54,
-    "human_per_hectare": 2.38,
-    "total_per_hectare": 3.18
+    "natural_per_hectare": 26.83,
+    "produced_per_hectare": 55.7,
+    "human_per_hectare": 244.86,
+    "total_per_hectare": 327.39
   }
 }
