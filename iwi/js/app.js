@@ -877,15 +877,15 @@ function displayRegionInfo(code) {
         <h3 data-i18n="infoProportionHeading">${t('infoProportionHeading')}</h3>
         <div class="stat-row">
             <span class="stat-label" data-i18n="infoCapitalHuman">${t('infoCapitalHuman')}</span>
-            <span class="stat-value">${((data.human / data.total) * 100).toFixed(1)}%</span>
+            <span class="stat-value">${data.total > 0 ? ((data.human / data.total) * 100).toFixed(1) : '0.0'}%</span>
         </div>
         <div class="stat-row">
             <span class="stat-label" data-i18n="infoCapitalProduced">${t('infoCapitalProduced')}</span>
-            <span class="stat-value">${((data.produced / data.total) * 100).toFixed(1)}%</span>
+            <span class="stat-value">${data.total > 0 ? ((data.produced / data.total) * 100).toFixed(1) : '0.0'}%</span>
         </div>
         <div class="stat-row">
             <span class="stat-label" data-i18n="infoCapitalNatural">${t('infoCapitalNatural')}</span>
-            <span class="stat-value">${((data.natural / data.total) * 100).toFixed(1)}%</span>
+            <span class="stat-value">${data.total > 0 ? ((data.natural / data.total) * 100).toFixed(1) : '0.0'}%</span>
         </div>
         <div class="stat-row stat-row-total">
             <span class="stat-label capital-total" data-i18n="infoCapitalTotal">${t('infoCapitalTotal')}</span>
