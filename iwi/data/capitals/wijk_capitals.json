@@ -3156,7 +3156,7 @@
   "WK009002": {
     "naam": "De Wiken",
     "population": 0,
-    "area_land_ha": 0.0,
+    "area_land_ha": 174.99,
     "area_total_ha": 0.0,
     "area_water_ha": 0.0,
     "natural": 17.6,
@@ -3167,15 +3167,15 @@
     "produced_per_capita": 0.0,
     "human_per_capita": 0.0,
     "total_per_capita": 0.0,
-    "natural_per_m2": 0.0,
-    "produced_per_m2": 0.0,
+    "natural_per_m2": 10.057717583861933,
+    "produced_per_m2": 726.6986684953425,
     "human_per_m2": 0.0,
-    "total_per_m2": 0.0
+    "total_per_m2": 736.762100691468
   },
   "WK009003": {
     "naam": "De Singels",
     "population": 0,
-    "area_land_ha": 0.0,
+    "area_land_ha": 155.98,
     "area_total_ha": 0.0,
     "area_water_ha": 0.0,
     "natural": 20.85,
@@ -3186,15 +3186,15 @@
     "produced_per_capita": 0.0,
     "human_per_capita": 0.0,
     "total_per_capita": 0.0,
-    "natural_per_m2": 0.0,
-    "produced_per_m2": 0.0,
+    "natural_per_m2": 13.367098345941788,
+    "produced_per_m2": 437.47916399538406,
     "human_per_m2": 0.0,
-    "total_per_m2": 0.0
+    "total_per_m2": 450.83985126298245
   },
   "WK009004": {
     "naam": "De Drait",
     "population": 0,
-    "area_land_ha": 0.0,
+    "area_land_ha": 299.98,
     "area_total_ha": 0.0,
     "area_water_ha": 0.0,
     "natural": 68.94,
@@ -3205,15 +3205,15 @@
     "produced_per_capita": 0.0,
     "human_per_capita": 0.0,
     "total_per_capita": 0.0,
-    "natural_per_m2": 0.0,
-    "produced_per_m2": 0.0,
+    "natural_per_m2": 22.98153210214014,
+    "produced_per_m2": 256.32042136142405,
     "human_per_m2": 0.0,
-    "total_per_m2": 0.0
+    "total_per_m2": 279.3019534635642
   },
   "WK009005": {
     "naam": "Drachtstervaart",
     "population": 0,
-    "area_land_ha": 0.0,
+    "area_land_ha": 56.52,
     "area_total_ha": 0.0,
     "area_water_ha": 0.0,
     "natural": 7.18,
@@ -3224,15 +3224,15 @@
     "produced_per_capita": 0.0,
     "human_per_capita": 0.0,
     "total_per_capita": 0.0,
-    "natural_per_m2": 0.0,
-    "produced_per_m2": 0.0,
+    "natural_per_m2": 12.7034677990092,
+    "produced_per_m2": 224.7876857749469,
     "human_per_m2": 0.0,
-    "total_per_m2": 0.0
+    "total_per_m2": 237.4911535739561
   },
   "WK009006": {
     "naam": "De Venen",
     "population": 0,
-    "area_land_ha": 0.0,
+    "area_land_ha": 86.13,
     "area_total_ha": 0.0,
     "area_water_ha": 0.0,
     "natural": 4.89,
@@ -3243,15 +3243,15 @@
     "produced_per_capita": 0.0,
     "human_per_capita": 0.0,
     "total_per_capita": 0.0,
-    "natural_per_m2": 0.0,
-    "produced_per_m2": 0.0,
+    "natural_per_m2": 5.677464298153954,
+    "produced_per_m2": 602.9141994659236,
     "human_per_m2": 0.0,
-    "total_per_m2": 0.0
+    "total_per_m2": 608.5916637640776
   },
   "WK009007": {
     "naam": "De Folgeren",
     "population": 0,
-    "area_land_ha": 0.0,
+    "area_land_ha": 313.39,
     "area_total_ha": 0.0,
     "area_water_ha": 0.0,
     "natural": 32.07,
@@ -3262,15 +3262,15 @@
     "produced_per_capita": 0.0,
     "human_per_capita": 0.0,
     "total_per_capita": 0.0,
-    "natural_per_m2": 0.0,
-    "produced_per_m2": 0.0,
+    "natural_per_m2": 10.233255687801142,
+    "produced_per_m2": 312.38073965346695,
     "human_per_m2": 0.0,
-    "total_per_m2": 0.0
+    "total_per_m2": 322.6139953412681
   },
   "WK009008": {
     "naam": "De Swetten",
     "population": 0,
-    "area_land_ha": 0.0,
+    "area_land_ha": 124.1,
     "area_total_ha": 0.0,
     "area_water_ha": 0.0,
     "natural": 9.76,
@@ -3281,15 +3281,15 @@
     "produced_per_capita": 0.0,
     "human_per_capita": 0.0,
     "total_per_capita": 0.0,
-    "natural_per_m2": 0.0,
-    "produced_per_m2": 0.0,
+    "natural_per_m2": 7.864625302175665,
+    "produced_per_m2": 1137.1796937953263,
     "human_per_m2": 0.0,
-    "total_per_m2": 0.0
+    "total_per_m2": 1145.0443190975022
   },
   "WK009009": {
     "naam": "De Bouwen",
     "population": 0,
-    "area_land_ha": 0.0,
+    "area_land_ha": 84.81,
     "area_total_ha": 0.0,
     "area_water_ha": 0.0,
     "natural": 7.64,
@@ -3300,15 +3300,15 @@
     "produced_per_capita": 0.0,
     "human_per_capita": 0.0,
     "total_per_capita": 0.0,
-    "natural_per_m2": 0.0,
-    "produced_per_m2": 0.0,
+    "natural_per_m2": 9.008371654286051,
+    "produced_per_m2": 681.5823605706875,
     "human_per_m2": 0.0,
-    "total_per_m2": 0.0
+    "total_per_m2": 690.6025232873482
   },
   "WK009010": {
     "naam": "Noord-Oost",
     "population": 0,
-    "area_land_ha": 0.0,
+    "area_land_ha": 97.34,
     "area_total_ha": 0.0,
     "area_water_ha": 0.0,
     "natural": 3.53,
@@ -3319,15 +3319,15 @@
     "produced_per_capita": 0.0,
     "human_per_capita": 0.0,
     "total_per_capita": 0.0,
-    "natural_per_m2": 0.0,
-    "produced_per_m2": 0.0,
+    "natural_per_m2": 3.6264639408259702,
+    "produced_per_m2": 989.9527429628108,
     "human_per_m2": 0.0,
-    "total_per_m2": 0.0
+    "total_per_m2": 993.5792069036366
   },
   "WK009011": {
     "naam": "De Haven",
     "population": 0,
-    "area_land_ha": 0.0,
+    "area_land_ha": 330.54,
     "area_total_ha": 0.0,
     "area_water_ha": 0.0,
     "natural": 6.98,
@@ -3338,15 +3338,15 @@
     "produced_per_capita": 0.0,
     "human_per_capita": 0.0,
     "total_per_capita": 0.0,
-    "natural_per_m2": 0.0,
-    "produced_per_m2": 0.0,
+    "natural_per_m2": 2.1116960125854662,
+    "produced_per_m2": 351.1738367519816,
     "human_per_m2": 0.0,
-    "total_per_m2": 0.0
+    "total_per_m2": 353.28553276456705
   },
   "WK009012": {
     "naam": "Drachten Oost",
     "population": 0,
-    "area_land_ha": 0.0,
+    "area_land_ha": 452.08,
     "area_total_ha": 0.0,
     "area_water_ha": 0.0,
     "natural": 21.88,
@@ -3357,15 +3357,15 @@
     "produced_per_capita": 0.0,
     "human_per_capita": 0.0,
     "total_per_capita": 0.0,
-    "natural_per_m2": 0.0,
-    "produced_per_m2": 0.0,
+    "natural_per_m2": 4.8398513537427,
+    "produced_per_m2": 73.41399752256238,
     "human_per_m2": 0.0,
-    "total_per_m2": 0.0
+    "total_per_m2": 78.25384887630507
   },
   "WK009013": {
     "naam": "De Trisken",
     "population": 0,
-    "area_land_ha": 0.0,
+    "area_land_ha": 135.52,
     "area_total_ha": 0.0,
     "area_water_ha": 0.0,
     "natural": 20.86,
@@ -3376,15 +3376,15 @@
     "produced_per_capita": 0.0,
     "human_per_capita": 0.0,
     "total_per_capita": 0.0,
-    "natural_per_m2": 0.0,
-    "produced_per_m2": 0.0,
+    "natural_per_m2": 15.392561983471072,
+    "produced_per_m2": 118.98612750885478,
     "human_per_m2": 0.0,
-    "total_per_m2": 0.0
+    "total_per_m2": 134.37868949232586
   },
   "WK009021": {
     "naam": "Buitengebied Noord",
     "population": 0,
-    "area_land_ha": 0.0,
+    "area_land_ha": 4288.41,
     "area_total_ha": 0.0,
     "area_water_ha": 0.0,
     "natural": 297.06,
@@ -3395,15 +3395,15 @@
     "produced_per_capita": 0.0,
     "human_per_capita": 0.0,
     "total_per_capita": 0.0,
-    "natural_per_m2": 0.0,
-    "produced_per_m2": 0.0,
+    "natural_per_m2": 6.927042890022175,
+    "produced_per_m2": 4.521489316553222,
     "human_per_m2": 0.0,
-    "total_per_m2": 0.0
+    "total_per_m2": 11.448765393234321
   },
   "WK009022": {
     "naam": "Buitengebied West",
     "population": 0,
-    "area_land_ha": 0.0,
+    "area_land_ha": 3909.7,
     "area_total_ha": 0.0,
     "area_water_ha": 0.0,
     "natural": 320.65,
@@ -3414,15 +3414,15 @@
     "produced_per_capita": 0.0,
     "human_per_capita": 0.0,
     "total_per_capita": 0.0,
-    "natural_per_m2": 0.0,
-    "produced_per_m2": 0.0,
+    "natural_per_m2": 8.201396526587718,
+    "produced_per_m2": 2.704299562626289,
     "human_per_m2": 0.0,
-    "total_per_m2": 0.0
+    "total_per_m2": 10.905440315113692
   },
   "WK009023": {
     "naam": "Buitengebied Oost",
     "population": 0,
-    "area_land_ha": 0.0,
+    "area_land_ha": 2074.16,
     "area_total_ha": 0.0,
     "area_water_ha": 0.0,
     "natural": 88.36,
@@ -3433,10 +3433,10 @@
     "produced_per_capita": 0.0,
     "human_per_capita": 0.0,
     "total_per_capita": 0.0,
-    "natural_per_m2": 0.0,
-    "produced_per_m2": 0.0,
+    "natural_per_m2": 4.260037798434065,
+    "produced_per_m2": 4.815925483087129,
     "human_per_m2": 0.0,
-    "total_per_m2": 0.0
+    "total_per_m2": 9.075963281521195
   },
   "WK009300": {
     "naam": "Wijk 00 West-Terschelling",
@@ -8514,7 +8514,7 @@
   "WK018308": {
     "naam": "Wijk Mariaparochie",
     "population": 0,
-    "area_land_ha": 0.0,
+    "area_land_ha": 15.89,
     "area_total_ha": 0.0,
     "area_water_ha": 0.0,
     "natural": 0.21,
@@ -8525,15 +8525,15 @@
     "produced_per_capita": 0.0,
     "human_per_capita": 0.0,
     "total_per_capita": 0.0,
-    "natural_per_m2": 0.0,
-    "produced_per_m2": 0.0,
+    "natural_per_m2": 1.3215859030837005,
+    "produced_per_m2": 63.1214600377596,
     "human_per_m2": 0.0,
-    "total_per_m2": 0.0
+    "total_per_m2": 64.44304594084329
   },
   "WK018309": {
     "naam": "Wijk Manderveen",
     "population": 0,
-    "area_land_ha": 0.0,
+    "area_land_ha": 1022.82,
     "area_total_ha": 0.0,
     "area_water_ha": 0.0,
     "natural": 55.76,
@@ -8544,15 +8544,15 @@
     "produced_per_capita": 0.0,
     "human_per_capita": 0.0,
     "total_per_capita": 0.0,
-    "natural_per_m2": 0.0,
-    "produced_per_m2": 0.0,
+    "natural_per_m2": 5.451594610977493,
+    "produced_per_m2": 0.6638509219608534,
     "human_per_m2": 0.0,
-    "total_per_m2": 0.0
+    "total_per_m2": 6.115445532938347
   },
   "WK018310": {
     "naam": "Wijk Mander",
     "population": 0,
-    "area_land_ha": 0.0,
+    "area_land_ha": 891.44,
     "area_total_ha": 0.0,
     "area_water_ha": 0.0,
     "natural": 177.81,
@@ -8563,15 +8563,15 @@
     "produced_per_capita": 0.0,
     "human_per_capita": 0.0,
     "total_per_capita": 0.0,
-    "natural_per_m2": 0.0,
-    "produced_per_m2": 0.0,
+    "natural_per_m2": 19.9463788925783,
+    "produced_per_m2": 0.7471058063358161,
     "human_per_m2": 0.0,
-    "total_per_m2": 0.0
+    "total_per_m2": 20.693484698914116
   },
   "WK018311": {
     "naam": "Wijk Hezingen",
     "population": 0,
-    "area_land_ha": 0.0,
+    "area_land_ha": 887.75,
     "area_total_ha": 0.0,
     "area_water_ha": 0.0,
     "natural": 253.05,
@@ -8582,15 +8582,15 @@
     "produced_per_capita": 0.0,
     "human_per_capita": 0.0,
     "total_per_capita": 0.0,
-    "natural_per_m2": 0.0,
-    "produced_per_m2": 0.0,
+    "natural_per_m2": 28.50464657842861,
+    "produced_per_m2": 0.2590819487468319,
     "human_per_m2": 0.0,
-    "total_per_m2": 0.0
+    "total_per_m2": 28.76372852717544
   },
   "WK018312": {
     "naam": "Wijk Haarle",
     "population": 0,
-    "area_land_ha": 0.0,
+    "area_land_ha": 339.75,
     "area_total_ha": 0.0,
     "area_water_ha": 0.0,
     "natural": 36.42,
@@ -8601,10 +8601,10 @@
     "produced_per_capita": 0.0,
     "human_per_capita": 0.0,
     "total_per_capita": 0.0,
-    "natural_per_m2": 0.0,
-    "produced_per_m2": 0.0,
+    "natural_per_m2": 10.719646799116997,
+    "produced_per_m2": 0.7740986019131715,
     "human_per_m2": 0.0,
-    "total_per_m2": 0.0
+    "total_per_m2": 11.49374540103017
   },
   "WK018400": {
     "naam": "Wijk 00 Urk",
@@ -10756,7 +10756,7 @@
   "WK022505": {
     "naam": "Puiflijk",
     "population": 0,
-    "area_land_ha": 0.0,
+    "area_land_ha": 553.66,
     "area_total_ha": 0.0,
     "area_water_ha": 0.0,
     "natural": 49.94,
@@ -10767,15 +10767,15 @@
     "produced_per_capita": 0.0,
     "human_per_capita": 0.0,
     "total_per_capita": 0.0,
-    "natural_per_m2": 0.0,
-    "produced_per_m2": 0.0,
+    "natural_per_m2": 9.019976158653327,
+    "produced_per_m2": 17.256077737239462,
     "human_per_m2": 0.0,
-    "total_per_m2": 0.0
+    "total_per_m2": 26.276053895892783
   },
   "WK022506": {
     "naam": "Horssen",
     "population": 0,
-    "area_land_ha": 0.0,
+    "area_land_ha": 1225.29,
     "area_total_ha": 0.0,
     "area_water_ha": 0.0,
     "natural": 139.28,
@@ -10786,10 +10786,10 @@
     "produced_per_capita": 0.0,
     "human_per_capita": 0.0,
     "total_per_capita": 0.0,
-    "natural_per_m2": 0.0,
-    "produced_per_m2": 0.0,
+    "natural_per_m2": 11.367104930261407,
+    "produced_per_m2": 4.480571946233137,
     "human_per_m2": 0.0,
-    "total_per_m2": 0.0
+    "total_per_m2": 15.847676876494544
   },
   "WK022601": {
     "naam": "Wijk 01 Bedrijventerrein",
@@ -12884,7 +12884,7 @@
   "WK028504": {
     "naam": "Teuge",
     "population": 0,
-    "area_land_ha": 0.0,
+    "area_land_ha": 799.37,
     "area_total_ha": 0.0,
     "area_water_ha": 0.0,
     "natural": 43.0,
@@ -12895,15 +12895,15 @@
     "produced_per_capita": 0.0,
     "human_per_capita": 0.0,
     "total_per_capita": 0.0,
-    "natural_per_m2": 0.0,
-    "produced_per_m2": 0.0,
+    "natural_per_m2": 5.3792361484669176,
+    "produced_per_m2": 4.828802682112163,
     "human_per_m2": 0.0,
-    "total_per_m2": 0.0
+    "total_per_m2": 10.209289815729887
   },
   "WK028505": {
     "naam": "Twello",
     "population": 0,
-    "area_land_ha": 0.0,
+    "area_land_ha": 1551.88,
     "area_total_ha": 0.0,
     "area_water_ha": 0.0,
     "natural": 128.47,
@@ -12914,15 +12914,15 @@
     "produced_per_capita": 0.0,
     "human_per_capita": 0.0,
     "total_per_capita": 0.0,
-    "natural_per_m2": 0.0,
-    "produced_per_m2": 0.0,
+    "natural_per_m2": 8.278346263886382,
+    "produced_per_m2": 43.163775549655895,
     "human_per_m2": 0.0,
-    "total_per_m2": 0.0
+    "total_per_m2": 51.4414774338222
   },
   "WK028506": {
     "naam": "Steenenkamer",
     "population": 0,
-    "area_land_ha": 0.0,
+    "area_land_ha": 49.48,
     "area_total_ha": 0.0,
     "area_water_ha": 0.0,
     "natural": 3.48,
@@ -12933,15 +12933,15 @@
     "produced_per_capita": 0.0,
     "human_per_capita": 0.0,
     "total_per_capita": 0.0,
-    "natural_per_m2": 0.0,
-    "produced_per_m2": 0.0,
+    "natural_per_m2": 7.033144704931286,
+    "produced_per_m2": 31.75020210185934,
     "human_per_m2": 0.0,
-    "total_per_m2": 0.0
+    "total_per_m2": 38.783346806790625
   },
   "WK028507": {
     "naam": "Wilp-Achterhoek",
     "population": 0,
-    "area_land_ha": 0.0,
+    "area_land_ha": 891.64,
     "area_total_ha": 0.0,
     "area_water_ha": 0.0,
     "natural": 42.27,
@@ -12952,15 +12952,15 @@
     "produced_per_capita": 0.0,
     "human_per_capita": 0.0,
     "total_per_capita": 0.0,
-    "natural_per_m2": 0.0,
-    "produced_per_m2": 0.0,
+    "natural_per_m2": 4.7407025256830115,
+    "produced_per_m2": 11.939796330357543,
     "human_per_m2": 0.0,
-    "total_per_m2": 0.0
+    "total_per_m2": 16.679377327172404
   },
   "WK028508": {
     "naam": "Posterenk",
     "population": 0,
-    "area_land_ha": 0.0,
+    "area_land_ha": 435.49,
     "area_total_ha": 0.0,
     "area_water_ha": 0.0,
     "natural": 30.82,
@@ -12971,15 +12971,15 @@
     "produced_per_capita": 0.0,
     "human_per_capita": 0.0,
     "total_per_capita": 0.0,
-    "natural_per_m2": 0.0,
-    "produced_per_m2": 0.0,
+    "natural_per_m2": 7.077085581758479,
+    "produced_per_m2": 6.294059565087602,
     "human_per_m2": 0.0,
-    "total_per_m2": 0.0
+    "total_per_m2": 13.371145146846082
   },
   "WK028509": {
     "naam": "Wilp",
     "population": 0,
-    "area_land_ha": 0.0,
+    "area_land_ha": 1178.59,
     "area_total_ha": 0.0,
     "area_water_ha": 0.0,
     "natural": 89.62,
@@ -12990,15 +12990,15 @@
     "produced_per_capita": 0.0,
     "human_per_capita": 0.0,
     "total_per_capita": 0.0,
-    "natural_per_m2": 0.0,
-    "produced_per_m2": 0.0,
+    "natural_per_m2": 7.604001391493225,
+    "produced_per_m2": 5.337734072069168,
     "human_per_m2": 0.0,
-    "total_per_m2": 0.0
+    "total_per_m2": 12.941735463562393
   },
   "WK028510": {
     "naam": "Klarenbeek",
     "population": 0,
-    "area_land_ha": 0.0,
+    "area_land_ha": 1290.93,
     "area_total_ha": 0.0,
     "area_water_ha": 0.0,
     "natural": 128.84,
@@ -13009,15 +13009,15 @@
     "produced_per_capita": 0.0,
     "human_per_capita": 0.0,
     "total_per_capita": 0.0,
-    "natural_per_m2": 0.0,
-    "produced_per_m2": 0.0,
+    "natural_per_m2": 9.980401725887537,
+    "produced_per_m2": 3.8956411269394926,
     "human_per_m2": 0.0,
-    "total_per_m2": 0.0
+    "total_per_m2": 13.87604285282703
   },
   "WK028511": {
     "naam": "Bussloo",
     "population": 0,
-    "area_land_ha": 0.0,
+    "area_land_ha": 695.83,
     "area_total_ha": 0.0,
     "area_water_ha": 0.0,
     "natural": 122.9,
@@ -13028,15 +13028,15 @@
     "produced_per_capita": 0.0,
     "human_per_capita": 0.0,
     "total_per_capita": 0.0,
-    "natural_per_m2": 0.0,
-    "produced_per_m2": 0.0,
+    "natural_per_m2": 17.662360059209863,
+    "produced_per_m2": 1.1497061063765575,
     "human_per_m2": 0.0,
-    "total_per_m2": 0.0
+    "total_per_m2": 18.812066165586423
   },
   "WK028512": {
     "naam": "Voorst",
     "population": 0,
-    "area_land_ha": 0.0,
+    "area_land_ha": 2197.59,
     "area_total_ha": 0.0,
     "area_water_ha": 0.0,
     "natural": 266.24,
@@ -13047,10 +13047,10 @@
     "produced_per_capita": 0.0,
     "human_per_capita": 0.0,
     "total_per_capita": 0.0,
-    "natural_per_m2": 0.0,
-    "produced_per_m2": 0.0,
+    "natural_per_m2": 12.115089711911684,
+    "produced_per_m2": 2.6688326757948477,
     "human_per_m2": 0.0,
-    "total_per_m2": 0.0
+    "total_per_m2": 14.78346734377204
   },
   "WK028901": {
     "naam": "Noordwest",
@@ -28464,7 +28464,7 @@
   "WK056904": {
     "naam": "Kern Noordse Dorp",
     "population": 0,
-    "area_land_ha": 0.0,
+    "area_land_ha": 231.27,
     "area_total_ha": 0.0,
     "area_water_ha": 0.0,
     "natural": 15.82,
@@ -28475,15 +28475,15 @@
     "produced_per_capita": 0.0,
     "human_per_capita": 0.0,
     "total_per_capita": 0.0,
-    "natural_per_m2": 0.0,
-    "produced_per_m2": 0.0,
+    "natural_per_m2": 6.840489471180871,
+    "produced_per_m2": 4.47961257404765,
     "human_per_m2": 0.0,
-    "total_per_m2": 0.0
+    "total_per_m2": 11.32010204522852
   },
   "WK056905": {
     "naam": "Kern Woerdense Verlaat",
     "population": 0,
-    "area_land_ha": 0.0,
+    "area_land_ha": 774.6,
     "area_total_ha": 0.0,
     "area_water_ha": 0.0,
     "natural": 71.99,
@@ -28494,15 +28494,15 @@
     "produced_per_capita": 0.0,
     "human_per_capita": 0.0,
     "total_per_capita": 0.0,
-    "natural_per_m2": 0.0,
-    "produced_per_m2": 0.0,
+    "natural_per_m2": 9.29382907306997,
+    "produced_per_m2": 1.9042086238058353,
     "human_per_m2": 0.0,
-    "total_per_m2": 0.0
+    "total_per_m2": 11.198037696875806
   },
   "WK056906": {
     "naam": "Kern Zevenhoven",
     "population": 0,
-    "area_land_ha": 0.0,
+    "area_land_ha": 1433.3,
     "area_total_ha": 0.0,
     "area_water_ha": 0.0,
     "natural": 111.49,
@@ -28513,15 +28513,15 @@
     "produced_per_capita": 0.0,
     "human_per_capita": 0.0,
     "total_per_capita": 0.0,
-    "natural_per_m2": 0.0,
-    "produced_per_m2": 0.0,
+    "natural_per_m2": 7.77855298960441,
+    "produced_per_m2": 2.8989046256889694,
     "human_per_m2": 0.0,
-    "total_per_m2": 0.0
+    "total_per_m2": 10.67745761529338
   },
   "WK056907": {
     "naam": "Kern Noordeinde",
     "population": 0,
-    "area_land_ha": 0.0,
+    "area_land_ha": 90.29,
     "area_total_ha": 0.0,
     "area_water_ha": 0.0,
     "natural": 2.93,
@@ -28532,15 +28532,15 @@
     "produced_per_capita": 0.0,
     "human_per_capita": 0.0,
     "total_per_capita": 0.0,
-    "natural_per_m2": 0.0,
-    "produced_per_m2": 0.0,
+    "natural_per_m2": 3.2450991250415324,
+    "produced_per_m2": 49.82833093365821,
     "human_per_m2": 0.0,
-    "total_per_m2": 0.0
+    "total_per_m2": 53.07343005869974
   },
   "WK056908": {
     "naam": "Kern Vrouwenakker",
     "population": 0,
-    "area_land_ha": 0.0,
+    "area_land_ha": 36.62,
     "area_total_ha": 0.0,
     "area_water_ha": 0.0,
     "natural": 1.61,
@@ -28551,15 +28551,15 @@
     "produced_per_capita": 0.0,
     "human_per_capita": 0.0,
     "total_per_capita": 0.0,
-    "natural_per_m2": 0.0,
-    "produced_per_m2": 0.0,
+    "natural_per_m2": 4.396504642271983,
+    "produced_per_m2": 24.167121791370835,
     "human_per_m2": 0.0,
-    "total_per_m2": 0.0
+    "total_per_m2": 28.56362643364282
   },
   "WK056909": {
     "naam": "Kern Nieuwveen",
     "population": 0,
-    "area_land_ha": 0.0,
+    "area_land_ha": 1315.4,
     "area_total_ha": 0.0,
     "area_water_ha": 0.0,
     "natural": 50.55,
@@ -28570,15 +28570,15 @@
     "produced_per_capita": 0.0,
     "human_per_capita": 0.0,
     "total_per_capita": 0.0,
-    "natural_per_m2": 0.0,
-    "produced_per_m2": 0.0,
+    "natural_per_m2": 3.8429375095028124,
+    "produced_per_m2": 18.354873042420554,
     "human_per_m2": 0.0,
-    "total_per_m2": 0.0
+    "total_per_m2": 22.197810551923368
   },
   "WK056910": {
     "naam": "Kern Ter Aar",
     "population": 0,
-    "area_land_ha": 0.0,
+    "area_land_ha": 720.34,
     "area_total_ha": 0.0,
     "area_water_ha": 0.0,
     "natural": 21.79,
@@ -28589,15 +28589,15 @@
     "produced_per_capita": 0.0,
     "human_per_capita": 0.0,
     "total_per_capita": 0.0,
-    "natural_per_m2": 0.0,
-    "produced_per_m2": 0.0,
+    "natural_per_m2": 3.0249604353499735,
+    "produced_per_m2": 36.46888969097925,
     "human_per_m2": 0.0,
-    "total_per_m2": 0.0
+    "total_per_m2": 39.493850126329235
   },
   "WK056911": {
     "naam": "Kern Korteraar",
     "population": 0,
-    "area_land_ha": 0.0,
+    "area_land_ha": 667.08,
     "area_total_ha": 0.0,
     "area_water_ha": 0.0,
     "natural": 26.39,
@@ -28608,15 +28608,15 @@
     "produced_per_capita": 0.0,
     "human_per_capita": 0.0,
     "total_per_capita": 0.0,
-    "natural_per_m2": 0.0,
-    "produced_per_m2": 0.0,
+    "natural_per_m2": 3.9560472507045628,
+    "produced_per_m2": 3.255981291599208,
     "human_per_m2": 0.0,
-    "total_per_m2": 0.0
+    "total_per_m2": 7.212028542303771
   },
   "WK056912": {
     "naam": "Kern Langeraar",
     "population": 0,
-    "area_land_ha": 0.0,
+    "area_land_ha": 316.72,
     "area_total_ha": 0.0,
     "area_water_ha": 0.0,
     "natural": 12.78,
@@ -28627,15 +28627,15 @@
     "produced_per_capita": 0.0,
     "human_per_capita": 0.0,
     "total_per_capita": 0.0,
-    "natural_per_m2": 0.0,
-    "produced_per_m2": 0.0,
+    "natural_per_m2": 4.035109876231371,
+    "produced_per_m2": 15.979413993432685,
     "human_per_m2": 0.0,
-    "total_per_m2": 0.0
+    "total_per_m2": 20.014523869664057
   },
   "WK056913": {
     "naam": "Kern Papenveer",
     "population": 0,
-    "area_land_ha": 0.0,
+    "area_land_ha": 460.77,
     "area_total_ha": 0.0,
     "area_water_ha": 0.0,
     "natural": 20.73,
@@ -28646,10 +28646,10 @@
     "produced_per_capita": 0.0,
     "human_per_capita": 0.0,
     "total_per_capita": 0.0,
-    "natural_per_m2": 0.0,
-    "produced_per_m2": 0.0,
+    "natural_per_m2": 4.498990819714825,
+    "produced_per_m2": 32.70178180003039,
     "human_per_m2": 0.0,
-    "total_per_m2": 0.0
+    "total_per_m2": 37.20077261974521
   },
   "WK057500": {
     "naam": "Noordwijk Zee",
@@ -30934,7 +30934,7 @@
   "WK063707": {
     "naam": "De Leyens",
     "population": 0,
-    "area_land_ha": 0.0,
+    "area_land_ha": 185.03,
     "area_total_ha": 0.0,
     "area_water_ha": 0.0,
     "natural": 27.28,
@@ -30945,10 +30945,10 @@
     "produced_per_capita": 0.0,
     "human_per_capita": 0.0,
     "total_per_capita": 0.0,
-    "natural_per_m2": 0.0,
-    "produced_per_m2": 0.0,
+    "natural_per_m2": 14.743555099173106,
+    "produced_per_m2": 465.08674269037454,
     "human_per_m2": 0.0,
-    "total_per_m2": 0.0
+    "total_per_m2": 479.8302977895476
   },
   "WK063708": {
     "naam": "Seghwaert",
@@ -30991,7 +30991,7 @@
   "WK063710": {
     "naam": "Rokkeveen",
     "population": 0,
-    "area_land_ha": 0.0,
+    "area_land_ha": 380.26,
     "area_total_ha": 0.0,
     "area_water_ha": 0.0,
     "natural": 45.49,
@@ -31002,15 +31002,15 @@
     "produced_per_capita": 0.0,
     "human_per_capita": 0.0,
     "total_per_capita": 0.0,
-    "natural_per_m2": 0.0,
-    "produced_per_m2": 0.0,
+    "natural_per_m2": 11.96286751170252,
+    "produced_per_m2": 628.7171934991848,
     "human_per_m2": 0.0,
-    "total_per_m2": 0.0
+    "total_per_m2": 640.6800610108872
   },
   "WK063711": {
     "naam": "Oosterheem",
     "population": 0,
-    "area_land_ha": 0.0,
+    "area_land_ha": 327.31,
     "area_total_ha": 0.0,
     "area_water_ha": 0.0,
     "natural": 37.63,
@@ -31021,15 +31021,15 @@
     "produced_per_capita": 0.0,
     "human_per_capita": 0.0,
     "total_per_capita": 0.0,
-    "natural_per_m2": 0.0,
-    "produced_per_m2": 0.0,
+    "natural_per_m2": 11.496746203904555,
+    "produced_per_m2": 533.5828419541108,
     "human_per_m2": 0.0,
-    "total_per_m2": 0.0
+    "total_per_m2": 545.0795881580153
   },
   "WK063712": {
     "naam": "Ontwikkelwijk",
     "population": 0,
-    "area_land_ha": 0.0,
+    "area_land_ha": 41.57,
     "area_total_ha": 0.0,
     "area_water_ha": 0.0,
     "natural": 5.36,
@@ -31040,15 +31040,15 @@
     "produced_per_capita": 0.0,
     "human_per_capita": 0.0,
     "total_per_capita": 0.0,
-    "natural_per_m2": 0.0,
-    "produced_per_m2": 0.0,
+    "natural_per_m2": 12.893913880202069,
+    "produced_per_m2": 437.35867211931685,
     "human_per_m2": 0.0,
-    "total_per_m2": 0.0
+    "total_per_m2": 450.2525859995189
   },
   "WK063713": {
     "naam": "bedrijventerreinen",
     "population": 0,
-    "area_land_ha": 0.0,
+    "area_land_ha": 327.71,
     "area_total_ha": 0.0,
     "area_water_ha": 0.0,
     "natural": 12.96,
@@ -31059,15 +31059,15 @@
     "produced_per_capita": 0.0,
     "human_per_capita": 0.0,
     "total_per_capita": 0.0,
-    "natural_per_m2": 0.0,
-    "produced_per_m2": 0.0,
+    "natural_per_m2": 3.9547160599310365,
+    "produced_per_m2": 469.07326599737576,
     "human_per_m2": 0.0,
-    "total_per_m2": 0.0
+    "total_per_m2": 473.0249305788655
   },
   "WK063714": {
     "naam": "buitengebied",
     "population": 0,
-    "area_land_ha": 0.0,
+    "area_land_ha": 1301.93,
     "area_total_ha": 0.0,
     "area_water_ha": 0.0,
     "natural": 168.12,
@@ -31078,15 +31078,15 @@
     "produced_per_capita": 0.0,
     "human_per_capita": 0.0,
     "total_per_capita": 0.0,
-    "natural_per_m2": 0.0,
-    "produced_per_m2": 0.0,
+    "natural_per_m2": 12.913136650972017,
+    "produced_per_m2": 28.40552103415698,
     "human_per_m2": 0.0,
-    "total_per_m2": 0.0
+    "total_per_m2": 41.318657685129004
   },
   "WK063715": {
     "naam": "A12-ZONE",
     "population": 0,
-    "area_land_ha": 0.0,
+    "area_land_ha": 74.99,
     "area_total_ha": 0.0,
     "area_water_ha": 0.0,
     "natural": 6.07,
@@ -31097,10 +31097,10 @@
     "produced_per_capita": 0.0,
     "human_per_capita": 0.0,
     "total_per_capita": 0.0,
-    "natural_per_m2": 0.0,
-    "produced_per_m2": 0.0,
+    "natural_per_m2": 8.094412588345113,
+    "produced_per_m2": 234.41792238965198,
     "human_per_m2": 0.0,
-    "total_per_m2": 0.0
+    "total_per_m2": 242.51233497799709
   },
   "WK063800": {
     "naam": "Zoeterwoude-Dorp",
@@ -34715,7 +34715,7 @@
   "WK075301": {
     "naam": "Centrum",
     "population": 0,
-    "area_land_ha": 0.0,
+    "area_land_ha": 36.21,
     "area_total_ha": 0.0,
     "area_water_ha": 0.0,
     "natural": 0.55,
@@ -34726,15 +34726,15 @@
     "produced_per_capita": 0.0,
     "human_per_capita": 0.0,
     "total_per_capita": 0.0,
-    "natural_per_m2": 0.0,
-    "produced_per_m2": 0.0,
+    "natural_per_m2": 1.5189174261253797,
+    "produced_per_m2": 735.5426677713339,
     "human_per_m2": 0.0,
-    "total_per_m2": 0.0
+    "total_per_m2": 737.0615851974593
   },
   "WK075302": {
     "naam": "Hoge Akker",
     "population": 0,
-    "area_land_ha": 0.0,
+    "area_land_ha": 28.96,
     "area_total_ha": 0.0,
     "area_water_ha": 0.0,
     "natural": 0.75,
@@ -34745,15 +34745,15 @@
     "produced_per_capita": 0.0,
     "human_per_capita": 0.0,
     "total_per_capita": 0.0,
-    "natural_per_m2": 0.0,
-    "produced_per_m2": 0.0,
+    "natural_per_m2": 2.5897790055248615,
+    "produced_per_m2": 433.39088397790056,
     "human_per_m2": 0.0,
-    "total_per_m2": 0.0
+    "total_per_m2": 435.9806629834254
   },
   "WK075303": {
     "naam": "Speelheide",
     "population": 0,
-    "area_land_ha": 0.0,
+    "area_land_ha": 30.84,
     "area_total_ha": 0.0,
     "area_water_ha": 0.0,
     "natural": 1.91,
@@ -34764,15 +34764,15 @@
     "produced_per_capita": 0.0,
     "human_per_capita": 0.0,
     "total_per_capita": 0.0,
-    "natural_per_m2": 0.0,
-    "produced_per_m2": 0.0,
+    "natural_per_m2": 6.19325551232166,
+    "produced_per_m2": 455.3826199740597,
     "human_per_m2": 0.0,
-    "total_per_m2": 0.0
+    "total_per_m2": 461.57587548638134
   },
   "WK075304": {
     "naam": "De Leeuwerik",
     "population": 0,
-    "area_land_ha": 0.0,
+    "area_land_ha": 30.76,
     "area_total_ha": 0.0,
     "area_water_ha": 0.0,
     "natural": 0.82,
@@ -34783,15 +34783,15 @@
     "produced_per_capita": 0.0,
     "human_per_capita": 0.0,
     "total_per_capita": 0.0,
-    "natural_per_m2": 0.0,
-    "produced_per_m2": 0.0,
+    "natural_per_m2": 2.6657997399219764,
+    "produced_per_m2": 752.5357607282184,
     "human_per_m2": 0.0,
-    "total_per_m2": 0.0
+    "total_per_m2": 755.2015604681404
   },
   "WK075305": {
     "naam": "Villawijk",
     "population": 0,
-    "area_land_ha": 0.0,
+    "area_land_ha": 95.61,
     "area_total_ha": 0.0,
     "area_water_ha": 0.0,
     "natural": 8.75,
@@ -34802,15 +34802,15 @@
     "produced_per_capita": 0.0,
     "human_per_capita": 0.0,
     "total_per_capita": 0.0,
-    "natural_per_m2": 0.0,
-    "produced_per_m2": 0.0,
+    "natural_per_m2": 9.151762367953143,
+    "produced_per_m2": 129.0450789666353,
     "human_per_m2": 0.0,
-    "total_per_m2": 0.0
+    "total_per_m2": 138.20730049158036
   },
   "WK075306": {
     "naam": "Batadorp",
     "population": 0,
-    "area_land_ha": 0.0,
+    "area_land_ha": 25.26,
     "area_total_ha": 0.0,
     "area_water_ha": 0.0,
     "natural": 6.05,
@@ -34821,15 +34821,15 @@
     "produced_per_capita": 0.0,
     "human_per_capita": 0.0,
     "total_per_capita": 0.0,
-    "natural_per_m2": 0.0,
-    "produced_per_m2": 0.0,
+    "natural_per_m2": 23.950910530482975,
+    "produced_per_m2": 223.8717339667458,
     "human_per_m2": 0.0,
-    "total_per_m2": 0.0
+    "total_per_m2": 247.8226444972288
   },
   "WK075307": {
     "naam": "Salderes",
     "population": 0,
-    "area_land_ha": 0.0,
+    "area_land_ha": 76.28,
     "area_total_ha": 0.0,
     "area_water_ha": 0.0,
     "natural": 2.96,
@@ -34840,15 +34840,15 @@
     "produced_per_capita": 0.0,
     "human_per_capita": 0.0,
     "total_per_capita": 0.0,
-    "natural_per_m2": 0.0,
-    "produced_per_m2": 0.0,
+    "natural_per_m2": 3.880440482433141,
+    "produced_per_m2": 524.7771368641846,
     "human_per_m2": 0.0,
-    "total_per_m2": 0.0
+    "total_per_m2": 528.6575773466177
   },
   "WK075308": {
     "naam": "Wilhelminadorp",
     "population": 0,
-    "area_land_ha": 0.0,
+    "area_land_ha": 78.9,
     "area_total_ha": 0.0,
     "area_water_ha": 0.0,
     "natural": 9.51,
@@ -34859,15 +34859,15 @@
     "produced_per_capita": 0.0,
     "human_per_capita": 0.0,
     "total_per_capita": 0.0,
-    "natural_per_m2": 0.0,
-    "produced_per_m2": 0.0,
+    "natural_per_m2": 12.053231939163497,
+    "produced_per_m2": 678.3016476552597,
     "human_per_m2": 0.0,
-    "total_per_m2": 0.0
+    "total_per_m2": 690.3675538656527
   },
   "WK075309": {
     "naam": "Naastenbest",
     "population": 0,
-    "area_land_ha": 0.0,
+    "area_land_ha": 91.18,
     "area_total_ha": 0.0,
     "area_water_ha": 0.0,
     "natural": 2.13,
@@ -34878,15 +34878,15 @@
     "produced_per_capita": 0.0,
     "human_per_capita": 0.0,
     "total_per_capita": 0.0,
-    "natural_per_m2": 0.0,
-    "produced_per_m2": 0.0,
+    "natural_per_m2": 2.3360386049572273,
+    "produced_per_m2": 623.8319806975214,
     "human_per_m2": 0.0,
-    "total_per_m2": 0.0
+    "total_per_m2": 626.1680193024786
   },
   "WK075310": {
     "naam": "'t Zand",
     "population": 0,
-    "area_land_ha": 0.0,
+    "area_land_ha": 105.9,
     "area_total_ha": 0.0,
     "area_water_ha": 0.0,
     "natural": 2.32,
@@ -34897,15 +34897,15 @@
     "produced_per_capita": 0.0,
     "human_per_capita": 0.0,
     "total_per_capita": 0.0,
-    "natural_per_m2": 0.0,
-    "produced_per_m2": 0.0,
+    "natural_per_m2": 2.190745986779981,
+    "produced_per_m2": 448.1775259678942,
     "human_per_m2": 0.0,
-    "total_per_m2": 0.0
+    "total_per_m2": 450.37771482530684
   },
   "WK075311": {
     "naam": "Breeven",
     "population": 0,
-    "area_land_ha": 0.0,
+    "area_land_ha": 100.55,
     "area_total_ha": 0.0,
     "area_water_ha": 0.0,
     "natural": 7.85,
@@ -34916,15 +34916,15 @@
     "produced_per_capita": 0.0,
     "human_per_capita": 0.0,
     "total_per_capita": 0.0,
-    "natural_per_m2": 0.0,
-    "produced_per_m2": 0.0,
+    "natural_per_m2": 7.807061163600199,
+    "produced_per_m2": 177.75236200895077,
     "human_per_m2": 0.0,
-    "total_per_m2": 0.0
+    "total_per_m2": 185.55942317255096
   },
   "WK075312": {
     "naam": "Heide",
     "population": 0,
-    "area_land_ha": 0.0,
+    "area_land_ha": 69.99,
     "area_total_ha": 0.0,
     "area_water_ha": 0.0,
     "natural": 13.82,
@@ -34935,15 +34935,15 @@
     "produced_per_capita": 0.0,
     "human_per_capita": 0.0,
     "total_per_capita": 0.0,
-    "natural_per_m2": 0.0,
-    "produced_per_m2": 0.0,
+    "natural_per_m2": 19.74567795399343,
+    "produced_per_m2": 286.5552221745964,
     "human_per_m2": 0.0,
-    "total_per_m2": 0.0
+    "total_per_m2": 306.30090012858983
   },
   "WK075313": {
     "naam": "Heuveleind",
     "population": 0,
-    "area_land_ha": 0.0,
+    "area_land_ha": 80.22,
     "area_total_ha": 0.0,
     "area_water_ha": 0.0,
     "natural": 14.01,
@@ -34954,15 +34954,15 @@
     "produced_per_capita": 0.0,
     "human_per_capita": 0.0,
     "total_per_capita": 0.0,
-    "natural_per_m2": 0.0,
-    "produced_per_m2": 0.0,
+    "natural_per_m2": 17.464472700074797,
+    "produced_per_m2": 357.69134879082526,
     "human_per_m2": 0.0,
-    "total_per_m2": 0.0
+    "total_per_m2": 375.15582149090005
   },
   "WK075314": {
     "naam": "Heivelden",
     "population": 0,
-    "area_land_ha": 0.0,
+    "area_land_ha": 95.05,
     "area_total_ha": 0.0,
     "area_water_ha": 0.0,
     "natural": 4.88,
@@ -34973,15 +34973,15 @@
     "produced_per_capita": 0.0,
     "human_per_capita": 0.0,
     "total_per_capita": 0.0,
-    "natural_per_m2": 0.0,
-    "produced_per_m2": 0.0,
+    "natural_per_m2": 5.134139926354551,
+    "produced_per_m2": 352.5828511309837,
     "human_per_m2": 0.0,
-    "total_per_m2": 0.0
+    "total_per_m2": 357.71699105733825
   },
   "WK075315": {
     "naam": "Buitengebied",
     "population": 0,
-    "area_land_ha": 0.0,
+    "area_land_ha": 2272.06,
     "area_total_ha": 0.0,
     "area_water_ha": 0.0,
     "natural": 1120.73,
@@ -34992,15 +34992,15 @@
     "produced_per_capita": 0.0,
     "human_per_capita": 0.0,
     "total_per_capita": 0.0,
-    "natural_per_m2": 0.0,
-    "produced_per_m2": 0.0,
+    "natural_per_m2": 49.32660229043247,
+    "produced_per_m2": 15.573972518331383,
     "human_per_m2": 0.0,
-    "total_per_m2": 0.0
+    "total_per_m2": 64.90057480876385
   },
   "WK075316": {
     "naam": "Dijkstraten",
     "population": 0,
-    "area_land_ha": 0.0,
+    "area_land_ha": 34.92,
     "area_total_ha": 0.0,
     "area_water_ha": 0.0,
     "natural": 2.53,
@@ -35011,15 +35011,15 @@
     "produced_per_capita": 0.0,
     "human_per_capita": 0.0,
     "total_per_capita": 0.0,
-    "natural_per_m2": 0.0,
-    "produced_per_m2": 0.0,
+    "natural_per_m2": 7.245131729667811,
+    "produced_per_m2": 400.4009163802978,
     "human_per_m2": 0.0,
-    "total_per_m2": 0.0
+    "total_per_m2": 407.64604810996565
   },
   "WK075317": {
     "naam": "Kantonnier",
     "population": 0,
-    "area_land_ha": 0.0,
+    "area_land_ha": 24.51,
     "area_total_ha": 0.0,
     "area_water_ha": 0.0,
     "natural": 4.74,
@@ -35030,15 +35030,15 @@
     "produced_per_capita": 0.0,
     "human_per_capita": 0.0,
     "total_per_capita": 0.0,
-    "natural_per_m2": 0.0,
-    "produced_per_m2": 0.0,
+    "natural_per_m2": 19.3390452876377,
+    "produced_per_m2": 583.6801305589555,
     "human_per_m2": 0.0,
-    "total_per_m2": 0.0
+    "total_per_m2": 603.0191758465932
   },
   "WK075318": {
     "naam": "Steegsche Velden",
     "population": 0,
-    "area_land_ha": 0.0,
+    "area_land_ha": 50.03,
     "area_total_ha": 0.0,
     "area_water_ha": 0.0,
     "natural": 2.64,
@@ -35049,15 +35049,15 @@
     "produced_per_capita": 0.0,
     "human_per_capita": 0.0,
     "total_per_capita": 0.0,
-    "natural_per_m2": 0.0,
-    "produced_per_m2": 0.0,
+    "natural_per_m2": 5.276833899660204,
+    "produced_per_m2": 72.31661003397961,
     "human_per_m2": 0.0,
-    "total_per_m2": 0.0
+    "total_per_m2": 77.59344393363982
   },
   "WK075319": {
     "naam": "Aarlesche Erven",
     "population": 0,
-    "area_land_ha": 0.0,
+    "area_land_ha": 138.13,
     "area_total_ha": 0.0,
     "area_water_ha": 0.0,
     "natural": 4.08,
@@ -35068,10 +35068,10 @@
     "produced_per_capita": 0.0,
     "human_per_capita": 0.0,
     "total_per_capita": 0.0,
-    "natural_per_m2": 0.0,
-    "produced_per_m2": 0.0,
+    "natural_per_m2": 2.953739231159053,
+    "produced_per_m2": 78.02070513284588,
     "human_per_m2": 0.0,
-    "total_per_m2": 0.0
+    "total_per_m2": 80.97444436400492
   },
   "WK075500": {
     "naam": "Wijk 00 Boekel",
@@ -35494,7 +35494,7 @@
   "WK076205": {
     "naam": "Vlierden",
     "population": 0,
-    "area_land_ha": 0.0,
+    "area_land_ha": 1278.58,
     "area_total_ha": 0.0,
     "area_water_ha": 0.0,
     "natural": 289.49,
@@ -35505,15 +35505,15 @@
     "produced_per_capita": 0.0,
     "human_per_capita": 0.0,
     "total_per_capita": 0.0,
-    "natural_per_m2": 0.0,
-    "produced_per_m2": 0.0,
+    "natural_per_m2": 22.641524190899283,
+    "produced_per_m2": 4.856168561998468,
     "human_per_m2": 0.0,
-    "total_per_m2": 0.0
+    "total_per_m2": 27.498474870559527
   },
   "WK076206": {
     "naam": "Liessel",
     "population": 0,
-    "area_land_ha": 0.0,
+    "area_land_ha": 2148.83,
     "area_total_ha": 0.0,
     "area_water_ha": 0.0,
     "natural": 204.45,
@@ -35524,15 +35524,15 @@
     "produced_per_capita": 0.0,
     "human_per_capita": 0.0,
     "total_per_capita": 0.0,
-    "natural_per_m2": 0.0,
-    "produced_per_m2": 0.0,
+    "natural_per_m2": 9.51447997282242,
+    "produced_per_m2": 6.843258889721383,
     "human_per_m2": 0.0,
-    "total_per_m2": 0.0
+    "total_per_m2": 16.357738862543805
   },
   "WK076207": {
     "naam": "Neerkant",
     "population": 0,
-    "area_land_ha": 0.0,
+    "area_land_ha": 971.08,
     "area_total_ha": 0.0,
     "area_water_ha": 0.0,
     "natural": 97.37,
@@ -35543,15 +35543,15 @@
     "produced_per_capita": 0.0,
     "human_per_capita": 0.0,
     "total_per_capita": 0.0,
-    "natural_per_m2": 0.0,
-    "produced_per_m2": 0.0,
+    "natural_per_m2": 10.026980269390782,
+    "produced_per_m2": 6.010833299007291,
     "human_per_m2": 0.0,
-    "total_per_m2": 0.0
+    "total_per_m2": 16.036783787123614
   },
   "WK076208": {
     "naam": "Helenaveen",
     "population": 0,
-    "area_land_ha": 0.0,
+    "area_land_ha": 1857.16,
     "area_total_ha": 0.0,
     "area_water_ha": 0.0,
     "natural": 351.41,
@@ -35562,10 +35562,10 @@
     "produced_per_capita": 0.0,
     "human_per_capita": 0.0,
     "total_per_capita": 0.0,
-    "natural_per_m2": 0.0,
-    "produced_per_m2": 0.0,
+    "natural_per_m2": 18.92190225936376,
+    "produced_per_m2": 1.2610652824743156,
     "human_per_m2": 0.0,
-    "total_per_m2": 0.0
+    "total_per_m2": 20.183505998406165
   },
   "WK076500": {
     "naam": "Wijk 00",
@@ -39142,7 +39142,7 @@
   "WK084704": {
     "naam": "Buitengebied Someren",
     "population": 0,
-    "area_land_ha": 0.0,
+    "area_land_ha": 1382.06,
     "area_total_ha": 0.0,
     "area_water_ha": 0.0,
     "natural": 109.89,
@@ -39153,15 +39153,15 @@
     "produced_per_capita": 0.0,
     "human_per_capita": 0.0,
     "total_per_capita": 0.0,
-    "natural_per_m2": 0.0,
-    "produced_per_m2": 0.0,
+    "natural_per_m2": 7.95117433396524,
+    "produced_per_m2": 34.977497359014805,
     "human_per_m2": 0.0,
-    "total_per_m2": 0.0
+    "total_per_m2": 42.928671692980046
   },
   "WK084705": {
     "naam": "Buitengebied Lierop",
     "population": 0,
-    "area_land_ha": 0.0,
+    "area_land_ha": 2241.07,
     "area_total_ha": 0.0,
     "area_water_ha": 0.0,
     "natural": 470.93,
@@ -39172,15 +39172,15 @@
     "produced_per_capita": 0.0,
     "human_per_capita": 0.0,
     "total_per_capita": 0.0,
-    "natural_per_m2": 0.0,
-    "produced_per_m2": 0.0,
+    "natural_per_m2": 21.013622956891126,
+    "produced_per_m2": 3.2493407167112136,
     "human_per_m2": 0.0,
-    "total_per_m2": 0.0
+    "total_per_m2": 24.26296367360234
   },
   "WK084706": {
     "naam": "Buitengebied Someren-Eind",
     "population": 0,
-    "area_land_ha": 0.0,
+    "area_land_ha": 1566.81,
     "area_total_ha": 0.0,
     "area_water_ha": 0.0,
     "natural": 80.69,
@@ -39191,15 +39191,15 @@
     "produced_per_capita": 0.0,
     "human_per_capita": 0.0,
     "total_per_capita": 0.0,
-    "natural_per_m2": 0.0,
-    "produced_per_m2": 0.0,
+    "natural_per_m2": 5.149954365877164,
+    "produced_per_m2": 13.290698936054786,
     "human_per_m2": 0.0,
-    "total_per_m2": 0.0
+    "total_per_m2": 18.440653301931953
   },
   "WK084707": {
     "naam": "Buitengebied Someren-Heide",
     "population": 0,
-    "area_land_ha": 0.0,
+    "area_land_ha": 2444.51,
     "area_total_ha": 0.0,
     "area_water_ha": 0.0,
     "natural": 342.36,
@@ -39210,10 +39210,10 @@
     "produced_per_capita": 0.0,
     "human_per_capita": 0.0,
     "total_per_capita": 0.0,
-    "natural_per_m2": 0.0,
-    "produced_per_m2": 0.0,
+    "natural_per_m2": 14.005260768006675,
+    "produced_per_m2": 1.6964545041746606,
     "human_per_m2": 0.0,
-    "total_per_m2": 0.0
+    "total_per_m2": 15.701715272181335
   },
   "WK084800": {
     "naam": "Wijk 00 Son",
@@ -52328,7 +52328,7 @@
   "WK173419": {
     "naam": "Homoet",
     "population": 0,
-    "area_land_ha": 0.0,
+    "area_land_ha": 151.96,
     "area_total_ha": 0.0,
     "area_water_ha": 0.0,
     "natural": 7.86,
@@ -52339,10 +52339,10 @@
     "produced_per_capita": 0.0,
     "human_per_capita": 0.0,
     "total_per_capita": 0.0,
-    "natural_per_m2": 0.0,
-    "produced_per_m2": 0.0,
+    "natural_per_m2": 5.1724137931034475,
+    "produced_per_m2": 3.4745985785733087,
     "human_per_m2": 0.0,
-    "total_per_m2": 0.0
+    "total_per_m2": 8.647012371676757
   },
   "WK173500": {
     "naam": "Wijk 00 Goor",
@@ -54190,7 +54190,7 @@
   "WK189406": {
     "naam": "Koningslust",
     "population": 0,
-    "area_land_ha": 0.0,
+    "area_land_ha": 624.28,
     "area_total_ha": 0.0,
     "area_water_ha": 0.0,
     "natural": 164.07,
@@ -54201,15 +54201,15 @@
     "produced_per_capita": 0.0,
     "human_per_capita": 0.0,
     "total_per_capita": 0.0,
-    "natural_per_m2": 0.0,
-    "produced_per_m2": 0.0,
+    "natural_per_m2": 26.28147626065227,
+    "produced_per_m2": 6.399372076632281,
     "human_per_m2": 0.0,
-    "total_per_m2": 0.0
+    "total_per_m2": 32.68084833728455
   },
   "WK189407": {
     "naam": "Kessel-Eik",
     "population": 0,
-    "area_land_ha": 0.0,
+    "area_land_ha": 823.78,
     "area_total_ha": 0.0,
     "area_water_ha": 0.0,
     "natural": 197.39,
@@ -54220,15 +54220,15 @@
     "produced_per_capita": 0.0,
     "human_per_capita": 0.0,
     "total_per_capita": 0.0,
-    "natural_per_m2": 0.0,
-    "produced_per_m2": 0.0,
+    "natural_per_m2": 23.961494573793974,
+    "produced_per_m2": 6.629197115734784,
     "human_per_m2": 0.0,
-    "total_per_m2": 0.0
+    "total_per_m2": 30.590691689528757
   },
   "WK189408": {
     "naam": "Helden",
     "population": 0,
-    "area_land_ha": 0.0,
+    "area_land_ha": 1632.19,
     "area_total_ha": 0.0,
     "area_water_ha": 0.0,
     "natural": 855.51,
@@ -54239,15 +54239,15 @@
     "produced_per_capita": 0.0,
     "human_per_capita": 0.0,
     "total_per_capita": 0.0,
-    "natural_per_m2": 0.0,
-    "produced_per_m2": 0.0,
+    "natural_per_m2": 52.41485366287013,
+    "produced_per_m2": 21.677010642143376,
     "human_per_m2": 0.0,
-    "total_per_m2": 0.0
+    "total_per_m2": 74.0912516312439
   },
   "WK189409": {
     "naam": "Grashoek",
     "population": 0,
-    "area_land_ha": 0.0,
+    "area_land_ha": 1637.93,
     "area_total_ha": 0.0,
     "area_water_ha": 0.0,
     "natural": 377.28,
@@ -54258,15 +54258,15 @@
     "produced_per_capita": 0.0,
     "human_per_capita": 0.0,
     "total_per_capita": 0.0,
-    "natural_per_m2": 0.0,
-    "produced_per_m2": 0.0,
+    "natural_per_m2": 23.033951389864036,
+    "produced_per_m2": 3.74741289310288,
     "human_per_m2": 0.0,
-    "total_per_m2": 0.0
+    "total_per_m2": 26.781364282966916
   },
   "WK189410": {
     "naam": "Egchel",
     "population": 0,
-    "area_land_ha": 0.0,
+    "area_land_ha": 670.3,
     "area_total_ha": 0.0,
     "area_water_ha": 0.0,
     "natural": 70.13,
@@ -54277,15 +54277,15 @@
     "produced_per_capita": 0.0,
     "human_per_capita": 0.0,
     "total_per_capita": 0.0,
-    "natural_per_m2": 0.0,
-    "produced_per_m2": 0.0,
+    "natural_per_m2": 10.462479486796957,
+    "produced_per_m2": 20.881694763538714,
     "human_per_m2": 0.0,
-    "total_per_m2": 0.0
+    "total_per_m2": 31.344174250335673
   },
   "WK189411": {
     "naam": "Beringe",
     "population": 0,
-    "area_land_ha": 0.0,
+    "area_land_ha": 1119.95,
     "area_total_ha": 0.0,
     "area_water_ha": 0.0,
     "natural": 123.81,
@@ -54296,10 +54296,10 @@
     "produced_per_capita": 0.0,
     "human_per_capita": 0.0,
     "total_per_capita": 0.0,
-    "natural_per_m2": 0.0,
-    "produced_per_m2": 0.0,
+    "natural_per_m2": 11.054957810616546,
+    "produced_per_m2": 13.797937407919994,
     "human_per_m2": 0.0,
-    "total_per_m2": 0.0
+    "total_per_m2": 24.853788115540873
   },
   "WK189500": {
     "naam": "Wijk 00 Winschoten",
