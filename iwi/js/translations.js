@@ -106,14 +106,14 @@ const translations = {
         // Info panel - region stats
         infoGemeente: "Gemeente:",
         infoPopulation: "Bevolking",
-        infoArea: "Oppervlakte",
+        infoArea: "Oppervlakte (land)",
         infoCapitalHeading: "Kapitaal (mld. €)",
         infoCapitalHuman: "Menselijk",
         infoCapitalProduced: "Geproduceerd",
         infoCapitalNatural: "Natuurlijk",
         infoCapitalTotal: "Totaal",
         infoPerCapitaHeading: "Per Inwoner (€)",
-        infoPerHectareHeading: "Per Hectare (€)",
+        infoPerHectareHeading: "Per m² (€)",
         infoProportionHeading: "Aandeel (% van totaal)",
         
         // Balance labels
@@ -129,7 +129,7 @@ const translations = {
         // Units
         unitBillion: "mld.",
         unitPerPerson: "p.p.",
-        unitPerHectare: "/ha",
+        unitPerHectare: "/m²",
         unitPercent: "%",
         unitVsNational: "% t.o.v. NL",
         unitHectares: "ha.",
@@ -286,14 +286,14 @@ const translations = {
         // Info panel - region stats
         infoGemeente: "Municipality:",
         infoPopulation: "Population",
-        infoArea: "Area",
+        infoArea: "Area (land)",
         infoCapitalHeading: "Capital (bn. €)",
         infoCapitalHuman: "Human",
         infoCapitalProduced: "Produced",
         infoCapitalNatural: "Natural",
         infoCapitalTotal: "Total",
         infoPerCapitaHeading: "Per Capita (€)",
-        infoPerHectareHeading: "Per Hectare (€)",
+        infoPerHectareHeading: "Per m² (€)",
         infoProportionHeading: "Share (% of total)",
         
         // Balance labels
@@ -309,7 +309,7 @@ const translations = {
         // Units
         unitBillion: "bn.",
         unitPerPerson: "p.p.",
-        unitPerHectare: "/ha",
+        unitPerHectare: "/m²",
         unitPercent: "%",
         unitVsNational: "% vs. NL",
         unitHectares: "ha",

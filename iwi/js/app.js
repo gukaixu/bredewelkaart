@@ -458,9 +458,9 @@ function getNationalAverage(capitalType) {
             .filter(v => v > 0);
         return values.length > 0 ? values.reduce((a, b) => a + b, 0) / values.length : 0;
     } else if (currentScale === 'per_hectare') {
-        const field = `${capitalType}_per_hectare`;
+        const field = `${capitalType}_per_m2`;
         const values = Object.values(capitalData)
-            .map(d => (d[field] || 0) * 1000000)
+            .map(d => (d[field] || d[`${capitalType}_per_hectare`] || 0))
             .filter(v => v > 0);
         return values.length > 0 ? values.reduce((a, b) => a + b, 0) / values.length : 0;
     } else {
@@ -473,10 +473,10 @@ function getNationalAverage(capitalType) {
 }
 
 function getNationalAveragePerHectare(capitalType) {
-    // Calculate national average per hectare (used for vs_national comparison)
-    const field = `${capitalType}_per_hectare`;
+    // Calculate national average per m² (used for vs_national comparison)
+    const field = `${capitalType}_per_m2`;
     const values = Object.values(capitalData)
-        .map(d => (d[field] || 0) * 1000000) // Convert to EUR/ha
+        .map(d => (d[field] || d[`${capitalType}_per_hectare`] || 0)) // EUR/m²
         .filter(v => v > 0);
     return values.length > 0 ? values.reduce((a, b) => a + b, 0) / values.length : 0;
 }
@@ -488,8 +488,8 @@ function calculateBalanceScore(regionData) {
     let score = 0;
     
     capitalTypes.forEach(type => {
-        const field = `${type}_per_hectare`;
-        const regionalValue = (regionData[field] || 0) * 1000000; // EUR/ha
+        const field = `${type}_per_m2`;
+        const regionalValue = (regionData[field] || regionData[`${type}_per_hectare`] || 0); // EUR/m²
         const nationalAvg = getNationalAveragePerHectare(type);
         
         if (nationalAvg > 0) {
@@ -519,9 +519,9 @@ function getScaledValue(regionData, capitalType) {
         const field = `${capitalType}_per_capita`;
         return regionData[field] || 0;
     } else if (currentScale === 'per_hectare') {
-        // per_hectare values are in millions EUR/ha, convert to EUR/ha for consistency
-        const field = `${capitalType}_per_hectare`;
-        return (regionData[field] || 0) * 1000000;
+        // per_m2 values are already in EUR/m²
+        const field = `${capitalType}_per_m2`;
+        return (regionData[field] || regionData[`${capitalType}_per_hectare`] || 0);
     } else if (currentScale === 'proportion') {
         // Calculate proportion as percentage of total
         if (capitalType === 'total') {
@@ -532,9 +532,9 @@ function getScaledValue(regionData, capitalType) {
         return (capitalValue / totalValue) * 100;
     } else if (currentScale === 'vs_national') {
         // Calculate percentage deviation from national average
-        // Use per_hectare values for normalization (fairer comparison across different sized regions)
-        const field = `${capitalType}_per_hectare`;
-        const regionalValue = (regionData[field] || 0) * 1000000; // Convert to EUR/ha
+        // Use per_m2 values for normalization (fairer comparison across different sized regions)
+        const field = `${capitalType}_per_m2`;
+        const regionalValue = (regionData[field] || regionData[`${capitalType}_per_hectare`] || 0); // EUR/m²
         const nationalAvg = getNationalAveragePerHectare(capitalType);
         
         if (nationalAvg === 0) return 0;
@@ -813,7 +813,7 @@ function displayRegionInfo(code) {
         </div>
         <div class="stat-row">
             <span class="stat-label" data-i18n="infoArea">${t('infoArea')}</span>
-            <span class="stat-value">${formatValue(data.area_hectares)} ${unitHa}</span>
+            <span class="stat-value">${formatValue(data.area_land_ha || data.area_hectares || 0)} ${unitHa}</span>
         </div>
         
         <h3 data-i18n="infoCapitalHeading">${t('infoCapitalHeading')}</h3>
@@ -859,19 +859,19 @@ function displayRegionInfo(code) {
         <h3 data-i18n="infoPerHectareHeading">${t('infoPerHectareHeading')}</h3>
         <div class="stat-row">
             <span class="stat-label" data-i18n="infoCapitalHuman">${t('infoCapitalHuman')}</span>
-            <span class="stat-value">€${formatValue(data.human_per_hectare * 1000000)}</span>
+            <span class="stat-value">€${formatValue(data.human_per_m2 || data.human_per_hectare || 0)}</span>
         </div>
         <div class="stat-row">
             <span class="stat-label" data-i18n="infoCapitalProduced">${t('infoCapitalProduced')}</span>
-            <span class="stat-value">€${formatValue(data.produced_per_hectare * 1000000)}</span>
+            <span class="stat-value">€${formatValue(data.produced_per_m2 || data.produced_per_hectare || 0)}</span>
         </div>
         <div class="stat-row">
             <span class="stat-label" data-i18n="infoCapitalNatural">${t('infoCapitalNatural')}</span>
-            <span class="stat-value">€${formatValue(data.natural_per_hectare * 1000000)}</span>
+            <span class="stat-value">€${formatValue(data.natural_per_m2 || data.natural_per_hectare || 0)}</span>
         </div>
         <div class="stat-row stat-row-total">
             <span class="stat-label capital-total" data-i18n="infoCapitalTotal">${t('infoCapitalTotal')}</span>
-            <span class="stat-value">€${formatValue(data.total_per_hectare * 1000000)}</span>
+            <span class="stat-value">€${formatValue(data.total_per_m2 || data.total_per_hectare || 0)}</span>
         </div>
         
         <h3 data-i18n="infoProportionHeading">${t('infoProportionHeading')}</h3>
