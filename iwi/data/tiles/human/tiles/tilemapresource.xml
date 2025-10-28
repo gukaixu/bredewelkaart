@@ -3,8 +3,8 @@
       <Title>human_colored.tif</Title>
       <Abstract></Abstract>
       <SRS>EPSG:3857</SRS>
-      <BoundingBox minx="3.35833259990000" miny="50.75013844392858" maxx="7.22705920919073" maxy="53.55333345512000"/>
-      <Origin x="3.35833259990000" y="50.75013844392858"/>
+      <BoundingBox minx="3.35837818883573" miny="50.75087087690715" maxx="7.22714093569811" maxy="53.55404653268810"/>
+      <Origin x="3.35837818883573" y="50.75087087690715"/>
       <TileFormat width="256" height="256" mime-type="image/png" extension="png"/>
       <TileSets profile="mercator">
         <TileSet href="7" units-per-pixel="1222.99245234375007" order="7"/>

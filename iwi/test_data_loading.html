@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+    <meta charset="UTF-8">
+    <title>Data Loading Test</title>
+</head>
+<body>
+    <h1>Data Loading Test</h1>
+    <div id="results"></div>
+    
+    <script>
+        async function testDataLoading() {
+            const results = document.getElementById('results');
+            
+            try {
+                // Test 1: Load capitals JSON
+                results.innerHTML += '<h2>Test 1: Loading gemeente capitals JSON...</h2>';
+                const capitalsRes = await fetch('data/capitals/gemeente_capitals.json');
+                const capitals = await capitalsRes.json();
+                results.innerHTML += `<p>✓ Loaded ${Object.keys(capitals).length} gemeenten</p>`;
+                
+                // Check for target gemeenten
+                const targets = {
+                    'GM0093': 'Terschelling',
+                    'GM0096': 'Vlieland',
+                    'GM0703': 'Reimerswaal'
+                };
+                
+                results.innerHTML += '<h3>Target Gemeenten in JSON:</h3><ul>';
+                for (const [code, name] of Object.entries(targets)) {
+                    if (capitals[code]) {
+                        results.innerHTML += `<li>✓ ${code}: ${capitals[code].naam} (€${capitals[code].total}M)</li>`;
+                    } else {
+                        results.innerHTML += `<li>✗ ${code}: ${name} - MISSING</li>`;
+                    }
+                }
+                results.innerHTML += '</ul>';
+                
+                // Test 2: Load boundaries GeoJSON
+                results.innerHTML += '<h2>Test 2: Loading gemeente boundaries GeoJSON...</h2>';
+                const boundariesRes = await fetch('data/boundaries/gemeenten.geojson');
+                const boundaries = await boundariesRes.json();
+                results.innerHTML += `<p>✓ Loaded ${boundaries.features.length} gemeenten boundaries</p>`;
+                
+                // Check for target gemeenten in boundaries
+                results.innerHTML += '<h3>Target Gemeenten in GeoJSON:</h3><ul>';
+                for (const [code, name] of Object.entries(targets)) {
+                    const feature = boundaries.features.find(f => f.properties.statcode === code);
+                    if (feature) {
+                        results.innerHTML += `<li>✓ ${code}: ${feature.properties.statnaam} (geometry: ${feature.geometry.type})</li>`;
+                    } else {
+                        results.innerHTML += `<li>✗ ${code}: ${name} - MISSING</li>`;
+                    }
+                }
+                results.innerHTML += '</ul>';
+                
+                // Test 3: Match check
+                results.innerHTML += '<h2>Test 3: Data-Boundary Match Check</h2>';
+                results.innerHTML += '<p>Checking if all capitals have boundaries...</p><ul>';
+                let missingBoundaries = 0;
+                for (const [code, data] of Object.entries(capitals)) {
+                    const feature = boundaries.features.find(f => f.properties.statcode === code);
+                    if (!feature) {
+                        missingBoundaries++;
+                        if (missingBoundaries <= 10) {
+                            results.innerHTML += `<li>⚠ ${code}: ${data.naam} - has data but no boundary</li>`;
+                        }
+                    }
+                }
+                if (missingBoundaries === 0) {
+                    results.innerHTML += '<li>✓ All capitals have boundaries</li>';
+                } else {
+                    results.innerHTML += `<li>⚠ ${missingBoundaries} capitals missing boundaries</li>`;
+                }
+                results.innerHTML += '</ul>';
+                
+                results.innerHTML += '<h2>Test 4: Boundary-Data Match Check</h2>';
+                results.innerHTML += '<p>Checking if all boundaries have data...</p><ul>';
+                let missingData = 0;
+                for (const feature of boundaries.features) {
+                    const code = feature.properties.statcode;
+                    if (!capitals[code]) {
+                        missingData++;
+                        if (missingData <= 10) {
+                            results.innerHTML += `<li>⚠ ${code}: ${feature.properties.statnaam} - has boundary but no data</li>`;
+                        }
+                    }
+                }
+                if (missingData === 0) {
+                    results.innerHTML += '<li>✓ All boundaries have data</li>';
+                } else {
+                    results.innerHTML += `<li>⚠ ${missingData} boundaries missing data</li>`;
+                }
+                results.innerHTML += '</ul>';
+                
+                results.innerHTML += '<h2 style="color: green;">✓ All tests complete!</h2>';
+                
+            } catch (error) {
+                results.innerHTML += `<p style="color: red;">✗ Error: ${error.message}</p>`;
+                console.error(error);
+            }
+        }
+        
+        testDataLoading();
+    </script>
+</body>
+</html>
+
