@@ -2,7 +2,7 @@
   "GM0518": {
     "naam": "'s-Gravenhage",
     "population": 562839,
-    "area_hectares": 9812.0,
+    "area_hectares": 8559.74,
     "natural": 6900.0,
     "produced": 72205.75,
     "human": 290938.75,
@@ -11,15 +11,15 @@
     "produced_per_capita": 128288.47,
     "human_per_capita": 516912.92,
     "total_per_capita": 657460.67,
-    "natural_per_hectare": 0.7,
-    "produced_per_hectare": 7.36,
-    "human_per_hectare": 29.65,
-    "total_per_hectare": 37.71
+    "natural_per_hectare": 0.81,
+    "produced_per_hectare": 8.44,
+    "human_per_hectare": 33.99,
+    "total_per_hectare": 43.23
   },
   "GM0796": {
     "naam": "'s-Hertogenbosch",
     "population": 158753,
-    "area_hectares": 11781.0,
+    "area_hectares": 11781.18,
     "natural": 1390.13,
     "produced": 35545.5,
     "human": 93589.46,
@@ -36,7 +36,7 @@
   "GM1680": {
     "naam": "Aa en Hunze",
     "population": 25724,
-    "area_hectares": 27887.0,
+    "area_hectares": 27887.49,
     "natural": 4855.14,
     "produced": 899.44,
     "human": 12520.27,
@@ -53,7 +53,7 @@
   "GM0358": {
     "naam": "Aalsmeer",
     "population": 33063,
-    "area_hectares": 3229.0,
+    "area_hectares": 3228.61,
     "natural": 443.5,
     "produced": 9222.73,
     "human": 20546.67,
@@ -70,7 +70,7 @@
   "GM0197": {
     "naam": "Aalten",
     "population": 27244,
-    "area_hectares": 9705.0,
+    "area_hectares": 9705.24,
     "natural": 543.27,
     "produced": 1880.33,
     "human": 12723.6,
@@ -87,7 +87,7 @@
   "GM0059": {
     "naam": "Achtkarspelen",
     "population": 28149,
-    "area_hectares": 10398.0,
+    "area_hectares": 10398.08,
     "natural": 553.22,
     "produced": 1009.89,
     "human": 11644.32,
@@ -104,7 +104,7 @@
   "GM0482": {
     "naam": "Alblasserdam",
     "population": 20356,
-    "area_hectares": 1006.0,
+    "area_hectares": 1006.01,
     "natural": 89.55,
     "produced": 3160.51,
     "human": 10268.56,
@@ -121,7 +121,7 @@
   "GM0613": {
     "naam": "Albrandswaard",
     "population": 26357,
-    "area_hectares": 2376.0,
+    "area_hectares": 2375.58,
     "natural": 294.74,
     "produced": 1500.16,
     "human": 16504.05,
@@ -138,7 +138,7 @@
   "GM0361": {
     "naam": "Alkmaar",
     "population": 111834,
-    "area_hectares": 11735.0,
+    "area_hectares": 11734.65,
     "natural": 1070.21,
     "produced": 14331.38,
     "human": 58456.17,
@@ -155,7 +155,7 @@
   "GM0141": {
     "naam": "Almelo",
     "population": 73949,
-    "area_hectares": 6941.0,
+    "area_hectares": 6940.63,
     "natural": 713.81,
     "produced": 11609.25,
     "human": 32189.0,
@@ -172,7 +172,7 @@
   "GM0034": {
     "naam": "Almere",
     "population": 222825,
-    "area_hectares": 24877.0,
+    "area_hectares": 13928.33,
     "natural": 4030.24,
     "produced": 25692.04,
     "human": 119565.56,
@@ -181,15 +181,15 @@
     "produced_per_capita": 115301.42,
     "human_per_capita": 536589.52,
     "total_per_capita": 669977.95,
-    "natural_per_hectare": 0.16,
-    "produced_per_hectare": 1.03,
-    "human_per_hectare": 4.81,
-    "total_per_hectare": 6.0
+    "natural_per_hectare": 0.29,
+    "produced_per_hectare": 1.84,
+    "human_per_hectare": 8.58,
+    "total_per_hectare": 10.72
   },
   "GM0484": {
     "naam": "Alphen aan den Rijn",
     "population": 114182,
-    "area_hectares": 13250.0,
+    "area_hectares": 13249.59,
     "natural": 921.81,
     "produced": 8183.72,
     "human": 66035.14,
@@ -206,7 +206,7 @@
   "GM1723": {
     "naam": "Alphen-Chaam",
     "population": 10463,
-    "area_hectares": 9352.0,
+    "area_hectares": 9352.11,
     "natural": 1476.61,
     "produced": 261.36,
     "human": 5851.97,
@@ -223,7 +223,7 @@
   "GM1959": {
     "naam": "Altena",
     "population": 57726,
-    "area_hectares": 22664.0,
+    "area_hectares": 22664.29,
     "natural": 1665.82,
     "produced": 3011.64,
     "human": 30608.12,
@@ -240,7 +240,7 @@
   "GM0060": {
     "naam": "Ameland",
     "population": 3840,
-    "area_hectares": 26850.0,
+    "area_hectares": 21115.9,
     "natural": 2740.56,
     "produced": 61.93,
     "human": 1981.07,
@@ -249,15 +249,15 @@
     "produced_per_capita": 16128.86,
     "human_per_capita": 515903.95,
     "total_per_capita": 1245721.6,
-    "natural_per_hectare": 0.1,
+    "natural_per_hectare": 0.13,
     "produced_per_hectare": 0.0,
-    "human_per_hectare": 0.07,
-    "total_per_hectare": 0.18
+    "human_per_hectare": 0.09,
+    "total_per_hectare": 0.23
   },
   "GM0307": {
     "naam": "Amersfoort",
     "population": 160759,
-    "area_hectares": 6386.0,
+    "area_hectares": 6386.08,
     "natural": 2794.17,
     "produced": 31848.15,
     "human": 97269.85,
@@ -274,7 +274,7 @@
   "GM0362": {
     "naam": "Amstelveen",
     "population": 94418,
-    "area_hectares": 4408.0,
+    "area_hectares": 4408.15,
     "natural": 5571.84,
     "produced": 18202.51,
     "human": 65098.49,
@@ -291,7 +291,7 @@
   "GM0363": {
     "naam": "Amsterdam",
     "population": 918117,
-    "area_hectares": 24365.0,
+    "area_hectares": 2292.03,
     "natural": 21724.32,
     "produced": 283433.92,
     "human": 604044.48,
@@ -300,15 +300,15 @@
     "produced_per_capita": 308712.2,
     "human_per_capita": 657916.67,
     "total_per_capita": 990290.69,
-    "natural_per_hectare": 0.89,
-    "produced_per_hectare": 11.63,
-    "human_per_hectare": 24.79,
-    "total_per_hectare": 37.32
+    "natural_per_hectare": 9.48,
+    "produced_per_hectare": 123.66,
+    "human_per_hectare": 263.54,
+    "total_per_hectare": 396.68
   },
   "GM0200": {
     "naam": "Apeldoorn",
     "population": 167191,
-    "area_hectares": 34115.0,
+    "area_hectares": 34114.68,
     "natural": 12302.65,
     "produced": 26035.9,
     "human": 86919.29,
@@ -325,7 +325,7 @@
   "GM0202": {
     "naam": "Arnhem",
     "population": 165770,
-    "area_hectares": 10154.0,
+    "area_hectares": 10154.34,
     "natural": 4136.61,
     "produced": 26819.95,
     "human": 84878.53,
@@ -342,7 +342,7 @@
   "GM0106": {
     "naam": "Assen",
     "population": 69414,
-    "area_hectares": 8345.0,
+    "area_hectares": 8345.22,
     "natural": 1356.94,
     "produced": 12638.92,
     "human": 33283.59,
@@ -359,7 +359,7 @@
   "GM0743": {
     "naam": "Asten",
     "population": 17242,
-    "area_hectares": 7134.0,
+    "area_hectares": 7133.93,
     "natural": 769.73,
     "produced": 1353.01,
     "human": 8988.42,
@@ -376,7 +376,7 @@
   "GM0744": {
     "naam": "Baarle-Nassau",
     "population": 7071,
-    "area_hectares": 7629.0,
+    "area_hectares": 7628.51,
     "natural": 689.1,
     "produced": 155.41,
     "human": 3486.04,
@@ -393,7 +393,7 @@
   "GM0308": {
     "naam": "Baarn",
     "population": 25008,
-    "area_hectares": 3301.0,
+    "area_hectares": 3300.62,
     "natural": 3502.85,
     "produced": 2470.54,
     "human": 15025.22,
@@ -410,7 +410,7 @@
   "GM0489": {
     "naam": "Barendrecht",
     "population": 48812,
-    "area_hectares": 2173.0,
+    "area_hectares": 2173.06,
     "natural": 269.4,
     "produced": 3679.14,
     "human": 28964.24,
@@ -427,7 +427,7 @@
   "GM0203": {
     "naam": "Barneveld",
     "population": 61655,
-    "area_hectares": 17666.0,
+    "area_hectares": 17665.96,
     "natural": 3399.59,
     "produced": 5196.23,
     "human": 33624.82,
@@ -444,7 +444,7 @@
   "GM0888": {
     "naam": "Beek (L.)",
     "population": 16132,
-    "area_hectares": 2107.0,
+    "area_hectares": 2107.23,
     "natural": 182.66,
     "produced": 1838.57,
     "human": 7840.66,
@@ -461,7 +461,7 @@
   "GM1954": {
     "naam": "Beekdaelen",
     "population": 35966,
-    "area_hectares": 7849.0,
+    "area_hectares": 7848.96,
     "natural": 1422.05,
     "produced": 1798.81,
     "human": 17391.09,
@@ -478,7 +478,7 @@
   "GM0889": {
     "naam": "Beesel",
     "population": 13449,
-    "area_hectares": 2915.0,
+    "area_hectares": 2915.41,
     "natural": 656.28,
     "produced": 1050.36,
     "human": 6133.14,
@@ -495,7 +495,7 @@
   "GM1945": {
     "naam": "Berg en Dal",
     "population": 35420,
-    "area_hectares": 9328.0,
+    "area_hectares": 9328.1,
     "natural": 2784.65,
     "produced": 1887.88,
     "human": 17093.65,
@@ -512,7 +512,7 @@
   "GM1724": {
     "naam": "Bergeijk",
     "population": 19092,
-    "area_hectares": 10175.0,
+    "area_hectares": 10175.37,
     "natural": 1375.01,
     "produced": 977.08,
     "human": 10614.09,
@@ -529,7 +529,7 @@
   "GM0893": {
     "naam": "Bergen (L.)",
     "population": 13119,
-    "area_hectares": 10850.0,
+    "area_hectares": 10849.51,
     "natural": 4677.61,
     "produced": 404.84,
     "human": 6187.79,
@@ -546,7 +546,7 @@
   "GM0373": {
     "naam": "Bergen (NH.)",
     "population": 30138,
-    "area_hectares": 12023.0,
+    "area_hectares": 2029.68,
     "natural": 7584.27,
     "produced": 999.66,
     "human": 16272.5,
@@ -555,15 +555,15 @@
     "produced_per_capita": 33169.43,
     "human_per_capita": 539932.91,
     "total_per_capita": 824753.79,
-    "natural_per_hectare": 0.63,
-    "produced_per_hectare": 0.08,
-    "human_per_hectare": 1.35,
-    "total_per_hectare": 2.07
+    "natural_per_hectare": 3.74,
+    "produced_per_hectare": 0.49,
+    "human_per_hectare": 8.02,
+    "total_per_hectare": 12.25
   },
   "GM0748": {
     "naam": "Bergen op Zoom",
     "population": 68864,
-    "area_hectares": 9313.0,
+    "area_hectares": 9312.79,
     "natural": 1461.77,
     "produced": 12558.32,
     "human": 33264.66,
@@ -580,7 +580,7 @@
   "GM1859": {
     "naam": "Berkelland",
     "population": 44022,
-    "area_hectares": 26021.0,
+    "area_hectares": 26021.32,
     "natural": 1966.8,
     "produced": 2173.05,
     "human": 21498.75,
@@ -597,7 +597,7 @@
   "GM1721": {
     "naam": "Bernheze",
     "population": 32263,
-    "area_hectares": 9041.0,
+    "area_hectares": 9041.55,
     "natural": 1050.76,
     "produced": 2528.34,
     "human": 17884.91,
@@ -614,7 +614,7 @@
   "GM0753": {
     "naam": "Best",
     "population": 30897,
-    "area_hectares": 3465.0,
+    "area_hectares": 3465.34,
     "natural": 1211.02,
     "produced": 4704.67,
     "human": 18012.1,
@@ -626,12 +626,12 @@
     "natural_per_hectare": 0.35,
     "produced_per_hectare": 1.36,
     "human_per_hectare": 5.2,
-    "total_per_hectare": 6.91
+    "total_per_hectare": 6.9
   },
   "GM0209": {
     "naam": "Beuningen",
     "population": 26573,
-    "area_hectares": 4709.0,
+    "area_hectares": 4708.99,
     "natural": 484.64,
     "produced": 2374.34,
     "human": 14284.21,
@@ -648,7 +648,7 @@
   "GM0375": {
     "naam": "Beverwijk",
     "population": 42711,
-    "area_hectares": 2009.0,
+    "area_hectares": 1888.64,
     "natural": 763.4,
     "produced": 6416.99,
     "human": 22092.31,
@@ -657,15 +657,15 @@
     "produced_per_capita": 150242.18,
     "human_per_capita": 517250.95,
     "total_per_capita": 685366.68,
-    "natural_per_hectare": 0.38,
-    "produced_per_hectare": 3.19,
-    "human_per_hectare": 11.0,
-    "total_per_hectare": 14.57
+    "natural_per_hectare": 0.4,
+    "produced_per_hectare": 3.4,
+    "human_per_hectare": 11.7,
+    "total_per_hectare": 15.5
   },
   "GM1728": {
     "naam": "Bladel",
     "population": 21009,
-    "area_hectares": 7562.0,
+    "area_hectares": 7562.33,
     "natural": 960.12,
     "produced": 1490.13,
     "human": 12029.43,
@@ -682,7 +682,7 @@
   "GM0376": {
     "naam": "Blaricum",
     "population": 12490,
-    "area_hectares": 1556.0,
+    "area_hectares": 443.55,
     "natural": 547.27,
     "produced": 1241.85,
     "human": 9000.71,
@@ -691,15 +691,15 @@
     "produced_per_capita": 99427.48,
     "human_per_capita": 720633.65,
     "total_per_capita": 863877.77,
-    "natural_per_hectare": 0.35,
-    "produced_per_hectare": 0.8,
-    "human_per_hectare": 5.78,
-    "total_per_hectare": 6.93
+    "natural_per_hectare": 1.23,
+    "produced_per_hectare": 2.8,
+    "human_per_hectare": 20.29,
+    "total_per_hectare": 24.33
   },
   "GM0377": {
     "naam": "Bloemendaal",
     "population": 23922,
-    "area_hectares": 4523.0,
+    "area_hectares": 468.58,
     "natural": 6216.57,
     "produced": 1485.26,
     "human": 18015.16,
@@ -708,15 +708,15 @@
     "produced_per_capita": 62087.8,
     "human_per_capita": 753079.02,
     "total_per_capita": 1075035.16,
-    "natural_per_hectare": 1.37,
-    "produced_per_hectare": 0.33,
-    "human_per_hectare": 3.98,
-    "total_per_hectare": 5.69
+    "natural_per_hectare": 13.27,
+    "produced_per_hectare": 3.17,
+    "human_per_hectare": 38.45,
+    "total_per_hectare": 54.88
   },
   "GM1901": {
     "naam": "Bodegraven-Reeuwijk",
     "population": 36308,
-    "area_hectares": 8864.0,
+    "area_hectares": 8863.95,
     "natural": 1340.28,
     "produced": 2003.09,
     "human": 21536.28,
@@ -733,7 +733,7 @@
   "GM0755": {
     "naam": "Boekel",
     "population": 11163,
-    "area_hectares": 3452.0,
+    "area_hectares": 3451.54,
     "natural": 192.4,
     "produced": 799.36,
     "human": 6025.11,
@@ -750,7 +750,7 @@
   "GM1681": {
     "naam": "Borger-Odoorn",
     "population": 25919,
-    "area_hectares": 27789.0,
+    "area_hectares": 27789.15,
     "natural": 2831.6,
     "produced": 737.63,
     "human": 11372.92,
@@ -767,7 +767,7 @@
   "GM0147": {
     "naam": "Borne",
     "population": 24524,
-    "area_hectares": 2616.0,
+    "area_hectares": 2616.45,
     "natural": 250.45,
     "produced": 3202.44,
     "human": 12969.94,
@@ -784,7 +784,7 @@
   "GM0654": {
     "naam": "Borsele",
     "population": 23159,
-    "area_hectares": 19452.0,
+    "area_hectares": 14277.56,
     "natural": 1731.19,
     "produced": 1695.88,
     "human": 11906.34,
@@ -793,15 +793,15 @@
     "produced_per_capita": 73227.65,
     "human_per_capita": 514113.03,
     "total_per_capita": 662093.26,
-    "natural_per_hectare": 0.09,
-    "produced_per_hectare": 0.09,
-    "human_per_hectare": 0.61,
-    "total_per_hectare": 0.79
+    "natural_per_hectare": 0.12,
+    "produced_per_hectare": 0.12,
+    "human_per_hectare": 0.83,
+    "total_per_hectare": 1.07
   },
   "GM0757": {
     "naam": "Boxtel",
     "population": 33748,
-    "area_hectares": 7032.0,
+    "area_hectares": 7031.81,
     "natural": 1114.19,
     "produced": 4061.93,
     "human": 17745.85,
@@ -818,7 +818,7 @@
   "GM0758": {
     "naam": "Breda",
     "population": 186438,
-    "area_hectares": 12868.0,
+    "area_hectares": 12868.05,
     "natural": 3302.4,
     "produced": 33903.04,
     "human": 111607.52,
@@ -835,7 +835,7 @@
   "GM1876": {
     "naam": "Bronckhorst",
     "population": 36277,
-    "area_hectares": 28642.0,
+    "area_hectares": 28642.4,
     "natural": 2911.57,
     "produced": 1202.15,
     "human": 18511.11,
@@ -852,7 +852,7 @@
   "GM0213": {
     "naam": "Brummen",
     "population": 21105,
-    "area_hectares": 8501.0,
+    "area_hectares": 8501.2,
     "natural": 1307.59,
     "produced": 1857.19,
     "human": 10546.09,
@@ -869,7 +869,7 @@
   "GM0899": {
     "naam": "Brunssum",
     "population": 27682,
-    "area_hectares": 1734.0,
+    "area_hectares": 1733.81,
     "natural": 550.72,
     "produced": 3361.9,
     "human": 10943.41,
@@ -886,7 +886,7 @@
   "GM0312": {
     "naam": "Bunnik",
     "population": 16026,
-    "area_hectares": 3757.0,
+    "area_hectares": 3756.91,
     "natural": 2209.28,
     "produced": 1688.29,
     "human": 10030.4,
@@ -903,7 +903,7 @@
   "GM0313": {
     "naam": "Bunschoten",
     "population": 22500,
-    "area_hectares": 3481.0,
+    "area_hectares": 396.19,
     "natural": 249.29,
     "produced": 3669.47,
     "human": 12752.1,
@@ -912,15 +912,15 @@
     "produced_per_capita": 163087.42,
     "human_per_capita": 566760.01,
     "total_per_capita": 740927.2,
-    "natural_per_hectare": 0.07,
-    "produced_per_hectare": 1.05,
-    "human_per_hectare": 3.66,
-    "total_per_hectare": 4.79
+    "natural_per_hectare": 0.63,
+    "produced_per_hectare": 9.26,
+    "human_per_hectare": 32.19,
+    "total_per_hectare": 42.08
   },
   "GM0214": {
     "naam": "Buren",
     "population": 27725,
-    "area_hectares": 14292.0,
+    "area_hectares": 14292.18,
     "natural": 2013.66,
     "produced": 1143.18,
     "human": 15376.79,
@@ -954,7 +954,7 @@
   "GM0383": {
     "naam": "Castricum",
     "population": 36345,
-    "area_hectares": 6040.0,
+    "area_hectares": 5521.69,
     "natural": 2976.72,
     "produced": 1975.69,
     "human": 21327.18,
@@ -963,15 +963,15 @@
     "produced_per_capita": 54359.31,
     "human_per_capita": 586798.31,
     "total_per_capita": 723059.28,
-    "natural_per_hectare": 0.49,
-    "produced_per_hectare": 0.33,
-    "human_per_hectare": 3.53,
-    "total_per_hectare": 4.35
+    "natural_per_hectare": 0.54,
+    "produced_per_hectare": 0.36,
+    "human_per_hectare": 3.86,
+    "total_per_hectare": 4.76
   },
   "GM0109": {
     "naam": "Coevorden",
     "population": 35700,
-    "area_hectares": 29969.0,
+    "area_hectares": 29969.01,
     "natural": 2980.7,
     "produced": 2907.95,
     "human": 15880.57,
@@ -988,7 +988,7 @@
   "GM1706": {
     "naam": "Cranendonck",
     "population": 20851,
-    "area_hectares": 7805.0,
+    "area_hectares": 7805.01,
     "natural": 1067.83,
     "produced": 1391.24,
     "human": 10598.45,
@@ -1005,7 +1005,7 @@
   "GM0216": {
     "naam": "Culemborg",
     "population": 29729,
-    "area_hectares": 3114.0,
+    "area_hectares": 3114.37,
     "natural": 504.98,
     "produced": 4453.55,
     "human": 16079.98,
@@ -1022,7 +1022,7 @@
   "GM0148": {
     "naam": "Dalfsen",
     "population": 29612,
-    "area_hectares": 16652.0,
+    "area_hectares": 16651.8,
     "natural": 1733.77,
     "produced": 1237.54,
     "human": 15614.69,
@@ -1039,7 +1039,7 @@
   "GM1891": {
     "naam": "Dantumadiel",
     "population": 19194,
-    "area_hectares": 8753.0,
+    "area_hectares": 8752.7,
     "natural": 527.0,
     "produced": 585.92,
     "human": 7891.11,
@@ -1056,7 +1056,7 @@
   "GM0310": {
     "naam": "De Bilt",
     "population": 43884,
-    "area_hectares": 6713.0,
+    "area_hectares": 6713.08,
     "natural": 4476.49,
     "produced": 3519.29,
     "human": 27596.98,
@@ -1073,7 +1073,7 @@
   "GM1940": {
     "naam": "De Fryske Marren",
     "population": 51992,
-    "area_hectares": 54910.0,
+    "area_hectares": 41775.02,
     "natural": 3405.05,
     "produced": 3861.11,
     "human": 25197.73,
@@ -1082,15 +1082,15 @@
     "produced_per_capita": 74263.51,
     "human_per_capita": 484646.21,
     "total_per_capita": 624401.59,
-    "natural_per_hectare": 0.06,
-    "produced_per_hectare": 0.07,
-    "human_per_hectare": 0.46,
-    "total_per_hectare": 0.59
+    "natural_per_hectare": 0.08,
+    "produced_per_hectare": 0.09,
+    "human_per_hectare": 0.6,
+    "total_per_hectare": 0.78
   },
   "GM0736": {
     "naam": "De Ronde Venen",
     "population": 45572,
-    "area_hectares": 11698.0,
+    "area_hectares": 11697.92,
     "natural": 1664.46,
     "produced": 4024.79,
     "human": 28356.31,
@@ -1107,7 +1107,7 @@
   "GM1690": {
     "naam": "De Wolden",
     "population": 24602,
-    "area_hectares": 22635.0,
+    "area_hectares": 22634.53,
     "natural": 2316.66,
     "produced": 584.97,
     "human": 12608.83,
@@ -1124,7 +1124,7 @@
   "GM0503": {
     "naam": "Delft",
     "population": 106086,
-    "area_hectares": 2406.0,
+    "area_hectares": 2406.22,
     "natural": 345.84,
     "produced": 6717.47,
     "human": 55520.04,
@@ -1135,13 +1135,13 @@
     "total_per_capita": 589930.37,
     "natural_per_hectare": 0.14,
     "produced_per_hectare": 2.79,
-    "human_per_hectare": 23.08,
+    "human_per_hectare": 23.07,
     "total_per_hectare": 26.01
   },
   "GM0400": {
     "naam": "Den Helder",
     "population": 56539,
-    "area_hectares": 17880.0,
+    "area_hectares": 13146.66,
     "natural": 1744.21,
     "produced": 5940.63,
     "human": 26112.92,
@@ -1150,15 +1150,15 @@
     "produced_per_capita": 105071.32,
     "human_per_capita": 461856.83,
     "total_per_capita": 597777.84,
-    "natural_per_hectare": 0.1,
-    "produced_per_hectare": 0.33,
-    "human_per_hectare": 1.46,
-    "total_per_hectare": 1.89
+    "natural_per_hectare": 0.13,
+    "produced_per_hectare": 0.45,
+    "human_per_hectare": 1.99,
+    "total_per_hectare": 2.57
   },
   "GM0762": {
     "naam": "Deurne",
     "population": 32977,
-    "area_hectares": 11836.0,
+    "area_hectares": 11835.58,
     "natural": 1397.97,
     "produced": 2461.61,
     "human": 17090.59,
@@ -1175,7 +1175,7 @@
   "GM0150": {
     "naam": "Deventer",
     "population": 102781,
-    "area_hectares": 13433.0,
+    "area_hectares": 13433.48,
     "natural": 2407.86,
     "produced": 14641.5,
     "human": 52399.63,
@@ -1192,7 +1192,7 @@
   "GM0384": {
     "naam": "Diemen",
     "population": 32785,
-    "area_hectares": 1404.0,
+    "area_hectares": 1291.2,
     "natural": 724.7,
     "produced": 8116.23,
     "human": 20752.68,
@@ -1201,15 +1201,15 @@
     "produced_per_capita": 247559.22,
     "human_per_capita": 632993.18,
     "total_per_capita": 902657.11,
-    "natural_per_hectare": 0.52,
-    "produced_per_hectare": 5.78,
-    "human_per_hectare": 14.78,
-    "total_per_hectare": 21.08
+    "natural_per_hectare": 0.56,
+    "produced_per_hectare": 6.29,
+    "human_per_hectare": 16.07,
+    "total_per_hectare": 22.92
   },
   "GM1980": {
     "naam": "Dijk en Waard",
     "population": 88985,
-    "area_hectares": 6702.0,
+    "area_hectares": 6702.09,
     "natural": 1136.2,
     "produced": 9225.6,
     "human": 47404.96,
@@ -1226,7 +1226,7 @@
   "GM1774": {
     "naam": "Dinkelland",
     "population": 26743,
-    "area_hectares": 17683.0,
+    "area_hectares": 17682.68,
     "natural": 1797.5,
     "produced": 960.87,
     "human": 14686.51,
@@ -1243,7 +1243,7 @@
   "GM0221": {
     "naam": "Doesburg",
     "population": 11081,
-    "area_hectares": 1296.0,
+    "area_hectares": 1295.83,
     "natural": 101.81,
     "produced": 638.75,
     "human": 4588.03,
@@ -1260,7 +1260,7 @@
   "GM0222": {
     "naam": "Doetinchem",
     "population": 59195,
-    "area_hectares": 7966.0,
+    "area_hectares": 7965.56,
     "natural": 802.44,
     "produced": 10986.62,
     "human": 28693.15,
@@ -1277,7 +1277,7 @@
   "GM0766": {
     "naam": "Dongen",
     "population": 27200,
-    "area_hectares": 2974.0,
+    "area_hectares": 2973.97,
     "natural": 152.55,
     "produced": 2326.63,
     "human": 14388.95,
@@ -1294,7 +1294,7 @@
   "GM0505": {
     "naam": "Dordrecht",
     "population": 121434,
-    "area_hectares": 9947.0,
+    "area_hectares": 9861.61,
     "natural": 1087.82,
     "produced": 17538.15,
     "human": 61516.47,
@@ -1304,14 +1304,14 @@
     "human_per_capita": 506583.57,
     "total_per_capita": 659967.03,
     "natural_per_hectare": 0.11,
-    "produced_per_hectare": 1.76,
-    "human_per_hectare": 6.18,
-    "total_per_hectare": 8.06
+    "produced_per_hectare": 1.78,
+    "human_per_hectare": 6.24,
+    "total_per_hectare": 8.13
   },
   "GM0498": {
     "naam": "Drechterland",
     "population": 20385,
-    "area_hectares": 8059.0,
+    "area_hectares": 2105.58,
     "natural": 640.48,
     "produced": 877.37,
     "human": 10686.69,
@@ -1320,15 +1320,15 @@
     "produced_per_capita": 43040.03,
     "human_per_capita": 524242.81,
     "total_per_capita": 598702.21,
-    "natural_per_hectare": 0.08,
-    "produced_per_hectare": 0.11,
-    "human_per_hectare": 1.33,
-    "total_per_hectare": 1.51
+    "natural_per_hectare": 0.3,
+    "produced_per_hectare": 0.42,
+    "human_per_hectare": 5.08,
+    "total_per_hectare": 5.8
   },
   "GM1719": {
     "naam": "Drimmelen",
     "population": 27994,
-    "area_hectares": 11943.0,
+    "area_hectares": 11942.76,
     "natural": 1032.33,
     "produced": 2057.01,
     "human": 15286.52,
@@ -1345,7 +1345,7 @@
   "GM0303": {
     "naam": "Dronten",
     "population": 43593,
-    "area_hectares": 42389.0,
+    "area_hectares": 8524.15,
     "natural": 3731.05,
     "produced": 1388.78,
     "human": 22714.49,
@@ -1354,15 +1354,15 @@
     "produced_per_capita": 31857.82,
     "human_per_capita": 521058.31,
     "total_per_capita": 638504.3,
-    "natural_per_hectare": 0.09,
-    "produced_per_hectare": 0.03,
-    "human_per_hectare": 0.54,
-    "total_per_hectare": 0.66
+    "natural_per_hectare": 0.44,
+    "produced_per_hectare": 0.16,
+    "human_per_hectare": 2.66,
+    "total_per_hectare": 3.27
   },
   "GM0225": {
     "naam": "Druten",
     "population": 19505,
-    "area_hectares": 4246.0,
+    "area_hectares": 4245.75,
     "natural": 445.82,
     "produced": 1401.19,
     "human": 10050.86,
@@ -1371,7 +1371,7 @@
     "produced_per_capita": 71837.66,
     "human_per_capita": 515296.48,
     "total_per_capita": 609990.63,
-    "natural_per_hectare": 0.1,
+    "natural_per_hectare": 0.11,
     "produced_per_hectare": 0.33,
     "human_per_hectare": 2.37,
     "total_per_hectare": 2.8
@@ -1379,7 +1379,7 @@
   "GM0226": {
     "naam": "Duiven",
     "population": 24937,
-    "area_hectares": 3519.0,
+    "area_hectares": 3518.79,
     "natural": 277.84,
     "produced": 2544.62,
     "human": 12740.43,
@@ -1396,7 +1396,7 @@
   "GM1711": {
     "naam": "Echt-Susteren",
     "population": 31967,
-    "area_hectares": 10462.0,
+    "area_hectares": 10461.92,
     "natural": 1812.78,
     "produced": 2808.21,
     "human": 14766.63,
@@ -1413,7 +1413,7 @@
   "GM0385": {
     "naam": "Edam-Volendam",
     "population": 36760,
-    "area_hectares": 8000.0,
+    "area_hectares": 5722.16,
     "natural": 399.85,
     "produced": 3402.89,
     "human": 21210.51,
@@ -1422,15 +1422,15 @@
     "produced_per_capita": 92570.45,
     "human_per_capita": 576999.82,
     "total_per_capita": 680447.56,
-    "natural_per_hectare": 0.05,
-    "produced_per_hectare": 0.43,
-    "human_per_hectare": 2.65,
-    "total_per_hectare": 3.13
+    "natural_per_hectare": 0.07,
+    "produced_per_hectare": 0.59,
+    "human_per_hectare": 3.71,
+    "total_per_hectare": 4.37
   },
   "GM0228": {
     "naam": "Ede",
     "population": 122012,
-    "area_hectares": 31862.0,
+    "area_hectares": 31862.04,
     "natural": 10680.0,
     "produced": 18241.83,
     "human": 66905.06,
@@ -1447,7 +1447,7 @@
   "GM0317": {
     "naam": "Eemnes",
     "population": 9598,
-    "area_hectares": 3370.0,
+    "area_hectares": 3145.19,
     "natural": 297.49,
     "produced": 821.78,
     "human": 5603.02,
@@ -1457,14 +1457,14 @@
     "human_per_capita": 583769.03,
     "total_per_capita": 700383.75,
     "natural_per_hectare": 0.09,
-    "produced_per_hectare": 0.24,
-    "human_per_hectare": 1.66,
-    "total_per_hectare": 1.99
+    "produced_per_hectare": 0.26,
+    "human_per_hectare": 1.78,
+    "total_per_hectare": 2.14
   },
   "GM1979": {
     "naam": "Eemsdelta",
     "population": 45394,
-    "area_hectares": 36407.0,
+    "area_hectares": 27282.99,
     "natural": 1077.38,
     "produced": 5606.96,
     "human": 18307.01,
@@ -1473,15 +1473,15 @@
     "produced_per_capita": 123517.56,
     "human_per_capita": 403291.36,
     "total_per_capita": 550542.86,
-    "natural_per_hectare": 0.03,
-    "produced_per_hectare": 0.15,
-    "human_per_hectare": 0.5,
-    "total_per_hectare": 0.69
+    "natural_per_hectare": 0.04,
+    "produced_per_hectare": 0.21,
+    "human_per_hectare": 0.67,
+    "total_per_hectare": 0.92
   },
   "GM0770": {
     "naam": "Eersel",
     "population": 20004,
-    "area_hectares": 8333.0,
+    "area_hectares": 8332.58,
     "natural": 1230.75,
     "produced": 1193.92,
     "human": 11755.61,
@@ -1498,7 +1498,7 @@
   "GM1903": {
     "naam": "Eijsden-Margraten",
     "population": 25991,
-    "area_hectares": 7877.0,
+    "area_hectares": 7876.81,
     "natural": 1566.97,
     "produced": 1386.54,
     "human": 14091.24,
@@ -1515,7 +1515,7 @@
   "GM0772": {
     "naam": "Eindhoven",
     "population": 243730,
-    "area_hectares": 8936.0,
+    "area_hectares": 8936.26,
     "natural": 3826.71,
     "produced": 69238.79,
     "human": 143681.42,
@@ -1527,12 +1527,12 @@
     "natural_per_hectare": 0.43,
     "produced_per_hectare": 7.75,
     "human_per_hectare": 16.08,
-    "total_per_hectare": 24.26
+    "total_per_hectare": 24.25
   },
   "GM0230": {
     "naam": "Elburg",
     "population": 24037,
-    "area_hectares": 6591.0,
+    "area_hectares": 6388.52,
     "natural": 1346.52,
     "produced": 1532.43,
     "human": 11957.38,
@@ -1541,15 +1541,15 @@
     "produced_per_capita": 63752.79,
     "human_per_capita": 497457.46,
     "total_per_capita": 617228.73,
-    "natural_per_hectare": 0.2,
-    "produced_per_hectare": 0.23,
-    "human_per_hectare": 1.81,
-    "total_per_hectare": 2.25
+    "natural_per_hectare": 0.21,
+    "produced_per_hectare": 0.24,
+    "human_per_hectare": 1.87,
+    "total_per_hectare": 2.32
   },
   "GM0114": {
     "naam": "Emmen",
     "population": 108765,
-    "area_hectares": 34626.0,
+    "area_hectares": 34625.91,
     "natural": 2939.77,
     "produced": 12419.03,
     "human": 45387.64,
@@ -1566,7 +1566,7 @@
   "GM0388": {
     "naam": "Enkhuizen",
     "population": 18885,
-    "area_hectares": 11625.0,
+    "area_hectares": 10292.61,
     "natural": 139.31,
     "produced": 2826.01,
     "human": 9100.03,
@@ -1576,14 +1576,14 @@
     "human_per_capita": 481865.71,
     "total_per_capita": 638885.47,
     "natural_per_hectare": 0.01,
-    "produced_per_hectare": 0.24,
-    "human_per_hectare": 0.78,
-    "total_per_hectare": 1.04
+    "produced_per_hectare": 0.27,
+    "human_per_hectare": 0.88,
+    "total_per_hectare": 1.17
   },
   "GM0153": {
     "naam": "Enschede",
     "population": 161235,
-    "area_hectares": 14272.0,
+    "area_hectares": 14272.41,
     "natural": 3653.35,
     "produced": 28280.28,
     "human": 72158.52,
@@ -1600,7 +1600,7 @@
   "GM0232": {
     "naam": "Epe",
     "population": 33283,
-    "area_hectares": 15737.0,
+    "area_hectares": 15737.2,
     "natural": 4010.27,
     "produced": 1578.03,
     "human": 16348.76,
@@ -1617,7 +1617,7 @@
   "GM0233": {
     "naam": "Ermelo",
     "population": 27496,
-    "area_hectares": 8733.0,
+    "area_hectares": 169.01,
     "natural": 3226.0,
     "produced": 3076.36,
     "human": 14539.49,
@@ -1626,15 +1626,15 @@
     "produced_per_capita": 111883.75,
     "human_per_capita": 528785.48,
     "total_per_capita": 757995.44,
-    "natural_per_hectare": 0.37,
-    "produced_per_hectare": 0.35,
-    "human_per_hectare": 1.66,
-    "total_per_hectare": 2.39
+    "natural_per_hectare": 19.09,
+    "produced_per_hectare": 18.2,
+    "human_per_hectare": 86.03,
+    "total_per_hectare": 123.32
   },
   "GM0777": {
     "naam": "Etten-Leur",
     "population": 44578,
-    "area_hectares": 5592.0,
+    "area_hectares": 5592.13,
     "natural": 461.62,
     "produced": 7142.69,
     "human": 22915.44,
@@ -1651,7 +1651,7 @@
   "GM0779": {
     "naam": "Geertruidenberg",
     "population": 22099,
-    "area_hectares": 2964.0,
+    "area_hectares": 2963.98,
     "natural": 219.7,
     "produced": 2777.28,
     "human": 11526.06,
@@ -1668,7 +1668,7 @@
   "GM1771": {
     "naam": "Geldrop-Mierlo",
     "population": 40441,
-    "area_hectares": 3139.0,
+    "area_hectares": 3138.73,
     "natural": 876.63,
     "produced": 4984.57,
     "human": 21593.71,
@@ -1685,7 +1685,7 @@
   "GM1652": {
     "naam": "Gemert-Bakel",
     "population": 31383,
-    "area_hectares": 12334.0,
+    "area_hectares": 12333.88,
     "natural": 1761.06,
     "produced": 1756.96,
     "human": 15875.59,
@@ -1702,7 +1702,7 @@
   "GM0907": {
     "naam": "Gennep",
     "population": 17764,
-    "area_hectares": 5042.0,
+    "area_hectares": 5042.31,
     "natural": 1124.32,
     "produced": 1270.26,
     "human": 8639.24,
@@ -1719,7 +1719,7 @@
   "GM0784": {
     "naam": "Gilze en Rijen",
     "population": 26815,
-    "area_hectares": 6566.0,
+    "area_hectares": 6566.47,
     "natural": 1032.57,
     "produced": 2015.24,
     "human": 14075.92,
@@ -1736,7 +1736,7 @@
   "GM1924": {
     "naam": "Goeree-Overflakkee",
     "population": 51590,
-    "area_hectares": 42235.0,
+    "area_hectares": 15621.96,
     "natural": 3153.47,
     "produced": 864.33,
     "human": 27477.77,
@@ -1745,15 +1745,15 @@
     "produced_per_capita": 16753.9,
     "human_per_capita": 532618.19,
     "total_per_capita": 610497.76,
-    "natural_per_hectare": 0.07,
-    "produced_per_hectare": 0.02,
-    "human_per_hectare": 0.65,
-    "total_per_hectare": 0.75
+    "natural_per_hectare": 0.2,
+    "produced_per_hectare": 0.06,
+    "human_per_hectare": 1.76,
+    "total_per_hectare": 2.02
   },
   "GM0664": {
     "naam": "Goes",
     "population": 39433,
-    "area_hectares": 10192.0,
+    "area_hectares": 9456.39,
     "natural": 937.98,
     "produced": 4804.61,
     "human": 20097.39,
@@ -1762,15 +1762,15 @@
     "produced_per_capita": 121842.49,
     "human_per_capita": 509659.17,
     "total_per_capita": 655288.34,
-    "natural_per_hectare": 0.09,
-    "produced_per_hectare": 0.47,
-    "human_per_hectare": 1.97,
-    "total_per_hectare": 2.54
+    "natural_per_hectare": 0.1,
+    "produced_per_hectare": 0.51,
+    "human_per_hectare": 2.13,
+    "total_per_hectare": 2.73
   },
   "GM0785": {
     "naam": "Goirle",
     "population": 24177,
-    "area_hectares": 4338.0,
+    "area_hectares": 4337.87,
     "natural": 647.79,
     "produced": 1897.39,
     "human": 12900.87,
@@ -1787,7 +1787,7 @@
   "GM1942": {
     "naam": "Gooise Meren",
     "population": 60359,
-    "area_hectares": 7521.0,
+    "area_hectares": 2986.24,
     "natural": 2080.35,
     "produced": 7717.13,
     "human": 43058.99,
@@ -1796,15 +1796,15 @@
     "produced_per_capita": 127853.89,
     "human_per_capita": 713381.39,
     "total_per_capita": 875701.47,
-    "natural_per_hectare": 0.28,
-    "produced_per_hectare": 1.03,
-    "human_per_hectare": 5.73,
-    "total_per_hectare": 7.03
+    "natural_per_hectare": 0.7,
+    "produced_per_hectare": 2.58,
+    "human_per_hectare": 14.42,
+    "total_per_hectare": 17.7
   },
   "GM0512": {
     "naam": "Gorinchem",
     "population": 38461,
-    "area_hectares": 2193.0,
+    "area_hectares": 2193.23,
     "natural": 182.52,
     "produced": 5555.81,
     "human": 20318.36,
@@ -1815,13 +1815,13 @@
     "total_per_capita": 677483.53,
     "natural_per_hectare": 0.08,
     "produced_per_hectare": 2.53,
-    "human_per_hectare": 9.27,
+    "human_per_hectare": 9.26,
     "total_per_hectare": 11.88
   },
   "GM0513": {
     "naam": "Gouda",
     "population": 75316,
-    "area_hectares": 1811.0,
+    "area_hectares": 1811.34,
     "natural": 135.98,
     "produced": 7705.13,
     "human": 39921.52,
@@ -1838,7 +1838,7 @@
   "GM0014": {
     "naam": "Groningen",
     "population": 238147,
-    "area_hectares": 19796.0,
+    "area_hectares": 19796.05,
     "natural": 4822.24,
     "produced": 60968.15,
     "human": 125471.59,
@@ -1855,7 +1855,7 @@
   "GM1729": {
     "naam": "Gulpen-Wittem",
     "population": 14210,
-    "area_hectares": 7336.0,
+    "area_hectares": 7336.05,
     "natural": 1737.19,
     "produced": 340.32,
     "human": 6615.82,
@@ -1872,7 +1872,7 @@
   "GM0158": {
     "naam": "Haaksbergen",
     "population": 24502,
-    "area_hectares": 10550.0,
+    "area_hectares": 10549.96,
     "natural": 1571.79,
     "produced": 1995.38,
     "human": 12448.69,
@@ -1889,7 +1889,7 @@
   "GM0392": {
     "naam": "Haarlem",
     "population": 165396,
-    "area_hectares": 3209.0,
+    "area_hectares": 3209.12,
     "natural": 889.3,
     "produced": 18632.36,
     "human": 101581.18,
@@ -1900,13 +1900,13 @@
     "total_per_capita": 732199.36,
     "natural_per_hectare": 0.28,
     "produced_per_hectare": 5.81,
-    "human_per_hectare": 31.66,
+    "human_per_hectare": 31.65,
     "total_per_hectare": 37.74
   },
   "GM0394": {
     "naam": "Haarlemmermeer",
     "population": 162300,
-    "area_hectares": 20631.0,
+    "area_hectares": 20631.3,
     "natural": 3901.28,
     "produced": 34640.34,
     "human": 98049.83,
@@ -1923,7 +1923,7 @@
   "GM1655": {
     "naam": "Halderberge",
     "population": 31041,
-    "area_hectares": 7521.0,
+    "area_hectares": 7521.49,
     "natural": 539.82,
     "produced": 2690.62,
     "human": 15285.28,
@@ -1940,7 +1940,7 @@
   "GM0160": {
     "naam": "Hardenberg",
     "population": 62509,
-    "area_hectares": 31715.0,
+    "area_hectares": 31715.05,
     "natural": 2684.57,
     "produced": 4027.04,
     "human": 31298.57,
@@ -1957,7 +1957,7 @@
   "GM0243": {
     "naam": "Harderwijk",
     "population": 48906,
-    "area_hectares": 4827.0,
+    "area_hectares": 923.1,
     "natural": 1190.96,
     "produced": 8243.51,
     "human": 25774.68,
@@ -1966,15 +1966,15 @@
     "produced_per_capita": 168558.16,
     "human_per_capita": 527024.8,
     "total_per_capita": 719934.93,
-    "natural_per_hectare": 0.25,
-    "produced_per_hectare": 1.71,
-    "human_per_hectare": 5.34,
-    "total_per_hectare": 7.29
+    "natural_per_hectare": 1.29,
+    "produced_per_hectare": 8.93,
+    "human_per_hectare": 27.92,
+    "total_per_hectare": 38.14
   },
   "GM0523": {
     "naam": "Hardinxveld-Giessendam",
     "population": 18681,
-    "area_hectares": 1935.0,
+    "area_hectares": 1935.48,
     "natural": 105.89,
     "produced": 1473.57,
     "human": 9916.11,
@@ -1991,7 +1991,7 @@
   "GM0072": {
     "naam": "Harlingen",
     "population": 16188,
-    "area_hectares": 38767.0,
+    "area_hectares": 36183.08,
     "natural": 109.86,
     "produced": 1765.34,
     "human": 6848.32,
@@ -2002,13 +2002,13 @@
     "total_per_capita": 538887.81,
     "natural_per_hectare": 0.0,
     "produced_per_hectare": 0.05,
-    "human_per_hectare": 0.18,
-    "total_per_hectare": 0.23
+    "human_per_hectare": 0.19,
+    "total_per_hectare": 0.24
   },
   "GM0244": {
     "naam": "Hattem",
     "population": 12563,
-    "area_hectares": 2416.0,
+    "area_hectares": 2415.57,
     "natural": 486.94,
     "produced": 821.16,
     "human": 6767.71,
@@ -2025,7 +2025,7 @@
   "GM0396": {
     "naam": "Heemskerk",
     "population": 39431,
-    "area_hectares": 3168.0,
+    "area_hectares": 2770.77,
     "natural": 2191.9,
     "produced": 5382.31,
     "human": 20350.94,
@@ -2034,15 +2034,15 @@
     "produced_per_capita": 136499.37,
     "human_per_capita": 516115.19,
     "total_per_capita": 708202.72,
-    "natural_per_hectare": 0.69,
-    "produced_per_hectare": 1.7,
-    "human_per_hectare": 6.42,
-    "total_per_hectare": 8.81
+    "natural_per_hectare": 0.79,
+    "produced_per_hectare": 1.94,
+    "human_per_hectare": 7.34,
+    "total_per_hectare": 10.08
   },
   "GM0397": {
     "naam": "Heemstede",
     "population": 27778,
-    "area_hectares": 964.0,
+    "area_hectares": 964.42,
     "natural": 675.46,
     "produced": 2009.72,
     "human": 19810.88,
@@ -2053,13 +2053,13 @@
     "total_per_capita": 809851.56,
     "natural_per_hectare": 0.7,
     "produced_per_hectare": 2.08,
-    "human_per_hectare": 20.55,
-    "total_per_hectare": 23.34
+    "human_per_hectare": 20.54,
+    "total_per_hectare": 23.33
   },
   "GM0246": {
     "naam": "Heerde",
     "population": 19214,
-    "area_hectares": 8042.0,
+    "area_hectares": 8042.05,
     "natural": 1254.78,
     "produced": 977.25,
     "human": 9382.15,
@@ -2076,7 +2076,7 @@
   "GM0074": {
     "naam": "Heerenveen",
     "population": 51637,
-    "area_hectares": 19817.0,
+    "area_hectares": 19816.53,
     "natural": 1803.24,
     "produced": 7444.65,
     "human": 25120.97,
@@ -2093,7 +2093,7 @@
   "GM0917": {
     "naam": "Heerlen",
     "population": 87122,
-    "area_hectares": 4553.0,
+    "area_hectares": 4552.99,
     "natural": 1643.47,
     "produced": 11447.2,
     "human": 33705.61,
@@ -2110,7 +2110,7 @@
   "GM1658": {
     "naam": "Heeze-Leende",
     "population": 16627,
-    "area_hectares": 10504.0,
+    "area_hectares": 10504.48,
     "natural": 2074.77,
     "produced": 869.85,
     "human": 10081.91,
@@ -2127,7 +2127,7 @@
   "GM0399": {
     "naam": "Heiloo",
     "population": 24319,
-    "area_hectares": 1901.0,
+    "area_hectares": 1901.37,
     "natural": 402.87,
     "produced": 2008.07,
     "human": 14380.11,
@@ -2144,7 +2144,7 @@
   "GM0163": {
     "naam": "Hellendoorn",
     "population": 36261,
-    "area_hectares": 13899.0,
+    "area_hectares": 13899.33,
     "natural": 3098.4,
     "produced": 2023.28,
     "human": 18315.0,
@@ -2161,7 +2161,7 @@
   "GM0794": {
     "naam": "Helmond",
     "population": 94898,
-    "area_hectares": 5475.0,
+    "area_hectares": 5475.25,
     "natural": 1469.83,
     "produced": 17306.0,
     "human": 46745.17,
@@ -2178,7 +2178,7 @@
   "GM0531": {
     "naam": "Hendrik-Ido-Ambacht",
     "population": 32183,
-    "area_hectares": 1190.0,
+    "area_hectares": 1190.08,
     "natural": 144.06,
     "produced": 5954.64,
     "human": 18930.58,
@@ -2195,7 +2195,7 @@
   "GM0164": {
     "naam": "Hengelo (O.)",
     "population": 82311,
-    "area_hectares": 6183.0,
+    "area_hectares": 6183.06,
     "natural": 847.66,
     "produced": 12970.18,
     "human": 40804.95,
@@ -2212,7 +2212,7 @@
   "GM1966": {
     "naam": "Het Hogeland",
     "population": 48298,
-    "area_hectares": 90308.0,
+    "area_hectares": 48204.02,
     "natural": 2836.94,
     "produced": 2116.79,
     "human": 20498.14,
@@ -2221,15 +2221,15 @@
     "produced_per_capita": 43827.64,
     "human_per_capita": 424409.66,
     "total_per_capita": 526975.58,
-    "natural_per_hectare": 0.03,
-    "produced_per_hectare": 0.02,
-    "human_per_hectare": 0.23,
-    "total_per_hectare": 0.28
+    "natural_per_hectare": 0.06,
+    "produced_per_hectare": 0.04,
+    "human_per_hectare": 0.43,
+    "total_per_hectare": 0.53
   },
   "GM0252": {
     "naam": "Heumen",
     "population": 16824,
-    "area_hectares": 4154.0,
+    "area_hectares": 4153.63,
     "natural": 1236.87,
     "produced": 1047.78,
     "human": 9439.95,
@@ -2246,7 +2246,7 @@
   "GM0797": {
     "naam": "Heusden",
     "population": 45830,
-    "area_hectares": 8122.0,
+    "area_hectares": 8121.94,
     "natural": 1123.71,
     "produced": 6363.62,
     "human": 24506.08,
@@ -2263,7 +2263,7 @@
   "GM0534": {
     "naam": "Hillegom",
     "population": 22453,
-    "area_hectares": 1347.0,
+    "area_hectares": 1346.54,
     "natural": 140.3,
     "produced": 1598.94,
     "human": 12637.56,
@@ -2274,13 +2274,13 @@
     "total_per_capita": 640306.43,
     "natural_per_hectare": 0.1,
     "produced_per_hectare": 1.19,
-    "human_per_hectare": 9.38,
-    "total_per_hectare": 10.67
+    "human_per_hectare": 9.39,
+    "total_per_hectare": 10.68
   },
   "GM0798": {
     "naam": "Hilvarenbeek",
     "population": 15949,
-    "area_hectares": 9651.0,
+    "area_hectares": 9650.75,
     "natural": 1647.1,
     "produced": 587.76,
     "human": 9248.3,
@@ -2297,7 +2297,7 @@
   "GM0402": {
     "naam": "Hilversum",
     "population": 93327,
-    "area_hectares": 4636.0,
+    "area_hectares": 4635.62,
     "natural": 5494.59,
     "produced": 16229.35,
     "human": 57508.09,
@@ -2308,13 +2308,13 @@
     "total_per_capita": 848972.28,
     "natural_per_hectare": 1.19,
     "produced_per_hectare": 3.5,
-    "human_per_hectare": 12.4,
+    "human_per_hectare": 12.41,
     "total_per_hectare": 17.09
   },
   "GM1963": {
     "naam": "Hoeksche Waard",
     "population": 89760,
-    "area_hectares": 32369.0,
+    "area_hectares": 4190.93,
     "natural": 1580.51,
     "produced": 2496.44,
     "human": 50339.9,
@@ -2323,15 +2323,15 @@
     "produced_per_capita": 27812.33,
     "human_per_capita": 560827.76,
     "total_per_capita": 606248.32,
-    "natural_per_hectare": 0.05,
-    "produced_per_hectare": 0.08,
-    "human_per_hectare": 1.56,
-    "total_per_hectare": 1.68
+    "natural_per_hectare": 0.38,
+    "produced_per_hectare": 0.6,
+    "human_per_hectare": 12.01,
+    "total_per_hectare": 12.98
   },
   "GM1735": {
     "naam": "Hof van Twente",
     "population": 35455,
-    "area_hectares": 21541.0,
+    "area_hectares": 21540.94,
     "natural": 3249.61,
     "produced": 1587.39,
     "human": 18455.34,
@@ -2348,7 +2348,7 @@
   "GM1911": {
     "naam": "Hollands Kroon",
     "population": 49431,
-    "area_hectares": 66220.0,
+    "area_hectares": 37402.09,
     "natural": 3017.28,
     "produced": 4176.8,
     "human": 25024.79,
@@ -2357,15 +2357,15 @@
     "produced_per_capita": 84497.53,
     "human_per_capita": 506257.03,
     "total_per_capita": 651794.78,
-    "natural_per_hectare": 0.05,
-    "produced_per_hectare": 0.06,
-    "human_per_hectare": 0.38,
-    "total_per_hectare": 0.49
+    "natural_per_hectare": 0.08,
+    "produced_per_hectare": 0.11,
+    "human_per_hectare": 0.67,
+    "total_per_hectare": 0.86
   },
   "GM0118": {
     "naam": "Hoogeveen",
     "population": 56433,
-    "area_hectares": 12925.0,
+    "area_hectares": 12924.96,
     "natural": 1219.99,
     "produced": 7449.29,
     "human": 25205.77,
@@ -2382,7 +2382,7 @@
   "GM0405": {
     "naam": "Hoorn",
     "population": 75216,
-    "area_hectares": 5346.0,
+    "area_hectares": 2089.23,
     "natural": 269.41,
     "produced": 12410.36,
     "human": 38303.28,
@@ -2391,15 +2391,15 @@
     "produced_per_capita": 164996.32,
     "human_per_capita": 509243.75,
     "total_per_capita": 677821.84,
-    "natural_per_hectare": 0.05,
-    "produced_per_hectare": 2.32,
-    "human_per_hectare": 7.16,
-    "total_per_hectare": 9.54
+    "natural_per_hectare": 0.13,
+    "produced_per_hectare": 5.94,
+    "human_per_hectare": 18.33,
+    "total_per_hectare": 24.4
   },
   "GM1507": {
     "naam": "Horst aan de Maas",
     "population": 43641,
-    "area_hectares": 19192.0,
+    "area_hectares": 19191.68,
     "natural": 5340.18,
     "produced": 2904.98,
     "human": 23175.83,
@@ -2416,7 +2416,7 @@
   "GM0321": {
     "naam": "Houten",
     "population": 50581,
-    "area_hectares": 5899.0,
+    "area_hectares": 5898.55,
     "natural": 1431.67,
     "produced": 7977.88,
     "human": 31221.89,
@@ -2433,7 +2433,7 @@
   "GM0406": {
     "naam": "Huizen",
     "population": 41252,
-    "area_hectares": 2332.0,
+    "area_hectares": 738.32,
     "natural": 1398.03,
     "produced": 6116.06,
     "human": 22382.67,
@@ -2442,15 +2442,15 @@
     "produced_per_capita": 148260.84,
     "human_per_capita": 542583.79,
     "total_per_capita": 724734.61,
-    "natural_per_hectare": 0.6,
-    "produced_per_hectare": 2.62,
-    "human_per_hectare": 9.6,
-    "total_per_hectare": 12.82
+    "natural_per_hectare": 1.89,
+    "produced_per_hectare": 8.28,
+    "human_per_hectare": 30.32,
+    "total_per_hectare": 40.49
   },
   "GM0677": {
     "naam": "Hulst",
     "population": 27596,
-    "area_hectares": 25182.0,
+    "area_hectares": 20451.92,
     "natural": 2247.42,
     "produced": 1869.75,
     "human": 13229.26,
@@ -2459,15 +2459,15 @@
     "produced_per_capita": 67754.25,
     "human_per_capita": 479390.43,
     "total_per_capita": 628584.59,
-    "natural_per_hectare": 0.09,
-    "produced_per_hectare": 0.07,
-    "human_per_hectare": 0.53,
-    "total_per_hectare": 0.69
+    "natural_per_hectare": 0.11,
+    "produced_per_hectare": 0.09,
+    "human_per_hectare": 0.65,
+    "total_per_hectare": 0.85
   },
   "GM0353": {
     "naam": "IJsselstein",
     "population": 33492,
-    "area_hectares": 2168.0,
+    "area_hectares": 2168.02,
     "natural": 393.89,
     "produced": 4994.03,
     "human": 19329.72,
@@ -2484,7 +2484,7 @@
   "GM1884": {
     "naam": "Kaag en Braassem",
     "population": 28573,
-    "area_hectares": 7224.0,
+    "area_hectares": 7223.94,
     "natural": 563.24,
     "produced": 1684.17,
     "human": 16668.17,
@@ -2501,7 +2501,7 @@
   "GM0166": {
     "naam": "Kampen",
     "population": 55614,
-    "area_hectares": 16179.0,
+    "area_hectares": 14944.83,
     "natural": 1130.06,
     "produced": 8494.98,
     "human": 27986.07,
@@ -2510,15 +2510,15 @@
     "produced_per_capita": 152748.87,
     "human_per_capita": 503219.83,
     "total_per_capita": 676288.43,
-    "natural_per_hectare": 0.07,
-    "produced_per_hectare": 0.53,
-    "human_per_hectare": 1.73,
-    "total_per_hectare": 2.32
+    "natural_per_hectare": 0.08,
+    "produced_per_hectare": 0.57,
+    "human_per_hectare": 1.87,
+    "total_per_hectare": 2.52
   },
   "GM0678": {
     "naam": "Kapelle",
     "population": 13051,
-    "area_hectares": 4963.0,
+    "area_hectares": 3803.9,
     "natural": 640.99,
     "produced": 887.81,
     "human": 6938.09,
@@ -2527,15 +2527,15 @@
     "produced_per_capita": 68026.06,
     "human_per_capita": 531613.93,
     "total_per_capita": 648754.36,
-    "natural_per_hectare": 0.13,
-    "produced_per_hectare": 0.18,
-    "human_per_hectare": 1.4,
-    "total_per_hectare": 1.71
+    "natural_per_hectare": 0.17,
+    "produced_per_hectare": 0.23,
+    "human_per_hectare": 1.82,
+    "total_per_hectare": 2.23
   },
   "GM0537": {
     "naam": "Katwijk",
     "population": 66607,
-    "area_hectares": 3115.0,
+    "area_hectares": 478.78,
     "natural": 1262.65,
     "produced": 10038.65,
     "human": 36289.44,
@@ -2544,15 +2544,15 @@
     "produced_per_capita": 150714.58,
     "human_per_capita": 544829.22,
     "total_per_capita": 714500.46,
-    "natural_per_hectare": 0.41,
-    "produced_per_hectare": 3.22,
-    "human_per_hectare": 11.65,
-    "total_per_hectare": 15.28
+    "natural_per_hectare": 2.64,
+    "produced_per_hectare": 20.97,
+    "human_per_hectare": 75.8,
+    "total_per_hectare": 99.4
   },
   "GM0928": {
     "naam": "Kerkrade",
     "population": 45620,
-    "area_hectares": 2215.0,
+    "area_hectares": 2215.29,
     "natural": 466.94,
     "produced": 5188.82,
     "human": 16916.22,
@@ -2569,7 +2569,7 @@
   "GM1598": {
     "naam": "Koggenland",
     "population": 23509,
-    "area_hectares": 8408.0,
+    "area_hectares": 8329.28,
     "natural": 601.93,
     "produced": 1131.29,
     "human": 12883.47,
@@ -2579,14 +2579,14 @@
     "human_per_capita": 548022.98,
     "total_per_capita": 621748.62,
     "natural_per_hectare": 0.07,
-    "produced_per_hectare": 0.13,
-    "human_per_hectare": 1.53,
-    "total_per_hectare": 1.74
+    "produced_per_hectare": 0.14,
+    "human_per_hectare": 1.55,
+    "total_per_hectare": 1.75
   },
   "GM0542": {
     "naam": "Krimpen aan den IJssel",
     "population": 29504,
-    "area_hectares": 895.0,
+    "area_hectares": 894.91,
     "natural": 140.23,
     "produced": 1626.8,
     "human": 15142.19,
@@ -2603,7 +2603,7 @@
   "GM1931": {
     "naam": "Krimpenerwaard",
     "population": 57700,
-    "area_hectares": 16131.0,
+    "area_hectares": 16130.87,
     "natural": 1073.86,
     "produced": 2178.87,
     "human": 31631.08,
@@ -2620,7 +2620,7 @@
   "GM1659": {
     "naam": "Laarbeek",
     "population": 23260,
-    "area_hectares": 5617.0,
+    "area_hectares": 5616.61,
     "natural": 665.33,
     "produced": 1874.93,
     "human": 12243.13,
@@ -2637,7 +2637,7 @@
   "GM1982": {
     "naam": "Land van Cuijk",
     "population": 91423,
-    "area_hectares": 35188.0,
+    "area_hectares": 35187.55,
     "natural": 3303.47,
     "produced": 6331.88,
     "human": 47641.34,
@@ -2654,7 +2654,7 @@
   "GM0882": {
     "naam": "Landgraaf",
     "population": 37175,
-    "area_hectares": 2467.0,
+    "area_hectares": 2466.54,
     "natural": 599.9,
     "produced": 3802.88,
     "human": 15204.91,
@@ -2671,7 +2671,7 @@
   "GM0415": {
     "naam": "Landsmeer",
     "population": 11705,
-    "area_hectares": 2650.0,
+    "area_hectares": 2650.41,
     "natural": 776.69,
     "produced": 824.89,
     "human": 6793.22,
@@ -2688,7 +2688,7 @@
   "GM1621": {
     "naam": "Lansingerland",
     "population": 64754,
-    "area_hectares": 5639.0,
+    "area_hectares": 5639.24,
     "natural": 450.16,
     "produced": 10713.22,
     "human": 41446.66,
@@ -2705,7 +2705,7 @@
   "GM0417": {
     "naam": "Laren (NH.)",
     "population": 11712,
-    "area_hectares": 1241.0,
+    "area_hectares": 1241.14,
     "natural": 1277.71,
     "produced": 1481.02,
     "human": 8250.51,
@@ -2722,7 +2722,7 @@
   "GM0080": {
     "naam": "Leeuwarden",
     "population": 127073,
-    "area_hectares": 25506.0,
+    "area_hectares": 25505.52,
     "natural": 1577.25,
     "produced": 25600.28,
     "human": 60511.47,
@@ -2739,7 +2739,7 @@
   "GM0546": {
     "naam": "Leiden",
     "population": 127089,
-    "area_hectares": 2327.0,
+    "area_hectares": 2327.03,
     "natural": 292.27,
     "produced": 19030.76,
     "human": 76353.09,
@@ -2756,7 +2756,7 @@
   "GM0547": {
     "naam": "Leiderdorp",
     "population": 27657,
-    "area_hectares": 1228.0,
+    "area_hectares": 1227.57,
     "natural": 765.02,
     "produced": 3393.64,
     "human": 16130.58,
@@ -2768,12 +2768,12 @@
     "natural_per_hectare": 0.62,
     "produced_per_hectare": 2.76,
     "human_per_hectare": 13.14,
-    "total_per_hectare": 16.52
+    "total_per_hectare": 16.53
   },
   "GM1916": {
     "naam": "Leidschendam-Voorburg",
     "population": 77753,
-    "area_hectares": 3562.0,
+    "area_hectares": 3561.82,
     "natural": 426.58,
     "produced": 7340.14,
     "human": 45750.84,
@@ -2785,12 +2785,12 @@
     "natural_per_hectare": 0.12,
     "produced_per_hectare": 2.06,
     "human_per_hectare": 12.84,
-    "total_per_hectare": 15.02
+    "total_per_hectare": 15.03
   },
   "GM0995": {
     "naam": "Lelystad",
     "population": 83033,
-    "area_hectares": 76545.0,
+    "area_hectares": 25772.47,
     "natural": 3651.24,
     "produced": 7920.79,
     "human": 39676.06,
@@ -2799,15 +2799,15 @@
     "produced_per_capita": 95393.26,
     "human_per_capita": 477834.8,
     "total_per_capita": 617201.48,
-    "natural_per_hectare": 0.05,
-    "produced_per_hectare": 0.1,
-    "human_per_hectare": 0.52,
-    "total_per_hectare": 0.67
+    "natural_per_hectare": 0.14,
+    "produced_per_hectare": 0.31,
+    "human_per_hectare": 1.54,
+    "total_per_hectare": 1.99
   },
   "GM1640": {
     "naam": "Leudal",
     "population": 36141,
-    "area_hectares": 16491.0,
+    "area_hectares": 16490.51,
     "natural": 4307.88,
     "produced": 1826.71,
     "human": 18345.99,
@@ -2824,7 +2824,7 @@
   "GM0327": {
     "naam": "Leusden",
     "population": 31467,
-    "area_hectares": 5889.0,
+    "area_hectares": 5889.31,
     "natural": 2460.84,
     "produced": 2538.93,
     "human": 18548.32,
@@ -2841,7 +2841,7 @@
   "GM1705": {
     "naam": "Lingewaard",
     "population": 47220,
-    "area_hectares": 6914.0,
+    "area_hectares": 6914.28,
     "natural": 645.52,
     "produced": 3647.2,
     "human": 24778.01,
@@ -2858,7 +2858,7 @@
   "GM0553": {
     "naam": "Lisse",
     "population": 23390,
-    "area_hectares": 1605.0,
+    "area_hectares": 1605.41,
     "natural": 242.06,
     "produced": 1846.26,
     "human": 12979.98,
@@ -2875,7 +2875,7 @@
   "GM0262": {
     "naam": "Lochem",
     "population": 34314,
-    "area_hectares": 21594.0,
+    "area_hectares": 21594.2,
     "natural": 2572.35,
     "produced": 1591.38,
     "human": 18024.75,
@@ -2892,7 +2892,7 @@
   "GM0809": {
     "naam": "Loon op Zand",
     "population": 23797,
-    "area_hectares": 5071.0,
+    "area_hectares": 5071.16,
     "natural": 1321.29,
     "produced": 1953.3,
     "human": 12500.58,
@@ -2909,7 +2909,7 @@
   "GM0331": {
     "naam": "Lopik",
     "population": 14704,
-    "area_hectares": 7898.0,
+    "area_hectares": 7897.9,
     "natural": 1139.33,
     "produced": 466.95,
     "human": 8449.83,
@@ -2926,7 +2926,7 @@
   "GM0168": {
     "naam": "Losser",
     "population": 23362,
-    "area_hectares": 9962.0,
+    "area_hectares": 9962.14,
     "natural": 1486.01,
     "produced": 1117.3,
     "human": 10871.32,
@@ -2943,7 +2943,7 @@
   "GM0263": {
     "naam": "Maasdriel",
     "population": 26020,
-    "area_hectares": 7546.0,
+    "area_hectares": 7546.2,
     "natural": 902.06,
     "produced": 2541.58,
     "human": 14082.7,
@@ -2960,7 +2960,7 @@
   "GM1641": {
     "naam": "Maasgouw",
     "population": 24305,
-    "area_hectares": 5812.0,
+    "area_hectares": 5811.71,
     "natural": 1504.67,
     "produced": 2013.99,
     "human": 12223.86,
@@ -2977,7 +2977,7 @@
   "GM1991": {
     "naam": "Maashorst",
     "population": 58934,
-    "area_hectares": 13824.0,
+    "area_hectares": 13823.83,
     "natural": 1960.78,
     "produced": 6842.18,
     "human": 31125.88,
@@ -2994,7 +2994,7 @@
   "GM0556": {
     "naam": "Maassluis",
     "population": 35303,
-    "area_hectares": 1012.0,
+    "area_hectares": 1012.46,
     "natural": 107.12,
     "produced": 2784.3,
     "human": 17635.13,
@@ -3005,13 +3005,13 @@
     "total_per_capita": 581439.18,
     "natural_per_hectare": 0.11,
     "produced_per_hectare": 2.75,
-    "human_per_hectare": 17.43,
-    "total_per_hectare": 20.28
+    "human_per_hectare": 17.42,
+    "total_per_hectare": 20.27
   },
   "GM0935": {
     "naam": "Maastricht",
     "population": 122734,
-    "area_hectares": 6012.0,
+    "area_hectares": 6011.8,
     "natural": 1733.06,
     "produced": 25789.12,
     "human": 57677.34,
@@ -3028,7 +3028,7 @@
   "GM0420": {
     "naam": "Medemblik",
     "population": 46031,
-    "area_hectares": 25756.0,
+    "area_hectares": 12615.51,
     "natural": 1231.91,
     "produced": 2798.66,
     "human": 23240.46,
@@ -3037,15 +3037,15 @@
     "produced_per_capita": 60799.43,
     "human_per_capita": 504887.11,
     "total_per_capita": 592449.2,
-    "natural_per_hectare": 0.05,
-    "produced_per_hectare": 0.11,
-    "human_per_hectare": 0.9,
-    "total_per_hectare": 1.06
+    "natural_per_hectare": 0.1,
+    "produced_per_hectare": 0.22,
+    "human_per_hectare": 1.84,
+    "total_per_hectare": 2.16
   },
   "GM0938": {
     "naam": "Meerssen",
     "population": 18600,
-    "area_hectares": 2766.0,
+    "area_hectares": 2765.71,
     "natural": 618.79,
     "produced": 1219.95,
     "human": 9817.95,
@@ -3062,7 +3062,7 @@
   "GM1948": {
     "naam": "Meierijstad",
     "population": 83715,
-    "area_hectares": 18552.0,
+    "area_hectares": 18551.95,
     "natural": 1893.82,
     "produced": 10898.92,
     "human": 45190.42,
@@ -3079,7 +3079,7 @@
   "GM0119": {
     "naam": "Meppel",
     "population": 35464,
-    "area_hectares": 5703.0,
+    "area_hectares": 5702.77,
     "natural": 1141.94,
     "produced": 5788.37,
     "human": 18268.03,
@@ -3089,14 +3089,14 @@
     "human_per_capita": 515114.64,
     "total_per_capita": 710532.58,
     "natural_per_hectare": 0.2,
-    "produced_per_hectare": 1.01,
+    "produced_per_hectare": 1.02,
     "human_per_hectare": 3.2,
     "total_per_hectare": 4.42
   },
   "GM0687": {
     "naam": "Middelburg (Z.)",
     "population": 49956,
-    "area_hectares": 5304.0,
+    "area_hectares": 307.32,
     "natural": 491.1,
     "produced": 5535.2,
     "human": 24827.87,
@@ -3105,15 +3105,15 @@
     "produced_per_capita": 110801.44,
     "human_per_capita": 496994.8,
     "total_per_capita": 617626.97,
-    "natural_per_hectare": 0.09,
-    "produced_per_hectare": 1.04,
-    "human_per_hectare": 4.68,
-    "total_per_hectare": 5.82
+    "natural_per_hectare": 1.6,
+    "produced_per_hectare": 18.01,
+    "human_per_hectare": 80.79,
+    "total_per_hectare": 100.4
   },
   "GM1842": {
     "naam": "Midden-Delfland",
     "population": 19472,
-    "area_hectares": 4938.0,
+    "area_hectares": 4937.87,
     "natural": 253.79,
     "produced": 1508.01,
     "human": 11828.78,
@@ -3130,7 +3130,7 @@
   "GM1731": {
     "naam": "Midden-Drenthe",
     "population": 33987,
-    "area_hectares": 34587.0,
+    "area_hectares": 34587.38,
     "natural": 4094.77,
     "produced": 1734.32,
     "human": 16493.66,
@@ -3147,7 +3147,7 @@
   "GM1952": {
     "naam": "Midden-Groningen",
     "population": 61554,
-    "area_hectares": 29577.0,
+    "area_hectares": 29576.51,
     "natural": 1760.78,
     "produced": 5059.41,
     "human": 25717.6,
@@ -3164,7 +3164,7 @@
   "GM1709": {
     "naam": "Moerdijk",
     "population": 37711,
-    "area_hectares": 18403.0,
+    "area_hectares": 16358.91,
     "natural": 910.61,
     "produced": 5998.38,
     "human": 19833.77,
@@ -3173,15 +3173,15 @@
     "produced_per_capita": 159061.77,
     "human_per_capita": 525941.24,
     "total_per_capita": 709150.1,
-    "natural_per_hectare": 0.05,
-    "produced_per_hectare": 0.33,
-    "human_per_hectare": 1.08,
-    "total_per_hectare": 1.45
+    "natural_per_hectare": 0.06,
+    "produced_per_hectare": 0.37,
+    "human_per_hectare": 1.21,
+    "total_per_hectare": 1.63
   },
   "GM1978": {
     "naam": "Molenlanden",
     "population": 45158,
-    "area_hectares": 19158.0,
+    "area_hectares": 19158.41,
     "natural": 1052.86,
     "produced": 1562.25,
     "human": 25522.85,
@@ -3198,7 +3198,7 @@
   "GM1955": {
     "naam": "Montferland",
     "population": 36882,
-    "area_hectares": 10664.0,
+    "area_hectares": 10663.73,
     "natural": 1317.39,
     "produced": 4993.13,
     "human": 17267.81,
@@ -3215,7 +3215,7 @@
   "GM0335": {
     "naam": "Montfoort",
     "population": 13929,
-    "area_hectares": 3820.0,
+    "area_hectares": 3820.26,
     "natural": 522.82,
     "produced": 900.68,
     "human": 8323.49,
@@ -3232,7 +3232,7 @@
   "GM0944": {
     "naam": "Mook en Middelaar",
     "population": 8043,
-    "area_hectares": 1881.0,
+    "area_hectares": 1881.01,
     "natural": 1099.52,
     "produced": 486.32,
     "human": 4358.25,
@@ -3249,7 +3249,7 @@
   "GM1740": {
     "naam": "Neder-Betuwe",
     "population": 25448,
-    "area_hectares": 6746.0,
+    "area_hectares": 6746.11,
     "natural": 608.4,
     "produced": 2228.41,
     "human": 12724.65,
@@ -3266,7 +3266,7 @@
   "GM0946": {
     "naam": "Nederweert",
     "population": 17499,
-    "area_hectares": 10178.0,
+    "area_hectares": 10178.21,
     "natural": 2338.22,
     "produced": 1202.6,
     "human": 9060.61,
@@ -3283,7 +3283,7 @@
   "GM0356": {
     "naam": "Nieuwegein",
     "population": 65426,
-    "area_hectares": 2565.0,
+    "area_hectares": 2564.64,
     "natural": 1098.89,
     "produced": 14980.34,
     "human": 34816.7,
@@ -3294,13 +3294,13 @@
     "total_per_capita": 777915.95,
     "natural_per_hectare": 0.43,
     "produced_per_hectare": 5.84,
-    "human_per_hectare": 13.57,
-    "total_per_hectare": 19.84
+    "human_per_hectare": 13.58,
+    "total_per_hectare": 19.85
   },
   "GM0569": {
     "naam": "Nieuwkoop",
     "population": 29463,
-    "area_hectares": 9116.0,
+    "area_hectares": 9116.28,
     "natural": 697.13,
     "produced": 1092.67,
     "human": 16818.01,
@@ -3317,7 +3317,7 @@
   "GM0267": {
     "naam": "Nijkerk",
     "population": 44975,
-    "area_hectares": 7204.0,
+    "area_hectares": 6987.25,
     "natural": 641.9,
     "produced": 5717.55,
     "human": 24934.93,
@@ -3327,14 +3327,14 @@
     "human_per_capita": 554417.48,
     "total_per_capita": 695817.18,
     "natural_per_hectare": 0.09,
-    "produced_per_hectare": 0.79,
-    "human_per_hectare": 3.46,
-    "total_per_hectare": 4.34
+    "produced_per_hectare": 0.82,
+    "human_per_hectare": 3.57,
+    "total_per_hectare": 4.48
   },
   "GM0268": {
     "naam": "Nijmegen",
     "population": 182480,
-    "area_hectares": 5763.0,
+    "area_hectares": 5762.8,
     "natural": 1258.0,
     "produced": 31912.65,
     "human": 99646.24,
@@ -3351,7 +3351,7 @@
   "GM1930": {
     "naam": "Nissewaard",
     "population": 86833,
-    "area_hectares": 8379.0,
+    "area_hectares": 340.91,
     "natural": 697.56,
     "produced": 4856.63,
     "human": 43339.6,
@@ -3360,15 +3360,15 @@
     "produced_per_capita": 55930.69,
     "human_per_capita": 499114.42,
     "total_per_capita": 563078.45,
-    "natural_per_hectare": 0.08,
-    "produced_per_hectare": 0.58,
-    "human_per_hectare": 5.17,
-    "total_per_hectare": 5.84
+    "natural_per_hectare": 2.05,
+    "produced_per_hectare": 14.25,
+    "human_per_hectare": 127.13,
+    "total_per_hectare": 143.42
   },
   "GM1970": {
-    "naam": "Noardeast-Frysl\u00e2n",
+    "naam": "Noardeast-Fryslân",
     "population": 45812,
-    "area_hectares": 51645.0,
+    "area_hectares": 13129.98,
     "natural": 3051.96,
     "produced": 1689.96,
     "human": 19338.54,
@@ -3377,15 +3377,15 @@
     "produced_per_capita": 36889.02,
     "human_per_capita": 422128.33,
     "total_per_capita": 525636.63,
-    "natural_per_hectare": 0.06,
-    "produced_per_hectare": 0.03,
-    "human_per_hectare": 0.37,
-    "total_per_hectare": 0.47
+    "natural_per_hectare": 0.23,
+    "produced_per_hectare": 0.13,
+    "human_per_hectare": 1.47,
+    "total_per_hectare": 1.83
   },
   "GM1695": {
     "naam": "Noord-Beveland",
     "population": 7857,
-    "area_hectares": 12158.0,
+    "area_hectares": 3482.94,
     "natural": 1217.0,
     "produced": 143.59,
     "human": 3707.08,
@@ -3394,15 +3394,15 @@
     "produced_per_capita": 18275.79,
     "human_per_capita": 471819.12,
     "total_per_capita": 644988.77,
-    "natural_per_hectare": 0.1,
-    "produced_per_hectare": 0.01,
-    "human_per_hectare": 0.3,
-    "total_per_hectare": 0.42
+    "natural_per_hectare": 0.35,
+    "produced_per_hectare": 0.04,
+    "human_per_hectare": 1.06,
+    "total_per_hectare": 1.46
   },
   "GM1699": {
     "naam": "Noordenveld",
     "population": 31591,
-    "area_hectares": 20529.0,
+    "area_hectares": 20529.05,
     "natural": 3838.54,
     "produced": 2015.74,
     "human": 15045.77,
@@ -3419,7 +3419,7 @@
   "GM0171": {
     "naam": "Noordoostpolder",
     "population": 49729,
-    "area_hectares": 59347.0,
+    "area_hectares": 46630.9,
     "natural": 3583.74,
     "produced": 4819.46,
     "human": 24746.18,
@@ -3428,15 +3428,15 @@
     "produced_per_capita": 96914.57,
     "human_per_capita": 497620.73,
     "total_per_capita": 666600.78,
-    "natural_per_hectare": 0.06,
-    "produced_per_hectare": 0.08,
-    "human_per_hectare": 0.42,
-    "total_per_hectare": 0.56
+    "natural_per_hectare": 0.08,
+    "produced_per_hectare": 0.1,
+    "human_per_hectare": 0.53,
+    "total_per_hectare": 0.71
   },
   "GM0575": {
     "naam": "Noordwijk",
     "population": 45179,
-    "area_hectares": 7494.0,
+    "area_hectares": 5939.32,
     "natural": 2555.35,
     "produced": 3340.97,
     "human": 26824.69,
@@ -3445,15 +3445,15 @@
     "produced_per_capita": 73949.67,
     "human_per_capita": 593742.52,
     "total_per_capita": 724252.87,
-    "natural_per_hectare": 0.34,
-    "produced_per_hectare": 0.45,
-    "human_per_hectare": 3.58,
-    "total_per_hectare": 4.37
+    "natural_per_hectare": 0.43,
+    "produced_per_hectare": 0.56,
+    "human_per_hectare": 4.52,
+    "total_per_hectare": 5.51
   },
   "GM0820": {
     "naam": "Nuenen, Gerwen en Nederwetten",
     "population": 24015,
-    "area_hectares": 3394.0,
+    "area_hectares": 3394.35,
     "natural": 515.24,
     "produced": 2482.35,
     "human": 14417.99,
@@ -3470,7 +3470,7 @@
   "GM0302": {
     "naam": "Nunspeet",
     "population": 28731,
-    "area_hectares": 12953.0,
+    "area_hectares": 70.74,
     "natural": 4461.14,
     "produced": 2078.86,
     "human": 14468.31,
@@ -3479,15 +3479,15 @@
     "produced_per_capita": 72355.98,
     "human_per_capita": 503578.27,
     "total_per_capita": 731206.81,
-    "natural_per_hectare": 0.34,
-    "produced_per_hectare": 0.16,
-    "human_per_hectare": 1.12,
-    "total_per_hectare": 1.62
+    "natural_per_hectare": 63.07,
+    "produced_per_hectare": 29.39,
+    "human_per_hectare": 204.54,
+    "total_per_hectare": 297.0
   },
   "GM0579": {
     "naam": "Oegstgeest",
     "population": 25746,
-    "area_hectares": 797.0,
+    "area_hectares": 796.72,
     "natural": 147.01,
     "produced": 2931.05,
     "human": 18484.28,
@@ -3498,13 +3498,13 @@
     "total_per_capita": 837502.35,
     "natural_per_hectare": 0.18,
     "produced_per_hectare": 3.68,
-    "human_per_hectare": 23.19,
-    "total_per_hectare": 27.05
+    "human_per_hectare": 23.2,
+    "total_per_hectare": 27.06
   },
   "GM0823": {
     "naam": "Oirschot",
     "population": 19217,
-    "area_hectares": 10284.0,
+    "area_hectares": 10284.49,
     "natural": 1723.36,
     "produced": 1202.5,
     "human": 11099.14,
@@ -3521,7 +3521,7 @@
   "GM0824": {
     "naam": "Oisterwijk",
     "population": 32941,
-    "area_hectares": 8146.0,
+    "area_hectares": 8146.19,
     "natural": 1376.97,
     "produced": 2283.51,
     "human": 19487.18,
@@ -3538,7 +3538,7 @@
   "GM1895": {
     "naam": "Oldambt",
     "population": 39044,
-    "area_hectares": 29596.0,
+    "area_hectares": 5546.68,
     "natural": 1342.31,
     "produced": 3003.93,
     "human": 15364.71,
@@ -3547,15 +3547,15 @@
     "produced_per_capita": 76936.95,
     "human_per_capita": 393522.97,
     "total_per_capita": 504839.27,
-    "natural_per_hectare": 0.05,
-    "produced_per_hectare": 0.1,
-    "human_per_hectare": 0.52,
-    "total_per_hectare": 0.67
+    "natural_per_hectare": 0.24,
+    "produced_per_hectare": 0.54,
+    "human_per_hectare": 2.77,
+    "total_per_hectare": 3.55
   },
   "GM0269": {
     "naam": "Oldebroek",
     "population": 24264,
-    "area_hectares": 9884.0,
+    "area_hectares": 9825.41,
     "natural": 1478.12,
     "produced": 1211.47,
     "human": 11643.94,
@@ -3566,13 +3566,13 @@
     "total_per_capita": 590732.04,
     "natural_per_hectare": 0.15,
     "produced_per_hectare": 0.12,
-    "human_per_hectare": 1.18,
-    "total_per_hectare": 1.45
+    "human_per_hectare": 1.19,
+    "total_per_hectare": 1.46
   },
   "GM0173": {
     "naam": "Oldenzaal",
     "population": 31925,
-    "area_hectares": 2195.0,
+    "area_hectares": 2195.27,
     "natural": 403.64,
     "produced": 3844.06,
     "human": 16056.1,
@@ -3589,7 +3589,7 @@
   "GM1773": {
     "naam": "Olst-Wijhe",
     "population": 18682,
-    "area_hectares": 11837.0,
+    "area_hectares": 11836.94,
     "natural": 1240.13,
     "produced": 564.38,
     "human": 9626.27,
@@ -3606,7 +3606,7 @@
   "GM0175": {
     "naam": "Ommen",
     "population": 18955,
-    "area_hectares": 18201.0,
+    "area_hectares": 18201.27,
     "natural": 4291.72,
     "produced": 1028.28,
     "human": 9625.98,
@@ -3623,7 +3623,7 @@
   "GM1586": {
     "naam": "Oost Gelre",
     "population": 29846,
-    "area_hectares": 11044.0,
+    "area_hectares": 11043.56,
     "natural": 638.08,
     "produced": 2822.31,
     "human": 16055.32,
@@ -3640,7 +3640,7 @@
   "GM0826": {
     "naam": "Oosterhout",
     "population": 57425,
-    "area_hectares": 7309.0,
+    "area_hectares": 7308.68,
     "natural": 1265.95,
     "produced": 8591.28,
     "human": 29379.55,
@@ -3657,7 +3657,7 @@
   "GM0085": {
     "naam": "Ooststellingwerf",
     "population": 25837,
-    "area_hectares": 22611.0,
+    "area_hectares": 22611.25,
     "natural": 3356.9,
     "produced": 1231.49,
     "human": 11112.28,
@@ -3674,7 +3674,7 @@
   "GM0431": {
     "naam": "Oostzaan",
     "population": 9720,
-    "area_hectares": 1608.0,
+    "area_hectares": 1607.55,
     "natural": 781.44,
     "produced": 1240.25,
     "human": 5458.36,
@@ -3685,13 +3685,13 @@
     "total_per_capita": 769553.5,
     "natural_per_hectare": 0.49,
     "produced_per_hectare": 0.77,
-    "human_per_hectare": 3.39,
+    "human_per_hectare": 3.4,
     "total_per_hectare": 4.65
   },
   "GM0432": {
     "naam": "Opmeer",
     "population": 12180,
-    "area_hectares": 4194.0,
+    "area_hectares": 4194.34,
     "natural": 279.99,
     "produced": 614.43,
     "human": 6543.02,
@@ -3708,7 +3708,7 @@
   "GM0086": {
     "naam": "Opsterland",
     "population": 30054,
-    "area_hectares": 22764.0,
+    "area_hectares": 22764.15,
     "natural": 2712.78,
     "produced": 1233.51,
     "human": 14256.53,
@@ -3725,7 +3725,7 @@
   "GM0828": {
     "naam": "Oss",
     "population": 94437,
-    "area_hectares": 17093.0,
+    "area_hectares": 17091.97,
     "natural": 1504.55,
     "produced": 14102.15,
     "human": 48292.71,
@@ -3742,7 +3742,7 @@
   "GM1509": {
     "naam": "Oude IJsselstreek",
     "population": 39613,
-    "area_hectares": 13795.0,
+    "area_hectares": 13795.23,
     "natural": 745.67,
     "produced": 3418.33,
     "human": 17979.25,
@@ -3759,7 +3759,7 @@
   "GM0437": {
     "naam": "Ouder-Amstel",
     "population": 14276,
-    "area_hectares": 2578.0,
+    "area_hectares": 2578.23,
     "natural": 1024.07,
     "produced": 2873.53,
     "human": 9649.5,
@@ -3776,7 +3776,7 @@
   "GM0589": {
     "naam": "Oudewater",
     "population": 10232,
-    "area_hectares": 4010.0,
+    "area_hectares": 4010.13,
     "natural": 458.62,
     "produced": 754.09,
     "human": 6038.56,
@@ -3793,7 +3793,7 @@
   "GM1734": {
     "naam": "Overbetuwe",
     "population": 48707,
-    "area_hectares": 11508.0,
+    "area_hectares": 11508.41,
     "natural": 1003.92,
     "produced": 4403.14,
     "human": 26501.85,
@@ -3827,7 +3827,7 @@
   "GM1894": {
     "naam": "Peel en Maas",
     "population": 45276,
-    "area_hectares": 16135.0,
+    "area_hectares": 16135.25,
     "natural": 4047.41,
     "produced": 4759.79,
     "human": 22976.61,
@@ -3844,7 +3844,7 @@
   "GM0765": {
     "naam": "Pekela",
     "population": 12404,
-    "area_hectares": 5020.0,
+    "area_hectares": 5020.49,
     "natural": 205.79,
     "produced": 603.8,
     "human": 4540.48,
@@ -3861,7 +3861,7 @@
   "GM1926": {
     "naam": "Pijnacker-Nootdorp",
     "population": 57672,
-    "area_hectares": 3862.0,
+    "area_hectares": 3861.63,
     "natural": 407.05,
     "produced": 18672.38,
     "human": 36761.7,
@@ -3871,14 +3871,14 @@
     "human_per_capita": 637427.16,
     "total_per_capita": 968253.78,
     "natural_per_hectare": 0.11,
-    "produced_per_hectare": 4.83,
+    "produced_per_hectare": 4.84,
     "human_per_hectare": 9.52,
     "total_per_hectare": 14.46
   },
   "GM0439": {
     "naam": "Purmerend",
     "population": 93992,
-    "area_hectares": 9663.0,
+    "area_hectares": 9662.7,
     "natural": 991.02,
     "produced": 12202.61,
     "human": 49252.72,
@@ -3895,7 +3895,7 @@
   "GM0273": {
     "naam": "Putten",
     "population": 24904,
-    "area_hectares": 8750.0,
+    "area_hectares": 8532.65,
     "natural": 1987.83,
     "produced": 1984.7,
     "human": 13228.29,
@@ -3906,13 +3906,13 @@
     "total_per_capita": 690685.44,
     "natural_per_hectare": 0.23,
     "produced_per_hectare": 0.23,
-    "human_per_hectare": 1.51,
-    "total_per_hectare": 1.97
+    "human_per_hectare": 1.55,
+    "total_per_hectare": 2.02
   },
   "GM0177": {
     "naam": "Raalte",
     "population": 38500,
-    "area_hectares": 17229.0,
+    "area_hectares": 17229.05,
     "natural": 1623.31,
     "produced": 2010.36,
     "human": 19578.69,
@@ -3929,7 +3929,7 @@
   "GM0703": {
     "naam": "Reimerswaal",
     "population": 23255,
-    "area_hectares": 24242.0,
+    "area_hectares": 11284.47,
     "natural": 1780.52,
     "produced": 1128.31,
     "human": 11607.83,
@@ -3938,15 +3938,15 @@
     "produced_per_capita": 48519.02,
     "human_per_capita": 499154.01,
     "total_per_capita": 624238.11,
-    "natural_per_hectare": 0.07,
-    "produced_per_hectare": 0.05,
-    "human_per_hectare": 0.48,
-    "total_per_hectare": 0.6
+    "natural_per_hectare": 0.16,
+    "produced_per_hectare": 0.1,
+    "human_per_hectare": 1.03,
+    "total_per_hectare": 1.29
   },
   "GM0274": {
     "naam": "Renkum",
     "population": 31461,
-    "area_hectares": 4723.0,
+    "area_hectares": 4723.33,
     "natural": 1797.83,
     "produced": 1865.7,
     "human": 16764.68,
@@ -3956,14 +3956,14 @@
     "human_per_capita": 532871.88,
     "total_per_capita": 649318.39,
     "natural_per_hectare": 0.38,
-    "produced_per_hectare": 0.4,
+    "produced_per_hectare": 0.39,
     "human_per_hectare": 3.55,
-    "total_per_hectare": 4.33
+    "total_per_hectare": 4.32
   },
   "GM0339": {
     "naam": "Renswoude",
     "population": 5747,
-    "area_hectares": 1851.0,
+    "area_hectares": 1851.1,
     "natural": 226.64,
     "produced": 366.33,
     "human": 3387.84,
@@ -3980,7 +3980,7 @@
   "GM1667": {
     "naam": "Reusel-De Mierden",
     "population": 13542,
-    "area_hectares": 7866.0,
+    "area_hectares": 7866.33,
     "natural": 1041.76,
     "produced": 633.34,
     "human": 7293.5,
@@ -3997,7 +3997,7 @@
   "GM0275": {
     "naam": "Rheden",
     "population": 43570,
-    "area_hectares": 8435.0,
+    "area_hectares": 8434.84,
     "natural": 2536.43,
     "produced": 3537.07,
     "human": 21064.77,
@@ -4014,7 +4014,7 @@
   "GM0340": {
     "naam": "Rhenen",
     "population": 20329,
-    "area_hectares": 4376.0,
+    "area_hectares": 4375.65,
     "natural": 2747.15,
     "produced": 1195.51,
     "human": 10750.9,
@@ -4031,7 +4031,7 @@
   "GM0597": {
     "naam": "Ridderkerk",
     "population": 47477,
-    "area_hectares": 2526.0,
+    "area_hectares": 2526.29,
     "natural": 276.57,
     "produced": 2752.13,
     "human": 23381.61,
@@ -4043,12 +4043,12 @@
     "natural_per_hectare": 0.11,
     "produced_per_hectare": 1.09,
     "human_per_hectare": 9.26,
-    "total_per_hectare": 10.46
+    "total_per_hectare": 10.45
   },
   "GM1742": {
     "naam": "Rijssen-Holten",
     "population": 38493,
-    "area_hectares": 9438.0,
+    "area_hectares": 9437.73,
     "natural": 2040.29,
     "produced": 3542.32,
     "human": 19586.48,
@@ -4065,7 +4065,7 @@
   "GM0603": {
     "naam": "Rijswijk (ZH.)",
     "population": 57997,
-    "area_hectares": 1450.0,
+    "area_hectares": 1450.21,
     "natural": 309.45,
     "produced": 7242.47,
     "human": 31284.58,
@@ -4076,13 +4076,13 @@
     "total_per_capita": 669629.6,
     "natural_per_hectare": 0.21,
     "produced_per_hectare": 4.99,
-    "human_per_hectare": 21.58,
+    "human_per_hectare": 21.57,
     "total_per_hectare": 26.78
   },
   "GM1669": {
     "naam": "Roerdalen",
     "population": 20702,
-    "area_hectares": 8879.0,
+    "area_hectares": 8878.56,
     "natural": 3197.08,
     "produced": 1133.2,
     "human": 9447.69,
@@ -4099,7 +4099,7 @@
   "GM0957": {
     "naam": "Roermond",
     "population": 59981,
-    "area_hectares": 7105.0,
+    "area_hectares": 7105.09,
     "natural": 1796.98,
     "produced": 12512.6,
     "human": 28483.5,
@@ -4116,7 +4116,7 @@
   "GM1674": {
     "naam": "Roosendaal",
     "population": 77613,
-    "area_hectares": 10716.0,
+    "area_hectares": 10716.45,
     "natural": 812.97,
     "produced": 12041.61,
     "human": 37398.52,
@@ -4133,7 +4133,7 @@
   "GM0599": {
     "naam": "Rotterdam",
     "population": 663900,
-    "area_hectares": 32414.0,
+    "area_hectares": 29403.19,
     "natural": 10253.98,
     "produced": 84949.02,
     "human": 334800.61,
@@ -4142,32 +4142,32 @@
     "produced_per_capita": 127954.55,
     "human_per_capita": 504293.74,
     "total_per_capita": 647693.35,
-    "natural_per_hectare": 0.32,
-    "produced_per_hectare": 2.62,
-    "human_per_hectare": 10.33,
-    "total_per_hectare": 13.27
+    "natural_per_hectare": 0.35,
+    "produced_per_hectare": 2.89,
+    "human_per_hectare": 11.39,
+    "total_per_hectare": 14.62
   },
   "GM0277": {
     "naam": "Rozendaal",
     "population": 1754,
-    "area_hectares": 2792.0,
+    "area_hectares": 2791.99,
     "natural": 1531.33,
     "produced": 181.84,
-    "human": 0.0,
-    "total": 1713.17,
+    "human": 850.99,
+    "total": 2564.16,
     "natural_per_capita": 873049.28,
     "produced_per_capita": 103672.38,
-    "human_per_capita": 0.0,
-    "total_per_capita": 976721.66,
+    "human_per_capita": 485168.51,
+    "total_per_capita": 1461890.17,
     "natural_per_hectare": 0.55,
     "produced_per_hectare": 0.07,
-    "human_per_hectare": 0.0,
-    "total_per_hectare": 0.61
+    "human_per_hectare": 0.3,
+    "total_per_hectare": 0.92
   },
   "GM0840": {
     "naam": "Rucphen",
     "population": 23636,
-    "area_hectares": 6448.0,
+    "area_hectares": 6447.52,
     "natural": 1180.62,
     "produced": 1899.05,
     "human": 10838.79,
@@ -4184,7 +4184,7 @@
   "GM0441": {
     "naam": "Schagen",
     "population": 47450,
-    "area_hectares": 18728.0,
+    "area_hectares": 17200.42,
     "natural": 3921.44,
     "produced": 2381.6,
     "human": 24542.55,
@@ -4193,15 +4193,15 @@
     "produced_per_capita": 50191.79,
     "human_per_capita": 517229.73,
     "total_per_capita": 650065.11,
-    "natural_per_hectare": 0.21,
-    "produced_per_hectare": 0.13,
-    "human_per_hectare": 1.31,
-    "total_per_hectare": 1.65
+    "natural_per_hectare": 0.23,
+    "produced_per_hectare": 0.14,
+    "human_per_hectare": 1.43,
+    "total_per_hectare": 1.79
   },
   "GM0279": {
     "naam": "Scherpenzeel",
     "population": 10386,
-    "area_hectares": 1381.0,
+    "area_hectares": 1381.48,
     "natural": 166.2,
     "produced": 1253.31,
     "human": 5764.63,
@@ -4218,7 +4218,7 @@
   "GM0606": {
     "naam": "Schiedam",
     "population": 80628,
-    "area_hectares": 1986.0,
+    "area_hectares": 1985.75,
     "natural": 247.26,
     "produced": 7876.4,
     "human": 39841.01,
@@ -4235,24 +4235,24 @@
   "GM0088": {
     "naam": "Schiermonnikoog",
     "population": 982,
-    "area_hectares": 20356.0,
+    "area_hectares": 16024.48,
     "natural": 3041.34,
     "produced": 10.19,
-    "human": 0.0,
-    "total": 3051.53,
+    "human": 449.92,
+    "total": 3501.44,
     "natural_per_capita": 3097088.81,
     "produced_per_capita": 10373.04,
-    "human_per_capita": 0.0,
-    "total_per_capita": 3107461.85,
-    "natural_per_hectare": 0.15,
+    "human_per_capita": 458162.92,
+    "total_per_capita": 3565624.77,
+    "natural_per_hectare": 0.19,
     "produced_per_hectare": 0.0,
-    "human_per_hectare": 0.0,
-    "total_per_hectare": 0.15
+    "human_per_hectare": 0.03,
+    "total_per_hectare": 0.22
   },
   "GM1676": {
     "naam": "Schouwen-Duiveland",
     "population": 34561,
-    "area_hectares": 48821.0,
+    "area_hectares": 25222.67,
     "natural": 8185.35,
     "produced": 1176.96,
     "human": 17300.74,
@@ -4261,15 +4261,15 @@
     "produced_per_capita": 34054.59,
     "human_per_capita": 500585.58,
     "total_per_capita": 771478.0,
-    "natural_per_hectare": 0.17,
-    "produced_per_hectare": 0.02,
-    "human_per_hectare": 0.35,
-    "total_per_hectare": 0.55
+    "natural_per_hectare": 0.32,
+    "produced_per_hectare": 0.05,
+    "human_per_hectare": 0.69,
+    "total_per_hectare": 1.06
   },
   "GM0965": {
     "naam": "Simpelveld",
     "population": 10396,
-    "area_hectares": 1603.0,
+    "area_hectares": 1602.99,
     "natural": 194.58,
     "produced": 576.46,
     "human": 4744.64,
@@ -4286,7 +4286,7 @@
   "GM0845": {
     "naam": "Sint-Michielsgestel",
     "population": 30135,
-    "area_hectares": 5934.0,
+    "area_hectares": 5934.15,
     "natural": 549.66,
     "produced": 2178.06,
     "human": 17586.67,
@@ -4303,7 +4303,7 @@
   "GM1883": {
     "naam": "Sittard-Geleen",
     "population": 92234,
-    "area_hectares": 8058.0,
+    "area_hectares": 8058.44,
     "natural": 781.32,
     "produced": 15468.6,
     "human": 41737.14,
@@ -4320,7 +4320,7 @@
   "GM0610": {
     "naam": "Sliedrecht",
     "population": 26184,
-    "area_hectares": 1401.0,
+    "area_hectares": 1401.42,
     "natural": 93.18,
     "produced": 3421.73,
     "human": 13019.62,
@@ -4337,7 +4337,7 @@
   "GM1714": {
     "naam": "Sluis",
     "population": 23243,
-    "area_hectares": 30716.0,
+    "area_hectares": 2402.93,
     "natural": 5281.94,
     "produced": 1053.9,
     "human": 10673.03,
@@ -4346,15 +4346,15 @@
     "produced_per_capita": 45342.81,
     "human_per_capita": 459193.4,
     "total_per_capita": 731784.85,
-    "natural_per_hectare": 0.17,
-    "produced_per_hectare": 0.03,
-    "human_per_hectare": 0.35,
-    "total_per_hectare": 0.55
+    "natural_per_hectare": 2.2,
+    "produced_per_hectare": 0.44,
+    "human_per_hectare": 4.44,
+    "total_per_hectare": 7.08
   },
   "GM0090": {
     "naam": "Smallingerland",
     "population": 56098,
-    "area_hectares": 12617.0,
+    "area_hectares": 12617.5,
     "natural": 929.05,
     "produced": 9728.38,
     "human": 25188.2,
@@ -4371,7 +4371,7 @@
   "GM0342": {
     "naam": "Soest",
     "population": 47439,
-    "area_hectares": 4643.0,
+    "area_hectares": 4643.2,
     "natural": 2945.73,
     "produced": 5646.17,
     "human": 27936.78,
@@ -4388,7 +4388,7 @@
   "GM0847": {
     "naam": "Someren",
     "population": 20061,
-    "area_hectares": 8150.0,
+    "area_hectares": 8150.06,
     "natural": 1015.39,
     "produced": 1848.9,
     "human": 10490.88,
@@ -4405,7 +4405,7 @@
   "GM0848": {
     "naam": "Son en Breugel",
     "population": 18010,
-    "area_hectares": 2651.0,
+    "area_hectares": 2650.68,
     "natural": 525.42,
     "produced": 2497.46,
     "human": 11429.39,
@@ -4422,7 +4422,7 @@
   "GM0037": {
     "naam": "Stadskanaal",
     "population": 32135,
-    "area_hectares": 11994.0,
+    "area_hectares": 11994.41,
     "natural": 834.18,
     "produced": 2446.69,
     "human": 12610.56,
@@ -4439,7 +4439,7 @@
   "GM0180": {
     "naam": "Staphorst",
     "population": 17628,
-    "area_hectares": 13569.0,
+    "area_hectares": 13569.36,
     "natural": 1533.7,
     "produced": 868.65,
     "human": 9045.96,
@@ -4456,7 +4456,7 @@
   "GM0532": {
     "naam": "Stede Broec",
     "population": 22138,
-    "area_hectares": 1637.0,
+    "area_hectares": 1556.89,
     "natural": 237.05,
     "produced": 2026.69,
     "human": 10691.41,
@@ -4465,15 +4465,15 @@
     "produced_per_capita": 91548.16,
     "human_per_capita": 482943.6,
     "total_per_capita": 585199.64,
-    "natural_per_hectare": 0.14,
-    "produced_per_hectare": 1.24,
-    "human_per_hectare": 6.53,
-    "total_per_hectare": 7.91
+    "natural_per_hectare": 0.15,
+    "produced_per_hectare": 1.3,
+    "human_per_hectare": 6.87,
+    "total_per_hectare": 8.32
   },
   "GM0851": {
     "naam": "Steenbergen",
     "population": 24610,
-    "area_hectares": 15914.0,
+    "area_hectares": 15077.97,
     "natural": 868.65,
     "produced": 1306.24,
     "human": 12274.48,
@@ -4482,15 +4482,15 @@
     "produced_per_capita": 53077.69,
     "human_per_capita": 498759.9,
     "total_per_capita": 587134.22,
-    "natural_per_hectare": 0.05,
-    "produced_per_hectare": 0.08,
-    "human_per_hectare": 0.77,
-    "total_per_hectare": 0.91
+    "natural_per_hectare": 0.06,
+    "produced_per_hectare": 0.09,
+    "human_per_hectare": 0.81,
+    "total_per_hectare": 0.96
   },
   "GM1708": {
     "naam": "Steenwijkerland",
     "population": 45376,
-    "area_hectares": 32159.0,
+    "area_hectares": 1.32,
     "natural": 4763.63,
     "produced": 2534.47,
     "human": 21510.68,
@@ -4499,15 +4499,15 @@
     "produced_per_capita": 55854.79,
     "human_per_capita": 474054.14,
     "total_per_capita": 634890.21,
-    "natural_per_hectare": 0.15,
-    "produced_per_hectare": 0.08,
-    "human_per_hectare": 0.67,
-    "total_per_hectare": 0.9
+    "natural_per_hectare": 3618.28,
+    "produced_per_hectare": 1925.09,
+    "human_per_hectare": 16338.73,
+    "total_per_hectare": 21882.1
   },
   "GM0971": {
     "naam": "Stein (L.)",
     "population": 24772,
-    "area_hectares": 2280.0,
+    "area_hectares": 2279.98,
     "natural": 300.86,
     "produced": 3485.94,
     "human": 11459.75,
@@ -4524,7 +4524,7 @@
   "GM1904": {
     "naam": "Stichtse Vecht",
     "population": 65771,
-    "area_hectares": 10682.0,
+    "area_hectares": 10681.93,
     "natural": 2320.09,
     "produced": 7479.3,
     "human": 39576.81,
@@ -4535,13 +4535,13 @@
     "total_per_capita": 750729.08,
     "natural_per_hectare": 0.22,
     "produced_per_hectare": 0.7,
-    "human_per_hectare": 3.7,
+    "human_per_hectare": 3.71,
     "total_per_hectare": 4.62
   },
   "GM1900": {
-    "naam": "S\u00fadwest-Frysl\u00e2n",
+    "naam": "Súdwest-Fryslân",
     "population": 90883,
-    "area_hectares": 90786.0,
+    "area_hectares": 33325.94,
     "natural": 2703.03,
     "produced": 8613.24,
     "human": 42312.18,
@@ -4550,15 +4550,15 @@
     "produced_per_capita": 94772.85,
     "human_per_capita": 465567.64,
     "total_per_capita": 590082.31,
-    "natural_per_hectare": 0.03,
-    "produced_per_hectare": 0.09,
-    "human_per_hectare": 0.47,
-    "total_per_hectare": 0.59
+    "natural_per_hectare": 0.08,
+    "produced_per_hectare": 0.26,
+    "human_per_hectare": 1.27,
+    "total_per_hectare": 1.61
   },
   "GM0715": {
     "naam": "Terneuzen",
     "population": 54993,
-    "area_hectares": 31776.0,
+    "area_hectares": 5682.12,
     "natural": 1657.93,
     "produced": 11161.41,
     "human": 26067.51,
@@ -4567,15 +4567,15 @@
     "produced_per_capita": 202960.5,
     "human_per_capita": 474015.03,
     "total_per_capita": 707123.56,
-    "natural_per_hectare": 0.05,
-    "produced_per_hectare": 0.35,
-    "human_per_hectare": 0.82,
-    "total_per_hectare": 1.22
+    "natural_per_hectare": 0.29,
+    "produced_per_hectare": 1.96,
+    "human_per_hectare": 4.59,
+    "total_per_hectare": 6.84
   },
   "GM0093": {
     "naam": "Terschelling",
     "population": 4928,
-    "area_hectares": 67399.0,
+    "area_hectares": 58633.06,
     "natural": 4730.22,
     "produced": 77.49,
     "human": 2697.73,
@@ -4584,15 +4584,15 @@
     "produced_per_capita": 15724.02,
     "human_per_capita": 547429.22,
     "total_per_capita": 1523018.35,
-    "natural_per_hectare": 0.07,
+    "natural_per_hectare": 0.08,
     "produced_per_hectare": 0.0,
-    "human_per_hectare": 0.04,
-    "total_per_hectare": 0.11
+    "human_per_hectare": 0.05,
+    "total_per_hectare": 0.13
   },
   "GM0448": {
     "naam": "Texel",
     "population": 13979,
-    "area_hectares": 46316.0,
+    "area_hectares": 29828.68,
     "natural": 8000.4,
     "produced": 165.08,
     "human": 6672.05,
@@ -4601,15 +4601,15 @@
     "produced_per_capita": 11809.28,
     "human_per_capita": 477291.13,
     "total_per_capita": 1061416.17,
-    "natural_per_hectare": 0.17,
-    "produced_per_hectare": 0.0,
-    "human_per_hectare": 0.14,
-    "total_per_hectare": 0.32
+    "natural_per_hectare": 0.27,
+    "produced_per_hectare": 0.01,
+    "human_per_hectare": 0.22,
+    "total_per_hectare": 0.5
   },
   "GM1525": {
     "naam": "Teylingen",
     "population": 38510,
-    "area_hectares": 3349.0,
+    "area_hectares": 3348.7,
     "natural": 1671.07,
     "produced": 3048.7,
     "human": 24378.83,
@@ -4626,7 +4626,7 @@
   "GM0716": {
     "naam": "Tholen",
     "population": 26825,
-    "area_hectares": 25400.0,
+    "area_hectares": 9788.5,
     "natural": 1552.36,
     "produced": 1234.17,
     "human": 13098.39,
@@ -4635,15 +4635,15 @@
     "produced_per_capita": 46008.18,
     "human_per_capita": 488290.5,
     "total_per_capita": 592168.63,
-    "natural_per_hectare": 0.06,
-    "produced_per_hectare": 0.05,
-    "human_per_hectare": 0.52,
-    "total_per_hectare": 0.63
+    "natural_per_hectare": 0.16,
+    "produced_per_hectare": 0.13,
+    "human_per_hectare": 1.34,
+    "total_per_hectare": 1.62
   },
   "GM0281": {
     "naam": "Tiel",
     "population": 42604,
-    "area_hectares": 3551.0,
+    "area_hectares": 3551.25,
     "natural": 454.98,
     "produced": 7539.88,
     "human": 20826.4,
@@ -4660,7 +4660,7 @@
   "GM0855": {
     "naam": "Tilburg",
     "population": 227707,
-    "area_hectares": 12846.0,
+    "area_hectares": 12845.96,
     "natural": 1779.68,
     "produced": 38351.07,
     "human": 119805.85,
@@ -4677,7 +4677,7 @@
   "GM0183": {
     "naam": "Tubbergen",
     "population": 21408,
-    "area_hectares": 14744.0,
+    "area_hectares": 14744.14,
     "natural": 1288.99,
     "produced": 537.43,
     "human": 11793.51,
@@ -4694,7 +4694,7 @@
   "GM1700": {
     "naam": "Twenterand",
     "population": 33867,
-    "area_hectares": 10814.0,
+    "area_hectares": 10813.5,
     "natural": 984.34,
     "produced": 1794.09,
     "human": 15395.94,
@@ -4711,7 +4711,7 @@
   "GM1730": {
     "naam": "Tynaarlo",
     "population": 34592,
-    "area_hectares": 14770.0,
+    "area_hectares": 14769.87,
     "natural": 2464.48,
     "produced": 1379.31,
     "human": 18722.13,
@@ -4728,7 +4728,7 @@
   "GM0737": {
     "naam": "Tytsjerksteradiel",
     "population": 32408,
-    "area_hectares": 16141.0,
+    "area_hectares": 16140.56,
     "natural": 1113.93,
     "produced": 1332.03,
     "human": 14961.23,
@@ -4745,7 +4745,7 @@
   "GM0450": {
     "naam": "Uitgeest",
     "population": 13472,
-    "area_hectares": 2229.0,
+    "area_hectares": 2229.06,
     "natural": 227.1,
     "produced": 845.23,
     "human": 7827.85,
@@ -4762,7 +4762,7 @@
   "GM0451": {
     "naam": "Uithoorn",
     "population": 31442,
-    "area_hectares": 1942.0,
+    "area_hectares": 1941.91,
     "natural": 317.24,
     "produced": 5458.75,
     "human": 18660.88,
@@ -4779,7 +4779,7 @@
   "GM0184": {
     "naam": "Urk",
     "population": 21829,
-    "area_hectares": 11186.0,
+    "area_hectares": 1342.39,
     "natural": 180.05,
     "produced": 2228.17,
     "human": 10756.97,
@@ -4788,15 +4788,15 @@
     "produced_per_capita": 102074.04,
     "human_per_capita": 492783.6,
     "total_per_capita": 603105.78,
-    "natural_per_hectare": 0.02,
-    "produced_per_hectare": 0.2,
-    "human_per_hectare": 0.96,
-    "total_per_hectare": 1.18
+    "natural_per_hectare": 0.13,
+    "produced_per_hectare": 1.66,
+    "human_per_hectare": 8.01,
+    "total_per_hectare": 9.81
   },
   "GM0344": {
     "naam": "Utrecht",
     "population": 367947,
-    "area_hectares": 9921.0,
+    "area_hectares": 9920.73,
     "natural": 4120.93,
     "produced": 99430.33,
     "human": 247487.49,
@@ -4813,7 +4813,7 @@
   "GM1581": {
     "naam": "Utrechtse Heuvelrug",
     "population": 50429,
-    "area_hectares": 13394.0,
+    "area_hectares": 13394.06,
     "natural": 10509.63,
     "produced": 2902.72,
     "human": 30215.12,
@@ -4830,7 +4830,7 @@
   "GM0981": {
     "naam": "Vaals",
     "population": 10190,
-    "area_hectares": 2390.0,
+    "area_hectares": 2389.81,
     "natural": 832.47,
     "produced": 708.76,
     "human": 3674.64,
@@ -4847,7 +4847,7 @@
   "GM0994": {
     "naam": "Valkenburg aan de Geul",
     "population": 16423,
-    "area_hectares": 3692.0,
+    "area_hectares": 3692.42,
     "natural": 1357.85,
     "produced": 1213.2,
     "human": 7961.9,
@@ -4864,7 +4864,7 @@
   "GM0858": {
     "naam": "Valkenswaard",
     "population": 31527,
-    "area_hectares": 5650.0,
+    "area_hectares": 5650.17,
     "natural": 878.7,
     "produced": 4043.24,
     "human": 16727.42,
@@ -4881,7 +4881,7 @@
   "GM0047": {
     "naam": "Veendam",
     "population": 27616,
-    "area_hectares": 7868.0,
+    "area_hectares": 7867.88,
     "natural": 325.48,
     "produced": 3777.85,
     "human": 11327.29,
@@ -4898,7 +4898,7 @@
   "GM0345": {
     "naam": "Veenendaal",
     "population": 68525,
-    "area_hectares": 1972.0,
+    "area_hectares": 1972.42,
     "natural": 327.05,
     "produced": 13130.93,
     "human": 35531.94,
@@ -4909,13 +4909,13 @@
     "total_per_capita": 714920.5,
     "natural_per_hectare": 0.17,
     "produced_per_hectare": 6.66,
-    "human_per_hectare": 18.02,
+    "human_per_hectare": 18.01,
     "total_per_hectare": 24.84
   },
   "GM0717": {
     "naam": "Veere",
     "population": 22045,
-    "area_hectares": 20655.0,
+    "area_hectares": 7171.43,
     "natural": 4583.47,
     "produced": 464.79,
     "human": 10892.75,
@@ -4924,15 +4924,15 @@
     "produced_per_capita": 21083.56,
     "human_per_capita": 494114.33,
     "total_per_capita": 723111.96,
-    "natural_per_hectare": 0.22,
-    "produced_per_hectare": 0.02,
-    "human_per_hectare": 0.53,
-    "total_per_hectare": 0.77
+    "natural_per_hectare": 0.64,
+    "produced_per_hectare": 0.06,
+    "human_per_hectare": 1.52,
+    "total_per_hectare": 2.22
   },
   "GM0861": {
     "naam": "Veldhoven",
     "population": 46417,
-    "area_hectares": 3189.0,
+    "area_hectares": 3188.54,
     "natural": 374.66,
     "produced": 9415.64,
     "human": 27558.99,
@@ -4949,7 +4949,7 @@
   "GM0453": {
     "naam": "Velsen",
     "population": 68790,
-    "area_hectares": 6317.0,
+    "area_hectares": 4929.23,
     "natural": 4147.94,
     "produced": 8749.62,
     "human": 36409.8,
@@ -4958,15 +4958,15 @@
     "produced_per_capita": 127193.18,
     "human_per_capita": 529289.18,
     "total_per_capita": 716780.9,
-    "natural_per_hectare": 0.66,
-    "produced_per_hectare": 1.39,
-    "human_per_hectare": 5.76,
-    "total_per_hectare": 7.81
+    "natural_per_hectare": 0.84,
+    "produced_per_hectare": 1.78,
+    "human_per_hectare": 7.39,
+    "total_per_hectare": 10.0
   },
   "GM0983": {
     "naam": "Venlo",
     "population": 103328,
-    "area_hectares": 12899.0,
+    "area_hectares": 12899.13,
     "natural": 3890.17,
     "produced": 21881.96,
     "human": 47057.37,
@@ -4983,7 +4983,7 @@
   "GM0984": {
     "naam": "Venray",
     "population": 44628,
-    "area_hectares": 16500.0,
+    "area_hectares": 16500.18,
     "natural": 4250.7,
     "produced": 4351.43,
     "human": 22688.57,
@@ -5000,7 +5000,7 @@
   "GM1961": {
     "naam": "Vijfheerenlanden",
     "population": 60052,
-    "area_hectares": 15331.0,
+    "area_hectares": 15331.28,
     "natural": 1767.82,
     "produced": 6208.8,
     "human": 32538.89,
@@ -5017,7 +5017,7 @@
   "GM0622": {
     "naam": "Vlaardingen",
     "population": 75079,
-    "area_hectares": 2669.0,
+    "area_hectares": 2669.14,
     "natural": 1342.23,
     "produced": 7992.71,
     "human": 36044.41,
@@ -5034,24 +5034,24 @@
   "GM0096": {
     "naam": "Vlieland",
     "population": 1291,
-    "area_hectares": 31580.0,
+    "area_hectares": 4249.19,
     "natural": 3899.47,
     "produced": 6.63,
-    "human": 0.0,
-    "total": 3906.11,
+    "human": 643.91,
+    "total": 4550.02,
     "natural_per_capita": 3020505.96,
     "produced_per_capita": 5138.56,
-    "human_per_capita": 0.0,
-    "total_per_capita": 3025644.51,
-    "natural_per_hectare": 0.12,
+    "human_per_capita": 498768.28,
+    "total_per_capita": 3524412.79,
+    "natural_per_hectare": 0.92,
     "produced_per_hectare": 0.0,
-    "human_per_hectare": 0.0,
-    "total_per_hectare": 0.12
+    "human_per_hectare": 0.15,
+    "total_per_hectare": 1.07
   },
   "GM0718": {
     "naam": "Vlissingen",
     "population": 45150,
-    "area_hectares": 34484.0,
+    "area_hectares": 30939.23,
     "natural": 711.39,
     "produced": 8253.44,
     "human": 20245.5,
@@ -5061,14 +5061,14 @@
     "human_per_capita": 448405.37,
     "total_per_capita": 646961.85,
     "natural_per_hectare": 0.02,
-    "produced_per_hectare": 0.24,
-    "human_per_hectare": 0.59,
-    "total_per_hectare": 0.85
+    "produced_per_hectare": 0.27,
+    "human_per_hectare": 0.65,
+    "total_per_hectare": 0.94
   },
   "GM0986": {
     "naam": "Voerendaal",
     "population": 12405,
-    "area_hectares": 3152.0,
+    "area_hectares": 3152.11,
     "natural": 337.97,
     "produced": 644.74,
     "human": 6205.14,
@@ -5085,7 +5085,7 @@
   "GM1992": {
     "naam": "Voorne aan Zee",
     "population": 73945,
-    "area_hectares": 18983.0,
+    "area_hectares": 5837.09,
     "natural": 2126.63,
     "produced": 2808.66,
     "human": 41266.06,
@@ -5094,15 +5094,15 @@
     "produced_per_capita": 37983.06,
     "human_per_capita": 558064.28,
     "total_per_capita": 624807.02,
-    "natural_per_hectare": 0.11,
-    "produced_per_hectare": 0.15,
-    "human_per_hectare": 2.17,
-    "total_per_hectare": 2.43
+    "natural_per_hectare": 0.36,
+    "produced_per_hectare": 0.48,
+    "human_per_hectare": 7.07,
+    "total_per_hectare": 7.92
   },
   "GM0626": {
     "naam": "Voorschoten",
     "population": 25665,
-    "area_hectares": 1156.0,
+    "area_hectares": 1155.94,
     "natural": 191.39,
     "produced": 1978.6,
     "human": 15918.19,
@@ -5119,7 +5119,7 @@
   "GM0285": {
     "naam": "Voorst",
     "population": 25215,
-    "area_hectares": 12647.0,
+    "area_hectares": 12646.87,
     "natural": 1022.35,
     "produced": 1037.31,
     "human": 13049.82,
@@ -5136,7 +5136,7 @@
   "GM0865": {
     "naam": "Vught",
     "population": 32113,
-    "area_hectares": 6112.0,
+    "area_hectares": 6111.56,
     "natural": 1455.56,
     "produced": 3705.33,
     "human": 20538.62,
@@ -5148,12 +5148,12 @@
     "natural_per_hectare": 0.24,
     "produced_per_hectare": 0.61,
     "human_per_hectare": 3.36,
-    "total_per_hectare": 4.2
+    "total_per_hectare": 4.21
   },
   "GM1949": {
     "naam": "Waadhoeke",
     "population": 46718,
-    "area_hectares": 31582.0,
+    "area_hectares": 28939.36,
     "natural": 1266.31,
     "produced": 2073.91,
     "human": 20750.87,
@@ -5164,13 +5164,13 @@
     "total_per_capita": 515670.31,
     "natural_per_hectare": 0.04,
     "produced_per_hectare": 0.07,
-    "human_per_hectare": 0.66,
-    "total_per_hectare": 0.76
+    "human_per_hectare": 0.72,
+    "total_per_hectare": 0.83
   },
   "GM0866": {
     "naam": "Waalre",
     "population": 17980,
-    "area_hectares": 2266.0,
+    "area_hectares": 2266.39,
     "natural": 963.97,
     "produced": 2023.47,
     "human": 11494.74,
@@ -5187,7 +5187,7 @@
   "GM0867": {
     "naam": "Waalwijk",
     "population": 49952,
-    "area_hectares": 6765.0,
+    "area_hectares": 6764.62,
     "natural": 450.03,
     "produced": 7042.07,
     "human": 25689.77,
@@ -5199,12 +5199,12 @@
     "natural_per_hectare": 0.07,
     "produced_per_hectare": 1.04,
     "human_per_hectare": 3.8,
-    "total_per_hectare": 4.9
+    "total_per_hectare": 4.91
   },
   "GM0627": {
     "naam": "Waddinxveen",
     "population": 32601,
-    "area_hectares": 2940.0,
+    "area_hectares": 2939.66,
     "natural": 193.91,
     "produced": 13815.66,
     "human": 18371.05,
@@ -5216,12 +5216,12 @@
     "natural_per_hectare": 0.07,
     "produced_per_hectare": 4.7,
     "human_per_hectare": 6.25,
-    "total_per_hectare": 11.01
+    "total_per_hectare": 11.02
   },
   "GM0289": {
     "naam": "Wageningen",
     "population": 40960,
-    "area_hectares": 3236.0,
+    "area_hectares": 3235.99,
     "natural": 1169.13,
     "produced": 6612.72,
     "human": 20201.73,
@@ -5238,7 +5238,7 @@
   "GM0629": {
     "naam": "Wassenaar",
     "population": 27093,
-    "area_hectares": 6240.0,
+    "area_hectares": 5295.15,
     "natural": 4341.23,
     "produced": 1301.19,
     "human": 19154.72,
@@ -5247,15 +5247,15 @@
     "produced_per_capita": 48026.73,
     "human_per_capita": 706998.85,
     "total_per_capita": 915259.79,
-    "natural_per_hectare": 0.7,
-    "produced_per_hectare": 0.21,
-    "human_per_hectare": 3.07,
-    "total_per_hectare": 3.97
+    "natural_per_hectare": 0.82,
+    "produced_per_hectare": 0.25,
+    "human_per_hectare": 3.62,
+    "total_per_hectare": 4.68
   },
   "GM0852": {
     "naam": "Waterland",
     "population": 17609,
-    "area_hectares": 11566.0,
+    "area_hectares": 5983.66,
     "natural": 488.91,
     "produced": 523.97,
     "human": 10027.04,
@@ -5264,15 +5264,15 @@
     "produced_per_capita": 29755.55,
     "human_per_capita": 569427.19,
     "total_per_capita": 626947.56,
-    "natural_per_hectare": 0.04,
-    "produced_per_hectare": 0.05,
-    "human_per_hectare": 0.87,
-    "total_per_hectare": 0.95
+    "natural_per_hectare": 0.08,
+    "produced_per_hectare": 0.09,
+    "human_per_hectare": 1.68,
+    "total_per_hectare": 1.85
   },
   "GM0988": {
     "naam": "Weert",
     "population": 50872,
-    "area_hectares": 10554.0,
+    "area_hectares": 10553.57,
     "natural": 3172.61,
     "produced": 6691.38,
     "human": 25616.17,
@@ -5289,7 +5289,7 @@
   "GM1960": {
     "naam": "West Betuwe",
     "population": 52720,
-    "area_hectares": 22912.0,
+    "area_hectares": 22912.14,
     "natural": 3486.31,
     "produced": 4734.55,
     "human": 29618.55,
@@ -5306,7 +5306,7 @@
   "GM0668": {
     "naam": "West Maas en Waal",
     "population": 20065,
-    "area_hectares": 8521.0,
+    "area_hectares": 8520.91,
     "natural": 935.23,
     "produced": 1305.68,
     "human": 10382.68,
@@ -5323,7 +5323,7 @@
   "GM1969": {
     "naam": "Westerkwartier",
     "population": 64946,
-    "area_hectares": 36887.0,
+    "area_hectares": 2.67,
     "natural": 2095.06,
     "produced": 2084.57,
     "human": 31362.2,
@@ -5332,15 +5332,15 @@
     "produced_per_capita": 32097.05,
     "human_per_capita": 482896.48,
     "total_per_capita": 547251.98,
-    "natural_per_hectare": 0.06,
-    "produced_per_hectare": 0.06,
-    "human_per_hectare": 0.85,
-    "total_per_hectare": 0.96
+    "natural_per_hectare": 783.43,
+    "produced_per_hectare": 779.51,
+    "human_per_hectare": 11727.63,
+    "total_per_hectare": 13290.57
   },
   "GM1701": {
     "naam": "Westerveld",
     "population": 19860,
-    "area_hectares": 28274.0,
+    "area_hectares": 28273.92,
     "natural": 6284.98,
     "produced": 360.61,
     "human": 9245.47,
@@ -5357,7 +5357,7 @@
   "GM0293": {
     "naam": "Westervoort",
     "population": 15114,
-    "area_hectares": 784.0,
+    "area_hectares": 783.9,
     "natural": 62.29,
     "produced": 1344.17,
     "human": 6998.44,
@@ -5374,7 +5374,7 @@
   "GM1950": {
     "naam": "Westerwolde",
     "population": 26537,
-    "area_hectares": 28065.0,
+    "area_hectares": 28064.56,
     "natural": 2040.24,
     "produced": 747.45,
     "human": 10385.41,
@@ -5391,7 +5391,7 @@
   "GM1783": {
     "naam": "Westland",
     "population": 114887,
-    "area_hectares": 9074.0,
+    "area_hectares": 772.58,
     "natural": 1386.04,
     "produced": 29240.03,
     "human": 64929.12,
@@ -5400,15 +5400,15 @@
     "produced_per_capita": 254511.18,
     "human_per_capita": 565156.4,
     "total_per_capita": 831731.91,
-    "natural_per_hectare": 0.15,
-    "produced_per_hectare": 3.22,
-    "human_per_hectare": 7.16,
-    "total_per_hectare": 10.53
+    "natural_per_hectare": 1.79,
+    "produced_per_hectare": 37.85,
+    "human_per_hectare": 84.04,
+    "total_per_hectare": 123.68
   },
   "GM0098": {
     "naam": "Weststellingwerf",
     "population": 26467,
-    "area_hectares": 22845.0,
+    "area_hectares": 22844.62,
     "natural": 2011.81,
     "produced": 1319.72,
     "human": 11706.41,
@@ -5425,7 +5425,7 @@
   "GM0189": {
     "naam": "Wierden",
     "population": 24862,
-    "area_hectares": 9539.0,
+    "area_hectares": 9538.84,
     "natural": 1004.08,
     "produced": 1472.04,
     "human": 13469.08,
@@ -5442,7 +5442,7 @@
   "GM0296": {
     "naam": "Wijchen",
     "population": 41537,
-    "area_hectares": 6956.0,
+    "area_hectares": 6956.37,
     "natural": 976.67,
     "produced": 4127.45,
     "human": 21635.75,
@@ -5459,7 +5459,7 @@
   "GM1696": {
     "naam": "Wijdemeren",
     "population": 24659,
-    "area_hectares": 7636.0,
+    "area_hectares": 7636.03,
     "natural": 2177.1,
     "produced": 1129.65,
     "human": 14859.19,
@@ -5476,7 +5476,7 @@
   "GM0352": {
     "naam": "Wijk bij Duurstede",
     "population": 23995,
-    "area_hectares": 5040.0,
+    "area_hectares": 5040.4,
     "natural": 1232.71,
     "produced": 1620.05,
     "human": 13281.29,
@@ -5487,13 +5487,13 @@
     "total_per_capita": 672392.41,
     "natural_per_hectare": 0.24,
     "produced_per_hectare": 0.32,
-    "human_per_hectare": 2.64,
+    "human_per_hectare": 2.63,
     "total_per_hectare": 3.2
   },
   "GM0294": {
     "naam": "Winterswijk",
     "population": 29253,
-    "area_hectares": 13882.0,
+    "area_hectares": 13881.66,
     "natural": 1379.03,
     "produced": 3053.65,
     "human": 13568.61,
@@ -5510,7 +5510,7 @@
   "GM0873": {
     "naam": "Woensdrecht",
     "population": 22191,
-    "area_hectares": 9197.0,
+    "area_hectares": 9197.01,
     "natural": 1534.37,
     "produced": 1351.48,
     "human": 10623.87,
@@ -5527,7 +5527,7 @@
   "GM0632": {
     "naam": "Woerden",
     "population": 53244,
-    "area_hectares": 9292.0,
+    "area_hectares": 9292.31,
     "natural": 1413.61,
     "produced": 8162.13,
     "human": 32082.75,
@@ -5544,7 +5544,7 @@
   "GM0880": {
     "naam": "Wormerland",
     "population": 16612,
-    "area_hectares": 4518.0,
+    "area_hectares": 4517.53,
     "natural": 686.42,
     "produced": 923.31,
     "human": 8829.39,
@@ -5561,7 +5561,7 @@
   "GM0351": {
     "naam": "Woudenberg",
     "population": 14358,
-    "area_hectares": 3682.0,
+    "area_hectares": 3682.21,
     "natural": 1508.78,
     "produced": 1013.07,
     "human": 8133.97,
@@ -5578,7 +5578,7 @@
   "GM0479": {
     "naam": "Zaanstad",
     "population": 159618,
-    "area_hectares": 8324.0,
+    "area_hectares": 8323.53,
     "natural": 1518.42,
     "produced": 16054.11,
     "human": 80439.49,
@@ -5590,12 +5590,12 @@
     "natural_per_hectare": 0.18,
     "produced_per_hectare": 1.93,
     "human_per_hectare": 9.66,
-    "total_per_hectare": 11.77
+    "total_per_hectare": 11.78
   },
   "GM0297": {
     "naam": "Zaltbommel",
     "population": 30349,
-    "area_hectares": 8904.0,
+    "area_hectares": 8904.29,
     "natural": 941.07,
     "produced": 6797.24,
     "human": 16677.34,
@@ -5612,7 +5612,7 @@
   "GM0473": {
     "naam": "Zandvoort",
     "population": 17542,
-    "area_hectares": 4397.0,
+    "area_hectares": 3374.38,
     "natural": 5615.58,
     "produced": 1377.82,
     "human": 9200.43,
@@ -5621,15 +5621,15 @@
     "produced_per_capita": 78544.13,
     "human_per_capita": 524479.97,
     "total_per_capita": 923146.35,
-    "natural_per_hectare": 1.28,
-    "produced_per_hectare": 0.31,
-    "human_per_hectare": 2.09,
-    "total_per_hectare": 3.68
+    "natural_per_hectare": 1.66,
+    "produced_per_hectare": 0.41,
+    "human_per_hectare": 2.73,
+    "total_per_hectare": 4.8
   },
   "GM0050": {
     "naam": "Zeewolde",
     "population": 23692,
-    "area_hectares": 26886.0,
+    "area_hectares": 25268.8,
     "natural": 4117.97,
     "produced": 1238.2,
     "human": 13745.75,
@@ -5638,15 +5638,15 @@
     "produced_per_capita": 52262.27,
     "human_per_capita": 580185.49,
     "total_per_capita": 806260.33,
-    "natural_per_hectare": 0.15,
+    "natural_per_hectare": 0.16,
     "produced_per_hectare": 0.05,
-    "human_per_hectare": 0.51,
-    "total_per_hectare": 0.71
+    "human_per_hectare": 0.54,
+    "total_per_hectare": 0.76
   },
   "GM0355": {
     "naam": "Zeist",
     "population": 66629,
-    "area_hectares": 4865.0,
+    "area_hectares": 4865.08,
     "natural": 4817.67,
     "produced": 7453.42,
     "human": 41460.57,
@@ -5663,7 +5663,7 @@
   "GM0299": {
     "naam": "Zevenaar",
     "population": 45042,
-    "area_hectares": 10610.0,
+    "area_hectares": 10610.44,
     "natural": 858.51,
     "produced": 3062.87,
     "human": 21111.31,
@@ -5680,7 +5680,7 @@
   "GM0637": {
     "naam": "Zoetermeer",
     "population": 126998,
-    "area_hectares": 3705.0,
+    "area_hectares": 3705.1,
     "natural": 456.49,
     "produced": 14240.05,
     "human": 66368.87,
@@ -5697,7 +5697,7 @@
   "GM0638": {
     "naam": "Zoeterwoude",
     "population": 9443,
-    "area_hectares": 2196.0,
+    "area_hectares": 2195.8,
     "natural": 92.31,
     "produced": 655.4,
     "human": 5828.54,
@@ -5731,7 +5731,7 @@
   "GM0879": {
     "naam": "Zundert",
     "population": 22518,
-    "area_hectares": 12121.0,
+    "area_hectares": 12120.72,
     "natural": 1232.18,
     "produced": 987.21,
     "human": 11762.77,
@@ -5748,7 +5748,7 @@
   "GM0301": {
     "naam": "Zutphen",
     "population": 48510,
-    "area_hectares": 4293.0,
+    "area_hectares": 4293.44,
     "natural": 593.63,
     "produced": 7786.12,
     "human": 22613.69,
@@ -5765,7 +5765,7 @@
   "GM1896": {
     "naam": "Zwartewaterland",
     "population": 23368,
-    "area_hectares": 8786.0,
+    "area_hectares": 80.1,
     "natural": 642.97,
     "produced": 2739.5,
     "human": 12212.51,
@@ -5774,15 +5774,15 @@
     "produced_per_capita": 117232.98,
     "human_per_capita": 522616.85,
     "total_per_capita": 667364.78,
-    "natural_per_hectare": 0.07,
-    "produced_per_hectare": 0.31,
-    "human_per_hectare": 1.39,
-    "total_per_hectare": 1.77
+    "natural_per_hectare": 8.03,
+    "produced_per_hectare": 34.2,
+    "human_per_hectare": 152.46,
+    "total_per_hectare": 194.69
   },
   "GM0642": {
     "naam": "Zwijndrecht",
     "population": 45018,
-    "area_hectares": 2277.0,
+    "area_hectares": 2277.47,
     "natural": 238.57,
     "produced": 6844.35,
     "human": 22115.69,
@@ -5799,7 +5799,7 @@
   "GM0193": {
     "naam": "Zwolle",
     "population": 132411,
-    "area_hectares": 11936.0,
+    "area_hectares": 11936.41,
     "natural": 1438.66,
     "produced": 28011.66,
     "human": 74815.25,
